@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://giglist.info/mn/sitemap.xml
+Sitemap: https://giglist.info/tn/sitemap.xml

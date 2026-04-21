@@ -1,0 +1,24 @@
+body { font-family: serif; padding: 20px; background: #fff; max-width: 1100px; margin: 0 auto; font-size: 1.15em; }
+h1 { font-size: 2em; margin-bottom: 4px; text-decoration: underline; }
+h2 { font-size: 1.4em; margin-top: 0; }
+.subtitle { color: #666; font-size: 0.9em; margin-bottom: 16px; }
+nav { margin-bottom: 16px; font-size: 1em; }
+nav a { color: #c00; margin-right: 12px; }
+ul.weeks { list-style: none; padding: 0; margin: 0; }
+ul.weeks li { margin: 4px 0; }
+ul.weeks li a { color: #00c; font-size: 1.1em; }
+ul.days { list-style: disc; padding-left: 20px; }
+ul.days > li { margin: 10px 0; font-weight: bold; }
+ul.shows { list-style: circle; padding-left: 24px; font-weight: normal; }
+ul.shows li { margin: 3px 0; }
+.venue-link { font-weight: bold; }
+.venue-link a { color: #00c; text-decoration: underline; }
+.show-link a { color: #00c; }
+.supports { color: #333; }
+.time { color: #555; }
+.sold-out { color: #c00; font-weight: bold; }
+a { color: #00c; }
+.week-nav { margin-bottom: 16px; font-size: 1em; }
+.week-nav a { color: #00c; }
+.week-nav strong { color: #000; }
+.month-line { margin: 4px 0; }

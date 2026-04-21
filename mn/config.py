@@ -1,23 +1,14 @@
-"""Shared data model and config for the giglist pipeline.
+"""Minnesota-specific config consumed by both scraper.py and render.py."""
 
-Both scraper.py and render.py import from here, so the Show dataclass
-and the venue/URL config live in one place.
-"""
+from pathlib import Path
 
-from dataclasses import dataclass, field, asdict
-from datetime import date
-from typing import List, Optional
+from giglist.render import RegionConfig
+from giglist.scrape_utils import COMMON_JUNK_KEYWORDS, COMMON_SPORTS_KEYWORDS
 
 
-# How many months ahead to scrape and render. Used by both the scraper
-# (to bound month-by-month listings) and the renderer (to cap the
-# "weeks ahead" navigation).
-MONTHS_AHEAD = 10
+REGION_DIR = Path(__file__).parent
 
 
-# Map venue display name → venue homepage URL. Used by the renderer to
-# build the "venue" link on each show row, and by the scrapers to
-# normalize venue names.
 VENUE_URLS = {
     "First Avenue":           "https://first-avenue.com",
     "7th St Entry":           "https://first-avenue.com/venue/7th-st-entry/",
@@ -55,31 +46,38 @@ VENUE_URLS = {
 }
 
 
-@dataclass
-class Show:
-    title: str
-    sort_date: date
-    venue: str
-    url: str = ""
-    sold_out: bool = False
-    time: Optional[str] = None
-    doors: Optional[str] = None
-    supports: List[str] = field(default_factory=list)
+TICKETMASTER_VENUES = {
+    "Orpheum Theatre":        "KovZpakSUe",
+    "State Theatre":          "KovZpZAF76tA",
+    "Xcel Energy Center":     "Za5ju3rKuqZDd2d33RAGt6algGyxXPO0TZ",
+    "Roy Wilkins Auditorium": "KovZpZAF7IAA",
+    "Fillmore Minneapolis":   "KovZ917AxCO",
+    "Varsity Theater":        "KovZpa3eBe",
+    "Target Center":          "KovZpZAE7evA",
+    "U.S. Bank Stadium":      "KovZpZAF6ttA",
+}
 
-    def to_json_dict(self) -> dict:
-        d = asdict(self)
-        d["sort_date"] = self.sort_date.isoformat()
-        return d
 
-    @classmethod
-    def from_json_dict(cls, d: dict) -> "Show":
-        return cls(
-            title=d["title"],
-            sort_date=date.fromisoformat(d["sort_date"]),
-            venue=d["venue"],
-            url=d.get("url", ""),
-            sold_out=bool(d.get("sold_out", False)),
-            time=d.get("time"),
-            doors=d.get("doors"),
-            supports=list(d.get("supports") or []),
-        )
+SPORTS_VENUES = {"Target Center", "U.S. Bank Stadium"}
+
+SPORTS_KEYWORDS = COMMON_SPORTS_KEYWORDS + [
+    "timberwolves", "wolves", "lynx", "twins", "vikings", "wild",
+    "minnesota united", "loons", "bulldogs", "gophers",
+    "umd hockey",
+]
+
+JUNK_KEYWORDS = list(COMMON_JUNK_KEYWORDS)
+
+
+MONTHS_AHEAD = 10
+
+
+CONFIG = RegionConfig(
+    region_key="mn",
+    display_name="Minnesota Gig List",
+    short_title="MN GIG LIST",
+    region_label="Minnesota",
+    venue_urls=VENUE_URLS,
+    output_dir=REGION_DIR,
+    months_ahead=MONTHS_AHEAD,
+)
