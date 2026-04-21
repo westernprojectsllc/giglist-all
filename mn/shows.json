@@ -830,38 +830,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-04-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-04-20",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/nikki.lemire?igsh=bXdwNGE5dWJ6N3Yw",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Nikki Lemire"
-    ]
-  },
-  {
-    "title": "R.A.P. FERREIRA with GR3G and Student 1",
-    "sort_date": "2026-04-20",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/rap-ferreiras-superior-healing-style-east-coast-tour",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Urban Classic Presents REVELATION:",
     "sort_date": "2026-04-20",
     "venue": "Dakota Jazz Club",
@@ -4723,6 +4691,16 @@
     "supports": []
   },
   {
+    "title": "Capital w. Chickaboom & Troglodyte, Ballroom Surfers",
+    "sort_date": "2026-05-10",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/capital-w-chickaboom-troglodyte-ballroom-surfers/",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Open Jam",
     "sort_date": "2026-05-10",
     "venue": "White Squirrel",
@@ -5202,6 +5180,16 @@
     "supports": [
       "Wussy"
     ]
+  },
+  {
+    "title": "Pastrami w/ Heliotrope",
+    "sort_date": "2026-05-14",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11339/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
@@ -6566,7 +6554,7 @@
     "supports": []
   },
   {
-    "title": "Cedric Briand",
+    "title": "Greenvale Manitou (Cedric Briand) w. Undergrad & Lochtune",
     "sort_date": "2026-05-23",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/cedric-briand/",
@@ -10938,7 +10926,9 @@
     "sold_out": false,
     "time": "8:30pm",
     "doors": "7:30pm",
-    "supports": []
+    "supports": [
+      "Gilligan Moss"
+    ]
   },
   {
     "title": "An Evening with FANOOS ENSEMBLE",
@@ -12152,6 +12142,16 @@
     "supports": []
   },
   {
+    "title": "Fort Road Folk Fest",
+    "sort_date": "2026-08-08",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/fort-road-folk-fest/",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-09",
     "venue": "Orpheum Theatre",
@@ -13052,6 +13052,16 @@
     "supports": []
   },
   {
+    "title": "Nancy Olson w. Joe Carey",
+    "sort_date": "2026-09-07",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/nancy-olson-w-joe-carey/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "SUGAR",
     "sort_date": "2026-09-10",
     "venue": "First Avenue",
@@ -13388,6 +13398,16 @@
     "supports": []
   },
   {
+    "title": "Crashing Out Live",
+    "sort_date": "2026-09-27",
+    "venue": "The Fitzgerald Theater",
+    "url": "https://first-avenue.com/event/2026-09-crashing-out-live/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
     "sort_date": "2026-09-29",
     "venue": "Fillmore Minneapolis",
@@ -13561,6 +13581,28 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Failure",
+    "sort_date": "2026-10-07",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-10-failure/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "quannnic"
+    ]
+  },
+  {
+    "title": "BECK: RIDE LONESOME TOUR",
+    "sort_date": "2026-10-07",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-minneapolis-minnesota-10-07-2026/event/06006489F2BBC2A3",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -13977,6 +14019,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "The Damned",
+    "sort_date": "2026-11-02",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-11-the-damned/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Flamin\u2019 Groovies",
+      "The\u00a0Courettes"
+    ]
   },
   {
     "title": "Weatherday",
