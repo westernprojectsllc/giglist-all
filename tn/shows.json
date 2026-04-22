@@ -1,139 +1,5 @@
 [
   {
-    "title": "Barns Courtney Unplugged Solo Sessions with Belle and Chain",
-    "sort_date": "2026-04-21",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/barns-courtney-unplugged-solo-sessions-3rd-and-lindsley-tickets/14705093",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GoldFord: Space of the Heart Tour",
-    "sort_date": "2026-04-21",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/goldford-space-of-the-heart-tour-nashville-tennessee-04-21-2026/event/1B00632CFD246989",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Madeline Edwards"
-    ]
-  },
-  {
-    "title": "Gatecreeper, Dying Remains, Eternal, & Face Pulp",
-    "sort_date": "2026-04-21",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/gatecreeper-dying-remains-eternal-21-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
-    "sort_date": "2026-04-21",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Yby",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The '58: The Rush Residency: The Synth Era (18+ Event)",
-    "sort_date": "2026-04-21",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_Z",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-04-21",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxk9",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Styx",
-    "sort_date": "2026-04-21",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-FjY",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Mass with the Nashville Symphony Chorus",
-    "sort_date": "2026-04-21",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OvO6",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Bluegrass Mass"
-    ]
-  },
-  {
-    "title": "Songteller Sessions with Dani Flowers & Friends",
-    "sort_date": "2026-04-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/songteller-sessions-with-dani-flowers-friends-5/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "FREE SHOW! Frank Mastra",
-    "sort_date": "2026-04-21",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/free-show-frank-mastra-the-basement-tickets/14861113",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "New Faces Night feat. Paesler, Jackie Evans, Luna Worldcast, Caitlin Mae, Taylor Hernly, Russ Baum, Meghan Pulles, and Catty Wampus",
-    "sort_date": "2026-04-21",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-paesler-the-basement-tickets/13983524",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cut Worms w/ Liam Kazar",
-    "sort_date": "2026-04-21",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/cut-worms-w-liam-kazar-the-basement-east-tickets/14076694",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Thrxteen w/Hi Spy & Roman \u2013 18+",
-    "sort_date": "2026-04-21",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/thrxteen-w-hi-spy-roman-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "BACKSTAGE AT 3RD: Songs And Stories with Gordon Kennedy",
     "sort_date": "2026-04-22",
     "venue": "3rd & Lindsley",
@@ -167,6 +33,16 @@
       "Carpenter Brut",
       "Desire"
     ]
+  },
+  {
+    "title": "Aesthetic Perfection | PRIEST | Julien-K",
+    "sort_date": "2026-04-22",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-aesthetic-perfection-priest-julien-k/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -313,6 +189,16 @@
     ]
   },
   {
+    "title": "The Broken View | Devil\u2019s Cut | Five Year Winter | Crooked Souls",
+    "sort_date": "2026-04-23",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-the-broken-view-closure-devils-cut-five-year-winter-crooked-souls/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Take the Flame, Moneyball, Daywalker, Shuteye, Start Ahead",
     "sort_date": "2026-04-23",
     "venue": "DRKMTTR",
@@ -451,6 +337,16 @@
     "url": "https://www.ticketmaster.com/cozy-worldwide-throwback-and-current-rb-nashville-tennessee-04-24-2026/event/1B006454E567D161",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Front Bar: FCS Soundsystem presents BOVVER BOUVLEVARD",
+    "sort_date": "2026-04-24",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-fcs-soundsystem-presents-bovver-bouvlevard/",
+    "sold_out": false,
+    "time": "10pm",
     "doors": null,
     "supports": []
   },
@@ -607,22 +503,22 @@
     "supports": []
   },
   {
-    "title": "GUILTY PLEASURES: THE FINAL COUNTDOWN!",
-    "sort_date": "2026-04-25",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/guilty-pleasures-the-final-countdown-3rd-and-lindsley-tickets/13985234",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "SOLD OUT : BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Jim Collins , Don Sampson , Johnny Clawson & Ray Stephenson + Maura Streppa",
     "sort_date": "2026-04-25",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637593",
     "sold_out": false,
     "time": "12:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "SOLD OUT: GUILTY PLEASURES: THE FINAL COUNTDOWN!",
+    "sort_date": "2026-04-25",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/sold-out-guilty-pleasures-the-3rd-and-lindsley-tickets/13985234",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -639,6 +535,26 @@
       "Hunny",
       "Bad Luck"
     ]
+  },
+  {
+    "title": "Another Night Another Dream",
+    "sort_date": "2026-04-25",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-another-night-another-dream/",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Front Bar: Kelley Cole | Running Late | Sleep John B",
+    "sort_date": "2026-04-25",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-kelley-cole-running-late-sleep-john-b/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Growler w/ Concrete Paradise, Horse Saturday and 2AM Jake, DJ Lula, DJRX1000, Amazing Experience",
@@ -816,6 +732,16 @@
     ]
   },
   {
+    "title": "Wadaness | Starbored | The Semi-Supervillains",
+    "sort_date": "2026-04-26",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-wadaness-starbored-the-semi-supervillains/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Protest Safety with QUILT",
     "sort_date": "2026-04-26",
     "venue": "DRKMTTR",
@@ -938,10 +864,10 @@
     "supports": []
   },
   {
-    "title": "80s kids",
+    "title": "CANCELED: 80s kids",
     "sort_date": "2026-04-26",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/80s-kids-the-basement-east-tickets/14107174",
+    "url": "https://www.ticketweb.com/event/canceled-80s-kids-the-basement-east-tickets/14107174",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -986,6 +912,16 @@
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671743",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Addison Rose | Bella McCormick | Myles Youngman | The Magnolia Brothers",
+    "sort_date": "2026-04-27",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-addison-rose-bella-mccormick-myles-youngman-the-magnolia-brothers/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1094,6 +1030,26 @@
     ]
   },
   {
+    "title": "Front Bar: Love Is Like a Haunted House | Poetry Clouds & Songs of Lingering",
+    "sort_date": "2026-04-28",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-love-is-like-a-haunted-house-poetry-clouds-songs-of-lingering/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "San Calisto | Pyramia | So Sorry",
+    "sort_date": "2026-04-28",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-san-calisto-pyramia-so-sorry/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
     "sort_date": "2026-04-28",
     "venue": "Eastside Bowl",
@@ -1136,10 +1092,10 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat.",
+    "title": "New Faces Night feat. Abigail Wall, Ryan Koronich, Ella Ferguson, Lightwatch, Thistle Ridge Band, NORA. and Fleur",
     "sort_date": "2026-04-28",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983304",
+    "url": "https://www.ticketweb.com/event/new-faces-night-feat-abigail-the-basement-tickets/13983304",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -1182,6 +1138,16 @@
     "url": "https://www.ticketmaster.com/jam-for-good-presents-the-head-nashville-tennessee-04-29-2026/event/1B00639EC8C6B9E8",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "PB&TAT | The Skrewups | Hayloft",
+    "sort_date": "2026-04-29",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-pbtat-the-skrewups-hayloft/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1295,6 +1261,16 @@
     "url": "https://www.ticketweb.com/event/kent-blazy-stories-behind-the-3rd-and-lindsley-tickets/14140404",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cordell Winter | Leilani Kilgore | Rick Monroe & the Hitmen",
+    "sort_date": "2026-04-30",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-cordell-winter-leilani-kilgore-rick-monroe-the-hitmen/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1434,6 +1410,16 @@
       "Harrison Gordon",
       "Super Sometimes"
     ]
+  },
+  {
+    "title": "Ashes to Omens | Etchstone | Summon the Moon | Atlas Light",
+    "sort_date": "2026-05-01",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-ashes-to-omens-etchstone-summon-the-moon-atlas-light/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Fortunes w/ Cult of Violence",
@@ -2070,6 +2056,16 @@
     "supports": []
   },
   {
+    "title": "Chocolate Carseat | Terrain | Skylar Lazor",
+    "sort_date": "2026-05-05",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-chocolate-carseat-terrain-skylar-lazor/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Haunt Me (18+ Event)",
     "sort_date": "2026-05-05",
     "venue": "Eastside Bowl",
@@ -2196,6 +2192,16 @@
       "Biohazard",
       "Tribal Gaze"
     ]
+  },
+  {
+    "title": "Left on Red | The Almas | Poet, the Band | Skylar Love | Barley Relevant",
+    "sort_date": "2026-05-06",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-burn-absolute-poet-the-band-the-almas-hexproof/",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Anjimile (18+ Event)",
@@ -2329,6 +2335,16 @@
     "supports": []
   },
   {
+    "title": "Pageninetynine, Sour Tooth \"Bruxism\" Release Show, widaparte, & Baby Wave",
+    "sort_date": "2026-05-07",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/pageninetynine-sour-tooth-bruxism-release-show-widaparte-baby-wave-07-may",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The LACS with Giovannie and the Hired Guns (18+ Event)",
     "sort_date": "2026-05-07",
     "venue": "Eastside Bowl",
@@ -2433,7 +2449,7 @@
     "supports": []
   },
   {
-    "title": "Fabrizio, Hannah Marie Kelley & Timbo",
+    "title": "Fabrizio, Hannah Marie Kelley & Hog Slop String Band",
     "sort_date": "2026-05-07",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/fabrizio-hannah-marie-kelley-the-basement-tickets/14077494",
@@ -2528,6 +2544,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-ox7",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Stuck Lucky | Joker\u2019s Republic | The Doom Stompers",
+    "sort_date": "2026-05-08",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-stuck-lucky-jokers-republic-the-doom-stompers/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2769,6 +2795,16 @@
     ]
   },
   {
+    "title": "Madeline Goldstein | Normal Bias | Ultraviolet Eden",
+    "sort_date": "2026-05-09",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-madeline-goldstein-normal-bias-ultraviolet-eden/",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The '58: Rebirth Brass Band (18+ Event)",
     "sort_date": "2026-05-09",
     "venue": "Eastside Bowl",
@@ -2927,6 +2963,16 @@
       "Mugshot",
       "Resolve"
     ]
+  },
+  {
+    "title": "Alborn | Devil\u2019s Cut | Droughts | Creek Devil",
+    "sort_date": "2026-05-10",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-alborn-devils-cut-droughts-creek-devil/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Ingrown, Witness Chamber, Blistered Spirit, Age of Panic, & As She Prayed for God",
@@ -3253,6 +3299,16 @@
     "supports": []
   },
   {
+    "title": "War on Women | Herly Berly | The Phoenix Lights",
+    "sort_date": "2026-05-13",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-war-on-women-herly-berly-the-phoenix-lights/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Mdou Moctar (solo tour)",
     "sort_date": "2026-05-13",
     "venue": "DRKMTTR",
@@ -3542,6 +3598,16 @@
       "Rotting Christ",
       "Immolation"
     ]
+  },
+  {
+    "title": "Front Bar: Scott Ivey & The Filthy Frets | Blue Honey | Still Moves",
+    "sort_date": "2026-05-15",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-scott-ivey-the-filthy-frets-blue-honey-still-moves-2/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Happy Landing",
@@ -4026,6 +4092,16 @@
     "supports": []
   },
   {
+    "title": "Confessions of a Traitor | Fight From Within | Exitwounds | Overeign | Dose Of Adolescence",
+    "sort_date": "2026-05-19",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-confessions-of-a-traitor-fight-from-within-exitwounds-overeign-dose-of-adolescence/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
     "sort_date": "2026-05-19",
     "venue": "Eastside Bowl",
@@ -4117,6 +4193,16 @@
     "url": "https://www.ticketweb.com/event/bluegrass-on-3rd-an-evening-3rd-and-lindsley-tickets/14725363",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Living Dead Girl | Decay | San Pedro",
+    "sort_date": "2026-05-20",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-living-dead-girl-decay-san-pedro/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4459,6 +4545,16 @@
     "supports": []
   },
   {
+    "title": "Front Bar: Earl Bowman | Caitlin Mae | Kara Cole",
+    "sort_date": "2026-05-23",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-earl-bowman-caitlin-mae-kara-cole/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-05-23",
     "venue": "Grand Ole Opry House",
@@ -4665,6 +4761,16 @@
     ]
   },
   {
+    "title": "Collective Ex | Big Decisions | Speak Easy",
+    "sort_date": "2026-05-25",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-collective-ex-big-decisions-speak-easy-2/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Blue Matter Project featuring Robert Baglione",
     "sort_date": "2026-05-25",
     "venue": "Rudy's Jazz Room",
@@ -4800,12 +4906,22 @@
     "supports": []
   },
   {
-    "title": "Women Kickin' Country Unity show Featuring Caitlin Mae, Kaitlyn Croker, Michelle Lee & Rachel Schumacher",
+    "title": "Women Kickin' Country Unity show Featuring Caitlin Mae, Kaitlyn Croker, Michelle Lee",
     "sort_date": "2026-05-27",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/women-kickin-country-unity-show-3rd-and-lindsley-tickets/14854123",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Scream Queens | Adamic | Hardpoint",
+    "sort_date": "2026-05-27",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-the-scream-queens-adamic-hardpoint/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -5207,6 +5323,16 @@
     ]
   },
   {
+    "title": "Front Bar: John Pronto | Lonesome Gold | Griffin Dunn",
+    "sort_date": "2026-05-30",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-john-pronto-lonesome-gold-griffin-dunn/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kasvot Chatt: A Tribute To Phish (18+ Event)",
     "sort_date": "2026-05-30",
     "venue": "Eastside Bowl",
@@ -5588,6 +5714,16 @@
     "url": "https://stationinn.com/event/troubadour-blue/2026-06-02/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FREE SHOW! Georgia Lines",
+    "sort_date": "2026-06-02",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-georgia-lines-the-basement-tickets/14857273",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -6382,6 +6518,26 @@
     "supports": []
   },
   {
+    "title": "Threnodian | Suicide Forest | Nocturnal Pulse | Quack",
+    "sort_date": "2026-06-09",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-threnodian-suicide-forest-nocturnal-pulse-quack/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "WIFIGAWD",
+    "sort_date": "2026-06-09",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/wifigawd-09-jun",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
     "sort_date": "2026-06-09",
     "venue": "Eastside Bowl",
@@ -6930,10 +7086,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: Playboy Manbaby \u2013 18+",
+    "title": "Legacy Concerts Presents: Playboy Manbaby w/ Hexproof and Billie Sheers \u2013 18+",
     "sort_date": "2026-06-14",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-playboy-manbaby-18/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-playboy-manbaby-w-hexproof-and-billie-sheers-18/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -7015,6 +7171,16 @@
     ]
   },
   {
+    "title": "Saving Vice | Roderick | Resider | Five Year Winter | Valor",
+    "sort_date": "2026-06-16",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-saving-vice-roderick-resider-five-year-winter-valor/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
     "sort_date": "2026-06-16",
     "venue": "Eastside Bowl",
@@ -7089,6 +7255,16 @@
       "Paradise Fears",
       "CARR"
     ]
+  },
+  {
+    "title": "Total Chaos | NOOGY | & More!",
+    "sort_date": "2026-06-17",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-total-chaos-noogy-more/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "The '58: Cardiel (18+ Event)",
@@ -7300,6 +7476,16 @@
     "supports": []
   },
   {
+    "title": "Legacy Concerts Presents: Chrissy Chlapecka \u2013 All Ages",
+    "sort_date": "2026-06-18",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-chrissy-chlapecka-all-ages/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "5 Seconds of Summer: EVERYONE'S A STAR! World Tour",
     "sort_date": "2026-06-19",
     "venue": "Bridgestone Arena",
@@ -7323,6 +7509,16 @@
       "Entheos",
       "Crystal Lake"
     ]
+  },
+  {
+    "title": "Sidious | 6deep | Vanta | Soul of Suki",
+    "sort_date": "2026-06-19",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-sidious-6deep-vanta-soul-of-suki/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Spite (18+ Event)",
@@ -7497,6 +7693,16 @@
     ]
   },
   {
+    "title": "Mark Farina",
+    "sort_date": "2026-06-20",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/mark-farina620?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Ed Sheeran",
     "sort_date": "2026-06-20",
     "venue": "Nissan Stadium",
@@ -7575,6 +7781,21 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "John Vincent III Presents: Blue June Music Fest w/ Phosphorescent, Ethan Regan, mxmtoon, Adia Victoria and Emma Andersen",
+    "sort_date": "2026-06-20",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/john-vincent-iii-presents-blue-the-basement-east-tickets/14861423",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Phosphorescent",
+      "Ethan Regan",
+      "mxmtoon",
+      "Adia Victoria"
+    ]
   },
   {
     "title": "Kiefer Sutherland: Love Will Bring You Home",
@@ -7828,6 +8049,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "The Catastrophes EP Release Show | Left Hand Hotdog | Analog Daydream",
+    "sort_date": "2026-06-25",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-the-catastrophes-ep-release-show-left-hand-hotdog-analog-daydream/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -8115,10 +8346,10 @@
     "supports": []
   },
   {
-    "title": "Earl Bowman W/ Kristen Englenz",
+    "title": "Earl Bowman W/ Caitlin Mae",
     "sort_date": "2026-06-27",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/earl-bowman-w-kristen-englenz-the-basement-tickets/14854353",
+    "url": "https://www.ticketweb.com/event/earl-bowman-w-caitlin-mae-the-basement-tickets/14854353",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -8143,6 +8374,18 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Corbyn Besson and Soulidified: The Pop'n Out Tour",
+    "sort_date": "2026-06-28",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-nashville-tennessee-06-28-2026/event/1B006494AC29A5DB",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Soulidified"
+    ]
   },
   {
     "title": "Sonido Gallo Negro",
@@ -8192,6 +8435,16 @@
     "sold_out": false,
     "time": "3pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Meldrop -All Ages",
+    "sort_date": "2026-06-28",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-meldrop-all-ages/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -8868,6 +9121,16 @@
     "supports": []
   },
   {
+    "title": "Rancid Vat | Hammerlock | Savage Attack",
+    "sort_date": "2026-07-16",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-rancid-vat-hammerlock-savage-attack-boa/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-07-16",
     "venue": "Grand Ole Opry House",
@@ -8892,7 +9155,7 @@
     "sort_date": "2026-07-16",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/wells-ferrari-usa-the-basement-tickets/14857233",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -9186,6 +9449,16 @@
     "supports": []
   },
   {
+    "title": "DustBowlChampion | Computer Kill | Night Ritualz",
+    "sort_date": "2026-07-23",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-dustbowlchampion-computer-kill-night-ritualz/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-07-23",
     "venue": "Grand Ole Opry House",
@@ -9383,6 +9656,16 @@
     "url": "https://www.axs.com/events/1343299/blackberry-smoke-tickets?skin=ryman",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Erik Vincent Huey",
+    "sort_date": "2026-07-26",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/erik-vincent-huey-3rd-and-lindsley-tickets/14785633",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -9984,6 +10267,16 @@
     "supports": [
       "Eddie 9V"
     ]
+  },
+  {
+    "title": "IDKCAP, Bloody!, st47ic, drq, hegot556, persecutedbyothers, maliceman, drxl, coolantlers",
+    "sort_date": "2026-08-07",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/idkcap-bloody-st47ic-drq-hegot556-persecutedbyothers-maliceman-drxl-coolantlers-07-aug",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Fort Knox",
@@ -10637,6 +10930,16 @@
     "supports": []
   },
   {
+    "title": "Black Altar | Poltergeist | Lenax",
+    "sort_date": "2026-08-23",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-black-altar-poltergeist-lenax/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Big Thief Somersault Slide 360 Tour",
     "sort_date": "2026-08-23",
     "venue": "Ryman Auditorium",
@@ -11237,10 +11540,10 @@
     "supports": []
   },
   {
-    "title": "Plush w/Illiana & Unkl Sham \u2013 18+",
+    "title": "Plush w/Illiana & Major Moment \u2013 18+",
     "sort_date": "2026-09-12",
     "venue": "The End",
-    "url": "https://endnashville.com/event/plush-w-illiana-unkl-sham-18/the-end/",
+    "url": "https://endnashville.com/event/plush-w-illiana-major-moment-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -11251,6 +11554,16 @@
     "sort_date": "2026-09-13",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/billy-allen-the-pollies-3rd-and-lindsley-tickets/14006244",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dopethrone | Fister",
+    "sort_date": "2026-09-13",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-dopethrone-fister/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -11283,6 +11596,16 @@
     "url": "https://www.ticketweb.com/event/biird-the-basement-tickets/14850613",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Smerz",
+    "sort_date": "2026-09-13",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/smerz-the-basement-east-tickets/14866783",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -11682,7 +12005,7 @@
     "sort_date": "2026-09-26",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/benny-g-exitin-tickets/14859233",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12819,6 +13142,16 @@
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983504",
     "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Francis of Delirium",
+    "sort_date": "2026-11-11",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/francis-of-delirium-the-basement-tickets/14866743",
+    "sold_out": true,
     "time": "7pm",
     "doors": null,
     "supports": []

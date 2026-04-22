@@ -830,16 +830,6 @@
     "supports": []
   },
   {
-    "title": "Urban Classic Presents REVELATION:",
-    "sort_date": "2026-04-20",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/urban-classic-presents-revelation-apr20-2026/2026-04-20/1/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Ty Segall",
     "sort_date": "2026-04-20",
     "venue": "First Avenue",
@@ -852,51 +842,16 @@
     ]
   },
   {
-    "title": "April Conspiracy Series featuring",
-    "sort_date": "2026-04-21",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DKB5SXXHC/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "The Infernos",
-      "MEOWIHOLICS"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-04-21",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/14e8UBT9amC/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Adam Kiesling"
-    ]
-  },
-  {
     "title": "Tommy Newport",
     "sort_date": "2026-04-21",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-tommy-newport/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Quietchild"
     ]
-  },
-  {
-    "title": "An Evening with NOMFUSI",
-    "sort_date": "2026-04-21",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/an-evening-with-nomfusi",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Ana Popovic",
@@ -909,48 +864,16 @@
     "supports": []
   },
   {
-    "title": "Hexneurotica",
-    "sort_date": "2026-04-21",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-hexneurotica-4-21-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Noxious Ghoul and Powerdam"
-    ]
-  },
-  {
     "title": "The Reasonable Doubts",
     "sort_date": "2026-04-21",
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-04-the-reasonable-doubts/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Rhythm Appeal"
     ]
-  },
-  {
-    "title": "Sparrowhawk w. Nancy Gross & Unattractive Giant Monster",
-    "sort_date": "2026-04-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sparrowhawk-w-nancy-gross-unattractive-giant-monster/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-04-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-14/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "David Robinson & the Dedicated Friends",
@@ -993,7 +916,7 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-04-malevolence-and-guilt-trip/",
     "sold_out": false,
-    "time": "7pm",
+    "time": "6:30pm",
     "doors": "6pm",
     "supports": [
       "Chamber"
@@ -2007,6 +1930,16 @@
     "supports": []
   },
   {
+    "title": "The Wailers",
+    "sort_date": "2026-04-26",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/the-wailers-apr26-2026/2026-04-26/1/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Rock and Roll Playhouse presents The Music of Taylor Swift & More for Kids",
     "sort_date": "2026-04-26",
     "venue": "First Avenue",
@@ -2197,7 +2130,7 @@
     "supports": []
   },
   {
-    "title": "RD & the Midnight Movers",
+    "title": "The Midnight Movers",
     "sort_date": "2026-04-27",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-3/",
@@ -2831,7 +2764,7 @@
     "venue": "Myth Live",
     "url": "https://mythlive.com/event/perreoland-jowell-y-randy/",
     "sold_out": false,
-    "time": "8pm",
+    "time": "10pm",
     "doors": null,
     "supports": []
   },
@@ -4132,7 +4065,8 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "The Treasury"
+      "HIDE",
+      "The\u00a0Treasury"
     ]
   },
   {
@@ -5182,16 +5116,6 @@
     ]
   },
   {
-    "title": "Pastrami w/ Heliotrope",
-    "sort_date": "2026-05-14",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11339/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
     "sort_date": "2026-05-14",
     "venue": "Orchestra Hall",
@@ -5306,6 +5230,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/5-15-clover-the-bee-ep-release-show-15-cover",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Girl Blunt",
+    "sort_date": "2026-05-15",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-girl-blunt-may-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -5626,7 +5560,7 @@
     ]
   },
   {
-    "title": "Trans Joy is Restance",
+    "title": "Trans Joy is Resistance",
     "sort_date": "2026-05-16",
     "venue": "Pilllar Forum",
     "url": "https://www.pilllar.com/products/music-trans-joy-is-restance-5-16-2026",
@@ -6381,6 +6315,16 @@
     "supports": []
   },
   {
+    "title": "Mike Munson Trio Record Release Show",
+    "sort_date": "2026-05-22",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/10862/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "MADVKTM",
     "sort_date": "2026-05-22",
     "venue": "The Loft at Skyway Theatre",
@@ -6678,7 +6622,7 @@
     ]
   },
   {
-    "title": "RD & the Midnight Movers",
+    "title": "The Midnight Movers",
     "sort_date": "2026-05-25",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-4/",
@@ -7072,6 +7016,23 @@
     ]
   },
   {
+    "title": "Elite EDM x Winn Presents: SYTHYST Girls Night Pajama Party Edition with gibsi, Lucid Lazer, Gossamer, Doodle Gabs + Squid",
+    "sort_date": "2026-05-29",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/elite-edm-x-winn-presents-sythyst-girls-night-pajama-party-edition-with-gibsi-lucid-lazer-gossamer-doodle-gabs-squid-may-29-2026-679905",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": [
+      "Sythyst",
+      "gibsi",
+      "Lucid Lazer",
+      "Gossamer",
+      "Doodle Gabs",
+      "Squid"
+    ]
+  },
+  {
     "title": "hemlocke springs: the apple tree under the sea tour",
     "sort_date": "2026-05-29",
     "venue": "Varsity Theater",
@@ -7169,8 +7130,8 @@
     "venue": "Myth Live",
     "url": "https://mythlive.com/event/twin-cities-battle-of-the-badges/",
     "sold_out": false,
-    "time": "6pm",
-    "doors": null,
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -7217,7 +7178,7 @@
     "supports": []
   },
   {
-    "title": "MACHAKI 360",
+    "title": "MACHAKI",
     "sort_date": "2026-05-30",
     "venue": "The Loft at Skyway Theatre",
     "url": "https://skywaytheatre.com/event/machaki-360/",
@@ -7746,6 +7707,16 @@
     "supports": []
   },
   {
+    "title": "Micah Schnabel and Vanessa Jean Speckman",
+    "sort_date": "2026-06-04",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/w721f5981656",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Shordie Shordie",
     "sort_date": "2026-06-04",
     "venue": "Fine Line",
@@ -8176,6 +8147,16 @@
     "supports": []
   },
   {
+    "title": "PRIVATE EVENT",
+    "sort_date": "2026-06-07",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-06-private-event-060726/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "8pm",
+    "supports": []
+  },
+  {
     "title": "2026 Commission Premiere: The Wild Iris",
     "sort_date": "2026-06-07",
     "venue": "Orchestra Hall",
@@ -8193,6 +8174,16 @@
     "sold_out": true,
     "time": "1pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Delvon Lamarr Organ Trio",
+    "sort_date": "2026-06-07",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/Me61abe5568e",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -8820,6 +8811,16 @@
     "supports": []
   },
   {
+    "title": "SOLIDARITY IN STEREO",
+    "sort_date": "2026-06-14",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/the-current-presents-solidarity-in-stereo",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Del Amitri",
     "sort_date": "2026-06-14",
     "venue": "First Avenue",
@@ -9422,6 +9423,16 @@
     "supports": []
   },
   {
+    "title": "Blade Rave",
+    "sort_date": "2026-06-20",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/blade-rave-minneapolis-minnesota-06-20-2026/event/06006494D7ECF595",
+    "sold_out": true,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Letters w. Hospital Property & The Dirty Pretty",
     "sort_date": "2026-06-20",
     "venue": "White Squirrel",
@@ -9593,7 +9604,7 @@
     ]
   },
   {
-    "title": "RD & the Midnight Movers",
+    "title": "The Midnight Movers",
     "sort_date": "2026-06-22",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-5/",
@@ -9952,6 +9963,16 @@
     "sold_out": true,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "UltraBomb",
+    "sort_date": "2026-06-27",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-06-ultrabomb/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -10382,6 +10403,16 @@
     ]
   },
   {
+    "title": "K102 SECRET SHOW #6",
+    "sort_date": "2026-07-07",
+    "venue": "Myth Live",
+    "url": "https://mythlive.com/event/k102-secret-show-6/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "5:30pm",
+    "supports": []
+  },
+  {
     "title": "Thomas Sticha",
     "sort_date": "2026-07-07",
     "venue": "White Squirrel",
@@ -10572,6 +10603,23 @@
     "supports": []
   },
   {
+    "title": "SIMSHOWS and WINN PRESENTS: THE BLOOD ROYALE TOUR",
+    "sort_date": "2026-07-10",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/simshows-and-winn-presents-the-blood-royale-tour-july-10-2026-683108",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": [
+      "Zubah",
+      "Inaktiv",
+      "Flipswitch",
+      "Arty Da Alien",
+      "Blaize",
+      "Subsuka"
+    ]
+  },
+  {
     "title": "Pullstring",
     "sort_date": "2026-07-11",
     "venue": "7th St Entry",
@@ -10722,6 +10770,16 @@
     "supports": []
   },
   {
+    "title": "Wells Ferrari",
+    "sort_date": "2026-07-13",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-wells-ferrari/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
     "sort_date": "2026-07-13",
     "venue": "White Squirrel",
@@ -10853,7 +10911,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "K.A.A.N."
+    ]
   },
   {
     "title": "Wavves",
@@ -11081,6 +11141,18 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Drivin N Cryin",
+    "sort_date": "2026-07-18",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-drivin-n-cryin/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Laid Back Country\u00a0Picker"
+    ]
   },
   {
     "title": "Mike Love ( solo )",
@@ -11623,13 +11695,23 @@
     "supports": []
   },
   {
-    "title": "RD & the Midnight Movers",
+    "title": "The Midnight Movers",
     "sort_date": "2026-07-27",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-6/",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Good Boy Daisy",
+    "sort_date": "2026-07-28",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-good-boy-daisy/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -12798,7 +12880,7 @@
     "supports": []
   },
   {
-    "title": "RD & the Midnight Movers",
+    "title": "The Midnight Movers",
     "sort_date": "2026-08-24",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-7/",
@@ -13185,6 +13267,16 @@
     ]
   },
   {
+    "title": "The Charlatans UK",
+    "sort_date": "2026-09-16",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-09-the-charlatans-uk/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Crimson Glory",
     "sort_date": "2026-09-17",
     "venue": "7th St Entry",
@@ -13368,6 +13460,16 @@
     "supports": []
   },
   {
+    "title": "Beth Hart",
+    "sort_date": "2026-09-26",
+    "venue": "Palace Theatre",
+    "url": "https://first-avenue.com/event/2026-09-beth-hart/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Tom Papa: Grateful Bread Tour",
     "sort_date": "2026-09-26",
     "venue": "State Theatre",
@@ -13405,6 +13507,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
+    "supports": []
+  },
+  {
+    "title": "Bayonne",
+    "sort_date": "2026-09-29",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-09-bayonne/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -13872,6 +13984,16 @@
     "supports": []
   },
   {
+    "title": "IAN SWEET",
+    "sort_date": "2026-10-23",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-10-ian-sweet/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Tank and The Bangas",
     "sort_date": "2026-10-23",
     "venue": "Fine Line",
@@ -14030,7 +14152,8 @@
     "doors": "6pm",
     "supports": [
       "Flamin\u2019 Groovies",
-      "The\u00a0Courettes"
+      "The Courettes",
+      "DJ Jake\u00a0Rudh"
     ]
   },
   {
@@ -14111,6 +14234,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Francis of Delirium",
+    "sort_date": "2026-11-13",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-11-francis-of-delirium/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
