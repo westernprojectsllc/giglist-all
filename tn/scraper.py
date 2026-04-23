@@ -332,7 +332,11 @@ def scrape_rudys():
     if not m:
         print("  [Rudy's] events array not found")
         return []
-    events = json.loads(m.group(1))
+    try:
+        events = json.loads(m.group(1))
+    except json.JSONDecodeError as e:
+        print(f"  [Rudy's] failed to parse events JSON: {e}")
+        return []
 
     today = date.today()
     shows = []
@@ -364,7 +368,11 @@ def scrape_skinny_dennis():
     if not m:
         print("  [Skinny Dennis] __NEXT_DATA__ not found")
         return []
-    data = json.loads(m.group(1))
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError as e:
+        print(f"  [Skinny Dennis] failed to parse __NEXT_DATA__ JSON: {e}")
+        return []
     sections = data.get("props", {}).get("pageProps", {}).get("profile", {}).get("sections", [])
 
     shows = []

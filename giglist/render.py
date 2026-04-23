@@ -328,11 +328,10 @@ def write_site(config: RegionConfig, shows: List[Show]):
 
     updated = datetime.now().strftime("%B %d, %Y at %I:%M %p")
     today = date.today()
-    week_start = _get_week_monday(today)
     one_month_ago = today - timedelta(days=31)
 
-    upcoming = [s for s in shows if s.sort_date >= week_start]
-    past = [s for s in shows if one_month_ago <= s.sort_date < week_start]
+    upcoming = [s for s in shows if s.sort_date >= today]
+    past = [s for s in shows if one_month_ago <= s.sort_date < today]
 
     # List view
     (output_dir / "list.html").write_text(
@@ -361,7 +360,8 @@ def write_site(config: RegionConfig, shows: List[Show]):
         )
         (output_dir / f"week-{monday.strftime('%Y-%m-%d')}.html").write_text(html)
 
-    this_week = weeks.get(week_start, [])
+    window_end = today + timedelta(days=6)
+    this_week = [s for s in upcoming if s.sort_date <= window_end]
     (output_dir / "index.html").write_text(
         _index_page_html(config, favicon, len(upcoming), len(past), updated, all_weeks, this_week)
     )

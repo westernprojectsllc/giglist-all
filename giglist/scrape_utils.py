@@ -2,8 +2,8 @@
 venue-fetch scaffolding (Tribe Events, Ticketmaster, Dice), dedupe,
 and the junk/sports filter."""
 
+import os
 import re
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime
 from html import unescape
@@ -249,8 +249,13 @@ def scrape_ticketmaster(venue_ids, api_key, max_workers=3):
 
 
 DICE_API_URL = "https://partners-endpoint.dice.fm/api/v2/events"
-# Public Dice partners key — lifted from Dice's own browser JS. No secret.
-DICE_API_KEY = "nJgJNUHjJM4Yuzmwo4LIe7nu1JDqGqnl8icHUeC9"
+# Dice's "partners" key is embedded in their own browser JS, so it isn't
+# a secret — but keeping a live credential in source is still bad hygiene
+# (the key can be revoked upstream, at which point overriding locally via
+# env is the escape hatch). Prefer DICE_API_KEY from env; fall back to
+# the public one so the scraper keeps working out of the box.
+_DICE_PUBLIC_FALLBACK = "nJgJNUHjJM4Yuzmwo4LIe7nu1JDqGqnl8icHUeC9"
+DICE_API_KEY = os.environ.get("DICE_API_KEY") or _DICE_PUBLIC_FALLBACK
 
 
 def scrape_dice(venue_name, dice_venues, dice_promoters=None, exclude_tags=None):
