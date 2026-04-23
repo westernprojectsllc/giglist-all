@@ -6,7 +6,6 @@ output directory.
 """
 
 import shutil
-import urllib.parse
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from html import escape
@@ -31,18 +30,20 @@ class RegionConfig:
     output_dir: Path
     months_ahead: int = 10
     base_url: str = "https://giglist.info"
-    favicon_path: Optional[Path] = None  # optional per-region favicon
+    favicon_path: Optional[Path] = None  # unused; kept for backward compat
+
+
+FAVICON_TAGS = (
+    '<link rel="icon" type="image/x-icon" href="/favicon.ico">\n'
+    '  <link rel="icon" type="image/svg+xml" href="/favicon.svg">\n'
+    '  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">\n'
+    '  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">\n'
+    '  <link rel="manifest" href="/site.webmanifest">'
+)
 
 
 def _favicon_tag(config: RegionConfig) -> str:
-    svg_path = config.favicon_path or (config.output_dir / "favicon.svg")
-    if not svg_path.exists():
-        return ""
-    svg = svg_path.read_text()
-    return (
-        '<link rel="icon" type="image/svg+xml" '
-        f'href="data:image/svg+xml,{urllib.parse.quote(svg)}">'
-    )
+    return FAVICON_TAGS
 
 
 def _get_week_monday(d):
