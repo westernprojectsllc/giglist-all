@@ -11,6 +11,7 @@ from datetime import date, datetime, timedelta
 from html import escape
 from pathlib import Path
 from typing import Dict, List, Optional
+from zoneinfo import ZoneInfo
 
 from dateutil.relativedelta import relativedelta
 
@@ -18,6 +19,15 @@ from .models import Show
 
 
 ASSETS_DIR = Path(__file__).parent / "assets"
+
+# Both MN and TN sit in US Central, and the daily scrape runs in UTC on
+# GitHub Actions — anchoring "today" to America/Chicago keeps the rendered
+# current-day view correct regardless of when the runner fires.
+CENTRAL_TZ = ZoneInfo("America/Chicago")
+
+
+def _today_central() -> date:
+    return datetime.now(CENTRAL_TZ).date()
 
 
 @dataclass
@@ -291,7 +301,7 @@ def _past_page_html(config, favicon, past, updated):
 
 
 def _sitemap_xml(config, all_weeks):
-    today_str = date.today().strftime("%Y-%m-%d")
+    today_str = _today_central().strftime("%Y-%m-%d")
     prefix = f"{config.base_url}/{config.region_key}"
     entries = [
         f'  <url><loc>{prefix}/</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
@@ -326,8 +336,9 @@ def write_site(config: RegionConfig, shows: List[Show]):
     _copy_assets(output_dir)
     favicon = _favicon_tag(config)
 
-    updated = datetime.now().strftime("%B %d, %Y at %I:%M %p")
-    today = date.today()
+    now_central = datetime.now(CENTRAL_TZ)
+    updated = now_central.strftime("%B %d, %Y at %I:%M %p")
+    today = now_central.date()
     one_month_ago = today - timedelta(days=31)
 
     upcoming = [s for s in shows if s.sort_date >= today]
