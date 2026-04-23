@@ -1013,6 +1013,16 @@
     ]
   },
   {
+    "title": "Luis Elizondo - Persona Non Grata Tour",
+    "sort_date": "2026-04-22",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/luis-elizondo-persona-non-grata-tour-minneapolis-minnesota-04-22-2026/event/06006458C65DDA7F",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Family Dinner w. Doug & Sarah",
     "sort_date": "2026-04-22",
     "venue": "White Squirrel",
@@ -1215,6 +1225,16 @@
     "supports": []
   },
   {
+    "title": "America: The Happy Trails Tour 2026",
+    "sort_date": "2026-04-23",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/america-the-happy-trails-tour-2026-minneapolis-minnesota-04-23-2026/event/0600636DF6066CDC",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jake Owen",
     "sort_date": "2026-04-23",
     "venue": "The Fitzgerald Theater",
@@ -1247,6 +1267,16 @@
     "supports": [
       "Gus Englehorn"
     ]
+  },
+  {
+    "title": "The Ultimate Doors: Tribute To The Doors",
+    "sort_date": "2026-04-23",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/the-ultimate-doors-tribute-to-the-minneapolis-minnesota-04-23-2026/event/06006462DA9E7D99",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Fuzzy Math",
@@ -1484,6 +1514,16 @@
     ]
   },
   {
+    "title": "Jaboukie Young-White",
+    "sort_date": "2026-04-24",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/jaboukie-youngwhite-minneapolis-minnesota-04-24-2026/event/06006434F273D483",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Darkling I Listen w. Hadori & Desolation Plain",
     "sort_date": "2026-04-24",
     "venue": "White Squirrel",
@@ -1674,6 +1714,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-04-25",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-25-2026/event/06006354DB889581",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Nick Karcher",
     "sort_date": "2026-04-25",
     "venue": "Pilllar Forum",
@@ -1688,6 +1738,16 @@
       "Hot Mess",
       "and\u00a0Nick Karcher"
     ]
+  },
+  {
+    "title": "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR",
+    "sort_date": "2026-04-25",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-minneapolis-minnesota-04-25-2026/event/06006329B3D12F59",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Metropolitan Ballet presents Romeo & Juliet",
@@ -1729,6 +1789,30 @@
     "doors": "7pm",
     "supports": [
       "Cory Shane"
+    ]
+  },
+  {
+    "title": "93x Presents Biffy Clyro: The Futique Tour",
+    "sort_date": "2026-04-25",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/93x-presents-biffy-clyro-the-futique-minneapolis-minnesota-04-25-2026/event/06006496AA22D8F7",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Raue"
+    ]
+  },
+  {
+    "title": "The Downside with Gianmarco Soresi and Russell Daniels Live!",
+    "sort_date": "2026-04-25",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/the-downside-with-gianmarco-soresi-and-minneapolis-minnesota-04-25-2026/event/06006435D3DDCF0C",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Russell Daniels"
     ]
   },
   {
@@ -1876,6 +1960,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-04-26",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-26-2026/event/06006354DB8B9584",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Gossamer",
     "sort_date": "2026-04-26",
     "venue": "Pilllar Forum",
@@ -2012,6 +2106,20 @@
     "supports": []
   },
   {
+    "title": "Joyce Manor, Militarie Gun, Teen Mortgage, & Combat",
+    "sort_date": "2026-04-27",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/joyce-manor-militarie-gun-teen-mortgage-minneapolis-minnesota-04-27-2026/event/06006342F1269AEF",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "Militarie Gun",
+      "Teen Mortgage",
+      "Combat"
+    ]
+  },
+  {
     "title": "A Night of Benefiting",
     "sort_date": "2026-04-27",
     "venue": "White Squirrel",
@@ -2091,6 +2199,16 @@
     ]
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-04-28",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-28-2026/event/06006354DB909588",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Admiral Fox",
     "sort_date": "2026-04-28",
     "venue": "Pilllar Forum",
@@ -2103,6 +2221,16 @@
       "Willows",
       "Ditch Piegon"
     ]
+  },
+  {
+    "title": "FOREVER K-POP - A celebration concert",
+    "sort_date": "2026-04-28",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/forever-kpop-a-celebration-concert-minneapolis-minnesota-04-28-2026/event/0600643DC66C2097",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "An Evening with Fred Eaglesmith",
@@ -2222,6 +2350,16 @@
     "supports": []
   },
   {
+    "title": "An Evening With Band of Horses: Celebrating 20 years of Everything All",
+    "sort_date": "2026-04-29",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/an-evening-with-band-of-horses-minneapolis-minnesota-04-29-2026/event/06006426C21D9C10",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Reverend Horton Heat",
     "sort_date": "2026-04-29",
     "venue": "First Avenue",
@@ -2245,6 +2383,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-04-29",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-29-2026/event/06006354DB93958C",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Tttapeworrrrm",
     "sort_date": "2026-04-29",
     "venue": "Pilllar Forum",
@@ -2259,16 +2407,27 @@
     ]
   },
   {
-    "title": "Waxahatchee & MJ Lenderman",
+    "title": "Waxahatchee & MJ Lenderman with special guest Brennan Wedl",
     "sort_date": "2026-04-29",
     "venue": "State Theatre",
-    "url": "https://first-avenue.com/event/2026-04-waxahatchee-mj-lenderman/",
+    "url": "https://www.ticketmaster.com/waxahatchee-mj-lenderman-with-special-guest-minneapolis-minnesota-04-29-2026/event/0600636ED3D758B1",
     "sold_out": false,
-    "time": null,
+    "time": "7:30pm",
     "doors": null,
     "supports": [
+      "MJ Lenderman",
       "Brennan Wedl"
     ]
+  },
+  {
+    "title": "Geoff Tate's Operation: Mindcrime - The Final Chapter",
+    "sort_date": "2026-04-29",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/geoff-tates-operation-mindcrime-the-final-minneapolis-minnesota-04-29-2026/event/0600638ADFE0EEBF",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Helen & Jada Lafrance",
@@ -2361,6 +2520,16 @@
     "url": "https://icehouse.turntabletickets.com/shows/10889/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-04-30",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-30-2026/event/06006354DB96958E",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -2542,6 +2711,20 @@
     "supports": []
   },
   {
+    "title": "Fit For A King - Lonely God North American Tour",
+    "sort_date": "2026-05-01",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/fit-for-a-king-lonely-god-minneapolis-minnesota-05-01-2026/event/06006430D597F585",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Invent Animate",
+      "TEN56",
+      "Acres"
+    ]
+  },
+  {
     "title": "The Lemon Twigs",
     "sort_date": "2026-05-01",
     "venue": "Fine Line",
@@ -2592,6 +2775,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/more-to-hear-the-listening-project",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-01",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-01-2026/event/06006354DB989590",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -2683,6 +2876,26 @@
       "girlblunt",
       "TERR the OM (live visuals)"
     ]
+  },
+  {
+    "title": "Allie X",
+    "sort_date": "2026-05-01",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/allie-x-minneapolis-minnesota-05-01-2026/event/0600636524ED3168",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "KPop Club Night",
+    "sort_date": "2026-05-01",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-05-01-2026/event/0600646905EC41F3",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Destiny To Funk ft. Keyez Williams",
@@ -2836,6 +3049,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-02",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-02-2026/event/06006354DB9B9593",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "St. Paul & The Broken Bones",
     "sort_date": "2026-05-02",
     "venue": "Palace Theatre",
@@ -2872,15 +3095,29 @@
     "supports": []
   },
   {
-    "title": "SatchVai Band ft. Joe Satriani & Steve Vai",
+    "title": "SatchVai Band Ft Joe Satriani & Steve Vai with Animals As Leaders",
     "sort_date": "2026-05-02",
     "venue": "State Theatre",
-    "url": "https://first-avenue.com/event/2026-05-satchvai-band/",
+    "url": "https://www.ticketmaster.com/satchvai-band-ft-joe-satriani-steve-minneapolis-minnesota-05-02-2026/event/06006383B0D1D1B7",
     "sold_out": false,
-    "time": null,
+    "time": "7:30pm",
     "doors": null,
     "supports": [
-      "Animals As\u00a0Leaders"
+      "Animals As Leaders",
+      "Joe Satriani",
+      "Steve Vai"
+    ]
+  },
+  {
+    "title": "Demi Lovato: It's Not That Deep Tour",
+    "sort_date": "2026-05-02",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/demi-lovato-its-not-that-deep-minneapolis-minnesota-05-02-2026/event/06006357EDA2CA9C",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "AD\u00c9LA"
     ]
   },
   {
@@ -2938,6 +3175,16 @@
     "supports": [
       "theology"
     ]
+  },
+  {
+    "title": "Reggae Bash World Tour",
+    "sort_date": "2026-05-02",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/reggae-bash-world-tour-minneapolis-minnesota-05-02-2026/event/06006487CB53ED50",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Creekside Ruffians w. Sidewalk Diamonds, Access Otherwise",
@@ -3043,6 +3290,18 @@
     "supports": []
   },
   {
+    "title": "Calum Scott - The Avenoir Tour 2026",
+    "sort_date": "2026-05-03",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/calum-scott-the-avenoir-tour-2026-minneapolis-minnesota-05-03-2026/event/06006284D3F88C00",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "BL\u00dc EYES"
+    ]
+  },
+  {
     "title": "Phoneboy and Heart Attack Man",
     "sort_date": "2026-05-03",
     "venue": "Fine Line",
@@ -3096,6 +3355,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-03",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-03-2026/event/06006354DBA09599",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "June Henry",
     "sort_date": "2026-05-03",
     "venue": "Pilllar Forum",
@@ -3126,6 +3395,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Yohay Sponder",
+    "sort_date": "2026-05-03",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/yohay-sponder-minneapolis-minnesota-05-03-2026/event/06006453B30D1EE0",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -3210,6 +3489,18 @@
     "time": "5:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Hippie Sabotage: Give and Take Tour",
+    "sort_date": "2026-05-04",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/hippie-sabotage-give-and-take-tour-minneapolis-minnesota-05-04-2026/event/06006435FB12F04E",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Kembe X"
+    ]
   },
   {
     "title": "Pub Choir",
@@ -3308,6 +3599,20 @@
     "supports": []
   },
   {
+    "title": "August Burns Red & The Amity Affliction: The Springs Horizons Tour",
+    "sort_date": "2026-05-05",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/august-burns-red-the-amity-affliction-minneapolis-minnesota-05-05-2026/event/060063760C08B29F",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "The Amity Affliction",
+      "Boundaries",
+      "Heavensgate"
+    ]
+  },
+  {
     "title": "An Evening with VNV Nation",
     "sort_date": "2026-05-05",
     "venue": "Fine Line",
@@ -3315,6 +3620,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "8pm",
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-05",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-05-2026/event/06006354DBA595A1",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -3338,6 +3653,21 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Lords of Acid",
+    "sort_date": "2026-05-05",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/lords-of-acid-minneapolis-minnesota-05-05-2026/event/06006425A87D6EEA",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Dead On A Sunday",
+      "Princess Superstar",
+      "Tony & The Kiki",
+      "Mz Neon"
+    ]
   },
   {
     "title": "Aestis Tuesday Night Residency w. The Morning Kings, Dashed",
@@ -3454,6 +3784,16 @@
     "url": "https://icehouse.turntabletickets.com/shows/10190/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-06",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-06-2026/event/06006354DBA995A4",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -3610,6 +3950,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-07",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-07-2026/event/06006354DBAC95A8",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Blvck Hippie",
     "sort_date": "2026-05-07",
     "venue": "Pilllar Forum",
@@ -3620,6 +3970,26 @@
     "supports": [
       "Blvck Hippie with TBA"
     ]
+  },
+  {
+    "title": "ELMOS GOT THE MOVES - PHOTO EXPERIENCE",
+    "sort_date": "2026-05-07",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/elmos-got-the-moves-photo-experience-minneapolis-minnesota-05-07-2026/event/0600636D154BC9B7",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Elmo's Got the Moves",
+    "sort_date": "2026-05-07",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/elmos-got-the-moves-minneapolis-minnesota-05-07-2026/event/0600636D100CC0A4",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Marc Broussard",
@@ -3779,6 +4149,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/bartoks-bluebeards-castle",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-08",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-08-2026/event/06006354DBAF95AE",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -4028,6 +4408,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-09",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-09-2026/event/06006354DBB295B0",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kaivon",
     "sort_date": "2026-05-09",
     "venue": "Skyway Theatre",
@@ -4214,6 +4604,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-10",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-10-2026/event/06006354DBB795B5",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Anthony Shore & His All-Star Band\u2019s Tribute to Elvis",
     "sort_date": "2026-05-10",
     "venue": "The Parkway Theater",
@@ -4233,6 +4633,18 @@
     "doors": "7pm",
     "supports": [
       "Uni Boys"
+    ]
+  },
+  {
+    "title": "The Current Presents: The Afghan Whigs 40th Anniv. Tour w/ Mercury Rev",
+    "sort_date": "2026-05-10",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/the-current-presents-the-afghan-whigs-minneapolis-minnesota-05-10-2026/event/0600642FD5B4F19B",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Mercury Rev"
     ]
   },
   {
@@ -4299,6 +4711,16 @@
     "supports": [
       "Joan of\u00a0Profile"
     ]
+  },
+  {
+    "title": "fakemink: a Terrible Beauty .- The Tour",
+    "sort_date": "2026-05-11",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/fakemink-a-terrible-beauty-the-tour-minneapolis-minnesota-05-11-2026/event/06006479D077EFA6",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "L.A's Monday Nights",
@@ -4411,6 +4833,16 @@
     ]
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-12",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-12-2026/event/06006354DBBC95BD",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "YYY",
     "sort_date": "2026-05-12",
     "venue": "Pilllar Forum",
@@ -4520,6 +4952,18 @@
     "supports": []
   },
   {
+    "title": "Qveen Herby - Isle of Qveen Tour",
+    "sort_date": "2026-05-13",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/qveen-herby-isle-of-qveen-tour-minneapolis-minnesota-05-13-2026/event/06006436CF15E0FA",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "THOT SQUAD"
+    ]
+  },
+  {
     "title": "High Fade",
     "sort_date": "2026-05-13",
     "venue": "Fine Line",
@@ -4542,6 +4986,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-13",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-13-2026/event/06006354DBBE95C1",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Deep Fortune",
     "sort_date": "2026-05-13",
     "venue": "Pilllar Forum",
@@ -4555,6 +5009,18 @@
     ]
   },
   {
+    "title": "Song Of The Saints Tour with Phil Wickham",
+    "sort_date": "2026-05-13",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9Z7",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Tauren Wells"
+    ]
+  },
+  {
     "title": "The Suburbs: Two Centuries of Rock!",
     "sort_date": "2026-05-13",
     "venue": "The Parkway Theater",
@@ -4563,6 +5029,19 @@
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
+  },
+  {
+    "title": "Bruno Mars - The Romantic Tour",
+    "sort_date": "2026-05-13",
+    "venue": "U.S. Bank Stadium",
+    "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-minneapolis-minnesota-05-13-2026/event/06006396C3A4C35E",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Leon Thomas",
+      "DJ Pee .Wee"
+    ]
   },
   {
     "title": "Cole Diamond\u2019s Whiskey Wednesdays",
@@ -4676,6 +5155,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-14",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-14-2026/event/06006354DBC195C3",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -4818,6 +5307,19 @@
     "supports": []
   },
   {
+    "title": "DILLSTRADAMUS (Dillon Francis B2B Flosstradamus)",
+    "sort_date": "2026-05-15",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/dillstradamus-dillon-francis-b2b-flosstradamus-minneapolis-minnesota-05-15-2026/event/06006435E3FDDCC5",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": [
+      "Dillon Francis",
+      "Flosstradamus"
+    ]
+  },
+  {
     "title": "Inner Wave and Los Mesoneros",
     "sort_date": "2026-05-15",
     "venue": "Fine Line",
@@ -4848,6 +5350,16 @@
     "url": "https://mythlive.com/event/los-originales-de-san-juan/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-15",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-15-2026/event/06006354DBC495C5",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -4887,6 +5399,16 @@
     "url": "https://skywaytheatre.com/event/riot-ten-mpls/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "GLAMORAMA",
+    "sort_date": "2026-05-15",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/glamorama-minneapolis-minnesota-05-15-2026/event/06006445E9D25CF1",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -5049,6 +5571,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-16",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-16-2026/event/06006354DBC695CA",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Courtney Barnett",
     "sort_date": "2026-05-16",
     "venue": "Palace Theatre",
@@ -5095,6 +5627,16 @@
     "supports": [
       "Ken Pomeroy"
     ]
+  },
+  {
+    "title": "Gasolina Reggaet\u00f3n Party",
+    "sort_date": "2026-05-16",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/gasolina-reggaeton-party-minneapolis-minnesota-05-16-2026/event/060063832810F03A",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Caribou Gone w. Scarlett Tangerine",
@@ -5199,6 +5741,16 @@
     "supports": []
   },
   {
+    "title": "Chelcie Lynn: Trailer Trash Tammy The Loose Lips Tour",
+    "sort_date": "2026-05-17",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/chelcie-lynn-trailer-trash-tammy-the-minneapolis-minnesota-05-17-2026/event/0600644593CB993F",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Babyfxce E",
     "sort_date": "2026-05-17",
     "venue": "Fine Line",
@@ -5217,6 +5769,16 @@
     "url": "https://icehouse.turntabletickets.com/shows/9714/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Cursed Child (Touring)",
+    "sort_date": "2026-05-17",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-17-2026/event/06006354DBCC95D6",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
@@ -5251,6 +5813,18 @@
     "time": "7:30pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Yebba: Jean Tour",
+    "sort_date": "2026-05-17",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/yebba-jean-tour-minneapolis-minnesota-05-17-2026/event/06006464EA7EF11C",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Astyn Turr"
+    ]
   },
   {
     "title": "Bingo With Pete!",
@@ -5403,6 +5977,20 @@
     "supports": []
   },
   {
+    "title": "Dance Gavin Dance with Special Guests",
+    "sort_date": "2026-05-19",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/dance-gavin-dance-with-special-guests-minneapolis-minnesota-05-19-2026/event/0600644CB901F38E",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "The Fall of Troy",
+      "Wolf & Bear",
+      "Novelists"
+    ]
+  },
+  {
     "title": "Kreator",
     "sort_date": "2026-05-19",
     "venue": "First Avenue",
@@ -5502,6 +6090,20 @@
     ]
   },
   {
+    "title": "Cradle of Filth",
+    "sort_date": "2026-05-20",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/cradle-of-filth-minneapolis-minnesota-05-20-2026/event/06006384F2FD68F0",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Suffocation",
+      "Ghost Bath",
+      "Cultus Black"
+    ]
+  },
+  {
     "title": "Lords of the Universe",
     "sort_date": "2026-05-20",
     "venue": "White Squirrel",
@@ -5565,6 +6167,20 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Black Veil Brides: North American Tour 2026",
+    "sort_date": "2026-05-21",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/black-veil-brides-north-american-tour-minneapolis-minnesota-05-21-2026/event/06006436EA5AFD56",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": [
+      "From Ashes To New",
+      "TX2",
+      "As December Falls"
+    ]
   },
   {
     "title": "Archspire",
@@ -6278,6 +6894,20 @@
     ]
   },
   {
+    "title": "PeelingFlesh presented by The Pit on 93X",
+    "sort_date": "2026-05-28",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/peelingflesh-presented-by-the-pit-on-minneapolis-minnesota-05-28-2026/event/0600644AC43CC658",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "MISSING LINK",
+      "Kruelty",
+      "Fear The Dark"
+    ]
+  },
+  {
     "title": "Smokdoubt Co-Op",
     "sort_date": "2026-05-28",
     "venue": "White Squirrel",
@@ -6374,6 +7004,16 @@
     ]
   },
   {
+    "title": "Bobby Lee: The Finally Tour 2026",
+    "sort_date": "2026-05-29",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/bobby-lee-the-finally-tour-2026-minneapolis-minnesota-05-29-2026/event/06006464BC0D6772",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "My Kid Banana",
     "sort_date": "2026-05-29",
     "venue": "Pilllar Forum",
@@ -6385,6 +7025,16 @@
       "Linus",
       "and\u00a0Maelstrom In The Harbor"
     ]
+  },
+  {
+    "title": "Riverdance 30 - The New Generation",
+    "sort_date": "2026-05-29",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/riverdance-30-the-new-generation-minneapolis-minnesota-05-29-2026/event/060062FFADF443C0",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Daniel Allan 360",
@@ -6434,6 +7084,16 @@
       "Doodle Gabs",
       "Squid"
     ]
+  },
+  {
+    "title": "hemlocke springs: the apple tree under the sea tour",
+    "sort_date": "2026-05-29",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/hemlocke-springs-the-apple-tree-under-minneapolis-minnesota-05-29-2026/event/0600644BF1DA0C92",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Jiselle McCollam",
@@ -6561,6 +7221,16 @@
     ]
   },
   {
+    "title": "Riverdance 30 - The New Generation",
+    "sort_date": "2026-05-30",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/riverdance-30-the-new-generation-minneapolis-minnesota-05-30-2026/event/060062FFADF743C7",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "MACHAKI",
     "sort_date": "2026-05-30",
     "venue": "The Loft at Skyway Theatre",
@@ -6601,6 +7271,19 @@
     "time": "10pm",
     "doors": "9pm",
     "supports": []
+  },
+  {
+    "title": "Between the Buried and Me: The Blue Nowhere U.S. Tour - Spring 2026",
+    "sort_date": "2026-05-30",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/between-the-buried-and-me-the-minneapolis-minnesota-05-30-2026/event/06006454C0C790BB",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Imperial Triumphant",
+      "Fallujah"
+    ]
   },
   {
     "title": "Big Trouble",
@@ -6727,6 +7410,16 @@
     ]
   },
   {
+    "title": "Riverdance 30 - The New Generation",
+    "sort_date": "2026-05-31",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/riverdance-30-the-new-generation-minneapolis-minnesota-05-31-2026/event/060062FFADFC4406",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dan Tyminski Band",
     "sort_date": "2026-05-31",
     "venue": "The Parkway Theater",
@@ -6735,6 +7428,19 @@
     "time": "7pm",
     "doors": "6pm",
     "supports": []
+  },
+  {
+    "title": "Superheaven",
+    "sort_date": "2026-05-31",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/superheaven-minneapolis-minnesota-05-31-2026/event/06006482BDB7FB95",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Modern Color",
+      "all under heaven"
+    ]
   },
   {
     "title": "Macro Man w. ME ME ME & Bury Em Deep",
@@ -6855,6 +7561,16 @@
     ]
   },
   {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-02",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOS",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Mark Winters",
     "sort_date": "2026-06-02",
     "venue": "Pilllar Forum",
@@ -6937,6 +7653,16 @@
     "supports": []
   },
   {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-03",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74F-K",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Chill Towards Enlightenment: A Stoke Seminar with Chad Goes Deep",
     "sort_date": "2026-06-03",
     "venue": "The Parkway Theater",
@@ -6945,6 +7671,19 @@
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
+  },
+  {
+    "title": "Smokedope2016: The Comedown Tour",
+    "sort_date": "2026-06-03",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/smokedope2016-the-comedown-tour-minneapolis-minnesota-06-03-2026/event/060064833E68E64E",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "GHOSTFACEKUSH",
+      "BARTESIANWATER"
+    ]
   },
   {
     "title": "Joey Thursday",
@@ -7053,6 +7792,16 @@
     "supports": []
   },
   {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-04",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOJ",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Satsang (solo)",
     "sort_date": "2026-06-04",
     "venue": "Turf Club",
@@ -7062,6 +7811,18 @@
     "doors": "7pm",
     "supports": [
       "Joey Harkum\u00a0(solo)"
+    ]
+  },
+  {
+    "title": "Augustana & Phantom Planet",
+    "sort_date": "2026-06-04",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/augustana-phantom-planet-minneapolis-minnesota-06-04-2026/event/06006452F449CF36",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Phantom Planet"
     ]
   },
   {
@@ -7167,6 +7928,20 @@
     "supports": []
   },
   {
+    "title": "Killswitch Engage",
+    "sort_date": "2026-06-05",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/killswitch-engage-minneapolis-minnesota-06-05-2026/event/06006459CA899E8E",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "Machine Head",
+      "Iron Reagan",
+      "Havok"
+    ]
+  },
+  {
     "title": "Em Beihold",
     "sort_date": "2026-06-05",
     "venue": "Fine Line",
@@ -7186,6 +7961,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "9pm",
+    "supports": []
+  },
+  {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-05",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOU",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -7235,6 +8020,20 @@
     "time": "10pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Spite",
+    "sort_date": "2026-06-05",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/spite-minneapolis-minnesota-06-05-2026/event/060063920D90FABC",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Emmure",
+      "Psycho-Frame",
+      "Rev3rent"
+    ]
   },
   {
     "title": "Sam Graber Band",
@@ -7319,6 +8118,16 @@
     ]
   },
   {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-06",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-06-2026/event/060063887F1947DD",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Joan of Profile",
     "sort_date": "2026-06-06",
     "venue": "Pilllar Forum",
@@ -7350,6 +8159,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Cozy Worldwide: Throwback and Current R&B / Hip-Hop Party - 21+",
+    "sort_date": "2026-06-06",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/cozy-worldwide-throwback-and-current-rb-minneapolis-minnesota-06-06-2026/event/06006459CD53AC21",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -7423,6 +8242,16 @@
     "supports": []
   },
   {
+    "title": "The Great Gatsby (Touring)",
+    "sort_date": "2026-06-07",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74F-P",
+    "sold_out": true,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Delvon Lamarr Organ Trio",
     "sort_date": "2026-06-07",
     "venue": "The Parkway Theater",
@@ -7472,6 +8301,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Spotlight Showcase 2026",
+    "sort_date": "2026-06-08",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/spotlight-showcase-2026-minneapolis-minnesota-06-08-2026/event/06006474F135A7B8",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -7528,6 +8367,16 @@
     "supports": [
       "Renny Conti"
     ]
+  },
+  {
+    "title": "Spotlight Showcase 2026",
+    "sort_date": "2026-06-09",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/spotlight-showcase-2026-minneapolis-minnesota-06-09-2026/event/06006474F139A7C5",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Therapy Gecko Live",
@@ -7695,6 +8544,19 @@
     "time": "9:30pm",
     "doors": "8:30pm",
     "supports": []
+  },
+  {
+    "title": "The Cab",
+    "sort_date": "2026-06-11",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/the-cab-minneapolis-minnesota-06-11-2026/event/0600644CD46D42BB",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "Paradise Fears",
+      "CARR"
+    ]
   },
   {
     "title": "Ex-Rodeo",
@@ -7897,12 +8759,12 @@
     ]
   },
   {
-    "title": "An Acoustic Evening with Trey Anastasio",
+    "title": "Trey Anastasio",
     "sort_date": "2026-06-13",
     "venue": "Orpheum Theatre",
-    "url": "https://first-avenue.com/event/2026-06-trey-anastasio/",
+    "url": "https://www.ticketmaster.com/trey-anastasio-minneapolis-minnesota-06-13-2026/event/0600646ABF05D4B5",
     "sold_out": false,
-    "time": null,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -8054,6 +8916,16 @@
     "supports": []
   },
   {
+    "title": "When a Woman\u2019s Fed Up",
+    "sort_date": "2026-06-14",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/when-a-womans-fed-up-minneapolis-minnesota-06-14-2026/event/06006477E4A5F578",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "River Butcher",
     "sort_date": "2026-06-14",
     "venue": "The Parkway Theater",
@@ -8164,6 +9036,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Chris Ramsay Presents: It's Probably Nothing...",
+    "sort_date": "2026-06-16",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/chris-ramsay-presents-its-probably-nothing-minneapolis-minnesota-06-16-2026/event/0600648AD2F3CB38",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -8327,6 +9209,18 @@
     "supports": []
   },
   {
+    "title": "Cameron Whitcomb - Fragile Egos Tour",
+    "sort_date": "2026-06-18",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/cameron-whitcomb-fragile-egos-tour-minneapolis-minnesota-06-18-2026/event/06006434F319D4F3",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "Dylan Conrique"
+    ]
+  },
+  {
     "title": "The Motet",
     "sort_date": "2026-06-18",
     "venue": "Fine Line",
@@ -8429,6 +9323,16 @@
     "supports": []
   },
   {
+    "title": "ECHO & THE BUNNYMEN: More Songs To Learn & Sing",
+    "sort_date": "2026-06-19",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/echo-the-bunnymen-more-songs-to-minneapolis-minnesota-06-19-2026/event/0600634EF56CB273",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Futurebirds",
     "sort_date": "2026-06-19",
     "venue": "Fine Line",
@@ -8449,6 +9353,16 @@
     "supports": [
       "Phil Kane"
     ]
+  },
+  {
+    "title": "HOLLY HUMBERSTONE - Cruel World North American Tour",
+    "sort_date": "2026-06-19",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/holly-humberstone-cruel-world-north-american-minneapolis-minnesota-06-19-2026/event/06006446AC82F843",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "East Lake Jazz Workshop",
@@ -8570,10 +9484,34 @@
     ]
   },
   {
+    "title": "Don Toliver: Octane Tour",
+    "sort_date": "2026-06-20",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/don-toliver-octane-tour-minneapolis-minnesota-06-20-2026/event/0600643CC186D6BF",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "SahBabii",
+      "SoFaygo",
+      "Chase B"
+    ]
+  },
+  {
     "title": "K?D",
     "sort_date": "2026-06-20",
     "venue": "The Loft at Skyway Theatre",
     "url": "https://skywaytheatre.com/event/kd-the-loft-minneapolis/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Blade Rave",
+    "sort_date": "2026-06-20",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/blade-rave-minneapolis-minnesota-06-20-2026/event/06006494D7ECF595",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -8675,6 +9613,19 @@
     "supports": []
   },
   {
+    "title": "Armor For Sleep",
+    "sort_date": "2026-06-21",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/armor-for-sleep-minneapolis-minnesota-06-21-2026/event/0600648DDC68CFB7",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Spanish Love Songs",
+      "Flycatcher"
+    ]
+  },
+  {
     "title": "Bingo With Pete!",
     "sort_date": "2026-06-21",
     "venue": "White Squirrel",
@@ -8738,6 +9689,18 @@
     "supports": []
   },
   {
+    "title": "Joshua Slone: Thinking Too Much Tour",
+    "sort_date": "2026-06-22",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/joshua-slone-thinking-too-much-tour-minneapolis-minnesota-06-22-2026/event/06006478ED272FFD",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Jake Minch"
+    ]
+  },
+  {
     "title": "The Midnight Movers",
     "sort_date": "2026-06-22",
     "venue": "White Squirrel",
@@ -8779,6 +9742,19 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Connor Price & Nic D \"Iconic Tour\"",
+    "sort_date": "2026-06-23",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/connor-price-nic-d-iconic-tour-minneapolis-minnesota-06-23-2026/event/06006451DACC64E3",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Nic D",
+      "GRAHAM"
+    ]
   },
   {
     "title": "\u00c1sgeir",
@@ -9077,6 +10053,16 @@
     "supports": []
   },
   {
+    "title": "Leanne Morgan: THE TIME OF OUR LIVES TOUR",
+    "sort_date": "2026-06-27",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/leanne-morgan-the-time-of-our-minneapolis-minnesota-06-27-2026/event/060064748395612F",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Secret Sisters // Night Two",
     "sort_date": "2026-06-27",
     "venue": "The Parkway Theater",
@@ -9104,6 +10090,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "R&B ONLY",
+    "sort_date": "2026-06-27",
+    "venue": "Varsity Theater",
+    "url": "https://go.rnbonly.com/trk/rbolminneapolis62726venue",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -9187,6 +10183,16 @@
     "supports": [
       "Love Gang"
     ]
+  },
+  {
+    "title": "Leanne Morgan: THE TIME OF OUR LIVES TOUR",
+    "sort_date": "2026-06-28",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/leanne-morgan-the-time-of-our-minneapolis-minnesota-06-28-2026/event/06006479DB3AFD94",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Kurt Vile and The Violators",
@@ -9313,6 +10319,19 @@
     "supports": []
   },
   {
+    "title": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+    "sort_date": "2026-06-30",
+    "venue": "U.S. Bank Stadium",
+    "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-minneapolis-minnesota-06-30-2026/event/06006477A504A186",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "USHER",
+      "Chris Brown"
+    ]
+  },
+  {
     "title": "Aeris & the Piggies Residency",
     "sort_date": "2026-06-30",
     "venue": "White Squirrel",
@@ -9353,6 +10372,18 @@
     "supports": []
   },
   {
+    "title": "Wale & Smino - Everything Is A Lot... The Tour",
+    "sort_date": "2026-07-02",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/wale-smino-everything-is-a-lot-minneapolis-minnesota-07-02-2026/event/06006449AEB8946B",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Smino"
+    ]
+  },
+  {
     "title": "Super Diamond \u2014 The Neil Diamond Tribute",
     "sort_date": "2026-07-02",
     "venue": "First Avenue",
@@ -9379,6 +10410,16 @@
     "url": "https://whitesquirrelbar.com/event/th3/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
+    "sort_date": "2026-07-03",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/ca7riel-paco-amoroso-free-spirits-world-minneapolis-minnesota-07-03-2026/event/06006474CC642BF3",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -9511,6 +10552,28 @@
     "supports": []
   },
   {
+    "title": "Ziggy Marley: Brightside Tour 2026",
+    "sort_date": "2026-07-08",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/ziggy-marley-brightside-tour-2026-minneapolis-minnesota-07-08-2026/event/06006453C6766BFC",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "J Boog"
+    ]
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-08",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-08-2026/event/0600636C0F65B633",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Father John Misty",
     "sort_date": "2026-07-08",
     "venue": "Palace Theatre",
@@ -9551,6 +10614,16 @@
     "supports": [
       "Leon Majcen"
     ]
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-09",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-09-2026/event/0600636C0F68B63A",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Ben Stoeck",
@@ -9603,6 +10676,16 @@
     "supports": [
       "DJ Hampster\u00a0Dance"
     ]
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-10",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-10-2026/event/0600636C0F6DB648",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Death Cab for Cutie",
@@ -9692,6 +10775,26 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-11",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-11-2026/event/0600636C0F70B64E",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Derek Hough - Symphony of Dance: Encore",
+    "sort_date": "2026-07-11",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/derek-hough-symphony-of-dance-encore-minneapolis-minnesota-07-11-2026/event/06006369B88EB6A7",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dirt Monkey",
     "sort_date": "2026-07-11",
     "venue": "The Loft at Skyway Theatre",
@@ -9752,6 +10855,16 @@
     "supports": [
       "Liquid Todd"
     ]
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-12",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-12-2026/event/0600636C0F75B65B",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Grave Society w. Chuckdead",
@@ -9826,6 +10939,26 @@
     ]
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-14",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-14-2026/event/0600636C0F7AB671",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lyle Lovett and his Small Large Band",
+    "sort_date": "2026-07-14",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/lyle-lovett-and-his-small-large-minneapolis-minnesota-07-14-2026/event/06006481B0B8DE2B",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "DL4",
     "sort_date": "2026-07-14",
     "venue": "White Squirrel",
@@ -9865,6 +10998,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-15",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-15-2026/event/0600636C0F7CB677",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -9919,6 +11062,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/beethoven-triple-concerto",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-16",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-16-2026/event/0600636C0F7FB682",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -9985,6 +11138,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-17",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-17-2026/event/0600636C0F81B689",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sarah Hester Ross // Serving Tour",
     "sort_date": "2026-07-17",
     "venue": "The Parkway Theater",
@@ -10040,12 +11203,32 @@
     ]
   },
   {
+    "title": "Kail Lowry: Fatherless Behavior Tour",
+    "sort_date": "2026-07-18",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/kail-lowry-fatherless-behavior-tour-minneapolis-minnesota-07-18-2026/event/06006473E22E3FDD",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Cabaret: Nisswa",
     "sort_date": "2026-07-18",
     "venue": "Orchestra Hall",
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/cabaret-nisswa",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-18",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-18-2026/event/0600636C0F84B695",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -10131,12 +11314,34 @@
     "supports": []
   },
   {
+    "title": "Flyleaf with Lacey Sturm - 20th Anniversary Tour",
+    "sort_date": "2026-07-19",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/flyleaf-with-lacey-sturm-20th-anniversary-minneapolis-minnesota-07-19-2026/event/06006452E6C2B484",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Lacey Sturm"
+    ]
+  },
+  {
     "title": "Cabaret: Aitkin",
     "sort_date": "2026-07-19",
     "venue": "Orchestra Hall",
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/cabaret-aitkin",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-19",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-19-2026/event/0600636C0F89B6A2",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
@@ -10221,6 +11426,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-21",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-21-2026/event/0600636C0F8EB6AF",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Pavement",
     "sort_date": "2026-07-21",
     "venue": "Palace Theatre",
@@ -10243,6 +11458,19 @@
     "supports": []
   },
   {
+    "title": "93X Presents Poppy - Constantly Nowhere Tour",
+    "sort_date": "2026-07-22",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/93x-presents-poppy-constantly-nowhere-tour-minneapolis-minnesota-07-22-2026/event/0600644CAF21E04E",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "LANDMVRKS",
+      "Thousand Below"
+    ]
+  },
+  {
     "title": "Lucero",
     "sort_date": "2026-07-22",
     "venue": "First Avenue",
@@ -10250,6 +11478,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-22",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-22-2026/event/0600636C0F90B6B8",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10273,6 +11511,16 @@
     "supports": [
       "Swell Rell"
     ]
+  },
+  {
+    "title": "NINE VICIOUS - A TOUR",
+    "sort_date": "2026-07-22",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/nine-vicious-a-tour-minneapolis-minnesota-07-22-2026/event/06006487D189F672",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Alexander Natalie",
@@ -10325,6 +11573,29 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-23",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-23-2026/event/0600636C0F92B6C2",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Forrest Frank w/ Tori Kelly",
+    "sort_date": "2026-07-23",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O773",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Tori Kelly",
+      "Cory Asbury"
+    ]
+  },
+  {
     "title": "Chick Singer",
     "sort_date": "2026-07-23",
     "venue": "White Squirrel",
@@ -10355,6 +11626,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-24",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-24-2026/event/0600636C0F95B6CA",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Mary Cutrufello Band",
     "sort_date": "2026-07-24",
     "venue": "White Squirrel",
@@ -10371,6 +11652,26 @@
     "url": "https://whitesquirrelbar.com/event/valleykil/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-25",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-25-2026/event/0600636C0F97B6D3",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Megan Moroney",
+    "sort_date": "2026-07-25",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O7Op",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -10447,6 +11748,26 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-26",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-26-2026/event/0600636C0F9CB6DE",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dude Perfect ??? Squad Games Tour 2026",
+    "sort_date": "2026-07-26",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK4o",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy of Lilith Fair: A Celebration of Women in Music",
     "sort_date": "2026-07-26",
     "venue": "The Parkway Theater",
@@ -10455,6 +11776,18 @@
     "time": "7pm",
     "doors": "6pm",
     "supports": []
+  },
+  {
+    "title": "Rx Bandits - And The Battle Begun 20th Anniversary Tour with Catbite",
+    "sort_date": "2026-07-26",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/rx-bandits-and-the-battle-begun-minneapolis-minnesota-07-26-2026/event/0600644CA80BD367",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Catbite"
+    ]
   },
   {
     "title": "Clint Niosi w. Nikki Matteson and Rich Rue & Ditch Pigeon",
@@ -10519,6 +11852,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-28",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-28-2026/event/0600636C0FA2B6EE",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Stewart Copeland: Have I Said Too Much? // The Police, Hollywood and Other Adventures: An Evening of Conversation with the Hall of Fame Rock Star",
     "sort_date": "2026-07-28",
     "venue": "The Parkway Theater",
@@ -10526,6 +11869,26 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-29",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-29-2026/event/0600636C0FA4B6F8",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Olivia Dean: The Art Of Loving Live",
+    "sort_date": "2026-07-29",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/olivia-dean-the-art-of-loving-minneapolis-minnesota-07-29-2026/event/0600636CD3D9E928",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10545,6 +11908,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-7-30-river-rail-with-sam-ryden-15-cover",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-07-30",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-30-2026/event/0600636C0FA7B6FE",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -10611,6 +11984,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-07-31",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-31-2026/event/0600636C0FA9B704",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "A Thousand Horses",
     "sort_date": "2026-07-31",
     "venue": "Turf Club",
@@ -10638,6 +12021,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-08-01",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-01-2026/event/0600636C0FACB70A",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10691,6 +12084,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-08-02",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-02-2026/event/0600636C0FB1B719",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "GALACTIC COWBOY ORCHESTRA",
     "sort_date": "2026-08-02",
     "venue": "White Squirrel",
@@ -10717,6 +12120,16 @@
     "url": "https://whitesquirrelbar.com/event/the-harlow-pennies/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-08-04",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-04-2026/event/0600636C0FB6B726",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -10773,6 +12186,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-08-05",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-05-2026/event/0600636C0FB9B72F",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "RESCHEDULED // SOLD OUT: See How We Are: John Doe & Exene Cervenka in an acoustic performance",
     "sort_date": "2026-08-05",
     "venue": "The Parkway Theater",
@@ -10800,6 +12223,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-08-06",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-06-2026/event/0600636C0FBBB73A",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10846,6 +12279,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-08-07",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-07-2026/event/0600636C0FBEB745",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Reese Glover",
     "sort_date": "2026-08-07",
     "venue": "Turf Club",
@@ -10888,6 +12331,16 @@
     "supports": []
   },
   {
+    "title": "Wicked",
+    "sort_date": "2026-08-08",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-08-2026/event/0600636C0FC0B74D",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Six Feet Under x KATAKLYSM",
     "sort_date": "2026-08-08",
     "venue": "Skyway Theatre",
@@ -10902,6 +12355,16 @@
     "sort_date": "2026-08-08",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/fort-road-folk-fest/",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wicked",
+    "sort_date": "2026-08-09",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-09-2026/event/0600636C0FC6B75B",
     "sold_out": false,
     "time": "1pm",
     "doors": null,
@@ -11053,12 +12516,22 @@
     "supports": []
   },
   {
-    "title": "Mat Kearney",
+    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
+    "sort_date": "2026-08-14",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-minneapolis-minnesota-08-14-2026/event/0600645ACEFBB831",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mat Kearney - Nothing Left To Lose, Everything To Gain Tour",
     "sort_date": "2026-08-14",
     "venue": "State Theatre",
-    "url": "https://first-avenue.com/event/2026-08-mat-kearney/",
+    "url": "https://www.ticketmaster.com/mat-kearney-nothing-left-to-lose-minneapolis-minnesota-08-14-2026/event/06006458D9B76D1A",
     "sold_out": false,
-    "time": null,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -11083,6 +12556,19 @@
     "supports": []
   },
   {
+    "title": "Dimmu Borgir: Grand Serpent Rising Tour US 2026",
+    "sort_date": "2026-08-15",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/dimmu-borgir-grand-serpent-rising-tour-minneapolis-minnesota-08-15-2026/event/06006489F4F6C7D5",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Hypocrisy",
+      "Hulder"
+    ]
+  },
+  {
     "title": "The Crane Wives",
     "sort_date": "2026-08-15",
     "venue": "First Avenue",
@@ -11105,6 +12591,16 @@
     "supports": []
   },
   {
+    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
+    "sort_date": "2026-08-15",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-minneapolis-minnesota-08-15-2026/event/0600645ACF06B83F",
+    "sold_out": false,
+    "time": "5pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Big Thief",
     "sort_date": "2026-08-15",
     "venue": "Surly Brewing Festival Field",
@@ -11113,6 +12609,20 @@
     "time": null,
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Ed Sheeran: LOOP Tour",
+    "sort_date": "2026-08-15",
+    "venue": "U.S. Bank Stadium",
+    "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-minneapolis-minnesota-08-15-2026/event/0600632E29196B3E",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": [
+      "Myles Smith",
+      "Lukas Graham",
+      "Ellie Banke"
+    ]
   },
   {
     "title": "120 Minutes",
@@ -11155,6 +12665,16 @@
     "supports": [
       "Afternoon Bike\u00a0Ride"
     ]
+  },
+  {
+    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
+    "sort_date": "2026-08-16",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-minneapolis-minnesota-08-16-2026/event/0600645BBA205AB0",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Bingo With Pete!",
@@ -11213,6 +12733,16 @@
     "url": "https://whitesquirrelbar.com/event/the-cottonwood-shivers-2/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "J. Cole: The Fall-Off Tour",
+    "sort_date": "2026-08-18",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-minneapolis-minnesota-08-18-2026/event/06006435E627DE45",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -11551,6 +13081,18 @@
     ]
   },
   {
+    "title": "Tame Impala w/ Dominic Fike",
+    "sort_date": "2026-08-28",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Dominic Fike"
+    ]
+  },
+  {
     "title": "The Mary Cutrufello Band",
     "sort_date": "2026-08-28",
     "venue": "White Squirrel",
@@ -11611,6 +13153,18 @@
     "time": "1pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Ray LaMontagne - Trouble 20th Anniversary Tour",
+    "sort_date": "2026-08-30",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/ray-lamontagne-trouble-20th-anniversary-tour-minneapolis-minnesota-08-30-2026/event/060062655C630B67",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "The Weather Station"
+    ]
   },
   {
     "title": "Bryan Odeen",
@@ -11828,6 +13382,18 @@
     ]
   },
   {
+    "title": "Jane Remover: Live Exhibit",
+    "sort_date": "2026-09-15",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/jane-remover-live-exhibit-minneapolis-minnesota-09-15-2026/event/060064901451D537",
+    "sold_out": true,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Dazegxd"
+    ]
+  },
+  {
     "title": "The Charlatans UK",
     "sort_date": "2026-09-16",
     "venue": "Fine Line",
@@ -11855,6 +13421,16 @@
     "sold_out": true,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "John Crist Live!",
+    "sort_date": "2026-09-18",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/john-crist-live-minneapolis-minnesota-09-18-2026/event/0600646BA972CB9D",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -11890,6 +13466,16 @@
     "supports": [
       "The Get Up\u00a0Kids"
     ]
+  },
+  {
+    "title": "Small Town Murder Podcast",
+    "sort_date": "2026-09-19",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/small-town-murder-podcast-minneapolis-minnesota-09-19-2026/event/06006375B7BD689C",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Hulvey",
@@ -12021,6 +13607,16 @@
     "supports": []
   },
   {
+    "title": "Tom Papa: Grateful Bread Tour",
+    "sort_date": "2026-09-26",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/tom-papa-grateful-bread-tour-minneapolis-minnesota-09-26-2026/event/060064739979ABDC",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Beth Orton // The Ground Above",
     "sort_date": "2026-09-26",
     "venue": "The Parkway Theater",
@@ -12059,6 +13655,18 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
+    "sort_date": "2026-09-29",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/artemas-lovercore-getting-up-to-no-minneapolis-minnesota-09-29-2026/event/0600647ECCF5BAC1",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Henry Morris"
+    ]
   },
   {
     "title": "Culture Wars",
@@ -12113,6 +13721,16 @@
     "supports": []
   },
   {
+    "title": "MrBallen: Lights out Live",
+    "sort_date": "2026-10-01",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/mrballen-lights-out-live-minneapolis-minnesota-10-01-2026/event/0600646DA334EF62",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening With They Might Be Giants",
     "sort_date": "2026-10-02",
     "venue": "First Avenue",
@@ -12143,6 +13761,26 @@
     "supports": []
   },
   {
+    "title": "Haute & Freddy's Big Disgrace Tour",
+    "sort_date": "2026-10-03",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/haute-freddys-big-disgrace-tour-minneapolis-minnesota-10-03-2026/event/0600645ADA24D4F0",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Doja Cat - Tour Ma Vie World Tour",
+    "sort_date": "2026-10-04",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-minneapolis-minnesota-10-04-2026/event/0600633A9C4B4C17",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening With They Might Be Giants",
     "sort_date": "2026-10-04",
     "venue": "The Fitzgerald Theater",
@@ -12163,6 +13801,16 @@
     "supports": [
       "Apes of the\u00a0State"
     ]
+  },
+  {
+    "title": "SEX PISTOLS (Steve Jones, Paul Cook, Glen Matlock) feat. Frank Carter",
+    "sort_date": "2026-10-06",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/sex-pistols-steve-jones-paul-cook-minneapolis-minnesota-10-06-2026/event/0600627A09987A9D",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Jim Henson\u2019s Labyrinth: In Concert",
@@ -12197,6 +13845,16 @@
     ]
   },
   {
+    "title": "BECK: RIDE LONESOME TOUR",
+    "sort_date": "2026-10-07",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-minneapolis-minnesota-10-07-2026/event/06006489F2BBC2A3",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Red Leather",
     "sort_date": "2026-10-08",
     "venue": "Amsterdam Bar & Hall",
@@ -12227,6 +13885,16 @@
     "supports": []
   },
   {
+    "title": "Vidura Bandara Rajapaksa: The Paradise Gothic Tour",
+    "sort_date": "2026-10-09",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/vidura-bandara-rajapaksa-the-paradise-gothic-minneapolis-minnesota-10-09-2026/event/06006489D0DF5695",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Roger Clyne & The Peacemakers",
     "sort_date": "2026-10-10",
     "venue": "Turf Club",
@@ -12237,12 +13905,42 @@
     "supports": []
   },
   {
+    "title": "World Ballet Company: Swan Lake With A LIVE Orchestra",
+    "sort_date": "2026-10-11",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/world-ballet-company-swan-lake-with-minneapolis-minnesota-10-11-2026/event/0600644AA0D87DA2",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Undertale - The Determination Symphony World Tour",
+    "sort_date": "2026-10-12",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-world-tour-minneapolis-minnesota-10-12-2026/event/0600647A01555915",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jazz at Lincoln Center Orchestra",
     "sort_date": "2026-10-13",
     "venue": "Orchestra Hall",
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/jazz-at-lincoln-center-orchestra-2026",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "STING 3.0 Tour",
+    "sort_date": "2026-10-13",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/sting-30-tour-minneapolis-minnesota-10-13-2026/event/06006457B542E3D6",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12277,6 +13975,16 @@
     "supports": []
   },
   {
+    "title": "STING 3.0 Tour",
+    "sort_date": "2026-10-14",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/sting-30-tour-minneapolis-minnesota-10-14-2026/event/06006457B546E3D9",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Conor Janda",
     "sort_date": "2026-10-14",
     "venue": "The Parkway Theater",
@@ -12304,6 +14012,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Ben Schwartz and Friends",
+    "sort_date": "2026-10-15",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/ben-schwartz-and-friends-minneapolis-minnesota-10-15-2026/event/06006471BFBDE79C",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12336,6 +14054,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Disney Worlds Collide Concert Tour",
+    "sort_date": "2026-10-18",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-SOS",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12393,6 +14121,16 @@
     ]
   },
   {
+    "title": "Outlander In Concert: Echoes Through the Highlands",
+    "sort_date": "2026-10-22",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/outlander-in-concert-echoes-through-the-minneapolis-minnesota-10-22-2026/event/06006471C993F896",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "IAN SWEET",
     "sort_date": "2026-10-23",
     "venue": "7th St Entry",
@@ -12413,6 +14151,28 @@
     "supports": [
       "Ariel J."
     ]
+  },
+  {
+    "title": "Zac Brown Band w/ Brothers Osborne",
+    "sort_date": "2026-10-23",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwqO",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Brothers Osborne"
+    ]
+  },
+  {
+    "title": "Buena Vista Orchestra",
+    "sort_date": "2026-10-24",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/buena-vista-orchestra-minneapolis-minnesota-10-24-2026/event/060064633203AFEF",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Ben Folds",
@@ -12451,6 +14211,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/young-peoples/peter-and-the-wolf",
     "sold_out": false,
     "time": "10am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "JOSH THOMAS: JIGGLE, JIGGLE",
+    "sort_date": "2026-10-28",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/josh-thomas-jiggle-jiggle-minneapolis-minnesota-10-28-2026/event/06006464025D8529",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -12494,6 +14264,19 @@
     "doors": "6:30pm",
     "supports": [
       "OTNES"
+    ]
+  },
+  {
+    "title": "SOMBR - You Are The Reason Tour",
+    "sort_date": "2026-11-01",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "The Last Dinner Party",
+      "Hannah Jadagu"
     ]
   },
   {
@@ -12551,12 +14334,32 @@
     "supports": []
   },
   {
+    "title": "Justin Willman: One For The Ages Tour",
+    "sort_date": "2026-11-05",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/justin-willman-one-for-the-ages-minneapolis-minnesota-11-05-2026/event/0600647FB96FC654",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Musical Tales of Hans Christian Andersen",
     "sort_date": "2026-11-08",
     "venue": "Orchestra Hall",
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/family-sensory-friendly/the-musical-tales-of-hans-christian-andersen",
     "sold_out": false,
     "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Choir! Choir! Choir! Presents: Landslide: Epic Fleetwood Mac Singalong",
+    "sort_date": "2026-11-11",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/choir-choir-choir-presents-landslide-epic-minneapolis-minnesota-11-11-2026/event/06006469F1EC17D3",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -12611,6 +14414,19 @@
     "supports": []
   },
   {
+    "title": "The Best of Steve Martin & Martin Short",
+    "sort_date": "2026-11-14",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/the-best-of-steve-martin-martin-minneapolis-minnesota-11-14-2026/event/0600631BEA44858D",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": [
+      "Jeff Babko",
+      "Steep Canyon Rangers"
+    ]
+  },
+  {
     "title": "CHAN",
     "sort_date": "2026-11-14",
     "venue": "Skyway Theatre",
@@ -12651,6 +14467,16 @@
     "supports": []
   },
   {
+    "title": "The Bald and the Beautiful LIVE: Very Bald, Very Beautiful",
+    "sort_date": "2026-11-20",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/the-bald-and-the-beautiful-live-minneapolis-minnesota-11-20-2026/event/06006466D8C6C5F3",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Andrew Bird",
     "sort_date": "2026-11-21",
     "venue": "Orchestra Hall",
@@ -12679,6 +14505,52 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Blue October: Foiled 20th Anniversary World Tour",
+    "sort_date": "2026-12-04",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-minneapolis-minnesota-12-04-2026/event/06006472DC001BE4",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "NUTCRACKER! Magical Christmas Ballet",
+    "sort_date": "2026-12-04",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-minneapolis-minnesota-12-04-2026/event/06006473F219702B",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "The Former Moscow Ballet",
+      "The Nutcracker"
+    ]
+  },
+  {
+    "title": "Martin Amini",
+    "sort_date": "2026-12-05",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/martin-amini-minneapolis-minnesota-12-05-2026/event/060064878510588A",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "NUTCRACKER! Magical Christmas Ballet",
+    "sort_date": "2026-12-05",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-minneapolis-minnesota-12-05-2026/event/06006473F21F7036",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": [
+      "The Former Moscow Ballet",
+      "The Nutcracker"
+    ]
   },
   {
     "title": "A Charlie Brown Christmas",
@@ -12728,6 +14600,26 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Bluey's Big Play",
+    "sort_date": "2026-12-12",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/blueys-big-play-minneapolis-minnesota-12-12-2026/event/06006466E138E61A",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluey's Big Play",
+    "sort_date": "2026-12-13",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/blueys-big-play-minneapolis-minnesota-12-13-2026/event/06006466E148E658",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
     "supports": []
   },
   {
