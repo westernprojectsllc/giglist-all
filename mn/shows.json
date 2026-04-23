@@ -866,35 +866,13 @@
     ]
   },
   {
-    "title": "David Robinson & the Dedicated Friends",
-    "sort_date": "2026-04-22",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/davidrobinsonmusic?igsh=MXJmaTkyOGxyejY4ZA==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-04-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Uncle Kenny"
-    ]
-  },
-  {
     "title": "Dopethrone",
     "sort_date": "2026-04-22",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-dopethrone/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Year of the Cobra",
       "DUG"
@@ -906,41 +884,11 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-04-malevolence-and-guilt-trip/",
     "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Chamber"
     ]
-  },
-  {
-    "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
-    "sort_date": "2026-04-22",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/mn-songwriter-showcase-hosted-by-nick-hensley-free",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cherry Pit Open Jam",
-    "sort_date": "2026-04-22",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-april-22-2026",
-    "sold_out": false,
-    "time": "10:15pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "WirBaeck",
-    "sort_date": "2026-04-22",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/wirbaeck-april-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Jorma Kaukonen & John Hurlbut",
@@ -953,48 +901,13 @@
     "supports": []
   },
   {
-    "title": "Accordo, Presented by the Schubert Club",
-    "sort_date": "2026-04-22",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/4895/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Slaughter To Prevail: North America 2026 with Whitechapel &#038; Attila",
-    "sort_date": "2026-04-22",
-    "venue": "Myth Live",
-    "url": "https://mythlive.com/event/slaughter-to-prevail-north-america-2026-with-whitechapel-attila/myth-live/st-paul-minnesota/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "lovergirl x Viscacha",
-    "sort_date": "2026-04-22",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-lovergirl-4-22-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "lovergirl",
-      "Viscacha",
-      "melpome",
-      "hercastle"
-    ]
-  },
-  {
     "title": "Oh Wonder",
     "sort_date": "2026-04-22",
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-04-oh-wonder/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "WRABEL"
     ]
@@ -1005,52 +918,12 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-04-essenger/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Echos",
       "North\u00a0Innsbruck"
     ]
-  },
-  {
-    "title": "Luis Elizondo - Persona Non Grata Tour",
-    "sort_date": "2026-04-22",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/luis-elizondo-persona-non-grata-tour-minneapolis-minnesota-04-22-2026/event/06006458C65DDA7F",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-04-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-5/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Momzilla w. Spiderlily, One Big Quilt",
-    "sort_date": "2026-04-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/momzilla-w-spiderlily-one-big-quilt/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Modern Wildlife, Echo Pilot (TN), & Wish Wash",
-    "sort_date": "2026-04-22",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/a43e9d6fae57",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Debbie Briggs Vintage Jazz",
@@ -3523,6 +3396,16 @@
     "supports": []
   },
   {
+    "title": "Catfish Troy",
+    "sort_date": "2026-05-04",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/catfish-troy/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Metal Mondays",
     "sort_date": "2026-05-04",
     "venue": "White Squirrel",
@@ -5149,6 +5032,16 @@
     ]
   },
   {
+    "title": "Pastrami w/ Heliotrope",
+    "sort_date": "2026-05-14",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11339/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
     "sort_date": "2026-05-14",
     "venue": "Orchestra Hall",
@@ -6581,10 +6474,10 @@
     "supports": []
   },
   {
-    "title": "The Real Chuck NORAD",
+    "title": "Last Chance For Love",
     "sort_date": "2026-05-24",
     "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=61557848086888&mibextid=JRoKGi",
+    "url": "https://www.instagram.com/last.chance.for.love?igsh=MWQyZGR5cHU2ZWZpag==",
     "sold_out": false,
     "time": "7:00pm",
     "doors": null,
@@ -6673,6 +6566,16 @@
       "One Big Quilt",
       "Critterthing"
     ]
+  },
+  {
+    "title": "Slaphazard",
+    "sort_date": "2026-05-25",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/slaphazard/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "The Midnight Movers",
@@ -9135,7 +9038,7 @@
     "supports": []
   },
   {
-    "title": "Axel & Betty",
+    "title": "Axel & Betty w. Derek Callendar & The Billytown Wanglers",
     "sort_date": "2026-06-17",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/axel-betty/",
@@ -9151,16 +9054,6 @@
     "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-5/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "St Paul Mudsteppers",
-    "sort_date": "2026-06-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/st-paul-mudsteppers-8/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -9375,7 +9268,7 @@
     "supports": []
   },
   {
-    "title": "Hunny Bear",
+    "title": "Yazzfest: Hunny Bear w. EFMI, Astronomy Town",
     "sort_date": "2026-06-19",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/hunny-bear/",
@@ -9566,6 +9459,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
     "sold_out": false,
     "time": "10:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cootie Catcher, TBA",
+    "sort_date": "2026-06-21",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/Pfe312ab4576",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -9873,7 +9776,7 @@
     "supports": []
   },
   {
-    "title": "Guest Rooms",
+    "title": "Guest Rooms w. Polite Dept, Physics",
     "sort_date": "2026-06-24",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/guest-rooms/",
@@ -10061,6 +9964,18 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Mel Bryant & the Mercy Makers",
+    "sort_date": "2026-06-27",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-mel-bryant-the-mercy-makers-6-27-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "June Henry"
+    ]
   },
   {
     "title": "The Secret Sisters // Night Two",
@@ -11652,6 +11567,16 @@
     "url": "https://whitesquirrelbar.com/event/valleykil/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "SLEEPYTIME GORILLA MUSEUM with Wendy Eisenberg",
+    "sort_date": "2026-07-25",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/sleepytime-gorilla-museum",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -13446,6 +13371,16 @@
     ]
   },
   {
+    "title": "Death Of The Heron",
+    "sort_date": "2026-09-18",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/death-of-the-heron/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "First Avenue presents ALDOUS HARDING",
     "sort_date": "2026-09-19",
     "venue": "Cedar Cultural Center",
@@ -13895,6 +13830,16 @@
     "supports": []
   },
   {
+    "title": "SYML",
+    "sort_date": "2026-10-10",
+    "venue": "Cedar Cultural Center",
+    "url": "https://first-avenue.com/event/2026-10-syml/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Roger Clyne & The Peacemakers",
     "sort_date": "2026-10-10",
     "venue": "Turf Club",
@@ -13902,6 +13847,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "EMEI - Night at the Opera Tour",
+    "sort_date": "2026-10-10",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/emei-night-at-the-opera-tour-minneapolis-minnesota-10-10-2026/event/06006496D7D16357",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
