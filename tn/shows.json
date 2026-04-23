@@ -1,20 +1,10 @@
 [
   {
-    "title": "BACKSTAGE AT 3RD: Songs And Stories with Gordon Kennedy",
-    "sort_date": "2026-04-22",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/backstage-at-3rd-songs-and-3rd-and-lindsley-tickets/14799873",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sam Lewis + Elles Bailey",
     "sort_date": "2026-04-22",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/sam-lewis-elles-bailey-3rd-and-lindsley-tickets/14751363",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
     "doors": null,
     "supports": [
@@ -33,26 +23,6 @@
       "Carpenter Brut",
       "Desire"
     ]
-  },
-  {
-    "title": "Aesthetic Perfection | PRIEST | Julien-K",
-    "sort_date": "2026-04-22",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-aesthetic-perfection-priest-julien-k/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-04-22",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxkp",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Curren$y: The Winners Circle Tour w/ Fendi P, and Stoney Jackson",
@@ -75,42 +45,12 @@
     "supports": []
   },
   {
-    "title": "Lindsey Miller w/ Chris Donahue, Mark Douthit, Josh Hunt, Mike Rojas",
-    "sort_date": "2026-04-22",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/f05a9e02-53ae-4a6a-967b-99c7dccff61d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Regi Wooten & Friends",
-    "sort_date": "2026-04-22",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/7213cab1-9f06-47bf-8968-080702507e00",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Kruse Brothers x Cole Phillips",
     "sort_date": "2026-04-22",
     "venue": "Skinny Dennis",
     "url": "https://dice.fm/event/3o6nyv-kruse-brothers-x-cole-phillips-22nd-apr-skinny-dennis-nashville-nashville-tickets",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Oh Me Oh My",
-    "sort_date": "2026-04-22",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/sheriff-scott-the-deputies-2/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -129,7 +69,7 @@
     "sort_date": "2026-04-22",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/georgia-parker-w-your-friend-the-basement-tickets/14744113",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -153,18 +93,6 @@
     "time": "6:30pm",
     "doors": "6pm",
     "supports": []
-  },
-  {
-    "title": "Gov't Mule & Larkin Poe",
-    "sort_date": "2026-04-22",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-A3Z",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Larkin Poe"
-    ]
   },
   {
     "title": "Lightning 100's Music City Mayhem - The Live Finale featuring Meadowglade , Eleni Iglesias , The New Tropics , Kyndle Wylde & Wild Card: Kara Frazier",
@@ -289,7 +217,7 @@
     "supports": []
   },
   {
-    "title": "Robyn Hitchcock Live And Electric - Full Band Show with support from Jeremy Fetzer and Eric Slick",
+    "title": "Robyn Hitchcock Live And Electric - Full Band Show with support from Eric Slick",
     "sort_date": "2026-04-23",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/robyn-hitchcock-live-and-electric-the-basement-east-tickets/13989794",
@@ -513,10 +441,10 @@
     "supports": []
   },
   {
-    "title": "SOLD OUT: GUILTY PLEASURES: THE FINAL COUNTDOWN!",
+    "title": "SOLD OUT : GUILTY PLEASURES: THE FINAL COUNTDOWN!",
     "sort_date": "2026-04-25",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sold-out-guilty-pleasures-the-3rd-and-lindsley-tickets/13985234",
+    "url": "https://www.ticketweb.com/event/sold-out-guilty-pleasures-3rd-and-lindsley-tickets/13985234",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -1385,6 +1313,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring India Ramey , Maisy Owen & Kara Grainger",
+    "sort_date": "2026-05-01",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-india-ramey-3rd-and-lindsley-tickets/14872703",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bailey Zimmerman: Different Night Same Rodeo Tour 2026",
     "sort_date": "2026-05-01",
     "venue": "Ascend Amphitheater",
@@ -1837,6 +1775,16 @@
     "supports": []
   },
   {
+    "title": "Blue Willow | Byrd Whystle | Jude Mauk | Mercy Hanson",
+    "sort_date": "2026-05-03",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-blue-willow-byrd-whystle-jude-mauk-mercy-hanson/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Strings & Heart - Plastic Wine Tour Pt. III",
     "sort_date": "2026-05-03",
     "venue": "Exit/In",
@@ -2122,6 +2070,16 @@
     "url": "https://stationinn.com/event/troubadour-blue/2026-05-05/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FREE SHOW! Austin Mackay",
+    "sort_date": "2026-05-05",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-austin-mackay-the-basement-tickets/14873113",
+    "sold_out": false,
+    "time": "5:30pm",
     "doors": null,
     "supports": []
   },
@@ -2507,6 +2465,16 @@
     "url": "https://www.ticketweb.com/event/resurrection-a-journey-tribute-3rd-and-lindsley-tickets/14089404",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "WMOT Finally Friday featuring Aubrie Sellers , Jess Woodland & Yates McKendree",
+    "sort_date": "2026-05-08",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-aubrie-sellers-3rd-and-lindsley-tickets/14872723",
+    "sold_out": false,
+    "time": "12pm",
     "doors": null,
     "supports": []
   },
@@ -3586,6 +3554,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring Sicard Hollow , Cole Ritter & Chicago Farmer",
+    "sort_date": "2026-05-15",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-sicard-hollow-3rd-and-lindsley-tickets/14872743",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Behemoth: The Godless IV 2026",
     "sort_date": "2026-05-15",
     "venue": "Brooklyn Bowl Nashville",
@@ -3800,6 +3778,16 @@
     "supports": [
       "Hollyn"
     ]
+  },
+  {
+    "title": "CritterBrain | L.I.P.S. | Rotten Luck | Barcode",
+    "sort_date": "2026-05-16",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-critterbrain-l-i-p-s-rotten-luck-barcode/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Roots Academy Presents: Onstage Band Show",
@@ -4267,10 +4255,10 @@
     "supports": []
   },
   {
-    "title": "Freedom Junction w/ Izzy Mahobi",
+    "title": "Freedom Junction w/ Izzy Mahoubi",
     "sort_date": "2026-05-20",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/freedom-junction-w-izzy-mahobi-the-basement-tickets/14859383",
+    "url": "https://www.ticketweb.com/event/freedom-junction-w-izzy-mahoubi-the-basement-tickets/14859383",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -4337,6 +4325,16 @@
     "supports": []
   },
   {
+    "title": "Tyson Leslie w/ Sunflower Fox & The Chicken and Rachel Rodriguez & The Gringo Starrz",
+    "sort_date": "2026-05-21",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/tyson-leslie-w-sunflower-fox-the-basement-tickets/14870273",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jarrod Walker",
     "sort_date": "2026-05-21",
     "venue": "The Basement East",
@@ -4378,6 +4376,18 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "WMOT Finally Friday featuring Lynne Hanson , The Montvales & ISMAY",
+    "sort_date": "2026-05-22",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-lynne-hanson-3rd-and-lindsley-tickets/14872763",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": [
+      "Ismay"
+    ]
   },
   {
     "title": "Chrisette Michele Grounding Room Only Tour",
@@ -5111,6 +5121,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring Sibling Wars , Golden Everything & Wily",
+    "sort_date": "2026-05-29",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-sibling-wars-3rd-and-lindsley-tickets/14872773",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Music City Rodeo followed by Charley Crockett | A PRCA ProRodeo",
     "sort_date": "2026-05-29",
     "venue": "Bridgestone Arena",
@@ -5249,6 +5269,16 @@
     "sort_date": "2026-05-29",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/shawn-lane-the-lane-brothers-3/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Laney Jones and the Spirits w/ Max Langlinais and Father Sunn",
+    "sort_date": "2026-05-29",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/laney-jones-and-the-spirits-the-basement-tickets/14858893",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -7016,6 +7046,16 @@
     "supports": []
   },
   {
+    "title": "THE TAYLOR PARTY: TAYLOR SWIFT NIGHT",
+    "sort_date": "2026-06-13",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/the-taylor-party-taylor-swift-the-basement-east-tickets/14862553",
+    "sold_out": true,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: Modern Alibi \u2013 18+",
     "sort_date": "2026-06-13",
     "venue": "The End",
@@ -8356,6 +8396,16 @@
     "supports": []
   },
   {
+    "title": "Johny Jackson's Soul Satisfaction",
+    "sort_date": "2026-06-27",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/johny-jacksons-soul-satisfaction-the-basement-east-tickets/14873063",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: Sewerperson w/ Polearm \u2013 All Ages",
     "sort_date": "2026-06-27",
     "venue": "The End",
@@ -8386,6 +8436,16 @@
     "supports": [
       "Soulidified"
     ]
+  },
+  {
+    "title": "Skyway 61 | Between the 4th and 5th | Love Scar",
+    "sort_date": "2026-06-28",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-skyway-61-between-the-4th-and-5th-love-scar/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Sonido Gallo Negro",
@@ -10269,6 +10329,16 @@
     ]
   },
   {
+    "title": "Jimmy Hall & The Prisoners of Love feat Kenny Greenberg with The Jack Ruch Trio",
+    "sort_date": "2026-08-07",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/jimmy-hall-the-prisoners-3rd-and-lindsley-tickets/14872443",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "IDKCAP, Bloody!, st47ic, drq, hegot556, persecutedbyothers, maliceman, drxl, coolantlers",
     "sort_date": "2026-08-07",
     "venue": "DRKMTTR",
@@ -11465,6 +11535,18 @@
     "doors": null,
     "supports": [
       "Maggie Rose"
+    ]
+  },
+  {
+    "title": "Ensiferum",
+    "sort_date": "2026-09-11",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/ensiferum-exitin-tickets/14863913",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Firewind"
     ]
   },
   {
@@ -13083,6 +13165,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6eA",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Milk Carton Kids Fall Tour",
+    "sort_date": "2026-11-08",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1414710/the-milk-carton-kids-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -16141,6 +16233,26 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-04-17/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluegrass Jam",
+    "sort_date": "2028-04-23",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2028-04-23/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sunday Gospel with Val Storey & Larry Cordle",
+    "sort_date": "2028-04-23",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/56270/2028-04-23/",
+    "sold_out": false,
+    "time": "3pm",
     "doors": null,
     "supports": []
   }
