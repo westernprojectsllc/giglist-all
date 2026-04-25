@@ -1,199 +1,5 @@
 [
   {
-    "title": "Jonell Mosser & Friends featuring Kentucky Thunder & Special Guests",
-    "sort_date": "2026-04-24",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/jonell-mosser-kentucky-thunder-special-3rd-and-lindsley-tickets/14773313",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Kentucky Thunder"
-    ]
-  },
-  {
-    "title": "WMOT Finally Friday featuring Amanda Shaw , The Youngers & Ruby James",
-    "sort_date": "2026-04-24",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/wmot-finally-friday-amanda-shaw-3rd-and-lindsley-tickets/14796543",
-    "sold_out": false,
-    "time": "12pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cozy Worldwide: Throwback and Current R&B / Hip Hop Party - 21+",
-    "sort_date": "2026-04-24",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/cozy-worldwide-throwback-and-current-rb-nashville-tennessee-04-24-2026/event/1B006454E567D161",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Front Bar: FCS Soundsystem presents BOVVER BOUVLEVARD",
-    "sort_date": "2026-04-24",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-fcs-soundsystem-presents-bovver-bouvlevard/",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Southside Vizzy w/ Jack Vinoy, Taj.ai and Mike Bandanna",
-    "sort_date": "2026-04-24",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/southside-vizzy-w-jack-vinoy-tajai-and-mike-bandana-24-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-04-24",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxk4",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "I LOVE YOU BUT... I CHOSE THE MAINE",
-    "sort_date": "2026-04-24",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/i-love-you-but-i-marathon-music-works-tickets/13967914",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Grayscale"
-    ]
-  },
-  {
-    "title": "Live From Nashville",
-    "sort_date": "2026-04-24",
-    "venue": "Marathon Music Works",
-    "url": "https://veeps.com/themaine/2e81e880-7660-47dd-bc04-b67cb3ae0fae",
-    "sold_out": false,
-    "time": "9:10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Andruss",
-    "sort_date": "2026-04-24",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/andruss?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cliff Richmond & The CliffNotes",
-    "sort_date": "2026-04-24",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/67228554-7fd4-4187-8c10-ab7486513e6d",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Geoff Pfeifer Quartet",
-    "sort_date": "2026-04-24",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/976a1b1d-7821-4843-bb3f-3991c1a06ca6",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Pat Coil Quartet w/ Miguel Alvarado, Ryan Brasley & Craig Akin",
-    "sort_date": "2026-04-24",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/eb183b19-e031-42b0-9f19-aed46c319ee0",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ben Rector",
-    "sort_date": "2026-04-24",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7_ga3",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brandon Lee Adams $20",
-    "sort_date": "2026-04-24",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/brandon-lee-adams/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Electric Python, Video Vixen and Savage Attack",
-    "sort_date": "2026-04-24",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/electric-python-video-vixen-and-the-basement-tickets/14858333",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nicholas Jamerson",
-    "sort_date": "2026-04-24",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/nicholas-jamerson-the-basement-tickets/14124844",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Driveways w/ Have Mercy & Eternal Boy",
-    "sort_date": "2026-04-24",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/driveways-w-have-mercy-the-basement-east-tickets/14072524",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Greensky Bluegrass in The Caverns",
-    "sort_date": "2026-04-24",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/greensky-bluegrass-in-the-caverns",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Legacy Concerts Presents: Bike Routes w/ Innerlove, Keanu Savas, Blind Matador \u2013 18+",
-    "sort_date": "2026-04-24",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-bike-routes-w-innerlove-keanu-savas-blind-matador-18/the-end/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
     "title": "SOLD OUT : BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Jim Collins , Don Sampson , Johnny Clawson & Ray Stephenson + Maura Streppa",
     "sort_date": "2026-04-25",
     "venue": "3rd & Lindsley",
@@ -783,7 +589,7 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat. Abigail Wall, Ryan Koronich, Ella Ferguson, Lightwatch, Thistle Ridge Band, NORA. and Fleur",
+    "title": "New Faces Night feat. Abigail Wall, Ryan Koronich, Julia Barfield, Ella Ferguson, Lightwatch, Thistle Ridge Band, NORA. and Fleur",
     "sort_date": "2026-04-28",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-abigail-the-basement-tickets/13983304",
@@ -2546,6 +2352,16 @@
     "supports": []
   },
   {
+    "title": "Transgender Jam Bender",
+    "sort_date": "2026-05-09",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/transgender-jam-bender-09-may",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The '58: Rebirth Brass Band (18+ Event)",
     "sort_date": "2026-05-09",
     "venue": "Eastside Bowl",
@@ -2826,6 +2642,16 @@
     "supports": [
       "Hotline TNT"
     ]
+  },
+  {
+    "title": "Apocalyptica Plays Metallica Vol. 2 in The Caverns",
+    "sort_date": "2026-05-10",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/apocalyptica-plays-metallica-vol-2-in-the-caverns",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": "5pm",
+    "supports": []
   },
   {
     "title": "Legacy Concerts Presents: VCTMS w/ Bitter Breath, Weighed Down- 18+",
@@ -4078,10 +3904,10 @@
     "supports": []
   },
   {
-    "title": "Mixtape x Noise Pollution: The Music of AC/DC",
+    "title": "Mixtape: 80's Tribute x Noise Pollution: The Music of AC/DC",
     "sort_date": "2026-05-20",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/mixtape-x-noise-pollution-the-the-basement-east-tickets/14834373",
+    "url": "https://www.ticketweb.com/event/mixtape-80s-tribute-x-noise-the-basement-east-tickets/14834373",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -4095,6 +3921,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Jonell Mosser & Friends",
+    "sort_date": "2026-05-21",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/jonell-mosser-friends-3rd-and-lindsley-tickets/14880383",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -4954,6 +4790,16 @@
     "supports": []
   },
   {
+    "title": "SIXWIRE & FRIENDS",
+    "sort_date": "2026-05-29",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/sixwire-friends-3rd-and-lindsley-tickets/14875263",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "WMOT Finally Friday featuring Sibling Wars , Golden Everything & Wily",
     "sort_date": "2026-05-29",
     "venue": "3rd & Lindsley",
@@ -5128,7 +4974,7 @@
     "supports": []
   },
   {
-    "title": "Boot Scootin' Boogie Nights",
+    "title": "Boot Scootin' Boogie Nights - A Night of 90's Country",
     "sort_date": "2026-05-29",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/boot-scootin-boogie-nights-the-basement-east-tickets/14180034",
@@ -8278,7 +8124,7 @@
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/johny-jacksons-soul-satisfaction-the-basement-east-tickets/14873063",
     "sold_out": true,
-    "time": "8pm",
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -8293,10 +8139,10 @@
     "supports": []
   },
   {
-    "title": "The Cold Stares",
+    "title": "The Cold Stares with Corey Congilio",
     "sort_date": "2026-06-28",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-cold-stares-3rd-and-lindsley-tickets/14115474",
+    "url": "https://www.ticketweb.com/event/the-cold-stares-corey-congilio-3rd-and-lindsley-tickets/14115474",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -8539,10 +8385,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: FELICITY \u2013 ALL AGES",
+    "title": "Legacy Concerts Presents: FELICITY w/ Penny Lame and Greyson Zane \u2013 ALL AGES",
     "sort_date": "2026-07-02",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-felicity-all-ages/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-felicity-w-penny-lame-and-greyson-zane-all-ages/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -10864,6 +10710,16 @@
     "supports": []
   },
   {
+    "title": "World Turning Band \u201cThe Live Fleetwood Mac Experience\"",
+    "sort_date": "2026-08-22",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/world-turning-band-the-live-3rd-and-lindsley-tickets/14872473",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Megan Moroney: The Cloud 9 Tour",
     "sort_date": "2026-08-22",
     "venue": "Bridgestone Arena",
@@ -10995,6 +10851,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxeb",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cloe Wilder",
+    "sort_date": "2026-08-26",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/cloe-wilder-the-basement-tickets/14869723",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -12470,7 +12336,7 @@
     "sort_date": "2026-10-11",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/golden-a-k-pop-kids-the-basement-east-tickets/14862533",
-    "sold_out": true,
+    "sold_out": false,
     "time": "11am",
     "doors": null,
     "supports": []
@@ -12568,6 +12434,16 @@
     "supports": [
       "Ariel J."
     ]
+  },
+  {
+    "title": "Melonious Funk",
+    "sort_date": "2026-10-17",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/melonious-funk-exitin-tickets/14879843",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Grand Ole Opry: OPRY 100",

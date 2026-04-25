@@ -940,36 +940,6 @@
     ]
   },
   {
-    "title": "Mamas Ignite Collective presents ROOTED IN JOY AND TRUTH",
-    "sort_date": "2026-04-23",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/mamas-ignite-collective-presents-rooted-in-joy-and-truth",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Black Violin: Full Circle Tour",
-    "sort_date": "2026-04-23",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/black-violin-full-circle-tour/2026-04-23/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "VIP Event: Black Violin: Full Circle Tour",
-    "sort_date": "2026-04-23",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/vip-event-black-violin-full-circle-tour/2026-04-23/",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Rochelle Jordan",
     "sort_date": "2026-04-23",
     "venue": "Fine Line",
@@ -1028,98 +998,16 @@
     ]
   },
   {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-04-24",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "USPOP",
-    "sort_date": "2026-04-24",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/uspopband?igsh=eWd4ejN6cnlsZ2Yz",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Pageant Dress"
-    ]
-  },
-  {
     "title": "Slomosa",
     "sort_date": "2026-04-24",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-slomosa/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "The Mainliners"
     ]
-  },
-  {
-    "title": "Friday 4/24 - Wilkinson James: Album Anniversary ($15 Cover)",
-    "sort_date": "2026-04-24",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/4-24-wilkinson-james-a-night-of-abandon-anniversary-15-cover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Sarah Navratil Trio",
-    "sort_date": "2026-04-24",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-sarah-navratil-trio-april-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jonah Walt Fusion Quintet",
-    "sort_date": "2026-04-24",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/jonah-walt-fusion-quintet",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Sole2dotz",
-    "sort_date": "2026-04-24",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/sole2dotz-april-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "An Evening with KELLY MORAN",
-    "sort_date": "2026-04-24",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/an-evening-with-kelly-moran",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Penny Peaches, Rianna Marie, J.R. Wesley",
-    "sort_date": "2026-04-24",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/V2944fc36d49",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Black Violin: Full Circle Tour",
@@ -1147,8 +1035,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-04-earlybirds-club/",
     "sold_out": false,
-    "time": "6pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -1157,61 +1045,11 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-04-oklou/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Vickie Cherie"
     ]
-  },
-  {
-    "title": "sunpearl Release Show",
-    "sort_date": "2026-04-24",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10605/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tech N9ne / E-40",
-    "sort_date": "2026-04-24",
-    "venue": "Myth Live",
-    "url": "https://mythlive.com/event/tech-n9ne-e-40/myth-live/st-paul-minnesota/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Brahms Symphony No. 4",
-    "sort_date": "2026-04-24",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/brahms-symphony-no-4",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Manic Focus + Sunsquabi",
-    "sort_date": "2026-04-24",
-    "venue": "Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/sunsquabi-x-manic-focus/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: jeremy messersmith Fox/Coyote Album Show with special guest anni xo",
-    "sort_date": "2026-04-24",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/I8ebf7f2fc93",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
   },
   {
     "title": "Grieves",
@@ -1219,68 +1057,12 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-04-grieves/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "The Street Sweepers",
       "Cuauhtli"
     ]
-  },
-  {
-    "title": "Sebastian's 30th SeaBash: DJ EVE \u2022 UV BLONDE \u2022 HOT TOPIC FAN CLUB \u2022 SERENITY \u2022 DJ SALAD \u2022 beer pong tournament by FERAL DANCE",
-    "sort_date": "2026-04-24",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/sebastian-s-30th-seabash-dj-eve-uv-blonde-hot-topic-fan-club-serenity-dj-salad-beer-pong-tournament-by-feral-dance-april-24-2026-686260",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": [
-      "Serenity",
-      "Hot Topic Fan Club",
-      "DJ Salad",
-      "UV Blonde",
-      "DJ EVE"
-    ]
-  },
-  {
-    "title": "Jaboukie Young-White",
-    "sort_date": "2026-04-24",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/jaboukie-youngwhite-minneapolis-minnesota-04-24-2026/event/06006434F273D483",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Darkling I Listen w. Hadori & Desolation Plain",
-    "sort_date": "2026-04-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/kymani-orwenyo/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-04-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-5/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mayfly Moon, Portside Dive, Sunsets Over Flowers, & Golden Satellite",
-    "sort_date": "2026-04-24",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/y462c7852b47",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Drinkin\u2019 Spelling Bee",
@@ -2085,6 +1867,16 @@
     "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-april-29-2026",
     "sold_out": false,
     "time": "10:15pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Joey Alexander",
+    "sort_date": "2026-04-29",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/joey-alexander-apr29-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -3816,7 +3608,10 @@
     "sold_out": false,
     "time": "10:00pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "DeTrell Melodies",
+      "The Sol Tribe"
+    ]
   },
   {
     "title": "Movie and Music Trivia",
@@ -6125,7 +5920,7 @@
     "supports": []
   },
   {
-    "title": "Portrayal of Guilt (TX) w/ Street Sects (TX) & Halloween (PA)",
+    "title": "Portrayal of Guilt (TX) w/ Street Sects (TX), Halloween (PA), & Giallo",
     "sort_date": "2026-05-21",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/Rea8890ad934",
@@ -6221,6 +6016,19 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Fiona Hayes",
+    "sort_date": "2026-05-22",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-fiona-hayes-5-22-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Surly Grrly",
+      "Honey Grl"
+    ]
   },
   {
     "title": "MADVKTM",
@@ -6418,16 +6226,6 @@
     "supports": []
   },
   {
-    "title": "Oakes Family Scholarship Show w. Lily Blue",
-    "sort_date": "2026-05-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/oakes-family-scholarship-show-w-lily-blue/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Topiary Blush",
     "sort_date": "2026-05-23",
     "venue": "White Squirrel",
@@ -6532,6 +6330,16 @@
     "sort_date": "2026-05-25",
     "venue": "331 Club",
     "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Deslondes, Michael Gay, and Kiki Cavazos.",
+    "sort_date": "2026-05-25",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/10359/",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -6682,6 +6490,19 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Svet",
+    "sort_date": "2026-05-27",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-svet-5-27-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Silent Monday",
+      "Aphid"
+    ]
   },
   {
     "title": "Weird Nightmare",
@@ -7836,7 +7657,7 @@
     "supports": []
   },
   {
-    "title": "TURN TURN TURN with Triple Fiddle",
+    "title": "TURN TURN TURN with Triple Fiddle (EP Release show)",
     "sort_date": "2026-06-05",
     "venue": "Cedar Cultural Center",
     "url": "https://www.thecedar.org/events/turn-turn-turn-with-triple-fiddle",
@@ -8116,16 +7937,6 @@
     "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Corpse Reviver",
-    "sort_date": "2026-06-07",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/19wMwuJQix/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
     "doors": null,
     "supports": []
   },
@@ -9060,6 +8871,19 @@
     "doors": "7pm",
     "supports": [
       "Jobi Riccio"
+    ]
+  },
+  {
+    "title": "Skulls of Tomorrow",
+    "sort_date": "2026-06-17",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-skulls-of-tomorrow-6-17-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "My Kid Banana",
+      "Popsicle Stick"
     ]
   },
   {
@@ -10180,6 +10004,16 @@
     "supports": []
   },
   {
+    "title": "TCXHC Generations ALL AGES (6 bands)",
+    "sort_date": "2026-06-28",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/tcxhc-generations-all-ages-6-bands-june-28-2026-695897",
+    "sold_out": false,
+    "time": "2:30pm",
+    "doors": "1:30pm",
+    "supports": []
+  },
+  {
     "title": "Edith Head",
     "sort_date": "2026-06-28",
     "venue": "White Squirrel",
@@ -10357,6 +10191,19 @@
     "supports": []
   },
   {
+    "title": "If Eye May",
+    "sort_date": "2026-07-02",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-if-eye-may-7-2-2026",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": "5:30pm",
+    "supports": [
+      "John Kerns",
+      "The Sandies"
+    ]
+  },
+  {
     "title": "Emmy Woods",
     "sort_date": "2026-07-02",
     "venue": "White Squirrel",
@@ -10398,6 +10245,20 @@
       "Parasite",
       "Bare Knuckle Brawl",
       "Major Malfunction"
+    ]
+  },
+  {
+    "title": "Cole Diamond",
+    "sort_date": "2026-07-03",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-cole-diamond/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Cowboy Thoughts",
+      "Lone Rock Bride",
+      "Turn Turn\u00a0Turn"
     ]
   },
   {
@@ -11176,6 +11037,18 @@
     ]
   },
   {
+    "title": "TV Star, Makin' Out, Nathan Ma Band",
+    "sort_date": "2026-07-18",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/I16330c3ca15",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Makin\u2019 Out"
+    ]
+  },
+  {
     "title": "Kail Lowry: Fatherless Behavior Tour",
     "sort_date": "2026-07-18",
     "venue": "Fillmore Minneapolis",
@@ -11607,6 +11480,20 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "When the Sun Sets",
+    "sort_date": "2026-07-24",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-when-the-sun-sets-7-24-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Exit 122",
+      "Halfway Down",
+      "Poolside Drive"
+    ]
   },
   {
     "title": "The Mary Cutrufello Band",
@@ -13218,6 +13105,16 @@
     ]
   },
   {
+    "title": "Nick Elstad",
+    "sort_date": "2026-09-02",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/nick-elstad/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Danny Worsnop and Tyler Rich",
     "sort_date": "2026-09-04",
     "venue": "Turf Club",
@@ -13312,6 +13209,19 @@
     ]
   },
   {
+    "title": "FarFarAway",
+    "sort_date": "2026-09-11",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-farfaraway-9-11-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Powerdam",
+      "Radowl"
+    ]
+  },
+  {
     "title": "Dean Johnson",
     "sort_date": "2026-09-11",
     "venue": "Turf Club",
@@ -13361,6 +13271,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Songwriter Showcase",
+    "sort_date": "2026-09-13",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/songwriter-showcase/",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -13778,6 +13698,16 @@
     "supports": []
   },
   {
+    "title": "OPAL IN SKY: Coming Back to America Tour",
+    "sort_date": "2026-10-03",
+    "venue": "Underground Music Venue",
+    "url": "https://www.skeletix.com/4477-opal-in-sky-coming-back-to-america-tour/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Haute & Freddy's Big Disgrace Tour",
     "sort_date": "2026-10-03",
     "venue": "Varsity Theater",
@@ -13948,6 +13878,16 @@
     "url": "https://www.ticketmaster.com/world-ballet-company-swan-lake-with-minneapolis-minnesota-10-11-2026/event/0600644AA0D87DA2",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Songwriter Showcase",
+    "sort_date": "2026-10-11",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/songwriter-showcase-2/",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
@@ -14411,6 +14351,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/family-sensory-friendly/the-musical-tales-of-hans-christian-andersen",
     "sold_out": false,
     "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Songwriter Showcase",
+    "sort_date": "2026-11-08",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/songwriter-showcase-3/",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
