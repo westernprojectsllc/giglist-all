@@ -1,221 +1,5 @@
 [
   {
-    "title": "SOLD OUT : BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Jim Collins , Don Sampson , Johnny Clawson & Ray Stephenson + Maura Streppa",
-    "sort_date": "2026-04-25",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637593",
-    "sold_out": false,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT : GUILTY PLEASURES: THE FINAL COUNTDOWN!",
-    "sort_date": "2026-04-25",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sold-out-guilty-pleasures-3rd-and-lindsley-tickets/13985234",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Microwave - \"Much Love\" 10 Year Anniversary Tour",
-    "sort_date": "2026-04-25",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/microwave-much-love-10-year-anniversary-nashville-tennessee-04-25-2026/event/1B006382DD1DF237",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Anthony Green",
-      "Hunny",
-      "Bad Luck"
-    ]
-  },
-  {
-    "title": "Another Night Another Dream",
-    "sort_date": "2026-04-25",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-another-night-another-dream/",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Front Bar: Kelley Cole | Running Late | Sleep John B",
-    "sort_date": "2026-04-25",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-kelley-cole-running-late-sleep-john-b/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Growler w/ Concrete Paradise, Horse Saturday and 2AM Jake, DJ Lula, DJRX1000, Amazing Experience",
-    "sort_date": "2026-04-25",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/herly-berly-w-concrete-paradise-horse-saturday-and-2am-jake-dj-lula-djrx1000-amazing-experience-25-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "*CANCELLED* Gorilla Zoe",
-    "sort_date": "2026-04-25",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/cancelled-gorilla-zoe-exitin-tickets/14453343",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-04-25",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxkf",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Somma",
-    "sort_date": "2026-04-25",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/somma?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ari and Cecil Alexander Quartet",
-    "sort_date": "2026-04-25",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/170ff550-b7af-4d5c-bdd7-c0e17c542d43",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jonathan Wires Quartet",
-    "sort_date": "2026-04-25",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/b989c498-1e84-4e88-a182-c6882fa264e7",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Ted Ludwig Quartet",
-    "sort_date": "2026-04-25",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/4a299d0f-3c4a-49e8-9a12-9b9a4ba8a65c",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
-    "sort_date": "2026-04-25",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1219983/hayley-williams-tickets?skin=ryman",
-    "sold_out": true,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Water From Your Eyes"
-    ]
-  },
-  {
-    "title": "Ben Rector",
-    "sort_date": "2026-04-25",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7_gaK",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Best of Both Worlds",
-    "sort_date": "2026-04-25",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/best-of-both-worlds/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "TN Warblers",
-    "sort_date": "2026-04-25",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/tn-warblers/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ryan Cooper - Album Release Show",
-    "sort_date": "2026-04-25",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/ryan-cooper-album-the-basement-tickets/14142934",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tom Hamilton Band (from Joe Russo's Almost Dead)",
-    "sort_date": "2026-04-25",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/tom-hamilton-band-from-joe-the-basement-tickets/14153444",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT! In Color w/ Eden Joel",
-    "sort_date": "2026-04-25",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/sold-out-in-color-w-the-basement-east-tickets/13978164",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Greensky Bluegrass in The Caverns",
-    "sort_date": "2026-04-25",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/greensky-bluegrass-in-the-caverns-2",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "*SOLD OUT* Legacy Concerts Presents: Jared Benjamin w/ Harrison Boe \u2013 18+",
-    "sort_date": "2026-04-25",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/sold-out-legacy-concerts-presents-jared-benjamin-w-harrison-boe-18/the-end/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
     "title": "Dave Pomeroy Birthday Bash featuring Charles \"Wigg\" Walker , The McCrary Sisters , Buddy Miller , Emmylou Harris , Pat Bergeson , Annie Sellick , Will Barrow, and more!",
     "sort_date": "2026-04-26",
     "venue": "3rd & Lindsley",
@@ -954,7 +738,7 @@
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/raven-with-special-guest-slackjaw-exitin-tickets/14072094",
     "sold_out": false,
-    "time": "8pm",
+    "time": "7:40pm",
     "doors": null,
     "supports": []
   },
@@ -2862,6 +2646,16 @@
       "NO CURE",
       "Knoll"
     ]
+  },
+  {
+    "title": "American Revival: Underground in Grundy County",
+    "sort_date": "2026-05-12",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/yo-yo-ma-t-bone-burnett-arrested-development-abigail-washburn-nicholas-ma",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
   },
   {
     "title": "Horsebread w/Music By Kota, Rocky Leroe & Max Beal \u2013 18+",

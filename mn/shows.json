@@ -1010,26 +1010,6 @@
     ]
   },
   {
-    "title": "Black Violin: Full Circle Tour",
-    "sort_date": "2026-04-24",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/black-violin-full-circle-tour/2026-04-24/1/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "VIP Event: Black Violin: Full Circle Tour",
-    "sort_date": "2026-04-24",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/vip-event-black-violin-full-circle-tour/2026-04-24/",
-    "sold_out": false,
-    "time": "4pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Earlybirds Club",
     "sort_date": "2026-04-24",
     "venue": "Fine Line",
@@ -1065,36 +1045,13 @@
     ]
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-04-25",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grim Lot",
-    "sort_date": "2026-04-25",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/grim_lot?igsh=MWJ1cDE3Z2p1ODJveg==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Model Model Homes",
-      "Safety Knife"
-    ]
-  },
-  {
     "title": "Rec Hall",
     "sort_date": "2026-04-25",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-rec-hall/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Summerdrive",
       "Greentop"
@@ -1106,71 +1063,11 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-04-femtanyl/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "BEJALVIN"
     ]
-  },
-  {
-    "title": "Saturday 4/25 - Max Mercy: Undercover ($20 Cover)",
-    "sort_date": "2026-04-25",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/4-25-max-mercy-undercover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Patrick Adkins / Charlie Bruber / Ben Ehrlich",
-    "sort_date": "2026-04-25",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-patrick-adkins-charlie-bruber-ben-ehrlich",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jimmy Farace Quartet",
-    "sort_date": "2026-04-25",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/jimmy-farace-trio-april-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Vogue Memory",
-    "sort_date": "2026-04-25",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/vogue-memory-april-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "DELLA MAE with Half Baked",
-    "sort_date": "2026-04-25",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/della-mae",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Crush Scene, Holly and The Nice Lions, The Stinkeyes",
-    "sort_date": "2026-04-25",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/D548bfe6616e",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Private Event",
@@ -1188,8 +1085,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-04-disco-always-harry-styles-dance-night/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": "9pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -1198,67 +1095,11 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-04-transmission/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": "9pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "DJ Jake\u00a0Rudh"
     ]
-  },
-  {
-    "title": "InMotion",
-    "sort_date": "2026-04-25",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/8969/",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "2026-27 Season Sampler",
-    "sort_date": "2026-04-25",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/2026-27-season-sampler",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-04-25",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-25-2026/event/06006354DB889581",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nick Karcher",
-    "sort_date": "2026-04-25",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-nick-karcher-4-25-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Spiderlily",
-      "Fireside Shadow",
-      "Honeygrl",
-      "Hot Mess",
-      "and\u00a0Nick Karcher"
-    ]
-  },
-  {
-    "title": "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR",
-    "sort_date": "2026-04-25",
-    "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-minneapolis-minnesota-04-25-2026/event/06006329B3D12F59",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Metropolitan Ballet presents Romeo & Juliet",
@@ -1266,28 +1107,8 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-04-metropolitan-ballet-romeo-juliet-sat/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "SoDown",
-    "sort_date": "2026-04-25",
-    "venue": "The Loft at Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/sodown-the-loft-at-skyway-theatre/",
-    "sold_out": false,
-    "time": "9pm",
+    "time": null,
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: jeremy messersmith Fox/Coyote Album Show with special guest Brian Tighe of The Hang Ups",
-    "sort_date": "2026-04-25",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/K0288a8079cf",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -1296,75 +1117,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-04-dead-meadow/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": [
-      "Cory Shane"
-    ]
-  },
-  {
-    "title": "93x Presents Biffy Clyro: The Futique Tour",
-    "sort_date": "2026-04-25",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/93x-presents-biffy-clyro-the-futique-minneapolis-minnesota-04-25-2026/event/06006496AA22D8F7",
-    "sold_out": false,
-    "time": "7pm",
+    "time": null,
     "doors": null,
     "supports": [
-      "Raue"
+      "Dravier"
     ]
-  },
-  {
-    "title": "The Downside with Gianmarco Soresi and Russell Daniels Live!",
-    "sort_date": "2026-04-25",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/the-downside-with-gianmarco-soresi-and-minneapolis-minnesota-04-25-2026/event/06006435D3DDCF0C",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Russell Daniels"
-    ]
-  },
-  {
-    "title": "120 Minutes",
-    "sort_date": "2026-04-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-3/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Conor Lee w. Matt McIntyre, Audrey Q",
-    "sort_date": "2026-04-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/conor-lee/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Homeward Bound w. Baltic Avenue Neighborhood Watch, Cashmere Beige, Tim Schumann",
-    "sort_date": "2026-04-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/homeward-bound/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tomboy Takeover ft. Diane x Caiked Up",
-    "sort_date": "2026-04-25",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/waa1c2210497",
-    "sold_out": false,
-    "time": "8:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Corpse Reviver",
@@ -1681,8 +1438,8 @@
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-bryan-andrews/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": "9pm",
+    "doors": "8pm",
     "supports": []
   },
   {
@@ -2045,6 +1802,16 @@
     "supports": []
   },
   {
+    "title": "Paul Thorn",
+    "sort_date": "2026-04-30",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/paul-thorn-apr30-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dave Moore",
     "sort_date": "2026-04-30",
     "venue": "Ice House",
@@ -2238,6 +2005,26 @@
     "url": "https://www.thecedar.org/events/robot-slide-and-spaceport",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Al Di Meola: Guitarchitect",
+    "sort_date": "2026-05-01",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/al-di-meola-guitarchitect/2026-05-01/1/",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "VIP Event: Al Di Meola: Guitarchitect",
+    "sort_date": "2026-05-01",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/vip-event-al-di-meola-guitarchitect/2026-05-01/",
+    "sold_out": false,
+    "time": "4pm",
     "doors": null,
     "supports": []
   },
@@ -2926,7 +2713,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Dusty The\u00a0Kid"
+    ]
   },
   {
     "title": "Yohay Sponder",
