@@ -1,185 +1,10 @@
 [
   {
-    "title": "Dave Pomeroy Birthday Bash featuring Charles \"Wigg\" Walker , The McCrary Sisters , Buddy Miller , Emmylou Harris , Pat Bergeson , Annie Sellick , Will Barrow, and more!",
-    "sort_date": "2026-04-26",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/dave-pomeroy-charles-wigg-3rd-and-lindsley-tickets/14768253",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Buddy Miller",
-      "Emmylou Harris"
-    ]
-  },
-  {
-    "title": "Wadaness | Starbored | The Semi-Supervillains",
-    "sort_date": "2026-04-26",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-wadaness-starbored-the-semi-supervillains/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Protest Safety with QUILT",
-    "sort_date": "2026-04-26",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/protest-safety-with-quilt-26-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "R.A.P. Ferreira w/ N. Justice",
-    "sort_date": "2026-04-26",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/r-a-p-ferreira-26-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SiSSi Cycle 8: Round 1 (18+ Event)",
-    "sort_date": "2026-04-26",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_v",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Riot Ranch: Industry Night",
-    "sort_date": "2026-04-26",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/riot-ranch-industry-night-9?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bruce Dudley Quartet feat. Vin\u00e9ecia Buchanan",
-    "sort_date": "2026-04-26",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/a74be52f-4d77-4f11-9e86-df3bad09c00c",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rudy's Jazz Jam",
-    "sort_date": "2026-04-26",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/f11bd851-4e1d-4f00-b8f5-236cc7efae83",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Snarky Puppy",
-    "sort_date": "2026-04-26",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q7qd",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mo Willems's \"Because\" In Concert w/ Nashville Symphony",
-    "sort_date": "2026-04-26",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9bk",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": [
-      "Nashville Symphony"
-    ]
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2026-04-26",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2026-04-26/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2026-04-26",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2026-04-26/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jacob Augustine w/ Lawndry",
-    "sort_date": "2026-04-26",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/jacob-augustine-w-lawndry-the-basement-tickets/14828353",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Reptilian w/ Voltage Hawk & Silicon Death Ray",
-    "sort_date": "2026-04-26",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/reptilian-w-voltage-hawk-the-basement-tickets/14792293",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "CANCELED: 80s kids",
-    "sort_date": "2026-04-26",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/canceled-80s-kids-the-basement-east-tickets/14107174",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Menea w/Emylo & Stella Beams \u2013 18+",
-    "sort_date": "2026-04-26",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/menea-w-emylo-stella-beams-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Crowder",
-    "sort_date": "2026-04-26",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OVr9",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Bluebird On 3rd featuring Marv Green , Terry McBride , Brice Long + Jordan Allen & Brittany Moore",
     "sort_date": "2026-04-27",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/bluebird-on-3rd-marv-3rd-and-lindsley-tickets/14152564",
-    "sold_out": false,
+    "sold_out": true,
     "time": "12:30pm",
     "doors": null,
     "supports": [
@@ -363,7 +188,7 @@
     ]
   },
   {
-    "title": "Dennis Parker",
+    "title": "Dennis Parker $20",
     "sort_date": "2026-04-28",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/dennis-parker-2/",
@@ -496,7 +321,7 @@
     ]
   },
   {
-    "title": "40 Horse Mule",
+    "title": "40 Horse Mule $20",
     "sort_date": "2026-04-29",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/40-horse-mule/",
@@ -606,7 +431,7 @@
     "supports": []
   },
   {
-    "title": "Shelton & Williams",
+    "title": "Shelton & Williams $20",
     "sort_date": "2026-04-30",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/shelton-williams/",
@@ -1066,7 +891,7 @@
     ]
   },
   {
-    "title": "David Parmley Band",
+    "title": "David Parmley Band $25",
     "sort_date": "2026-05-02",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/david-parmley-band/",
@@ -1760,7 +1585,7 @@
     "supports": []
   },
   {
-    "title": "Lauren Mascitti",
+    "title": "Lauren Mascitti $20",
     "sort_date": "2026-05-07",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/lauren-mascitti-4/",
@@ -2021,7 +1846,7 @@
     "supports": []
   },
   {
-    "title": "Southern Legacy",
+    "title": "Southern Legacy $25",
     "sort_date": "2026-05-08",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/southern-legacy/",
@@ -2228,7 +2053,7 @@
     ]
   },
   {
-    "title": "Fireball Mail",
+    "title": "Fireball Mail $25",
     "sort_date": "2026-05-09",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/fireball-mail-11/",
@@ -2501,10 +2326,10 @@
     "supports": []
   },
   {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
+    "title": "Songteller Sessions with Dani Flowers & Friends $20",
     "sort_date": "2026-05-11",
     "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-05-11/",
+    "url": "https://stationinn.com/event/songteller-sessions-with-dani-flowers-friends-20-2/",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -2614,7 +2439,7 @@
     "supports": []
   },
   {
-    "title": "The French Family Band",
+    "title": "The French Family Band $20",
     "sort_date": "2026-05-12",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/the-french-family-band-5/",
@@ -2770,7 +2595,7 @@
     "supports": []
   },
   {
-    "title": "Reno & Finck \u2013 A Benefit for Derwin Hinson",
+    "title": "Reno & Finck \u2013 A Benefit for Derwin Hinson $20",
     "sort_date": "2026-05-13",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/reno-finck-2/",
@@ -2925,7 +2750,7 @@
     "supports": []
   },
   {
-    "title": "Andy Buckner",
+    "title": "Andy Buckner $20",
     "sort_date": "2026-05-14",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/andy-buckner-2/",
@@ -3106,7 +2931,7 @@
     "supports": []
   },
   {
-    "title": "Shannon Slaughter",
+    "title": "Shannon Slaughter & County Clare $25",
     "sort_date": "2026-05-15",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/shannon-slaughter/",
@@ -3138,7 +2963,7 @@
     ]
   },
   {
-    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
+    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Mike Reid , Tia Sillers , Rob Ragosta , Rebecca Lynn Howard & Dawson Steagall",
     "sort_date": "2026-05-16",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637483",
@@ -3303,7 +3128,7 @@
     "supports": []
   },
   {
-    "title": "Vickie Vaughn",
+    "title": "Vickie Vaughn $25",
     "sort_date": "2026-05-16",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/vickie-vaughn/",
@@ -3568,6 +3393,16 @@
     ]
   },
   {
+    "title": "The Borrowed Mules $20",
+    "sort_date": "2026-05-19",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-borrowed-mules-20-3/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-05-19",
     "venue": "The Basement",
@@ -3748,7 +3583,7 @@
     "supports": []
   },
   {
-    "title": "Lindsay Lou",
+    "title": "Lindsay Lou $20",
     "sort_date": "2026-05-21",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/lindsay-lou/",
@@ -3925,20 +3760,10 @@
     ]
   },
   {
-    "title": "David Peterson & 1946",
+    "title": "David Peterson & 1946 $25",
     "sort_date": "2026-05-22",
     "venue": "Station Inn",
-    "url": "https://stationinn.com/event/david-peterson-1946-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Shannon Slaughter & County Clare $25",
-    "sort_date": "2026-05-22",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/shannon-slaughter-county-clare-25/",
+    "url": "https://stationinn.com/event/david-peterson-1946-25/",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -4110,7 +3935,7 @@
     ]
   },
   {
-    "title": "Junior Sisk",
+    "title": "Junior Sisk $25",
     "sort_date": "2026-05-23",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/junior-sisk-2/",
@@ -4260,16 +4085,6 @@
     "url": "https://tunehatch.com/shows/giovanni-rodriguez-12-manos-5",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-05-25",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-05-25/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -4550,16 +4365,6 @@
     "url": "https://dice.fm/event/2wkxr6-susto-string-band-28th-may-skinny-dennis-nashville-nashville-tickets",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Showman & Coole",
-    "sort_date": "2026-05-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/showman-coole/",
-    "sold_out": false,
-    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -5882,16 +5687,6 @@
     "supports": []
   },
   {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2026-06-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2026-06-07/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Ultimate Doors: Tribute to The Doors",
     "sort_date": "2026-06-07",
     "venue": "The Basement East",
@@ -5991,16 +5786,6 @@
     "url": "https://stationinn.com/event/ashley-monroe-30/",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-06-08",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-06-08/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -7769,6 +7554,16 @@
     "supports": []
   },
   {
+    "title": "TopOppGen",
+    "sort_date": "2026-06-26",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/topoppgen-the-basement-east-tickets/14873823",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
     "sort_date": "2026-06-27",
     "venue": "3rd & Lindsley",
@@ -7923,10 +7718,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: Sewerperson w/ Polearm \u2013 All Ages",
+    "title": "Legacy Concerts Presents: Sewerperson w/ Polearm, Tommy Ice \u2013 All Ages",
     "sort_date": "2026-06-27",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-sewerperson-w-polearm-all-ages/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-sewerperson-w-polearm-tommy-ice-all-ages/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -8179,6 +7974,26 @@
     "supports": []
   },
   {
+    "title": "Steve Huber & the Flatheads $20",
+    "sort_date": "2026-07-02",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/steve-huber-the-flatheads-20/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FINKEL w/ Oliverance",
+    "sort_date": "2026-07-02",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/finkel-w-oliverance-the-basement-tickets/14880303",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: FELICITY w/ Penny Lame and Greyson Zane \u2013 ALL AGES",
     "sort_date": "2026-07-02",
     "venue": "The End",
@@ -8189,12 +8004,32 @@
     "supports": []
   },
   {
+    "title": "EVAN + ZANE",
+    "sort_date": "2026-07-03",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/evan-zane-exitin-tickets/14872493",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-07-03",
     "venue": "Grand Ole Opry House",
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qx7p",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Often Herd $25",
+    "sort_date": "2026-07-03",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-often-herd-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8418,6 +8253,16 @@
     "supports": []
   },
   {
+    "title": "Mark Thornton & the Sidekicks $20",
+    "sort_date": "2026-07-08",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/mark-thornton-the-sidekicks-20/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "(SOLD OUT) Screamin' Cheetah Wheelies",
     "sort_date": "2026-07-09",
     "venue": "3rd & Lindsley",
@@ -8454,6 +8299,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vAV",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Graves Brothers $20",
+    "sort_date": "2026-07-09",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-graves-brothers-20/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8504,6 +8359,16 @@
     "url": "https://shotgun.live/events/arlo?utm_medium=widget&utm_term=html_widget",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Fireball Mail $25",
+    "sort_date": "2026-07-10",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/fireball-mail-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8564,6 +8429,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xd36",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Volume Five $25",
+    "sort_date": "2026-07-11",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/volume-five-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8658,6 +8533,16 @@
     "supports": []
   },
   {
+    "title": "The French Family Band $20",
+    "sort_date": "2026-07-14",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-french-family-band-20-3/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-07-14",
     "venue": "The Basement",
@@ -8724,6 +8609,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-v7y",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tim O\u2019Brien $30",
+    "sort_date": "2026-07-16",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/tim-obrien-30/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8826,6 +8721,16 @@
     "url": "https://www.axs.com/events/1398155/kurt-vile-and-the-violators-tickets?skin=ryman",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Kristy Cox $25",
+    "sort_date": "2026-07-18",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/kristy-cox-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8974,6 +8879,16 @@
     "supports": []
   },
   {
+    "title": "The Borrowed Mules $20",
+    "sort_date": "2026-07-21",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-borrowed-mules-20/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-07-21",
     "venue": "The Basement",
@@ -9062,6 +8977,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vAe",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tennessee Warblers $20",
+    "sort_date": "2026-07-23",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/tennessee-warblers-20/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -9172,6 +9097,16 @@
     "supports": []
   },
   {
+    "title": "Richard Bennett $25",
+    "sort_date": "2026-07-24",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/richard-bennett-25/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: Sincere Engineer w/ Sulynn Hago, Smug LLC \u2013 18+",
     "sort_date": "2026-07-24",
     "venue": "The End",
@@ -9218,7 +9153,7 @@
     "sort_date": "2026-07-25",
     "venue": "Nissan Stadium",
     "url": "https://signup.livenation.com/therandbtour",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -9233,6 +9168,16 @@
     "url": "https://www.axs.com/events/1343299/blackberry-smoke-tickets?skin=ryman",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Acoustic Social Club with Tina Adair & Kim Fox $25",
+    "sort_date": "2026-07-25",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-acoustic-social-club-with-tina-adair-kim-fox-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -9357,6 +9302,16 @@
     "supports": []
   },
   {
+    "title": "Dennis Parker $20",
+    "sort_date": "2026-07-28",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/dennis-parker-20/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-07-28",
     "venue": "The Basement",
@@ -9422,6 +9377,16 @@
     "supports": []
   },
   {
+    "title": "50 Shades of Hay $20",
+    "sort_date": "2026-07-29",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/50-shades-of-hay-20-2/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Dear Hunter - The Road to Sunya Tour 2026",
     "sort_date": "2026-07-29",
     "venue": "The Basement East",
@@ -9473,6 +9438,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vAF",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sad Daddy $20",
+    "sort_date": "2026-07-30",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/sad-daddy-20/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -9540,6 +9515,16 @@
     "supports": []
   },
   {
+    "title": "Newfound Road $25",
+    "sort_date": "2026-07-31",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/newfound-road-25-2/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Boomstick W/ Los Ojos Muertos, Second Self and Owl Key",
     "sort_date": "2026-07-31",
     "venue": "The Basement",
@@ -9557,6 +9542,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: King 810 w/ For The Fallen Dreams, Weeping Wound \u2013 18+",
+    "sort_date": "2026-07-31",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-king-810-w-for-the-fallen-dreams-weeping-wound-18/the-end/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -9616,6 +9611,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OP7P",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Shawn Lane $25",
+    "sort_date": "2026-08-01",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/shawn-lane-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -9844,6 +9849,16 @@
     "supports": []
   },
   {
+    "title": "Tim Graves & the Farm Hands $20",
+    "sort_date": "2026-08-06",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/tim-graves-the-farm-hands-20/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Black Keys",
     "sort_date": "2026-08-06",
     "venue": "The Pinnacle",
@@ -10024,6 +10039,16 @@
     "supports": []
   },
   {
+    "title": "Pam Setser $25",
+    "sort_date": "2026-08-08",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/pam-setser-25/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Beach Boys",
     "sort_date": "2026-08-09",
     "venue": "Ryman Auditorium",
@@ -10077,6 +10102,16 @@
     ]
   },
   {
+    "title": "RADIOLA $20",
+    "sort_date": "2026-08-10",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/radiola-20/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "RESCHEDULED: clipping. w/ Open Mike Eagle & Pedestrian Deposit",
     "sort_date": "2026-08-10",
     "venue": "The Basement East",
@@ -10119,6 +10154,16 @@
     "supports": []
   },
   {
+    "title": "Brad Kaylor & Mineral Bluff Revue",
+    "sort_date": "2026-08-11",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/brad-kaylor-mineral-bluff-revue/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-08-11",
     "venue": "The Basement",
@@ -10151,6 +10196,16 @@
     ]
   },
   {
+    "title": "50 Shades of Hay $20",
+    "sort_date": "2026-08-12",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/50-shades-of-hay-20-3/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Josh Weathers",
     "sort_date": "2026-08-13",
     "venue": "3rd & Lindsley",
@@ -10179,6 +10234,16 @@
     "url": "https://www.axs.com/events/1383125/gladys-knight-tickets?skin=ryman",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Crandall Creek $20",
+    "sort_date": "2026-08-13",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/crandall-creek-20/",
+    "sold_out": false,
+    "time": "8am",
     "doors": null,
     "supports": []
   },
@@ -10221,6 +10286,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-SqJ",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Larry Sparks $25",
+    "sort_date": "2026-08-14",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/larry-sparks-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10375,6 +10450,16 @@
     "supports": []
   },
   {
+    "title": "The Borrowed Mules $20",
+    "sort_date": "2026-08-18",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-borrowed-mules-20-2/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-08-18",
     "venue": "The Basement",
@@ -10438,6 +10523,16 @@
     "supports": []
   },
   {
+    "title": "Thomas Cassell $20",
+    "sort_date": "2026-08-20",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/thomas-cassell-20/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Adrian Vandenberg - My Whitesnake Years Tour w/ Marco Mendoza, and Vinnie Moore",
     "sort_date": "2026-08-20",
     "venue": "The Basement East",
@@ -10490,6 +10585,16 @@
     "url": "https://www.axs.com/events/1345565/rick-springfield-tickets?skin=ryman",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lauren Mascitti $25",
+    "sort_date": "2026-08-21",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/lauren-mascitti-25/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10547,6 +10652,16 @@
     "supports": []
   },
   {
+    "title": "Kristy Cox $25",
+    "sort_date": "2026-08-22",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/kristy-cox-25-2/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Black Altar | Poltergeist | Lenax",
     "sort_date": "2026-08-23",
     "venue": "Cobra",
@@ -10591,6 +10706,16 @@
     "sort_date": "2026-08-24",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14093784",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The French Family Band $20",
+    "sort_date": "2026-08-24",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-french-family-band-20-4/",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -11177,10 +11302,10 @@
     "supports": []
   },
   {
-    "title": "Plush w/Illiana & Major Moment \u2013 18+",
+    "title": "Plush w/ IIianna & Major Moment \u2013 18+",
     "sort_date": "2026-09-12",
     "venue": "The End",
-    "url": "https://endnashville.com/event/plush-w-illiana-major-moment-18/the-end/",
+    "url": "https://endnashville.com/event/plush-w-iiianna-major-moment-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -11251,16 +11376,6 @@
     "sort_date": "2026-09-14",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14093874",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-09-14",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-09-14/",
     "sold_out": false,
     "time": "8pm",
     "doors": null,

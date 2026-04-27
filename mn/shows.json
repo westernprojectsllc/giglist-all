@@ -1070,16 +1070,6 @@
     ]
   },
   {
-    "title": "Private Event",
-    "sort_date": "2026-04-25",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/private-event-apr25-2026/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Disco, Always \u23e4 A Harry Styles Dance Night",
     "sort_date": "2026-04-25",
     "venue": "Fine Line",
@@ -1124,68 +1114,16 @@
     ]
   },
   {
-    "title": "Corpse Reviver",
-    "sort_date": "2026-04-26",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/19wMwuJQix/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Marsgarb",
-    "sort_date": "2026-04-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/marsgarb.music?igsh=MWNuMHM2ajNmYTV5Zw==",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Large Marge"
-    ]
-  },
-  {
     "title": "Field Medic",
     "sort_date": "2026-04-26",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-field-medic/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Georgia Maq"
     ]
-  },
-  {
-    "title": "Sunday Swing Brunch $8",
-    "sort_date": "2026-04-26",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
-    "sold_out": false,
-    "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Washington Express: DK-Sol",
-    "sort_date": "2026-04-26",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/kevin-washington-residency-week-4",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pretty Boy Thorson and Pals",
-    "sort_date": "2026-04-26",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/l2cdb95baa1f",
-    "sold_out": true,
-    "time": "7pm",
-    "doors": "3pm",
-    "supports": []
   },
   {
     "title": "The Wailers",
@@ -1203,53 +1141,9 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-04-rock-and-roll-playhouse-taylor-swift/",
     "sold_out": false,
-    "time": "11:30am",
-    "doors": "11am",
-    "supports": []
-  },
-  {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-04-26",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "8pm",
+    "time": null,
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "2026-27 Season Preview",
-    "sort_date": "2026-04-26",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/2026-27-season-preview",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-04-26",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-26-2026/event/06006354DB8B9584",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Gossamer",
-    "sort_date": "2026-04-26",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-gossamer-4-26-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Blucurve",
-      "Electric Church",
-      "Spud & His Buds"
-    ]
   },
   {
     "title": "Metropolitan Ballet presents Romeo & Juliet",
@@ -1257,18 +1151,8 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-04-metropolitan-ballet-romeo-juliet-sun/",
     "sold_out": false,
-    "time": "2pm",
-    "doors": "1pm",
-    "supports": []
-  },
-  {
-    "title": "Coast to Coast featuring Colin James, Matt Andersen, & Terra Lightfoot",
-    "sort_date": "2026-04-26",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/s3baf6aca6e0",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -1277,71 +1161,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-04-barns-courtney/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Belle and\u00a0Chain"
     ]
-  },
-  {
-    "title": "MPLS Hardcore Revival",
-    "sort_date": "2026-04-26",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/mpls-hardcore-revival-april-26-2026-679883",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Art Vandalay w. Cosmoline, Caitlin Robertson & Wildrose Fox",
-    "sort_date": "2026-04-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/art-vandalay/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Minds On Fire",
-    "sort_date": "2026-04-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/minds-on-fire-2/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Vice Chair w. The Driftless Area & Dread Spells",
-    "sort_date": "2026-04-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/vice-chair/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "HonkyTonk Ranch",
-    "sort_date": "2026-04-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-04-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Laurels String Quartet (feat. Aby Wolf & Eric Mayson)",
@@ -1385,51 +1209,6 @@
       "Militarie Gun",
       "Teen Mortgage",
       "Combat"
-    ]
-  },
-  {
-    "title": "A Night of Benefiting",
-    "sort_date": "2026-04-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/a-night-of-benefiting-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Midnight Movers",
-    "sort_date": "2026-04-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-3/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "April Conspiracy Series featuring",
-    "sort_date": "2026-04-28",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DKB5SXXHC/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "The Infernos",
-      "GRAIN BELT BRIDGE"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-04-28",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1ArYRS7dWL/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Dan Israel"
     ]
   },
   {
@@ -1539,50 +1318,6 @@
     "time": "8pm",
     "doors": "7:30pm",
     "supports": []
-  },
-  {
-    "title": "Doug Otto & Friends",
-    "sort_date": "2026-04-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dan-l-rotation/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sparrowhawk w. Speed Riders & Raspberry Tart",
-    "sort_date": "2026-04-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sparrowhawk-w-speed-riders-raspberry-tart/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-04-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Saint Paul  Mudsteppers"
-    ]
-  },
-  {
-    "title": "Lenz and Frenz",
-    "sort_date": "2026-04-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Ian Alexy"
-    ]
   },
   {
     "title": "Arankai",
@@ -1718,36 +1453,6 @@
     "supports": []
   },
   {
-    "title": "Helen & Jada Lafrance",
-    "sort_date": "2026-04-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/helen-jada-lafrance/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Record Prophets w. The Owl Eyes, Threads Electric",
-    "sort_date": "2026-04-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/record-prophets-w-the-owl-eyes-threads-electric/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hannah Hendrickson",
-    "sort_date": "2026-04-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/hannahmhendrickson?igsh=MXFtZWdmd2NweTN6eg==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Caroline Jones",
     "sort_date": "2026-04-30",
     "venue": "7th St Entry",
@@ -1878,26 +1583,6 @@
     "supports": []
   },
   {
-    "title": "Shotgun Johnny w. Samuel John Band",
-    "sort_date": "2026-04-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/shotgun-johnny-w-the-samuel-john-band/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Three on a Match w. Logan Luther & The Road Home",
-    "sort_date": "2026-04-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/three-on-a-match-w-logan-luther-the-road-home/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Harlow, Max and the Fellow Travelers (MKE), Lone Rock Bridge, & Nick Elstad Trio",
     "sort_date": "2026-04-30",
     "venue": "Zhora Darling",
@@ -1907,31 +1592,6 @@
     "doors": null,
     "supports": [
       "Lone Rock Bride"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-01",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
-    "title": "Vacant",
-    "sort_date": "2026-05-01",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/vacantmpls?igsh=YnQ1cHNkeGdwNGdk",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Raspberry Tart",
-      "Fierro"
     ]
   },
   {
@@ -2083,7 +1743,7 @@
     "url": "https://mythlive.com/event/perreoland-jowell-y-randy/",
     "sold_out": false,
     "time": "10pm",
-    "doors": null,
+    "doors": "9pm",
     "supports": []
   },
   {
@@ -2216,26 +1876,6 @@
     "supports": []
   },
   {
-    "title": "Destiny To Funk ft. Keyez Williams",
-    "sort_date": "2026-05-01",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/destiny-scrubb/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Value of Human Life w. Massive Green & Drift Pattern",
-    "sort_date": "2026-05-01",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/massive-green/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Shiner (KC) & Spotlights (BK) w/ They Dead",
     "sort_date": "2026-05-01",
     "venue": "Zhora Darling",
@@ -2244,29 +1884,6 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Record Club",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/therecordclub_mpls?igsh=b3N2dDI1c3FjMjMz",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Powersock",
-      "Dimitri"
-    ]
   },
   {
     "title": "The Cribs",
@@ -2505,62 +2122,12 @@
     "supports": []
   },
   {
-    "title": "Creekside Ruffians w. Sidewalk Diamonds, Access Otherwise",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/creekside-ruffians-w-sidewalk-diamonds/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dojo Saints w. Duck Bomb & UAGM",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dojo-saints-w-duck-bomb-uagm/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "North Country Singers",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/north-country-singers/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Master Boot Record w/ arottenbit & Phase Meridian",
     "sort_date": "2026-05-02",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/P405523fe3de",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brass Messengers",
-    "sort_date": "2026-05-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kelley Smith",
-    "sort_date": "2026-05-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DiGHUXFy8/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
     "doors": null,
     "supports": []
   },
@@ -2728,62 +2295,12 @@
     "supports": []
   },
   {
-    "title": "Canadian Girlfriend",
-    "sort_date": "2026-05-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/canadian-girlfriend/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-05-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-5/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Joe Nicola w. Rockabilly Mayhem!",
-    "sort_date": "2026-05-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/joe-nicola/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Gasconader, Jeremy Ylvisaker, & Bornguesser",
     "sort_date": "2026-05-03",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/Rf0443bda005",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Soul Trouv\u00e8re",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -2843,26 +2360,6 @@
     "supports": []
   },
   {
-    "title": "Catfish Troy",
-    "sort_date": "2026-05-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/catfish-troy/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Metal Mondays",
-    "sort_date": "2026-05-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/metal-mondays-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Lily Blue, friendlychaos (CAN), & Nina Luna",
     "sort_date": "2026-05-04",
     "venue": "Zhora Darling",
@@ -2871,31 +2368,6 @@
     "time": "6:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Kevin Gamble Quartet"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/david_huckfelt?igsh=ZHhjdWJrd2F1em5y",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "David Huckfelt"
-    ]
   },
   {
     "title": "Faetooth",
@@ -2999,48 +2471,6 @@
       "Princess Superstar",
       "Tony & The Kiki",
       "Mz Neon"
-    ]
-  },
-  {
-    "title": "Aestis Tuesday Night Residency w. The Morning Kings, Dashed",
-    "sort_date": "2026-05-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency-w-the-morning-kings-dashed/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Thomas Sticha",
-    "sort_date": "2026-05-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thomas-sticha-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bosso Poetry Company",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Half Baked"
     ]
   },
   {
@@ -3173,55 +2603,12 @@
     "supports": []
   },
   {
-    "title": "HUNNY BEAR W. Sonic Bloom, J-Mo On The Beat & The J-Lighters",
-    "sort_date": "2026-05-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/hunny-bear-w-sonic-bloom-j-mo-on-the-beat-the-j-lighters/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Second Stringers w. Special Guests",
-    "sort_date": "2026-05-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-second-stringers-w-special-guests-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Tim Casey & the Martyrs, Velahsa, & The Favorite Things",
     "sort_date": "2026-05-06",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/a802a97ace44",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "HEAVY THURSDAY",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/shadowhexband?igsh=MWM5bm1jMXY4b2dlcw==",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Shadow Hex",
-      "6pm-dark\u2014Food by NordicDogs"
-    ]
-  },
-  {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -3266,6 +2653,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Barns Courtney",
+    "sort_date": "2026-05-07",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-05-barns-courtney/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -3367,51 +2764,6 @@
       "Eternal",
       "Dying Remains",
       "Another\u00a0Enemy"
-    ]
-  },
-  {
-    "title": "Emmy Woods",
-    "sort_date": "2026-05-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Piss with Style w. Ben Vogel & JWAC",
-    "sort_date": "2026-05-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/piss-with-style/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "J-mo On The Beat",
-    "sort_date": "2026-05-08",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/jmo_on_the_beat_official?igsh=czRsbTE4Z3JwZGow",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "DeTrell Melodies",
-      "The Sol Tribe"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-08",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
     ]
   },
   {
@@ -3595,55 +2947,12 @@
     ]
   },
   {
-    "title": "High Tension Records Presents: Briefcase w. Loki\u2019s Folly, Farfaraway",
-    "sort_date": "2026-05-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/high-tension-records-presents-briefcase-w-lokis-folly-farfaraway/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Semi Infamous w. Sam Soderholm",
-    "sort_date": "2026-05-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/semi-infamous/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Rissa Garcia (NYC), Nola Rave, Allen Hz, Mike Pifer, D.J.A.D.D.",
     "sort_date": "2026-05-08",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/F1686ef7ec34",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Baby Mahi and the Sitters",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/b_b_mahi?igsh=MWZybHY4dGpwNnA5OQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Fairooz Nazifa and Dost Toast",
-      "Pelicant"
-    ]
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -3855,62 +3164,12 @@
     "supports": []
   },
   {
-    "title": "Giant Valley String Band w. Earnest Money",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/giant-valley-string-band-w-earnest-money/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sweet Heat w. Nathan Walker, Thomas Richey",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nathan-walker-w-sweet-heat-thomas-richey/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Get Up Mondays w. Frannie Crego",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-get-up-mondays-w-frannie-crego/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "LUNGS, SHRIVE, Body, & Fairer Sands",
     "sort_date": "2026-05-09",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/b23ef8688d40",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dr. Sketchy\u2019s Anti-Art School",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Emmy Woods and friends",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -4023,58 +3282,6 @@
     ]
   },
   {
-    "title": "Cal Pflum",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/cal-pflum/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cap\u2019n Al w. Chickaboom & Troglodyte, Ballroom Surfers",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/capital-w-chickaboom-troglodyte-ballroom-surfers/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Open Jam",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/open-jam/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "JWAC",
-    "sort_date": "2026-05-11",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "CLOG"
-    ]
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-11",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Red Rum Club",
     "sort_date": "2026-05-11",
     "venue": "7th St Entry",
@@ -4138,51 +3345,6 @@
     "time": null,
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MLLT w.Landfill Harmonik",
-    "sort_date": "2026-05-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mllt-w-landfill-harmonik/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
-    "sort_date": "2026-05-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mumblin-drews-oldfangled-orchestrators-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-12",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Squinny"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-12",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/david_huckfelt?igsh=ZHhjdWJrd2F1em5y",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Aaron Lee Kaplan"
-    ]
   },
   {
     "title": "Lowertown",
@@ -4252,48 +3414,6 @@
     "doors": "7pm",
     "supports": [
       "Caution"
-    ]
-  },
-  {
-    "title": "Aestis Tuesday Night Residency w. Vinn, Huge If True",
-    "sort_date": "2026-05-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "DL4",
-    "sort_date": "2026-05-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bee and the Knees",
-    "sort_date": "2026-05-13",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bee_and_the_knees?igsh=NWFiNm0yYnZpa2dr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-13",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Rachel Kurtz"
     ]
   },
   {
@@ -4441,26 +3561,6 @@
     ]
   },
   {
-    "title": "Cole Diamond\u2019s Whiskey Wednesdays",
-    "sort_date": "2026-05-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/cole-diamonds-whiskey-wednesdays-3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Molly Maher & Her Disbelievers",
-    "sort_date": "2026-05-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/molly-maher-her-disbelievers-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Poolboy, Val Son, Ghosting Merit, & Brady Lundy",
     "sort_date": "2026-05-13",
     "venue": "Zhora Darling",
@@ -4469,19 +3569,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "ART-A-WHIRL WEEKEND \\ 2026",
-    "sort_date": "2026-05-14",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/coldsweatnd?igsh=aWpsbmc1M2F3c3Fq",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "PRE-PARTY!",
-      "Cold Sweat"
-    ]
   },
   {
     "title": "Clejan",
@@ -4606,26 +3693,6 @@
     "supports": []
   },
   {
-    "title": "Jake Hanson & Luke Enyeart",
-    "sort_date": "2026-05-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/jake-hanson-luke-enyeart/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Smokdoubt Co-Op w. The Quantum Mechanics & \u201cSPLASH!\u201d",
-    "sort_date": "2026-05-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/smokdoubt-co-op-w-the-quantum-mechanics-splash/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Ossuary (WI), Dead Void (DK), Diabolic Oath (PDX), & Aberration",
     "sort_date": "2026-05-14",
     "venue": "Zhora Darling",
@@ -4634,22 +3701,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-15",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "FRIDAY",
-      "indoors",
-      "Fistful of Datas 10pm",
-      "Venus Yevu 8pm",
-      "Zak Sally Sings the Bee Gees (with Shawn Walker) 7pm"
-    ]
   },
   {
     "title": "Ingrid Andress",
@@ -4761,16 +3812,6 @@
     ]
   },
   {
-    "title": "Urgent Emergent Performance Art Series: Volume Five Movement Music",
-    "sort_date": "2026-05-15",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9392/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Los Originales de San Juan",
     "sort_date": "2026-05-15",
     "venue": "Myth Live",
@@ -4872,26 +3913,6 @@
     "supports": []
   },
   {
-    "title": "Chris Holm",
-    "sort_date": "2026-05-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/chris-holm-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Farfaraway w. Suburban Muscle, The Hollow Doubts",
-    "sort_date": "2026-05-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/farfaraway-w-suburban-muscle-the-hollow-doubts/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Ashbringer, Gates of Dawn, & Desolation Plains",
     "sort_date": "2026-05-15",
     "venue": "Zhora Darling",
@@ -4900,26 +3921,6 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-16",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Saturday",
-      "outdoors",
-      "vintage and makers market 12-8pm",
-      "indoors",
-      "Socktopus 10pm",
-      "The Japhies 8pm",
-      "Hastings 3000 6:00",
-      "Butter Boys 5pm",
-      "Unattractive Giant Monster 4pm"
-    ]
   },
   {
     "title": "The Scratch",
@@ -5074,36 +4075,6 @@
     "supports": []
   },
   {
-    "title": "Caribou Gone w. Scarlett Tangerine",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/caribou-gone/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Garden Glow w. \u2026And I Found A Way, Daisycutter",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/garden-glow/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mammoth Moth",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mammoth-moth-2/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Robber Robber (VT) + Empath",
     "sort_date": "2026-05-16",
     "venue": "Zhora Darling",
@@ -5112,25 +4083,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-17",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Sunday",
-      "outdoors",
-      "vintage and makers market 12-6pm",
-      "indoors",
-      "Switchyard 9:30pm",
-      "Diane 7:30",
-      "ditch pigeon 6pm",
-      "Jim Walsh and Mikkel Bee 3-5pm"
-    ]
   },
   {
     "title": "The Casualties",
@@ -5261,58 +4213,6 @@
     ]
   },
   {
-    "title": "Bingo With Pete!",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bingo-with-pete-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Karaoke With Ally!",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-7/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Long Honeymoon w. Dive Bar Orchestra, Edie Rae Band",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-long-honeymoon-w-dive-bar-orchestra-edie-ray/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.nikkimattesonandrichrue.com",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Nikki Mat-teson & Rich Rue"
-    ]
-  },
-  {
     "title": "Accessory (Jason Balla of Dehd)",
     "sort_date": "2026-05-18",
     "venue": "7th St Entry",
@@ -5346,51 +4246,6 @@
     "time": "8pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-05-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Freak When Sees w. Queen Jeanne, SugarBush",
-    "sort_date": "2026-05-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/freakwhensees/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Robyn Jamner"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/playcountryblues?igsh=MThvYTF0aXBvaTV2OQ==",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Tom Feldmann"
-    ]
   },
   {
     "title": "FIGHTMASTER",
@@ -5440,48 +4295,6 @@
       "Carcass",
       "Cold\u00a0Steel"
     ]
-  },
-  {
-    "title": "Aestis Tuesday Night Residency w. Last Horse, Pinched",
-    "sort_date": "2026-05-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency-w/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-05-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-16/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Dean Magraw & Bruce Henry"
-    ]
-  },
-  {
-    "title": "The Matt Arthur Contraption",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1BLqcHnADn/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
@@ -5552,26 +4365,6 @@
     ]
   },
   {
-    "title": "Lords of the Universe",
-    "sort_date": "2026-05-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-4/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "St Paul Mudsteppers",
-    "sort_date": "2026-05-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/st-paul-mudsteppers-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Jada Brown, Will They Kiss, & Oliver Nollet",
     "sort_date": "2026-05-20",
     "venue": "Zhora Darling",
@@ -5580,19 +4373,6 @@
     "time": "6:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Cross Pollination",
-    "sort_date": "2026-05-21",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Knife Emoji",
-      "Clung Tight"
-    ]
   },
   {
     "title": "Anna Devine",
@@ -5689,26 +4469,6 @@
     "supports": []
   },
   {
-    "title": "COUNTRY\u2b51OKE",
-    "sort_date": "2026-05-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/country%e2%ad%91oke-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Martin Devaney & Friends w. 10 Items or Fewer",
-    "sort_date": "2026-05-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/martin-devaney-friends-w-tba-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Portrayal of Guilt (TX) w/ Street Sects (TX), Halloween (PA), & Giallo",
     "sort_date": "2026-05-21",
     "venue": "Zhora Darling",
@@ -5717,31 +4477,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Boots & Needles",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bootsandneedles?igsh=M2FnNTZ0MHB4OTEw",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "The Gated Community",
-      "Woolley Mack"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
   },
   {
     "title": "Colin Bracewell",
@@ -5866,46 +4601,6 @@
     ]
   },
   {
-    "title": "Mossformations",
-    "sort_date": "2026-05-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mossformations/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-05-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "120 Minutes Band",
-    "sort_date": "2026-05-23",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/120minutestributeband?igsh=MWxydHc5NDJtbzFqbg==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-23",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Whips",
     "sort_date": "2026-05-23",
     "venue": "7th St Entry",
@@ -6005,46 +4700,6 @@
     "supports": []
   },
   {
-    "title": "Greenvale Manitou (Cedric Briand) w. Undergrad & Lochtune",
-    "sort_date": "2026-05-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/cedric-briand/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Topiary Blush",
-    "sort_date": "2026-05-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/topiary-blush/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Doyle Turner",
-    "sort_date": "2026-05-24",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DKwAFXD9e/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Last Chance For Love",
-    "sort_date": "2026-05-24",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/last.chance.for.love?igsh=MWQyZGR5cHU2ZWZpag==",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-05-24",
     "venue": "Aster Cafe",
@@ -6075,56 +4730,6 @@
     "supports": []
   },
   {
-    "title": "Her Cure w. Callamae, Anything You Want",
-    "sort_date": "2026-05-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/her-cure/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mike Poot Band",
-    "sort_date": "2026-05-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mike-poot-band/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Throckmorton Trio w. Glass, 13 Howell",
-    "sort_date": "2026-05-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/13-howell-w-glass-throckmorton-trio/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "HonkyTonk Ranch",
-    "sort_date": "2026-05-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Deslondes, Michael Gay, and Kiki Cavazos.",
     "sort_date": "2026-05-25",
     "venue": "Ice House",
@@ -6146,51 +4751,6 @@
       "\u00bfWatches?",
       "One Big Quilt",
       "Critterthing"
-    ]
-  },
-  {
-    "title": "Slaphazard",
-    "sort_date": "2026-05-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/slaphazard/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Midnight Movers",
-    "sort_date": "2026-05-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-4/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Obsidian James"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/jeffraymusic1?igsh=MW1oNDhtZjdlZWhzdQ==",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Jeff Ray"
     ]
   },
   {
@@ -6217,50 +4777,6 @@
     "supports": []
   },
   {
-    "title": "Aestis Tuesday Night Residency w. Garf, Your Mom\u2019s Mom",
-    "sort_date": "2026-05-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency-w-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Dans w. Special Guests",
-    "sort_date": "2026-05-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests-3/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Red Hot Django Peppers"
-    ]
-  },
-  {
-    "title": "Lenz and Frenz",
-    "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"
-    ]
-  },
-  {
     "title": "The Cherry Pit Open Jam",
     "sort_date": "2026-05-27",
     "venue": "Berlin",
@@ -6277,6 +4793,16 @@
     "url": "https://www.thecedar.org/events/marisa-anderson",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jake Baldwin",
+    "sort_date": "2026-05-27",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11237/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -6304,36 +4830,6 @@
     "supports": [
       "Agnes Uncaged"
     ]
-  },
-  {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-05-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Looper Showcase ft. John Kerns, David Cyr, eRok4a",
-    "sort_date": "2026-05-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/looper-showcase/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pinched.",
-    "sort_date": "2026-05-28",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/pinched_music.mpls?igsh=MXBkcnYwYjJpd3NpeQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Ike Dweck",
@@ -6427,51 +4923,6 @@
       "MISSING LINK",
       "Kruelty",
       "Fear The Dark"
-    ]
-  },
-  {
-    "title": "Smokdoubt Co-Op",
-    "sort_date": "2026-05-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/smokdoubt-co-op/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Wailing Loons",
-    "sort_date": "2026-05-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-wailing-loons/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-29",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
-    "title": "Wish Wash",
-    "sort_date": "2026-05-29",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/wishwashmpls?igsh=MWN2NXFkejJ6cGRndA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Ray Gun Youth",
-      "Steady Range"
     ]
   },
   {
@@ -6617,46 +5068,6 @@
     "url": "https://www.ticketmaster.com/hemlocke-springs-the-apple-tree-under-minneapolis-minnesota-05-29-2026/event/0600644BF1DA0C92",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jiselle McCollam",
-    "sort_date": "2026-05-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/jiselle-mccollam/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunsets Over Flowers",
-    "sort_date": "2026-05-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sunsets-over-flowers-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Del-Viles",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/thedelviles?igsh=MWRscTRmNnczYmt3eA==",
-    "sold_out": false,
-    "time": "10:00pm",
     "doors": null,
     "supports": []
   },
@@ -6811,62 +5222,12 @@
     ]
   },
   {
-    "title": "Big Trouble",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-4/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dan Rumsey w. Cathie English, Thea Ennen, Tim Fast",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dan-rumsey/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "King Caesar w. Hellseher, Gradience",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/microcat/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Onlytime, Cobra Czar, Den of Thieves, Body, & Pychic Wreck",
     "sort_date": "2026-05-30",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/E4ae56b371a0",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Becky Kapell and The Fat 6",
-    "sort_date": "2026-05-31",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1D8SsoKp6Z/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jack klatt",
-    "sort_date": "2026-05-31",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1Fc7DkBMfn/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
     "doors": null,
     "supports": []
   },
@@ -6968,99 +5329,6 @@
     ]
   },
   {
-    "title": "Macro Man w. ME ME ME & Bury Em Deep",
-    "sort_date": "2026-05-31",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/macro-man-w-me-me-me-bury-em-deep/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Polem",
-    "sort_date": "2026-05-31",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/polem/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tumbling Daisies",
-    "sort_date": "2026-05-31",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/tumbling-daisies/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-01",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Soul Trouv\u00e8re",
-    "sort_date": "2026-06-01",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Alec Collins",
-    "sort_date": "2026-06-01",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/alec-collins-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Metal Monday",
-    "sort_date": "2026-06-01",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/metal-monday-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-02",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "desdamona w/ mike michel of the Orange Goodness"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-02",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "By Storm",
     "sort_date": "2026-06-02",
     "venue": "7th St Entry",
@@ -7118,46 +5386,6 @@
     "supports": []
   },
   {
-    "title": "MPLS Fonk",
-    "sort_date": "2026-06-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mpls-fonk/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Thomas Sticha",
-    "sort_date": "2026-06-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thomas-sticha-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bosso Poetry Company",
-    "sort_date": "2026-06-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Cruvell \u23e4 'Crushed Velvet for Your Ears\u2019 Album Release Party",
     "sort_date": "2026-06-03",
     "venue": "7th St Entry",
@@ -7211,42 +5439,12 @@
     ]
   },
   {
-    "title": "Joey Thursday",
-    "sort_date": "2026-06-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/joey-thursday-3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Second Stringers w. Special Guests",
-    "sort_date": "2026-06-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-second-stringers-w-special-guests-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Align, Utility (OR), & Lovely Dark",
     "sort_date": "2026-06-03",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/kf4167ff3c01",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-06-04",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -7362,46 +5560,6 @@
     "supports": [
       "Phantom Planet"
     ]
-  },
-  {
-    "title": "Emmy Woods",
-    "sort_date": "2026-06-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Switching fields w. LongView",
-    "sort_date": "2026-06-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/chick-singer-w-switching-fields/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-05",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Crimson Boys",
-    "sort_date": "2026-06-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/thecrimsonboys?igsh=YXRmeHJsMHpqeXI5",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Aiden Intro",
@@ -7574,46 +5732,6 @@
     ]
   },
   {
-    "title": "Sam Graber Band",
-    "sort_date": "2026-06-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sam-graber-band/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Wisper w. Magick Flavour Station, Nu Nova",
-    "sort_date": "2026-06-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/wisper-w-magick-flavour-station-nu-nova/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Plumstar",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/hiplumstar?igsh=MW93d25idnJxcmQ5eQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Pradabagshawty",
     "sort_date": "2026-06-06",
     "venue": "7th St Entry",
@@ -7640,6 +5758,16 @@
     "url": "https://www.thecedar.org/events/joseph-arthur-with-abe-partridge",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Black Widows, Surly Grrly, Chick Singer",
+    "sort_date": "2026-06-06",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/zd431b6804bb",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -7710,26 +5838,6 @@
     "supports": []
   },
   {
-    "title": "Kev Fest",
-    "sort_date": "2026-06-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/kev-fest/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brass Messengers",
-    "sort_date": "2026-06-07",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-06-07",
     "venue": "Aster Cafe",
@@ -7790,26 +5898,6 @@
     "supports": []
   },
   {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-06-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-08",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Witch Club Satan",
     "sort_date": "2026-06-08",
     "venue": "Amsterdam Bar & Hall",
@@ -7838,49 +5926,6 @@
     "url": "https://www.ticketmaster.com/spotlight-showcase-2026-minneapolis-minnesota-06-08-2026/event/06006474F135A7B8",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
-    "sort_date": "2026-06-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mumblin-drews-oldfangled-orchestrators-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "West on Wellesley",
-    "sort_date": "2026-06-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/west-on-wellesley/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-09",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "mike munson"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-09",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -7914,46 +5959,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "Aeris & the Piggies Residency",
-    "sort_date": "2026-06-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aeris-the-piggies-residency/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Dans w. Special Guests",
-    "sort_date": "2026-06-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-5/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-10",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ryan Gebhardt",
-    "sort_date": "2026-06-10",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/ryangebhardt?igsh=MjRqM25qOHlhNm9o",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -7997,16 +6002,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "HebbaJebba",
-    "sort_date": "2026-06-11",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1G3H8DQQCX/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -8097,16 +6092,6 @@
     ]
   },
   {
-    "title": "Ex-Rodeo",
-    "sort_date": "2026-06-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/ex-rodeo/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Stygian Bough w/ 40 Watt Sun",
     "sort_date": "2026-06-11",
     "venue": "Zhora Darling",
@@ -8117,16 +6102,6 @@
     "supports": [
       "Stygian Bough (Bell Witch & Aerial Ruin)"
     ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-12",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Tommy Goodroad",
@@ -8212,42 +6187,12 @@
     "supports": []
   },
   {
-    "title": "Dave\u2019s Manual w. The Makeouts, Yes We Are",
-    "sort_date": "2026-06-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/daves-manual-w-the-makeouts-yes-we-are/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Katie Henry",
-    "sort_date": "2026-06-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/katie-henry/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Souled American",
     "sort_date": "2026-06-12",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/J6afd4dc871b",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-13",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -8354,56 +6299,6 @@
     ]
   },
   {
-    "title": "Few Decades Ago w. Xawaro & Borrachoz Inc",
-    "sort_date": "2026-06-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/few-decades-ago-w-xawaro-borrachoz-inc/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lost Evidence",
-    "sort_date": "2026-06-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lost-evidence/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mark Ross & The Three-Nineteen w. Hilary Yoder",
-    "sort_date": "2026-06-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mark-ross-w-hilary-yoder/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dr. Sketchy\u2019s Anti-Art School",
-    "sort_date": "2026-06-14",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Emmy Woods and friends",
-    "sort_date": "2026-06-14",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Bob Log III",
     "sort_date": "2026-06-14",
     "venue": "7th St Entry",
@@ -8427,7 +6322,7 @@
     "title": "SOLIDARITY IN STEREO",
     "sort_date": "2026-06-14",
     "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/the-current-presents-solidarity-in-stereo",
+    "url": "https://www.thecedar.org/events/solidarity-in-stereo",
     "sold_out": false,
     "time": "3pm",
     "doors": null,
@@ -8474,46 +6369,6 @@
     "supports": []
   },
   {
-    "title": "The Gated Community",
-    "sort_date": "2026-06-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-gated-community/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Jeff Becker Band",
-    "sort_date": "2026-06-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-jeff-becker-band/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-15",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-06-15",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Daisy the Great",
     "sort_date": "2026-06-15",
     "venue": "7th St Entry",
@@ -8521,49 +6376,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "Cauldron of Failure",
-    "sort_date": "2026-06-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/cauldron-of-failure/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-06-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-16",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "sand county"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-16",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -8606,36 +6418,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Aeris & the Piggies Residency",
-    "sort_date": "2026-06-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aeris-the-piggies-residency-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-06-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-18/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-17",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -8684,38 +6466,6 @@
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
-  },
-  {
-    "title": "Axel & Betty w. Derek Callendar & The Billytown Wanglers",
-    "sort_date": "2026-06-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/axel-betty/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lords of the Universe",
-    "sort_date": "2026-06-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-5/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cross Pollination",
-    "sort_date": "2026-06-18",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Knife Emoji"
-    ]
   },
   {
     "title": "Lily Fitts",
@@ -8778,46 +6528,6 @@
     "sort_date": "2026-06-18",
     "venue": "Orchestra Hall",
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/juneteenth",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Martin Devaney & Friends w. tba",
-    "sort_date": "2026-06-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/martin-devaney-friends-w-tba-3/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Hazy Phase",
-    "sort_date": "2026-06-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-hazy-phase/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brotherhood Of Birds",
-    "sort_date": "2026-06-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bobmpls?igsh=MWJvNXp4bjVjeHllYw==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-19",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -8900,46 +6610,6 @@
     "sort_date": "2026-06-19",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/holly-humberstone-cruel-world-north-american-minneapolis-minnesota-06-19-2026/event/06006446AC82F843",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "East Lake Jazz Workshop",
-    "sort_date": "2026-06-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/east-lake-jazz-workshop/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Yazzfest: Hunny Bear w. EFMI, Astronomy Town",
-    "sort_date": "2026-06-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/hunny-bear/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bobby Rethwish",
-    "sort_date": "2026-06-20",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bobbyrethwish?igsh=MW4zNW53eWFhNHN5NA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-20",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -9072,36 +6742,6 @@
     "supports": []
   },
   {
-    "title": "Letters w. Hospital Property & The Dirty Pretty",
-    "sort_date": "2026-06-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/letters-w-hospital-property-the-dirty-pretty/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Switchyard",
-    "sort_date": "2026-06-21",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "eleven degenerates",
-    "sort_date": "2026-06-21",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Bright Young Things and Wim Tapley & The Cannons",
     "sort_date": "2026-06-21",
     "venue": "7th St Entry",
@@ -9190,46 +6830,6 @@
     ]
   },
   {
-    "title": "Bingo With Pete!",
-    "sort_date": "2026-06-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bingo-with-pete-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Karaoke With Ally!",
-    "sort_date": "2026-06-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-8/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "HonkyTonk Ranch",
-    "sort_date": "2026-06-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dexter and the Moonrocks",
     "sort_date": "2026-06-22",
     "venue": "Fine Line",
@@ -9265,45 +6865,12 @@
     ]
   },
   {
-    "title": "The Midnight Movers",
-    "sort_date": "2026-06-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-5/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dinner Time (GA) w/ Embahn",
     "sort_date": "2026-06-22",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/nf0f3909f5a0",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-23",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "Los Pinches Gueys"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-23",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -9353,36 +6920,6 @@
     ]
   },
   {
-    "title": "Aeris & the Piggies Residency",
-    "sort_date": "2026-06-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aeris-the-piggies-residency-3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dan Tanz & the Wildfire",
-    "sort_date": "2026-06-24",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-24",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Aaron Rowe",
     "sort_date": "2026-06-24",
     "venue": "7th St Entry",
@@ -9424,38 +6961,6 @@
     "doors": "7pm",
     "supports": [
       "The Fiery\u00a0Furnaces"
-    ]
-  },
-  {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-06-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Guest Rooms w. Polite Dept, Physics",
-    "sort_date": "2026-06-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/guest-rooms/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Stephanie Was",
-    "sort_date": "2026-06-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DaN5h7KLw/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Rich Mattson and the Northstars"
     ]
   },
   {
@@ -9501,24 +7006,12 @@
     "supports": []
   },
   {
-    "title": "Charlie Doesn\u2019t Surf",
-    "sort_date": "2026-06-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/charliedoesntsurf42069?igsh=MWRsYXFlbWl6cGU0aQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Templs"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-26",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
+    "title": "Mike Sherm",
+    "sort_date": "2026-06-25",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/mike-sherm-minneapolis-minnesota-06-25-2026/event/060064971AA84BE2",
+    "sold_out": true,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -9573,38 +7066,6 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-06-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-27",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Slaphazard",
-    "sort_date": "2026-06-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DgyB3EmEV/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Joyful Wrath"
-    ]
   },
   {
     "title": "Hashtronaut, PALS, Crash Cuddle",
@@ -9679,52 +7140,12 @@
     "supports": []
   },
   {
-    "title": "Big Trouble",
-    "sort_date": "2026-06-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Death Makes Time w. 13 Arrows & Microcat",
-    "sort_date": "2026-06-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/death-makes-time/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rees Shad w. Tim Cheesebrow",
-    "sort_date": "2026-06-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rees-shad/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Christy Costello and The CC Club, Spit Takes, Hottt Probs (WI), & Toilet Rats",
     "sort_date": "2026-06-27",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/B0499e93f19a",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Real Chuck NORAD",
-    "sort_date": "2026-06-28",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=61557848086888&mibextid=JRoKGi",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -9803,78 +7224,6 @@
     "supports": []
   },
   {
-    "title": "Edith Head",
-    "sort_date": "2026-06-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/edith-head/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Katy Tessman & The Turnbuckles",
-    "sort_date": "2026-06-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/katy-tessman/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pop Wagner",
-    "sort_date": "2026-06-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/pop-wagner-3/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sylvia May",
-    "sort_date": "2026-06-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sylvia-may/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-30",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Tiny Desk Contest",
     "sort_date": "2026-06-30",
     "venue": "Fine Line",
@@ -9909,7 +7258,7 @@
     "sort_date": "2026-06-30",
     "venue": "U.S. Bank Stadium",
     "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-minneapolis-minnesota-06-30-2026/event/06006477A504A186",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -9918,33 +7267,13 @@
     ]
   },
   {
-    "title": "Aeris & the Piggies Residency",
-    "sort_date": "2026-06-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aeris-the-piggies-residency-4/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-06-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-19/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night TV",
+    "title": "TopOppGen",
     "sort_date": "2026-07-01",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/late-night-tv/",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-07-topoppgen/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": null,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -9993,26 +7322,6 @@
     ]
   },
   {
-    "title": "Emmy Woods",
-    "sort_date": "2026-07-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "TH3",
-    "sort_date": "2026-07-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/th3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "CA7RIEL & Paco Amoroso: FREE SPIRITS WORLD TOUR",
     "sort_date": "2026-07-03",
     "venue": "Fillmore Minneapolis",
@@ -10051,16 +7360,6 @@
     ]
   },
   {
-    "title": "Nectarous w. Fine Dials, Love Scar",
-    "sort_date": "2026-07-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nectarous-w-fine-dials-love-scar/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Coast to Crypt Tour: Graveripper (IN)",
     "sort_date": "2026-07-03",
     "venue": "Zhora Darling",
@@ -10071,42 +7370,12 @@
     "supports": []
   },
   {
-    "title": "The Whiskey Charmers",
-    "sort_date": "2026-07-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-whiskey-charmers/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-07-05",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
     "sold_out": false,
     "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Calla McDermott",
-    "sort_date": "2026-07-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/calla-mcdermott/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-07-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-7/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -10130,16 +7399,6 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "5:30pm",
-    "supports": []
-  },
-  {
-    "title": "Thomas Sticha",
-    "sort_date": "2026-07-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thomas-sticha-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -10235,26 +7494,6 @@
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-09-2026/event/0600636C0F68B63A",
     "sold_out": false,
     "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ben Stoeck",
-    "sort_date": "2026-07-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/ben-stoeck/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Gradience",
-    "sort_date": "2026-07-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/gradience/",
-    "sold_out": false,
-    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10428,16 +7667,6 @@
     "supports": []
   },
   {
-    "title": "J-Mo on the Beat w. Cody James, Francis Emil Johnson & Used Goods",
-    "sort_date": "2026-07-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/j-mo-on-the-beat-w-cody-james-francis-emil-johnson-used-goods/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Cola (MTL) w/ PARKING",
     "sort_date": "2026-07-11",
     "venue": "Zhora Darling",
@@ -10480,26 +7709,6 @@
     "supports": []
   },
   {
-    "title": "Grave Society w. Chuckdead",
-    "sort_date": "2026-07-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/matt-westpfahl/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Wren & Wilde",
-    "sort_date": "2026-07-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/wren-wilde/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Wells Ferrari",
     "sort_date": "2026-07-13",
     "venue": "7th St Entry",
@@ -10507,26 +7716,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
-    "sort_date": "2026-07-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mumblin-drews-oldfangled-orchestrators-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Spaceport",
-    "sort_date": "2026-07-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/spaceport/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -10572,26 +7761,6 @@
     "supports": []
   },
   {
-    "title": "DL4",
-    "sort_date": "2026-07-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kneeland & Moreno",
-    "sort_date": "2026-07-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/kneeland-moreno/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Body",
     "sort_date": "2026-07-15",
     "venue": "7th St Entry",
@@ -10620,26 +7789,6 @@
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-15-2026/event/0600636C0F7CB677",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lords of the Universe",
-    "sort_date": "2026-07-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-6/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "St Paul Mudsteppers",
-    "sort_date": "2026-07-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/st-paul-mudsteppers-9/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -10695,26 +7844,6 @@
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-16-2026/event/0600636C0F7FB682",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "COUNTRY\u2b51OKE",
-    "sort_date": "2026-07-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/country%e2%ad%91oke-3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Envies w. Muun Bato & Shrimp Olympics",
-    "sort_date": "2026-07-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-envies/",
-    "sold_out": false,
-    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10791,26 +7920,6 @@
     "supports": [
       "Death Valley\u00a0Girls"
     ]
-  },
-  {
-    "title": "King Midas",
-    "sort_date": "2026-07-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/king-midas/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Conduit",
-    "sort_date": "2026-07-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-conduit/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Cas Haley",
@@ -11001,36 +8110,6 @@
     "supports": []
   },
   {
-    "title": "Bingo With Pete!",
-    "sort_date": "2026-07-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bingo-with-pete-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Karaoke With Ally!",
-    "sort_date": "2026-07-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-9/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sidewalk Diamonds",
-    "sort_date": "2026-07-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sidewalk-diamonds/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Kevian Kraemer",
     "sort_date": "2026-07-20",
     "venue": "7th St Entry",
@@ -11038,26 +8117,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-07-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "When We Met w. Letters",
-    "sort_date": "2026-07-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/when-we-met-w-letters/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -11081,16 +8140,6 @@
     "supports": [
       "Nap Eyes"
     ]
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-07-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-21/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "93X Presents Poppy - Constantly Nowhere Tour",
@@ -11158,26 +8207,6 @@
     "supports": []
   },
   {
-    "title": "Alexander Natalie",
-    "sort_date": "2026-07-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/alexander-natalie/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-07-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Harvey Street",
     "sort_date": "2026-07-23",
     "venue": "7th St Entry",
@@ -11231,26 +8260,6 @@
     ]
   },
   {
-    "title": "Chick Singer",
-    "sort_date": "2026-07-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/chick-singer-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Joe\u2019s Garage",
-    "sort_date": "2026-07-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/joes-garage/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Friday 7/24 - Thomas Sticha ($20 Cover)",
     "sort_date": "2026-07-24",
     "venue": "Aster Cafe",
@@ -11258,6 +8267,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "One Direction Night",
+    "sort_date": "2026-07-24",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-07-one-direction-night/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
     "supports": []
   },
   {
@@ -11283,26 +8302,6 @@
       "Halfway Down",
       "Poolside Drive"
     ]
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-07-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "ValleyKil",
-    "sort_date": "2026-07-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/valleykil/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "SLEEPYTIME GORILLA MUSEUM with Wendy Eisenberg",
@@ -11345,36 +8344,6 @@
     "supports": [
       "The Larry McCray Band"
     ]
-  },
-  {
-    "title": "Big Trouble",
-    "sort_date": "2026-07-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lars Nelson Band",
-    "sort_date": "2026-07-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lars-nelson-band/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Moblife",
-    "sort_date": "2026-07-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/moblife/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Parachute Pandas, Raka K & the Cicadas, & Astronomy Town",
@@ -11459,16 +8428,6 @@
     ]
   },
   {
-    "title": "Clint Niosi w. Nikki Matteson and Rich Rue & Ditch Pigeon",
-    "sort_date": "2026-07-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/clint-niosi-w-nikki-matteson-and-rich-rue-ditch-pigeon/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "LSD and the Search for God",
     "sort_date": "2026-07-27",
     "venue": "7th St Entry",
@@ -11488,16 +8447,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "The Midnight Movers",
-    "sort_date": "2026-07-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -11561,16 +8510,6 @@
     "supports": []
   },
   {
-    "title": "Lena & the Love Kills",
-    "sort_date": "2026-07-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lena-the-love-kills/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Thursday 7/30 - River & Rail with Sam Ryden ($15 Cover)",
     "sort_date": "2026-07-30",
     "venue": "Aster Cafe",
@@ -11591,23 +8530,13 @@
     "supports": []
   },
   {
-    "title": "Valors w. Grieving Pines, Bitchslap",
+    "title": "Joanne Shaw Taylor LIVE!",
     "sort_date": "2026-07-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/valors-w-grieving-pines-bitchslap/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Vittorior",
-    "sort_date": "2026-07-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/vittorior-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/rf32fefb8ebb",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -11670,16 +8599,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "James Kennedy",
-    "sort_date": "2026-07-31",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/james-kennedy/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -11763,16 +8682,6 @@
     "supports": []
   },
   {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-08-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Cruz Beckham and The Breakers",
     "sort_date": "2026-08-03",
     "venue": "7th St Entry",
@@ -11783,52 +8692,12 @@
     "supports": []
   },
   {
-    "title": "The Harlow Pennies",
-    "sort_date": "2026-08-03",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-harlow-pennies/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Wicked",
     "sort_date": "2026-08-04",
     "venue": "Orpheum Theatre",
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-04-2026/event/0600636C0FB6B726",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Acoustic August Tuesdays",
-    "sort_date": "2026-08-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/acoustic-august-tuesdays/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pullstring",
-    "sort_date": "2026-08-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/pullstring/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Thomas Sticha",
-    "sort_date": "2026-08-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thomas-sticha-10/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -11875,16 +8744,6 @@
     "supports": []
   },
   {
-    "title": "The Second Stringers w. Special Guests",
-    "sort_date": "2026-08-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-second-stringers-w-special-guests-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Noeline Hofmann",
     "sort_date": "2026-08-06",
     "venue": "7th St Entry",
@@ -11928,16 +8787,6 @@
     "supports": []
   },
   {
-    "title": "Emmy Woods",
-    "sort_date": "2026-08-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-10/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "John Holiday",
     "sort_date": "2026-08-07",
     "venue": "Orchestra Hall",
@@ -11970,26 +8819,6 @@
     ]
   },
   {
-    "title": "Helen Johnson",
-    "sort_date": "2026-08-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/helen-johnson/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jared McCloud",
-    "sort_date": "2026-08-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/jared-mccloud/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "An American Songbook",
     "sort_date": "2026-08-08",
     "venue": "Orchestra Hall",
@@ -12020,62 +8849,12 @@
     "supports": []
   },
   {
-    "title": "Fort Road Folk Fest",
-    "sort_date": "2026-08-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/fort-road-folk-fest/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Wicked",
     "sort_date": "2026-08-09",
     "venue": "Orpheum Theatre",
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-09-2026/event/0600636C0FC6B75B",
     "sold_out": false,
     "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "ART Dept",
-    "sort_date": "2026-08-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/art-dept/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The AlgoRhythms",
-    "sort_date": "2026-08-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-algorhythms/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lame Sagittarius W. Spectres of Desire, Magenta Vice",
-    "sort_date": "2026-08-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lame-sagittarius-w-spectres-of-desire-magenta-vice/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
-    "sort_date": "2026-08-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mumblin-drews-oldfangled-orchestrators-10/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -12090,16 +8869,6 @@
     "supports": []
   },
   {
-    "title": "The Dans w. Special Guests",
-    "sort_date": "2026-08-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Riff Wood",
     "sort_date": "2026-08-12",
     "venue": "7th St Entry",
@@ -12110,6 +8879,16 @@
     "supports": [
       "Willowake"
     ]
+  },
+  {
+    "title": "Willow Avalon",
+    "sort_date": "2026-08-12",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-08-willow-avalon/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": []
   },
   {
     "title": "Casket Cassette",
@@ -12132,26 +8911,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Pelicant",
-    "sort_date": "2026-08-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/pelicant/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Roundabouts",
-    "sort_date": "2026-08-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-roundabouts-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -12207,26 +8966,6 @@
     ]
   },
   {
-    "title": "Suzy Plays Guitar",
-    "sort_date": "2026-08-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/suzy-plays-guitar/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Thirsty River",
-    "sort_date": "2026-08-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thirsty-river/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dimmu Borgir: Grand Serpent Rising Tour US 2026",
     "sort_date": "2026-08-15",
     "venue": "Fillmore Minneapolis",
@@ -12272,6 +9011,21 @@
     "supports": []
   },
   {
+    "title": "Frost Found Us",
+    "sort_date": "2026-08-15",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-frost-found-us-8-15-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Fost Found Us",
+      "Zero Fret",
+      "Stranger",
+      "Taste of Vervain"
+    ]
+  },
+  {
     "title": "Big Thief",
     "sort_date": "2026-08-15",
     "venue": "Surly Brewing Festival Field",
@@ -12294,26 +9048,6 @@
       "Lukas Graham",
       "Ellie Banke"
     ]
-  },
-  {
-    "title": "120 Minutes",
-    "sort_date": "2026-08-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/120-minutes/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Blacklighter",
-    "sort_date": "2026-08-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/blacklighter/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "American Vanity",
@@ -12348,66 +9082,6 @@
     "supports": []
   },
   {
-    "title": "Bingo With Pete!",
-    "sort_date": "2026-08-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bingo-with-pete-10/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Customers",
-    "sort_date": "2026-08-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/customers/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Karaoke With Ally!",
-    "sort_date": "2026-08-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-10/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-08-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-10/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nona",
-    "sort_date": "2026-08-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nona/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cottonwood Shivers",
-    "sort_date": "2026-08-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-cottonwood-shivers-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "J. Cole: The Fall-Off Tour",
     "sort_date": "2026-08-18",
     "venue": "Target Center",
@@ -12428,16 +9102,6 @@
     "supports": [
       "Victoryland"
     ]
-  },
-  {
-    "title": "The New Havoline Supremes",
-    "sort_date": "2026-08-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-22/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Kill Lincoln, JER , Bad Operation, and The Best of the Worst",
@@ -12470,26 +9134,6 @@
     "supports": []
   },
   {
-    "title": "Lords of the Universe",
-    "sort_date": "2026-08-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-7/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "St Paul Mudsteppers",
-    "sort_date": "2026-08-19",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/st-paul-mudsteppers-10/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Raynes",
     "sort_date": "2026-08-20",
     "venue": "Turf Club",
@@ -12497,26 +9141,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Lent",
-    "sort_date": "2026-08-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lent/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Martin Devaney & Friends w. tba",
-    "sort_date": "2026-08-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/martin-devaney-friends-w-tba-4/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -12554,26 +9178,6 @@
     "supports": []
   },
   {
-    "title": "Aaron James",
-    "sort_date": "2026-08-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aaron-james/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Clash Minne Rockers",
-    "sort_date": "2026-08-21",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-clash-minne-rockers/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Eagles Of Death Metal",
     "sort_date": "2026-08-22",
     "venue": "First Avenue",
@@ -12603,26 +9207,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Caitlin Robertson",
-    "sort_date": "2026-08-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/caitlin/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sugarcoat",
-    "sort_date": "2026-08-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sugarcoat/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -12660,46 +9244,6 @@
     ]
   },
   {
-    "title": "Aeris & the Piggies",
-    "sort_date": "2026-08-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aeris-the-piggies/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mary K and the Realistix",
-    "sort_date": "2026-08-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mary-k-and-the-realistix/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Phil Berbig",
-    "sort_date": "2026-08-23",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/paul-berbig-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Midnight Movers",
-    "sort_date": "2026-08-24",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Mo Lowda & The Humble",
     "sort_date": "2026-08-25",
     "venue": "Fine Line",
@@ -12710,13 +9254,13 @@
     "supports": []
   },
   {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-08-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-9/",
+    "title": "Nitzer Ebb",
+    "sort_date": "2026-08-25",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-08-nitzer-ebb/",
     "sold_out": false,
-    "time": "6pm",
-    "doors": null,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -12742,16 +9286,6 @@
     ]
   },
   {
-    "title": "Maeken Rose",
-    "sort_date": "2026-08-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/maeken-rose/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Alabama Shakes",
     "sort_date": "2026-08-28",
     "venue": "Surly Brewing Festival Field",
@@ -12774,16 +9308,6 @@
     "supports": [
       "Dominic Fike"
     ]
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-08-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Ben Chapman",
@@ -12818,26 +9342,6 @@
     ]
   },
   {
-    "title": "Big Trouble",
-    "sort_date": "2026-08-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Long Goodbyes",
-    "sort_date": "2026-08-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-long-goodbyes-2/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Ray LaMontagne - Trouble 20th Anniversary Tour",
     "sort_date": "2026-08-30",
     "venue": "Orpheum Theatre",
@@ -12848,26 +9352,6 @@
     "supports": [
       "The Weather Station"
     ]
-  },
-  {
-    "title": "Bryan Odeen",
-    "sort_date": "2026-08-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bryan-odeen/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pop Wagner",
-    "sort_date": "2026-08-31",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/pop-wagner-4/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Ugly Kid Joe",
@@ -12894,16 +9378,6 @@
     ]
   },
   {
-    "title": "Nick Elstad",
-    "sort_date": "2026-09-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nick-elstad/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Danny Worsnop and Tyler Rich",
     "sort_date": "2026-09-04",
     "venue": "Turf Club",
@@ -12911,16 +9385,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "MId Death Calm EP Release",
-    "sort_date": "2026-09-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mid-death-calm-ep-release/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -12934,36 +9398,6 @@
     "supports": []
   },
   {
-    "title": "David Stoddard & Nigel Egg",
-    "sort_date": "2026-09-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/david-stoddard-nigel-egg/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Duocene",
-    "sort_date": "2026-09-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/duocene/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nancy Olson w. Joe Carey",
-    "sort_date": "2026-09-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nancy-olson-w-joe-carey/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "SUGAR",
     "sort_date": "2026-09-10",
     "venue": "First Avenue",
@@ -12974,16 +9408,6 @@
     "supports": [
       "J. Robbins\u00a0(Jawbox)"
     ]
-  },
-  {
-    "title": "Half Ivory w. Handsome Midnight",
-    "sort_date": "2026-09-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/half-ivory/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "SUGAR",
@@ -13021,6 +9445,16 @@
     "supports": []
   },
   {
+    "title": "Mini Trees",
+    "sort_date": "2026-09-12",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-09-mini-trees/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "SUGAR",
     "sort_date": "2026-09-12",
     "venue": "First Avenue",
@@ -13033,26 +9467,6 @@
     ]
   },
   {
-    "title": "23watts",
-    "sort_date": "2026-09-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/23watts/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lucinda Williams Tribute",
-    "sort_date": "2026-09-12",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lucinda-williams-tribute-2/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Emma Harner",
     "sort_date": "2026-09-13",
     "venue": "7th St Entry",
@@ -13060,16 +9474,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Songwriter Showcase",
-    "sort_date": "2026-09-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/songwriter-showcase/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -13160,16 +9564,6 @@
     "supports": [
       "Madeleine Roger"
     ]
-  },
-  {
-    "title": "Death Of The Heron",
-    "sort_date": "2026-09-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/death-of-the-heron/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "First Avenue presents ALDOUS HARDING",
@@ -13353,16 +9747,6 @@
     "supports": []
   },
   {
-    "title": "Yeah Yeah Fine",
-    "sort_date": "2026-09-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/yeah-yeah-fine/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Crashing Out Live",
     "sort_date": "2026-09-27",
     "venue": "The Fitzgerald Theater",
@@ -13405,16 +9789,6 @@
     "supports": []
   },
   {
-    "title": "Sogni Dorati",
-    "sort_date": "2026-09-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/sogni-dorati/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Owen Riegling",
     "sort_date": "2026-10-01",
     "venue": "7th St Entry",
@@ -13452,6 +9826,16 @@
     "venue": "Orpheum Theatre",
     "url": "https://www.ticketmaster.com/mrballen-lights-out-live-minneapolis-minnesota-10-01-2026/event/0600646DA334EF62",
     "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Rocky Horror Spooktacular Tour",
+    "sort_date": "2026-10-01",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/rocky-horror-spooktacular-tour-minneapolis-minnesota-10-01-2026/event/06006496D2255202",
+    "sold_out": true,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -13671,16 +10055,6 @@
     "supports": []
   },
   {
-    "title": "Songwriter Showcase",
-    "sort_date": "2026-10-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/songwriter-showcase-2/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Undertale - The Determination Symphony World Tour",
     "sort_date": "2026-10-12",
     "venue": "Orpheum Theatre",
@@ -13707,16 +10081,6 @@
     "url": "https://www.ticketmaster.com/sting-30-tour-minneapolis-minnesota-10-13-2026/event/06006457B542E3D6",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Dans w. Special Guests",
-    "sort_date": "2026-10-13",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -14144,16 +10508,6 @@
     "supports": []
   },
   {
-    "title": "Songwriter Showcase",
-    "sort_date": "2026-11-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/songwriter-showcase-3/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Choir! Choir! Choir! Presents: Landslide: Epic Fleetwood Mac Singalong",
     "sort_date": "2026-11-11",
     "venue": "Varsity Theater",
@@ -14359,16 +10713,6 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/a-charlie-brown-christmas-live-at-the-symphony",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Dans w. Special Guests",
-    "sort_date": "2026-12-08",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests-2/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
