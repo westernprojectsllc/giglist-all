@@ -1,109 +1,5 @@
 [
   {
-    "title": "An Evening with Mary Gauthier & Stephen Kellogg",
-    "sort_date": "2026-04-28",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/an-evening-with-mary-gauthier-3rd-and-lindsley-tickets/13859574",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Mary Gauthier"
-    ]
-  },
-  {
-    "title": "Front Bar: Love Is Like a Haunted House | Poetry Clouds & Songs of Lingering",
-    "sort_date": "2026-04-28",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-love-is-like-a-haunted-house-poetry-clouds-songs-of-lingering/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "San Calisto | Pyramia | So Sorry",
-    "sort_date": "2026-04-28",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-san-calisto-pyramia-so-sorry/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
-    "sort_date": "2026-04-28",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_7",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-04-28",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxkK",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
-    "sort_date": "2026-04-28",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1223778/hayley-williams-at-a-bachelorette-party-tickets?skin=ryman",
-    "sold_out": true,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Water From Your Eyes"
-    ]
-  },
-  {
-    "title": "Dennis Parker $20",
-    "sort_date": "2026-04-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/dennis-parker-2/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "New Faces Night feat. Abigail Hope, Ryan Koronich, Julia Barfield, Ella Ferguson, Lightwatch, Thistle Ridge Band, NORA. and Fleur",
-    "sort_date": "2026-04-28",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-abigail-the-basement-tickets/13983304",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Chameleons - Arctic Moon Tour w/ The Veldt",
-    "sort_date": "2026-04-28",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/chameleons-arctic-moon-the-basement-east-tickets/14077944",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Young Robot w/Sirenvale, Penta & Altalune \u2013 18+",
-    "sort_date": "2026-04-28",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/young-robot-w-sirenvale-penta-altalune-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "The French Connexion feat. French Family Band, Jimmy Fortune, Mike Rogers, Jenee Fleenor, Ben Isaacs, Jeff Taylor",
     "sort_date": "2026-04-29",
     "venue": "3rd & Lindsley",
@@ -471,7 +367,7 @@
     "venue": "Marathon Music Works",
     "url": "https://www.ticketweb.com/event/ashnikko-marathon-music-works-tickets/14549573",
     "sold_out": false,
-    "time": "8pm",
+    "time": "7:30pm",
     "doors": null,
     "supports": [
       "Royal & the Serpent"
@@ -675,6 +571,16 @@
     "supports": []
   },
   {
+    "title": "Presley Faulkner | Daire McLeod | Jacey Wolf | Do Geese See God",
+    "sort_date": "2026-05-02",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-presley-faulkner-daire-mcleod-jacey-wolf-do-geese-see-god/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Korroded, Gravelurker, Bazookatooth, Gravelurker",
     "sort_date": "2026-05-02",
     "venue": "DRKMTTR",
@@ -717,10 +623,10 @@
     "supports": []
   },
   {
-    "title": "Mal\u00f3ne Morez",
+    "title": "Scrubz & Friends",
     "sort_date": "2026-05-02",
     "venue": "Night We Met",
-    "url": "https://shotgun.live/events/malone-morez?utm_medium=widget&utm_term=html_widget",
+    "url": "https://shotgun.live/events/tifbday?utm_medium=widget&utm_term=html_widget",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -804,7 +710,7 @@
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/slap-dragon-the-basement-tickets/14763493",
     "sold_out": false,
-    "time": "8:30pm",
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -1190,10 +1096,10 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat.",
+    "title": "New Faces Night feat. Sam Nicholson, Aurora Sage, BB Palmer, Gary Hector and Sustayn",
     "sort_date": "2026-05-05",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983654",
+    "url": "https://www.ticketweb.com/event/new-faces-night-feat-sam-the-basement-tickets/13983654",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -2628,6 +2534,16 @@
     "supports": []
   },
   {
+    "title": "Divide the Fall, More Weight, Alaska on Fire, denouement unfound",
+    "sort_date": "2026-05-14",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-divide-the-fall-more-weight-alaska-on-fire-denouement-unfound/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Missing Link",
     "sort_date": "2026-05-14",
     "venue": "DRKMTTR",
@@ -3758,14 +3674,16 @@
     "supports": []
   },
   {
-    "title": "Noah Gundersen w/ Elizabeth Gundersen",
+    "title": "Noah Gundersen w/ Elizabeth Gundersen and verygently",
     "sort_date": "2026-05-22",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/noah-gundersen-w-elizabeth-gundersen-the-basement-east-tickets/14739413",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "verygently"
+    ]
   },
   {
     "title": "Ollie Joseph & Adam Yokum w/ Drewmat \u2013 18+",
@@ -3903,6 +3821,16 @@
     ]
   },
   {
+    "title": "Dorks on the Deck",
+    "sort_date": "2026-05-23",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/dorks-on-the-deck/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Rewind: The Ultimate 2000s Rave",
     "sort_date": "2026-05-23",
     "venue": "Skydeck",
@@ -3947,7 +3875,7 @@
     "sort_date": "2026-05-24",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/hayes-carll-brit-taylor-3rd-and-lindsley-tickets/14884283",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -6991,6 +6919,16 @@
     "supports": []
   },
   {
+    "title": "Classic City Wrestling with live music from OmenBringer",
+    "sort_date": "2026-06-19",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/classic-city-wrestling-with-live-the-basement-east-tickets/14887683",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
     "sort_date": "2026-06-20",
     "venue": "3rd & Lindsley",
@@ -8431,6 +8369,16 @@
     "supports": []
   },
   {
+    "title": "22 & good for u - Olivia Rodrigo Album Party",
+    "sort_date": "2026-07-11",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/22-good-for-u-exitin-tickets/14884083",
+    "sold_out": true,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-07-11",
     "venue": "Grand Ole Opry House",
@@ -8969,6 +8917,16 @@
     "supports": []
   },
   {
+    "title": "Belmont performing 10 Years of Between You and Me w/ Major League, Spite House and all in ur head",
+    "sort_date": "2026-07-22",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/belmont-performing-10-years-of-the-basement-east-tickets/14880033",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "DustBowlChampion | Computer Kill | Night Ritualz",
     "sort_date": "2026-07-23",
     "venue": "Cobra",
@@ -9151,6 +9109,16 @@
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637623",
     "sold_out": false,
     "time": "12:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "GUILTY PLEASURES: THE FINAL COUNTDOWN!",
+    "sort_date": "2026-07-25",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/guilty-pleasures-the-final-countdown-3rd-and-lindsley-tickets/14880513",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -9411,6 +9379,16 @@
     "url": "https://stationinn.com/event/50-shades-of-hay-20-2/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Fudge",
+    "sort_date": "2026-07-29",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/fudge-the-basement-tickets/14883903",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10034,12 +10012,13 @@
     "title": "Tape B x Levity Present: Summer Program",
     "sort_date": "2026-08-08",
     "venue": "Ascend Amphitheater",
-    "url": "https://www.axs.com/events/1281878/levity-x-tape-b-tickets?skin=ascendamp",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O_vE",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
-      "Levity"
+      "Levity",
+      "Seth David"
     ]
   },
   {
@@ -10464,6 +10443,16 @@
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14093804",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Foreign Hands and Church Tongue w/ Officer Down, Heaven Sent, Trust & Faith",
+    "sort_date": "2026-08-17",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/foreign-hands-and-church-tongue-w-officer-down-heaven-sent-trust-faith-17-aug",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -10931,7 +10920,7 @@
     "sort_date": "2026-08-29",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/david-nail-the-basement-east-tickets/14884013",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -11487,7 +11476,9 @@
     "sold_out": false,
     "time": "8:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Panic Shack"
+    ]
   },
   {
     "title": "New Faces Night feat.",
@@ -11873,11 +11864,23 @@
     "supports": []
   },
   {
+    "title": "Kacey Musgraves - Middle of Nowhere Tour",
+    "sort_date": "2026-09-27",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-nashville-tennessee-09-27-2026/event/1B006497DE147C3E",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Flatland Cavalry"
+    ]
+  },
+  {
     "title": "Icon For Hire: Scripted 15 Year Anniversary Tour",
     "sort_date": "2026-09-27",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/icon-for-hire-scripted-15-exitin-tickets/14879743",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -11913,6 +11916,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Kacey Musgraves - Middle of Nowhere Tour",
+    "sort_date": "2026-09-28",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-nashville-tennessee-09-28-2026/event/1B00649CDD849FFF",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Flatland Cavalry"
+    ]
   },
   {
     "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
@@ -11965,6 +11980,16 @@
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983544",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "LP - All Is Not Lost Tour",
+    "sort_date": "2026-09-30",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-nashville-tennessee-09-30-2026/event/1B00649BDD59D1A2",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12664,7 +12689,7 @@
     "sort_date": "2026-10-23",
     "venue": "Marathon Music Works",
     "url": "https://www.ticketweb.com/event/dj-shadow-celebrates-30-years-marathon-music-works-tickets/14879393",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12758,6 +12783,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Wednesday 13 w/ Dead on a Sunday and Above Snakes",
+    "sort_date": "2026-10-26",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/wednesday-13-w-dead-on-the-basement-east-tickets/14887273",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Dead On A Sunday"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
