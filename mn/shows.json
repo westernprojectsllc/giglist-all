@@ -1168,16 +1168,6 @@
     "supports": []
   },
   {
-    "title": "Chucho Vald\u00e9s Royal Quartet",
-    "sort_date": "2026-04-28",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/chucho-valdes-royal-quartet-apr28-2026/2026-04-28/1/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "James McMurtry and the Martial Law Review",
     "sort_date": "2026-04-28",
     "venue": "Fine Line",
@@ -1202,71 +1192,17 @@
     ]
   },
   {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-04-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Saint Paul  Mudsteppers"
-    ]
-  },
-  {
-    "title": "Lenz and Frenz",
-    "sort_date": "2026-04-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Ian Alexy"
-    ]
-  },
-  {
     "title": "Arankai",
     "sort_date": "2026-04-29",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-04-arankai/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "buffalo_farm",
       "MVRROW"
     ]
-  },
-  {
-    "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
-    "sort_date": "2026-04-29",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/mn-songwriter-showcase-hosted-by-nick-hensley-free",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ethan Ostrow and The Outside In",
-    "sort_date": "2026-04-29",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/ethan-ostrow-outside-in-april-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cherry Pit Open Jam",
-    "sort_date": "2026-04-29",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-april-29-2026",
-    "sold_out": false,
-    "time": "10:15pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Joey Alexander",
@@ -1279,104 +1215,29 @@
     "supports": []
   },
   {
-    "title": "An Evening With Band of Horses: Celebrating 20 years of Everything All",
-    "sort_date": "2026-04-29",
-    "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/an-evening-with-band-of-horses-minneapolis-minnesota-04-29-2026/event/06006426C21D9C10",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Reverend Horton Heat",
     "sort_date": "2026-04-29",
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-04-reverend-horton-heat/",
     "sold_out": false,
-    "time": "7:15pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Black Joe Lewis",
       "Pi\u00f1ata\u00a0Protest"
     ]
   },
   {
-    "title": "Vie Boheme + Some Friends of Mine Ft Theo Brown + Eric Mayson",
-    "sort_date": "2026-04-29",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11164/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-04-29",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-29-2026/event/06006354DB93958C",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tttapeworrrrm",
-    "sort_date": "2026-04-29",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-tttapeworrrrm-4-29-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "T ttapeworrrrm",
-      "AlienGodTheory",
-      "Cogwheel"
-    ]
-  },
-  {
-    "title": "Waxahatchee & MJ Lenderman with special guest Brennan Wedl",
+    "title": "Waxahatchee & MJ Lenderman",
     "sort_date": "2026-04-29",
     "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/waxahatchee-mj-lenderman-with-special-guest-minneapolis-minnesota-04-29-2026/event/0600636ED3D758B1",
+    "url": "https://first-avenue.com/event/2026-04-waxahatchee-mj-lenderman/",
     "sold_out": false,
-    "time": "7:30pm",
+    "time": null,
     "doors": null,
     "supports": [
-      "MJ Lenderman",
       "Brennan Wedl"
     ]
-  },
-  {
-    "title": "Geoff Tate's Operation: Mindcrime - The Final Chapter",
-    "sort_date": "2026-04-29",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/geoff-tates-operation-mindcrime-the-final-minneapolis-minnesota-04-29-2026/event/0600638ADFE0EEBF",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Helen & Jada Lafrance",
-    "sort_date": "2026-04-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/helen-jada-lafrance/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Record Prophets w. The Owl Eyes, Threads Electric",
-    "sort_date": "2026-04-29",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/record-prophets-w-the-owl-eyes-threads-electric/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Hannah Hendrickson",
@@ -2288,6 +2149,16 @@
     "supports": []
   },
   {
+    "title": "Isaiah Collier: Collier Plays Coltrane",
+    "sort_date": "2026-05-03",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/isaiah-collier-collier-plays-coltrane-may3-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Calum Scott - The Avenoir Tour 2026",
     "sort_date": "2026-05-03",
     "venue": "Fillmore Minneapolis",
@@ -2665,7 +2536,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Haley E\u00a0Rydell"
+    ]
   },
   {
     "title": "Lords of Acid",
@@ -2851,7 +2724,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Night Audit"
+    ]
   },
   {
     "title": "HUNNY BEAR W. Sonic Bloom, J-Mo On The Beat & The J-Lighters",
@@ -4050,16 +3925,6 @@
     "supports": []
   },
   {
-    "title": "An Evening with NDUDUZO MAKHATHINI",
-    "sort_date": "2026-05-13",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/nduduzo-makhathini",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Qveen Herby - Isle of Qveen Tour",
     "sort_date": "2026-05-13",
     "venue": "Fillmore Minneapolis",
@@ -4459,12 +4324,12 @@
     ]
   },
   {
-    "title": "Inner Wave and Los Mesoneros",
+    "title": "Inner Wave",
     "sort_date": "2026-05-15",
     "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-05-inner-wave-los-mesoneros/",
+    "url": "https://first-avenue.com/event/2026-05-inner-wave/",
     "sold_out": false,
-    "time": "6:30pm",
+    "time": "7pm",
     "doors": "6pm",
     "supports": [
       "Twin Seas"
@@ -4672,6 +4537,16 @@
     "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-wpk-trio-may-2026",
     "sold_out": false,
     "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Dedicated Enemy",
+    "sort_date": "2026-05-16",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-dedicated-enemy-may-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -5798,14 +5673,16 @@
     "supports": []
   },
   {
-    "title": "Last Chance For Love",
+    "title": "Race Situation:",
     "sort_date": "2026-05-24",
     "venue": "331 Club",
-    "url": "https://www.instagram.com/last.chance.for.love?igsh=MWQyZGR5cHU2ZWZpag==",
+    "url": "https://331club.com/",
     "sold_out": false,
     "time": "7:00pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Three the Hard Way, Dj Ted Ned, Phil Dumka)"
+    ]
   },
   {
     "title": "Sunday Swing Brunch $8",
@@ -5922,7 +5799,7 @@
     ]
   },
   {
-    "title": "Coax from Chuckanut & Slaphazard",
+    "title": "Slaphazard w. Coax from Chuckanut, Sishir",
     "sort_date": "2026-05-25",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/slaphazard/",
@@ -6077,7 +5954,7 @@
     ]
   },
   {
-    "title": "Weird Nightmare",
+    "title": "Weird Nightmare (Alex Edkins of METZ)",
     "sort_date": "2026-05-27",
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-weird-nightmare/",
@@ -6536,6 +6413,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "9pm",
+    "supports": []
+  },
+  {
+    "title": "InMotion",
+    "sort_date": "2026-05-30",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/8969/",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -7598,6 +7485,16 @@
     "supports": []
   },
   {
+    "title": "NOISE PARTY 14",
+    "sort_date": "2026-06-07",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/noise-party-14",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Citizen Soldier",
     "sort_date": "2026-06-07",
     "venue": "Fine Line",
@@ -7858,6 +7755,20 @@
     ]
   },
   {
+    "title": "Wooden Ducks",
+    "sort_date": "2026-06-10",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-wooden-ducks-6-10-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Purity Olympics",
+      "White Dune",
+      "Somewhere Nice Someday"
+    ]
+  },
+  {
     "title": "Tommy Stinson",
     "sort_date": "2026-06-10",
     "venue": "Turf Club",
@@ -8014,6 +7925,16 @@
     "sort_date": "2026-06-12",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/6-12-david-harland-ep-release-show-with-mother-coyote-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Otherlands Trio",
+    "sort_date": "2026-06-12",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/otherlands-trio-june-2026",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -8662,17 +8583,14 @@
     "supports": []
   },
   {
-    "title": "Go Your Own Way",
+    "title": "Go Your Own Way \u23e4 A Fleetwood Mac Sing-along",
     "sort_date": "2026-06-18",
     "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/go-your-own-way-a-fleetwood-mac-sing-along/",
+    "url": "https://first-avenue.com/event/2026-06-go-your-own-way-fleetwood-mac-sing-along/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": [
-      "Jillian Rae",
-      "Katy\u00a0Vernon"
-    ]
+    "supports": []
   },
   {
     "title": "Martin Devaney & Friends w. tba",
@@ -9141,6 +9059,20 @@
     "supports": [
       "Cigarettes @ Sunset",
       "High\u00a0June"
+    ]
+  },
+  {
+    "title": "Dyego & BluNites",
+    "sort_date": "2026-06-22",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-dyego-blunites-6-22-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Dyego",
+      "BluNites",
+      "Otlo"
     ]
   },
   {
@@ -12085,7 +12017,7 @@
     "supports": []
   },
   {
-    "title": "The AlgoRhythms",
+    "title": "The AlgoRhythms w. Uncle Monkey",
     "sort_date": "2026-08-09",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/the-algorhythms/",
@@ -13099,10 +13031,10 @@
     "supports": []
   },
   {
-    "title": "LP",
+    "title": "LP - All Is Not Lost Tour",
     "sort_date": "2026-09-11",
     "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/lp-minneapolis-minnesota-09-11-2026/event/0600649BE96AADF6",
+    "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-minneapolis-minnesota-09-11-2026/event/0600649BE96AADF6",
     "sold_out": true,
     "time": "7pm",
     "doors": null,
@@ -13855,6 +13787,19 @@
     "time": "7pm",
     "doors": "6pm",
     "supports": []
+  },
+  {
+    "title": "JPEGMAFIA: the Experimental Rap Tour",
+    "sort_date": "2026-10-08",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/jpegmafia-the-experimental-rap-tour-minneapolis-minnesota-10-08-2026/event/0600648AACD02598",
+    "sold_out": true,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "redveil",
+      "matt proxy"
+    ]
   },
   {
     "title": "Return of the Jedi in Concert",
@@ -14846,7 +14791,7 @@
     "venue": "State Theatre",
     "url": "https://www.ticketmaster.com/professor-brian-cox-emergence-minneapolis-minnesota-02-25-2027/event/06006486B781C780",
     "sold_out": true,
-    "time": "8pm",
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -14897,6 +14842,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/keefe-shostakovich-and-ravel",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Attack on Titan",
+    "sort_date": "2027-04-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/attack-on-titan-2",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },

@@ -1,138 +1,5 @@
 [
   {
-    "title": "The French Connexion feat. French Family Band, Jimmy Fortune, Mike Rogers, Jenee Fleenor, Ben Isaacs, Jeff Taylor",
-    "sort_date": "2026-04-29",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/french-family-band-the-french-3rd-and-lindsley-tickets/14095154",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jam For Good Presents The Head And The Heart",
-    "sort_date": "2026-04-29",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/jam-for-good-presents-the-head-nashville-tennessee-04-29-2026/event/1B00639EC8C6B9E8",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "PB&TAT | The Skrewups | Hayloft",
-    "sort_date": "2026-04-29",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-pbtat-the-skrewups-hayloft/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sweepers, GR3YBOY, Screen Star, & Girl Talk",
-    "sort_date": "2026-04-29",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/sweepers-gr3yboy-screen-star-girl-talk-29-apr",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The '58: Digital Brains (18+ Event)",
-    "sort_date": "2026-04-29",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_A",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Brudi Brothers",
-    "sort_date": "2026-04-29",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/the-brudi-brothers-exitin-tickets/14132784",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lanzetti, Seal, Krauss & Raudabaugh",
-    "sort_date": "2026-04-29",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/d02162b1-9b63-4283-82ae-241e478cdfb4",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Regi Wooten & Friends",
-    "sort_date": "2026-04-29",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/cee247b4-20de-434a-9638-2132cca8b27c",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "RAYE - THIS TOUR MAY CONTAIN NEW MUSIC",
-    "sort_date": "2026-04-29",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1143657/raye-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Absolutely",
-      "Amma"
-    ]
-  },
-  {
-    "title": "40 Horse Mule $20",
-    "sort_date": "2026-04-29",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/40-horse-mule/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Wes Parker w/ Eva Cassel",
-    "sort_date": "2026-04-29",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/wes-parker-w-eva-cassel-the-basement-tickets/14127104",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jake Worthington - Intent to Tonk w/ Colton Dawson",
-    "sort_date": "2026-04-29",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/jake-worthington-intent-the-basement-east-tickets/14162754",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lily Crow w/Cohle Smith & Kyra Cannon \u2013 18+",
-    "sort_date": "2026-04-29",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/lily-crow-w-cohle-smith-kyra-cannon-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "Kent Blazy: Stories Behind The Songs Album Release Show",
     "sort_date": "2026-04-30",
     "venue": "3rd & Lindsley",
@@ -496,10 +363,10 @@
     "supports": []
   },
   {
-    "title": "Humble Hysteria w/Collective Dust, Whimper & MOAB \u2013 18+",
+    "title": "Humble Hysteria w/Collective Dust, Whimper & MOAB \u2013 All Ages",
     "sort_date": "2026-05-01",
     "venue": "The End",
-    "url": "https://endnashville.com/event/humble-hysteria-w-collective-dust-whimper-moab-18/the-end/",
+    "url": "https://endnashville.com/event/humble-hysteria-w-collective-dust-whimper-moab-all-ages/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -1387,7 +1254,7 @@
     "supports": []
   },
   {
-    "title": "Rougarou 6-Piece New Orleans Brass Band",
+    "title": "Rougarou 7-Piece New Orleans Brass Band",
     "sort_date": "2026-05-07",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/230aa80d-c252-4435-9273-3ec893117de4",
@@ -1521,15 +1388,14 @@
     "supports": []
   },
   {
-    "title": "CHAOS & CARNAGE 2026 W/ THY ART IS MURDER + SPECIAL GUESTS",
+    "title": "CHAOS & CARNAGE 2026 w/ CARNIFEX + SPECIAL GUESTS",
     "sort_date": "2026-05-08",
     "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/chaos-carnage-2026-w-thy-art-nashville-tennessee-05-08-2026/event/1B006388DC89E513",
+    "url": "https://www.ticketmaster.com/chaos-carnage-2026-w-carnifex-special-nashville-tennessee-05-08-2026/event/1B006388DC89E513",
     "sold_out": false,
-    "time": "4:45pm",
+    "time": "5pm",
     "doors": null,
     "supports": [
-      "Carnifex",
       "Bodysnatcher",
       "200 Stab Wounds",
       "Ingested",
@@ -2347,10 +2213,10 @@
     "supports": []
   },
   {
-    "title": "SOLD OUT : ROONEY\u2019S IRREGULARS featuring Pat Alger , Sam Bush , Tim O'Brien , Shawn Camp , Pat McLaughlin , Richard Bailey , Bill Kenner , Kirk \"Jellyroll\" Johnson , Dan Dugmore , Pete Wasner , Dave Pomeroy , Larry Atamanuik & Pat McInerney with John Lomax",
+    "title": "ROONEY\u2019S IRREGULARS featuring Pat Alger , Sam Bush , Tim O'Brien , Shawn Camp , Pat McLaughlin , Richard Bailey , Bill Kenner , Kirk \"Jellyroll\" Johnson , Dan Dugmore , Pete Wasner , Dave Pomeroy , Larry Atamanuik & Pat McInerney with John Lomax",
     "sort_date": "2026-05-13",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/rooneys-irregulars-sold-out-pat-3rd-and-lindsley-tickets/14609343",
+    "url": "https://www.ticketweb.com/event/rooneys-irregulars-pat-alger-sam-3rd-and-lindsley-tickets/14609343",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -3457,7 +3323,7 @@
     "supports": []
   },
   {
-    "title": "Rougarou 6-Piece New Orleans Brass Band",
+    "title": "Rougarou 7-Piece New Orleans Brass Band",
     "sort_date": "2026-05-21",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/rougarou-6-piece-new-orleans-brass-band-2",
@@ -4115,8 +3981,8 @@
     "venue": "The End",
     "url": "https://endnashville.com/event/legacy-concerts-presents-solya-w-tele-novella-all-ages/the-end/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -4831,10 +4697,10 @@
     "supports": []
   },
   {
-    "title": "Bluebird On 3rd",
+    "title": "Bluebird on 3rd (located at 3rd & Lindsley Bar & Grill - Downtown Nashville)",
     "sort_date": "2026-06-01",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14152654",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-located-at-3rd-and-lindsley-tickets/14892683",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
@@ -5166,7 +5032,7 @@
     "supports": []
   },
   {
-    "title": "Rougarou 6-Piece New Orleans Brass Band",
+    "title": "Rougarou 7-Piece New Orleans Brass Band",
     "sort_date": "2026-06-04",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/rougarou-6-piece-new-orleans-brass-band-3",
@@ -5653,10 +5519,10 @@
     "supports": []
   },
   {
-    "title": "Bluebird On 3rd",
+    "title": "Bluebird on 3rd (located at 3rd & Lindsley Bar & Grill - Downtown Nashville)",
     "sort_date": "2026-06-08",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14152674",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-located-at-3rd-and-lindsley-tickets/14892693",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
@@ -6617,7 +6483,7 @@
     "supports": []
   },
   {
-    "title": "The Women of Country Presents GIRLS NIGHT OUT featuring Hannah Dasher , Ashland Craft , Kelsey Lamb , Jenny Tolman , Charly Reynolds , Molly Lovette & More!",
+    "title": "The Women of Country Presents GIRLS NIGHT OUT featuring Hannah Dasher , Ashland Craft , Kelsey Lamb , Jenny Tolman , Charly Reynolds , Molly Lovette , Stephanie Quayle & Andrea Vasquez",
     "sort_date": "2026-06-18",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/the-women-of-country-hannah-3rd-and-lindsley-tickets/14838793",
@@ -6682,7 +6548,7 @@
     "supports": []
   },
   {
-    "title": "Rougarou 6-Piece New Orleans Brass Band",
+    "title": "Rougarou 7-Piece New Orleans Brass Band",
     "sort_date": "2026-06-18",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/rougarou-6-piece-new-orleans-brass-band-4",
@@ -8921,7 +8787,7 @@
     "sort_date": "2026-07-22",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/belmont-performing-10-years-of-the-basement-east-tickets/14880033",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -9089,6 +8955,16 @@
     "url": "https://stationinn.com/event/richard-bennett-25/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Emo Night Tour",
+    "sort_date": "2026-07-24",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/the-emo-night-tour-the-basement-east-tickets/14890553",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -9559,10 +9435,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: King 810 w/ For The Fallen Dreams, Weeping Wound \u2013 18+",
+    "title": "Legacy Concerts Presents: King 810 \u2013 18+",
     "sort_date": "2026-07-31",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-king-810-w-for-the-fallen-dreams-weeping-wound-18/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-king-810-18/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -9651,10 +9527,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: American Vanity \u2013 All Ages",
+    "title": "Legacy Concerts Presents: American Vanity w/ Lowfye50 and Titans of Sire \u2013 All Ages",
     "sort_date": "2026-08-01",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-american-vanity-all-ages/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-american-vanity-w-lowfye50-and-titans-of-sire-all-ages/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -10389,7 +10265,7 @@
     "sort_date": "2026-08-15",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/abby-holliday-x-charli-adams-the-basement-east-tickets/14873793",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12789,7 +12665,7 @@
     "sort_date": "2026-10-26",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/wednesday-13-w-dead-on-the-basement-east-tickets/14887273",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": [
@@ -13401,6 +13277,18 @@
     "supports": []
   },
   {
+    "title": "Olivia Rodrigo: The Unraveled Tour",
+    "sort_date": "2026-11-23",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Devon Again"
+    ]
+  },
+  {
     "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
     "sort_date": "2026-11-23",
     "venue": "Station Inn",
@@ -13409,6 +13297,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Olivia Rodrigo: The Unraveled Tour",
+    "sort_date": "2026-11-24",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Devon Again"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -16173,6 +16073,26 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-04-24/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluegrass Jam",
+    "sort_date": "2028-04-30",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2028-04-30/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sunday Gospel with Val Storey & Larry Cordle",
+    "sort_date": "2028-04-30",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/56270/2028-04-30/",
+    "sold_out": false,
+    "time": "3pm",
     "doors": null,
     "supports": []
   }
