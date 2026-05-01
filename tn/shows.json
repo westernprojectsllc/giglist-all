@@ -1,125 +1,5 @@
 [
   {
-    "title": "Kent Blazy: Stories Behind The Songs Album Release Show",
-    "sort_date": "2026-04-30",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/kent-blazy-stories-behind-the-3rd-and-lindsley-tickets/14140404",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cordell Winter | Leilani Kilgore | Catchfire",
-    "sort_date": "2026-04-30",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-cordell-winter-leilani-kilgore-rick-monroe-the-hitmen/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Opry Country Classics",
-    "sort_date": "2026-04-30",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0vO",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Labyrinth",
-    "sort_date": "2026-04-30",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/labyrinth430?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
-    "sort_date": "2026-04-30",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/eb357adc-b01f-460a-a5e1-b6fc7308e5d5",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Melvin Macias Afro-Cuban Jazz Quintet",
-    "sort_date": "2026-04-30",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/7df42abc-79dd-4a13-a994-b8210a530421",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Chelsea Handler",
-    "sort_date": "2026-04-30",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j_Zy",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Shelton & Williams $20",
-    "sort_date": "2026-04-30",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/shelton-williams/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jeffrey Martin & special guest h. pruz",
-    "sort_date": "2026-04-30",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/jeffrey-martin-special-guest-the-basement-tickets/14080814",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kassi Valazza, Nikki Barber & Corey Parsons",
-    "sort_date": "2026-04-30",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/kassi-valazza-nikki-barber-the-basement-tickets/14799723",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Searows - Death in the Business of Whaling w/ Jordan Patterson",
-    "sort_date": "2026-04-30",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/searows-death-in-the-basement-east-tickets/13987384",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lainey Seitz w/Meghan Curtain & Kendra Jennings \u2013 18+",
-    "sort_date": "2026-04-30",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/lainey-seitz-w-meghan-curtain-kendra-jennings-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "Midnight Riders - Allman Brothers Tribute Band with Sam Hunter",
     "sort_date": "2026-05-01",
     "venue": "3rd & Lindsley",
@@ -167,10 +47,20 @@
     ]
   },
   {
-    "title": "Ashes to Omens | Etchstone | Summon the Moon | Atlas Light",
+    "title": "Atlas Light | High Octavia | Etchstone",
     "sort_date": "2026-05-01",
     "venue": "Cobra",
     "url": "https://cobranashville.com/event/venue-ashes-to-omens-etchstone-summon-the-moon-atlas-light/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Front Bar: Miss Lonely | Taxiway | Joseph Jared",
+    "sort_date": "2026-05-01",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-miss-lonely-taxiway-joseph-jared/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -1244,6 +1134,16 @@
     "supports": []
   },
   {
+    "title": "U, Me & Ukg",
+    "sort_date": "2026-05-07",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/umeukg57?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
     "sort_date": "2026-05-07",
     "venue": "Rudy's Jazz Room",
@@ -1494,7 +1394,7 @@
     "supports": []
   },
   {
-    "title": "Bob Sabellico w/ Michael Whittaker, Vail Johnson & Raymond Massey",
+    "title": "Bob Sabellico w/ Kenny Zarider, Vail Johnson & Raymond Massey",
     "sort_date": "2026-05-08",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/bob-sabellico-w-michael-whittaker-vail-johnson-raymond-massey",
@@ -4161,6 +4061,16 @@
     "supports": []
   },
   {
+    "title": "Olivia Montgomery, Sally Hill and Herbi",
+    "sort_date": "2026-05-28",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/olivia-montgomery-sally-hill-and-the-basement-tickets/14894273",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: Your Neighbors w/ VISION ARCADE \u2013 18+",
     "sort_date": "2026-05-28",
     "venue": "The End",
@@ -4239,6 +4149,16 @@
     "url": "https://cobranashville.com/event/venue-night-talkers-neckscars-the-catastrophes-the-okay-greats/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ava Swan, Volunteer Department, and Brand New Companion",
+    "sort_date": "2026-05-29",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/ava-swan-volunteer-department-and-brand-new-companion-29-may",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -4918,7 +4838,7 @@
     "sort_date": "2026-06-03",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/ella-unruh-friends-exitin-tickets/14879833",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -5218,6 +5138,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Samantha McKaige w/Joy Hotchkiss & Thomas Parrish \u2013 18+",
+    "sort_date": "2026-06-05",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/samantha-mckaige-w-joy-hotchkiss-thomas-parrish-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -6483,6 +6413,16 @@
     "supports": []
   },
   {
+    "title": "Legacy Concerts Presents: John Harvie \u2013 18+",
+    "sort_date": "2026-06-17",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-john-harvie-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "The Women of Country Presents GIRLS NIGHT OUT featuring Hannah Dasher , Ashland Craft , Kelsey Lamb , Jenny Tolman , Charly Reynolds , Molly Lovette , Stephanie Quayle & Andrea Vasquez",
     "sort_date": "2026-06-18",
     "venue": "3rd & Lindsley",
@@ -6789,7 +6729,7 @@
     "sort_date": "2026-06-19",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/classic-city-wrestling-with-live-the-basement-east-tickets/14887683",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -7830,7 +7770,7 @@
     "sort_date": "2026-07-03",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/evan-zane-exitin-tickets/14872493",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -8239,7 +8179,7 @@
     "sort_date": "2026-07-11",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/22-good-for-u-exitin-tickets/14884083",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8:30pm",
     "doors": null,
     "supports": []
@@ -9349,7 +9289,7 @@
     "sort_date": "2026-07-31",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/bop-to-the-top-nashville-tennessee-07-31-2026/event/1B006498C74D96A2",
-    "sold_out": true,
+    "sold_out": false,
     "time": "9pm",
     "doors": null,
     "supports": []
@@ -10236,6 +10176,16 @@
       "Salt N Pepa",
       "En Vogue"
     ]
+  },
+  {
+    "title": "JOYCE MANOR",
+    "sort_date": "2026-08-15",
+    "venue": "Fogg Street Lawn Club",
+    "url": "https://www.foggstreet.live/calendar",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -11423,7 +11373,7 @@
     "sort_date": "2026-09-18",
     "venue": "Ascend Amphitheater",
     "url": "https://www.axs.com/events/1422558/shaboozey-tickets?skin=ascendamp",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -11844,7 +11794,7 @@
     "sort_date": "2026-09-29",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1407926/geese-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12090,7 +12040,7 @@
     "sort_date": "2026-10-07",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1324915/caamp-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -12497,7 +12447,7 @@
     "sort_date": "2026-10-22",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/dying-fetus-sanguisugabogg-nashville-tennessee-10-22-2026/event/1B006491AEB0F061",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6:30pm",
     "doors": null,
     "supports": [
@@ -12943,7 +12893,7 @@
     "sort_date": "2026-11-08",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/gwar-nashville-tennessee-11-08-2026/event/1B006496D8A05877",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -12957,7 +12907,7 @@
     "sort_date": "2026-11-08",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1414710/the-milk-carton-kids-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -16093,6 +16043,16 @@
     "url": "https://stationinn.com/event/56270/2028-04-30/",
     "sold_out": false,
     "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
+    "sort_date": "2028-05-01",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-05-01/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   }

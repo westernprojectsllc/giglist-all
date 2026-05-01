@@ -1,1309 +1,5 @@
 [
   {
-    "title": "Caiola",
-    "sort_date": "2026-04-01",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-caiola/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Mid America"
-    ]
-  },
-  {
-    "title": "Happy Landing",
-    "sort_date": "2026-04-01",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-happy-landing/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Motherfolk"
-    ]
-  },
-  {
-    "title": "Machine Girl",
-    "sort_date": "2026-04-01",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-machine-girl/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Sextile",
-      "LustSickPuppy"
-    ]
-  },
-  {
-    "title": "Wyatt Flores",
-    "sort_date": "2026-04-01",
-    "venue": "Palace Theatre",
-    "url": "https://first-avenue.com/event/2026-04-wyatt-flores/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Kashus Culpepper"
-    ]
-  },
-  {
-    "title": "Night Cap",
-    "sort_date": "2026-04-01",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-night-cap/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Flight by\u00a0Nothing"
-    ]
-  },
-  {
-    "title": "Couch Dog",
-    "sort_date": "2026-04-02",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-couch-dog/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Mystery Meat"
-    ]
-  },
-  {
-    "title": "Flamin' Oh's",
-    "sort_date": "2026-04-02",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-flamin-ohs/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Pullstring"
-    ]
-  },
-  {
-    "title": "Jeffrey Lewis & The Voltage",
-    "sort_date": "2026-04-03",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-jeffrey-lewis-the-voltage/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "clovers daughter"
-    ]
-  },
-  {
-    "title": "mclusky",
-    "sort_date": "2026-04-03",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-mclusky/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Pile"
-    ]
-  },
-  {
-    "title": "Can't Feel My Face: 2010s Dance Party",
-    "sort_date": "2026-04-03",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-cant-feel-my-face/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Belair Lip Bombs and dust",
-    "sort_date": "2026-04-03",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-the-belair-lip-bombs-and-dust/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Laveda"
-    ]
-  },
-  {
-    "title": "Boys Go To Jupiter",
-    "sort_date": "2026-04-04",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-boys-go-to-jupiter/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Clean Plate\u00a0Club"
-    ]
-  },
-  {
-    "title": "Midnight Til Morning",
-    "sort_date": "2026-04-04",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-midnight-til-morning/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Harvey Brittain"
-    ]
-  },
-  {
-    "title": "Mei Semones",
-    "sort_date": "2026-04-04",
-    "venue": "Cedar Cultural Center",
-    "url": "https://first-avenue.com/event/2026-04-mei-semones/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "John Roseboro"
-    ]
-  },
-  {
-    "title": "Landon Conrath",
-    "sort_date": "2026-04-04",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-landon-conrath/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Abby Holliday"
-    ]
-  },
-  {
-    "title": "Dirtwire",
-    "sort_date": "2026-04-04",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-dirtwire/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Will Evans"
-    ]
-  },
-  {
-    "title": "Clue \u23e4 The Movie",
-    "sort_date": "2026-04-04",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-clue-the-movie/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Lesley Ann\u00a0Warren"
-    ]
-  },
-  {
-    "title": "Clayton Ryan",
-    "sort_date": "2026-04-04",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-clayton-ryan/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "St. Rangers",
-      "Matcha\u00a0Fever"
-    ]
-  },
-  {
-    "title": "Eleganza! and Friends",
-    "sort_date": "2026-04-04",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-eleganza/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Clarion",
-    "sort_date": "2026-04-05",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-clarion/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Forest",
-      "bed"
-    ]
-  },
-  {
-    "title": "Raq baby",
-    "sort_date": "2026-04-05",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-raq-baby/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Onslaught and Warlord",
-    "sort_date": "2026-04-05",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-onslaught-and-warlord/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Haunter"
-    ]
-  },
-  {
-    "title": "Krooked Kings",
-    "sort_date": "2026-04-06",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-krooked-kings/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Annika Wells"
-    ]
-  },
-  {
-    "title": "Die Krupps",
-    "sort_date": "2026-04-06",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-die-krupps/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "ghostbells"
-    ]
-  },
-  {
-    "title": "Skullcrusher",
-    "sort_date": "2026-04-06",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-skullcrusher/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "June McDoom",
-      "h.\u00a0pruz"
-    ]
-  },
-  {
-    "title": "GWAR",
-    "sort_date": "2026-04-07",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-gwar/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Soulfly",
-      "King\u00a0Parrot"
-    ]
-  },
-  {
-    "title": "Marissa Nadler",
-    "sort_date": "2026-04-07",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-marissa-nadler/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Anand Wilder"
-    ]
-  },
-  {
-    "title": "Carly Cosgrove",
-    "sort_date": "2026-04-08",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-carly-cosgrove/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Leisure Hour",
-      "Summerbruise"
-    ]
-  },
-  {
-    "title": "On Cinema",
-    "sort_date": "2026-04-08",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-on-cinema/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Califone",
-    "sort_date": "2026-04-08",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-califone/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Zak Sally Sings The Bee\u00a0Gees"
-    ]
-  },
-  {
-    "title": "Colby Acuff",
-    "sort_date": "2026-04-09",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-colby-acuff/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Low Gap"
-    ]
-  },
-  {
-    "title": "Together Pangea and The Red Pears",
-    "sort_date": "2026-04-09",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-together-pangea-and-the-red-pears/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "The High\u00a0Curbs"
-    ]
-  },
-  {
-    "title": "THE MAINE",
-    "sort_date": "2026-04-09",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-the-maine/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Grayscale",
-      "Nightly",
-      "Friday Pilots\u00a0Club"
-    ]
-  },
-  {
-    "title": "Robyn Hitchcock",
-    "sort_date": "2026-04-09",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-robyn-hitchcock/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Emma Swift",
-      "DJ Jake\u00a0Rudh"
-    ]
-  },
-  {
-    "title": "Getdown Services",
-    "sort_date": "2026-04-10",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-getdown-services/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "PROBLEMS"
-    ]
-  },
-  {
-    "title": "Kxllswxtch",
-    "sort_date": "2026-04-10",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-kxllswxtch/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Warlord Colossus",
-      "Druidess"
-    ]
-  },
-  {
-    "title": "HEALTH x CARPENTER BRUT",
-    "sort_date": "2026-04-10",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-health-carpenter-brut/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Desire"
-    ]
-  },
-  {
-    "title": "Matt McCusker",
-    "sort_date": "2026-04-10",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-matt-mccusker/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Koffin Kats",
-    "sort_date": "2026-04-10",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-the-koffin-kats/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Carrie Nation & the Speakeasy",
-      "The\u00a0Rumours"
-    ]
-  },
-  {
-    "title": "Logan Michael",
-    "sort_date": "2026-04-11",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-logan-michael/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Adam Brandt"
-    ]
-  },
-  {
-    "title": "The Brook & The Bluff",
-    "sort_date": "2026-04-11",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-the-brook-the-bluff/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Ethan Tasch"
-    ]
-  },
-  {
-    "title": "Ryan Caraveo",
-    "sort_date": "2026-04-11",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-ryan-caraveo/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Travis Thompson"
-    ]
-  },
-  {
-    "title": "DeVotchKa",
-    "sort_date": "2026-04-11",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-devotchka/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "bathtub cig"
-    ]
-  },
-  {
-    "title": "Madison Cunningham",
-    "sort_date": "2026-04-11",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-madison-cunningham/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Sam Weber"
-    ]
-  },
-  {
-    "title": "Cat Clyde",
-    "sort_date": "2026-04-11",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-cat-clyde/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Boy Golden"
-    ]
-  },
-  {
-    "title": "An Evening with Jammy Buffet",
-    "sort_date": "2026-04-12",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-jammy-buffet/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hunter Hayes",
-    "sort_date": "2026-04-12",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-hunter-hayes/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Franklin Jonas & The\u00a0Byzantines"
-    ]
-  },
-  {
-    "title": "Sweet Pill",
-    "sort_date": "2026-04-13",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-sweet-pill/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "SPACED",
-      "Stereosity"
-    ]
-  },
-  {
-    "title": "The Nude Party",
-    "sort_date": "2026-04-13",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-the-nude-party/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Tobacco City"
-    ]
-  },
-  {
-    "title": "sosocamo",
-    "sort_date": "2026-04-14",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-sosocamo/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Thirteendegrees"
-    ]
-  },
-  {
-    "title": "BIG OCEAN",
-    "sort_date": "2026-04-14",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-big-ocean/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Off With Their Heads",
-    "sort_date": "2026-04-15",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-off-with-their-heads/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Toys That Kill",
-      "Panel"
-    ]
-  },
-  {
-    "title": "Nettspend",
-    "sort_date": "2026-04-15",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-nettspend/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tom Hamilton Band",
-    "sort_date": "2026-04-15",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-tom-hamilton/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Nectarous"
-    ]
-  },
-  {
-    "title": "Oceanic and Borderline",
-    "sort_date": "2026-04-16",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-oceanic-and-borderline/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ratboys",
-    "sort_date": "2026-04-16",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-ratboys/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "villagerrr"
-    ]
-  },
-  {
-    "title": "CHE",
-    "sort_date": "2026-04-16",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-che/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "OISTER BOY",
-    "sort_date": "2026-04-16",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-oister-boy/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Weeklong Weekend",
-      "afters",
-      "Bright Young\u00a0Things"
-    ]
-  },
-  {
-    "title": "The Astronomers",
-    "sort_date": "2026-04-17",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-the-astronomers/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "BYRNE"
-    ]
-  },
-  {
-    "title": "Dance With The Dead and Magic Sword",
-    "sort_date": "2026-04-17",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-dance-with-the-dead-and-magic-sword/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Megan McDuffee"
-    ]
-  },
-  {
-    "title": "Ber",
-    "sort_date": "2026-04-17",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-ber/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Anna Devine"
-    ]
-  },
-  {
-    "title": "Courtney Marie Andrews",
-    "sort_date": "2026-04-17",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-courtney-marie-andrews/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Aubory Bugg"
-    ]
-  },
-  {
-    "title": "NateWantsToBattle",
-    "sort_date": "2026-04-18",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-natewantstobattle/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "GENWUNNER",
-      "Cam\u00a0Steady"
-    ]
-  },
-  {
-    "title": "ERNEST",
-    "sort_date": "2026-04-18",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-ernest/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Rhys Rutherford"
-    ]
-  },
-  {
-    "title": "Heroes Off Duty Comedy Tour",
-    "sort_date": "2026-04-18",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-heroes-off-duty/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Plastic Constellations",
-    "sort_date": "2026-04-18",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-the-plastic-constellations/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Tornavalanche"
-    ]
-  },
-  {
-    "title": "Wild Party",
-    "sort_date": "2026-04-19",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-wild-party/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Capital Soiree"
-    ]
-  },
-  {
-    "title": "COLD",
-    "sort_date": "2026-04-19",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-cold/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "University Drive"
-    ]
-  },
-  {
-    "title": "Snow Tha Product",
-    "sort_date": "2026-04-19",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-snow-tha-product/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Psychology of Serial Killers",
-    "sort_date": "2026-04-19",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-psychology-of-serial-killers/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ty Segall",
-    "sort_date": "2026-04-20",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-ty-segall/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Mod Lang"
-    ]
-  },
-  {
-    "title": "Tommy Newport",
-    "sort_date": "2026-04-21",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-tommy-newport/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Quietchild"
-    ]
-  },
-  {
-    "title": "The Reasonable Doubts",
-    "sort_date": "2026-04-21",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-the-reasonable-doubts/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Rhythm Appeal"
-    ]
-  },
-  {
-    "title": "Dopethrone",
-    "sort_date": "2026-04-22",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-dopethrone/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Year of the Cobra",
-      "DUG"
-    ]
-  },
-  {
-    "title": "Malevolence and Guilt Trip",
-    "sort_date": "2026-04-22",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-malevolence-and-guilt-trip/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Chamber"
-    ]
-  },
-  {
-    "title": "Oh Wonder",
-    "sort_date": "2026-04-22",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-oh-wonder/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "WRABEL"
-    ]
-  },
-  {
-    "title": "Essenger",
-    "sort_date": "2026-04-22",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-essenger/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Echos",
-      "North\u00a0Innsbruck"
-    ]
-  },
-  {
-    "title": "Grace Ives",
-    "sort_date": "2026-04-23",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-grace-ives/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Whu Else"
-    ]
-  },
-  {
-    "title": "GELLI HAHA",
-    "sort_date": "2026-04-23",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-gelli-haha/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "BIG SIS"
-    ]
-  },
-  {
-    "title": "Rochelle Jordan",
-    "sort_date": "2026-04-23",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-rochelle-jordan/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Chrysalis"
-    ]
-  },
-  {
-    "title": "Buckethead",
-    "sort_date": "2026-04-23",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-buckethead/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bob Moses and Cannons",
-    "sort_date": "2026-04-23",
-    "venue": "Palace Theatre",
-    "url": "https://first-avenue.com/event/2026-04-bob-moses-cannons/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Oxis"
-    ]
-  },
-  {
-    "title": "Jake Owen",
-    "sort_date": "2026-04-23",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-jake-owen/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Kendell Marvel"
-    ]
-  },
-  {
-    "title": "Holy Fuck",
-    "sort_date": "2026-04-23",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-holy-fuck/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Gus Englehorn"
-    ]
-  },
-  {
-    "title": "Slomosa",
-    "sort_date": "2026-04-24",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-slomosa/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "The Mainliners"
-    ]
-  },
-  {
-    "title": "Earlybirds Club",
-    "sort_date": "2026-04-24",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-earlybirds-club/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Oklou",
-    "sort_date": "2026-04-24",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-oklou/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Vickie Cherie"
-    ]
-  },
-  {
-    "title": "Grieves",
-    "sort_date": "2026-04-24",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-grieves/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "The Street Sweepers",
-      "Cuauhtli"
-    ]
-  },
-  {
-    "title": "Rec Hall",
-    "sort_date": "2026-04-25",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-rec-hall/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Summerdrive",
-      "Greentop"
-    ]
-  },
-  {
-    "title": "femtanyl",
-    "sort_date": "2026-04-25",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-femtanyl/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "BEJALVIN"
-    ]
-  },
-  {
-    "title": "Disco, Always \u23e4 A Harry Styles Dance Night",
-    "sort_date": "2026-04-25",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-disco-always-harry-styles-dance-night/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Transmission 25",
-    "sort_date": "2026-04-25",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-transmission/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "DJ Jake\u00a0Rudh"
-    ]
-  },
-  {
-    "title": "Metropolitan Ballet presents Romeo & Juliet",
-    "sort_date": "2026-04-25",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-metropolitan-ballet-romeo-juliet-sat/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dead Meadow",
-    "sort_date": "2026-04-25",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-dead-meadow/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Dravier"
-    ]
-  },
-  {
-    "title": "Field Medic",
-    "sort_date": "2026-04-26",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-field-medic/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Georgia Maq"
-    ]
-  },
-  {
-    "title": "The Rock and Roll Playhouse presents The Music of Taylor Swift & More for Kids",
-    "sort_date": "2026-04-26",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-rock-and-roll-playhouse-taylor-swift/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Metropolitan Ballet presents Romeo & Juliet",
-    "sort_date": "2026-04-26",
-    "venue": "The Fitzgerald Theater",
-    "url": "https://first-avenue.com/event/2026-04-metropolitan-ballet-romeo-juliet-sun/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Barns Courtney",
-    "sort_date": "2026-04-26",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-barns-courtney/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Belle and\u00a0Chain"
-    ]
-  },
-  {
-    "title": "Bryan Andrews",
-    "sort_date": "2026-04-28",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-bryan-andrews/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "James McMurtry and the Martial Law Review",
-    "sort_date": "2026-04-28",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-04-james-mcmurtry/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "BettySoo"
-    ]
-  },
-  {
-    "title": "Jos\u00e9 Gonz\u00e1lez",
-    "sort_date": "2026-04-28",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-jose-gonzalez/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Abby Sage"
-    ]
-  },
-  {
-    "title": "Arankai",
-    "sort_date": "2026-04-29",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-arankai/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "buffalo_farm",
-      "MVRROW"
-    ]
-  },
-  {
-    "title": "Joey Alexander",
-    "sort_date": "2026-04-29",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/joey-alexander-apr29-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Reverend Horton Heat",
-    "sort_date": "2026-04-29",
-    "venue": "First Avenue",
-    "url": "https://first-avenue.com/event/2026-04-reverend-horton-heat/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Black Joe Lewis",
-      "Pi\u00f1ata\u00a0Protest"
-    ]
-  },
-  {
-    "title": "Waxahatchee & MJ Lenderman",
-    "sort_date": "2026-04-29",
-    "venue": "State Theatre",
-    "url": "https://first-avenue.com/event/2026-04-waxahatchee-mj-lenderman/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Brennan Wedl"
-    ]
-  },
-  {
-    "title": "Hannah Hendrickson",
-    "sort_date": "2026-04-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/hannahmhendrickson?igsh=MXFtZWdmd2NweTN6eg==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Caroline Jones",
-    "sort_date": "2026-04-30",
-    "venue": "7th St Entry",
-    "url": "https://first-avenue.com/event/2026-04-caroline-jones/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": [
-      "Alyssa Bonagura"
-    ]
-  },
-  {
-    "title": "Ashley Kutcher",
-    "sort_date": "2026-04-30",
-    "venue": "Amsterdam Bar & Hall",
-    "url": "https://first-avenue.com/event/2026-04-ashley-kutcher/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": [
-      "Bellah Mae"
-    ]
-  },
-  {
-    "title": "Thursday 4/30 - Dark Pony ($15 Cover)",
-    "sort_date": "2026-04-30",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-4-30-dark-pony-15-cover",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ruth Mascelli & Mary Hanson Scott w/ Nona Invie",
-    "sort_date": "2026-04-30",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/ruth-mascelli-mary-hanson-scott-nona-invie",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "BIZHIKI with Jada Brown",
-    "sort_date": "2026-04-30",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/bizhiki-with-jada-brown",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Paul Thorn",
     "sort_date": "2026-04-30",
     "venue": "Dakota Jazz Club",
@@ -1312,129 +8,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Dave Moore",
-    "sort_date": "2026-04-30",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10889/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-04-30",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-04-30-2026/event/06006354DB96958E",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Josiah Queen",
-    "sort_date": "2026-04-30",
-    "venue": "Palace Theatre",
-    "url": "https://first-avenue.com/event/2026-04-josiah-queen/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:15pm",
-    "supports": [
-      "Jervis Campbell",
-      "Gable\u00a0Price"
-    ]
-  },
-  {
-    "title": "Vash the Stampede",
-    "sort_date": "2026-04-30",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-vash-the-stampede-4-30-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Do Not Crush",
-      "Paper Sky"
-    ]
-  },
-  {
-    "title": "The Art of Medicine: For The Moment // An Evening of Medical Storytelling",
-    "sort_date": "2026-04-30",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/y2172c61a227",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "For Our Neighbors ft. clovers daughter, Quietchild, Third Date, and DJ Nanobyte",
-    "sort_date": "2026-04-30",
-    "venue": "Turf Club",
-    "url": "https://first-avenue.com/event/2026-04-for-our-neighbors/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Shotgun Johnny w. Samuel John Band",
-    "sort_date": "2026-04-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/shotgun-johnny-w-the-samuel-john-band/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Three on a Match w. Logan Luther & The Road Home",
-    "sort_date": "2026-04-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/three-on-a-match-w-logan-luther-the-road-home/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harlow, Max and the Fellow Travelers (MKE), Lone Rock Bridge, & Nick Elstad Trio",
-    "sort_date": "2026-04-30",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/xf702b6222a2",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Lone Rock Bride"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-01",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
-    "title": "Vacant",
-    "sort_date": "2026-05-01",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/vacantmpls?igsh=YnQ1cHNkeGdwNGdk",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Raspberry Tart",
-      "Fierro"
-    ]
   },
   {
     "title": "Canaan Cox",
@@ -1747,29 +320,6 @@
     "supports": []
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Record Club",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/therecordclub_mpls?igsh=b3N2dDI1c3FjMjMz",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Powersock",
-      "Dimitri"
-    ]
-  },
-  {
     "title": "The Cribs",
     "sort_date": "2026-05-02",
     "venue": "7th St Entry",
@@ -1992,7 +542,7 @@
     ]
   },
   {
-    "title": "SOLD OUT: Steph Tolev // Keepin' Em Hard",
+    "title": "Steph Tolev // Keepin' Em Hard",
     "sort_date": "2026-05-02",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/e3a94b777875",
@@ -2082,26 +632,6 @@
     "url": "https://link.dice.fm/P405523fe3de",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brass Messengers",
-    "sort_date": "2026-05-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kelley Smith",
-    "sort_date": "2026-05-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DiGHUXFy8/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
     "doors": null,
     "supports": []
   },
@@ -2320,26 +850,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Soul Trouv\u00e8re",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Rickshaw Billie's Burger Patrol",
     "sort_date": "2026-05-04",
     "venue": "7th St Entry",
@@ -2359,6 +869,16 @@
     "url": "https://www.thecedar.org/events/volunteer-orientation",
     "sold_out": false,
     "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jake Shimabukuro",
+    "sort_date": "2026-05-04",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/jake-shimabukuro-may4-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2423,31 +943,6 @@
     "time": "6:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Kevin Gamble Quartet"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/david_huckfelt?igsh=ZHhjdWJrd2F1em5y",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "David Huckfelt"
-    ]
   },
   {
     "title": "Faetooth",
@@ -2574,28 +1069,6 @@
     "time": "6pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Bosso Poetry Company",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Half Baked"
-    ]
   },
   {
     "title": "Sluice",
@@ -2755,29 +1228,6 @@
     "url": "https://link.dice.fm/a802a97ace44",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "HEAVY THURSDAY",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/shadowhexband?igsh=MWM5bm1jMXY4b2dlcw==",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Shadow Hex",
-      "6pm-dark\u2014Food by NordicDogs"
-    ]
-  },
-  {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -2954,31 +1404,6 @@
     "time": "9pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "J-mo On The Beat",
-    "sort_date": "2026-05-08",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/jmo_on_the_beat_official?igsh=czRsbTE4Z3JwZGow",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "DeTrell Melodies",
-      "The Sol Tribe"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-08",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
   },
   {
     "title": "ADULT.",
@@ -3187,29 +1612,6 @@
     "url": "https://link.dice.fm/F1686ef7ec34",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Baby Mahi and the Sitters",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/b_b_mahi?igsh=MWZybHY4dGpwNnA5OQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Fairooz Nazifa and Dost Toast",
-      "Pelicant"
-    ]
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -3471,26 +1873,6 @@
     "supports": []
   },
   {
-    "title": "Dr. Sketchy\u2019s Anti-Art School",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Emmy Woods and friends",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Foxtide",
     "sort_date": "2026-05-10",
     "venue": "7th St Entry",
@@ -3629,28 +2011,6 @@
     "supports": []
   },
   {
-    "title": "JWAC",
-    "sort_date": "2026-05-11",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "CLOG"
-    ]
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-11",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Red Rum Club",
     "sort_date": "2026-05-11",
     "venue": "7th St Entry",
@@ -3734,31 +2094,6 @@
     "time": "6pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-12",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Squinny"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-12",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/david_huckfelt?igsh=ZHhjdWJrd2F1em5y",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Aaron Lee Kaplan"
-    ]
   },
   {
     "title": "Lowertown",
@@ -3859,28 +2194,6 @@
     "time": "6pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Bee and the Knees",
-    "sort_date": "2026-05-13",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bee_and_the_knees?igsh=NWFiNm0yYnZpa2dr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-13",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Rachel Kurtz"
-    ]
   },
   {
     "title": "Brown Horse",
@@ -4047,19 +2360,6 @@
     "supports": []
   },
   {
-    "title": "ART-A-WHIRL WEEKEND \\ 2026",
-    "sort_date": "2026-05-14",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/coldsweatnd?igsh=aWpsbmc1M2F3c3Fq",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "PRE-PARTY!",
-      "Cold Sweat"
-    ]
-  },
-  {
     "title": "Clejan",
     "sort_date": "2026-05-14",
     "venue": "7th St Entry",
@@ -4222,22 +2522,6 @@
     "supports": []
   },
   {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-15",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "FRIDAY",
-      "indoors",
-      "Fistful of Datas 10pm",
-      "Venus Yevu 8pm",
-      "Zak Sally Sings the Bee Gees (with Shawn Walker) 7pm"
-    ]
-  },
-  {
     "title": "Ingrid Andress",
     "sort_date": "2026-05-15",
     "venue": "7th St Entry",
@@ -4346,6 +2630,16 @@
     "supports": [
       "Donovan Woods"
     ]
+  },
+  {
+    "title": "Urgent Emergent Performance Art Series: Volume Five Movement Music",
+    "sort_date": "2026-05-15",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/9392/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "King&#8217;s Crown Band, Voice of Command and More",
@@ -4477,26 +2771,6 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-16",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Saturday",
-      "outdoors",
-      "vintage and makers market 12-8pm",
-      "indoors",
-      "Socktopus 10pm",
-      "The Japhies 8pm",
-      "Hastings 3000 6:00",
-      "Butter Boys 5pm",
-      "Unattractive Giant Monster 4pm"
-    ]
   },
   {
     "title": "The Scratch",
@@ -4711,25 +2985,6 @@
     "supports": []
   },
   {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-17",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Sunday",
-      "outdoors",
-      "vintage and makers market 12-6pm",
-      "indoors",
-      "Switchyard 9:30pm",
-      "Diane 7:30pm",
-      "ditch pigeon 6pm",
-      "Jim Walsh and Mikkel Bee 3-5pm"
-    ]
-  },
-  {
     "title": "The Casualties",
     "sort_date": "2026-05-17",
     "venue": "7th St Entry",
@@ -4889,28 +3144,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.nikkimattesonandrichrue.com",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Nikki Mat-teson & Rich Rue"
-    ]
-  },
-  {
     "title": "Accessory (Jason Balla of Dehd)",
     "sort_date": "2026-05-18",
     "venue": "7th St Entry",
@@ -4964,31 +3197,6 @@
     "time": "9pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Robyn Jamner"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/playcountryblues?igsh=MThvYTF0aXBvaTV2OQ==",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Tom Feldmann"
-    ]
   },
   {
     "title": "FIGHTMASTER",
@@ -5060,32 +3268,20 @@
     "supports": []
   },
   {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Dean Magraw & Bruce Henry"
-    ]
-  },
-  {
-    "title": "The Matt Arthur Contraption",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1BLqcHnADn/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
     "sort_date": "2026-05-20",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/mn-songwriter-showcase-hosted-by-nick-hensley-free",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Larry McDonough Quintet: Trumpetocity",
+    "sort_date": "2026-05-20",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/larry-mcdonough-quintet-trumpetocity",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -5180,19 +3376,6 @@
     "supports": []
   },
   {
-    "title": "Cross Pollination",
-    "sort_date": "2026-05-21",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Knife Emoji",
-      "Clung Tight"
-    ]
-  },
-  {
     "title": "Anna Devine",
     "sort_date": "2026-05-21",
     "venue": "7th St Entry",
@@ -5212,6 +3395,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-5-21-side-door-15-cover",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Effy + Kwey Present: Off Wax (feat. Le R\u00fa)",
+    "sort_date": "2026-05-21",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/effygasm-kwey-off-wax-may-2026",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -5317,31 +3510,6 @@
     "supports": []
   },
   {
-    "title": "Boots & Needles",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bootsandneedles?igsh=M2FnNTZ0MHB4OTEw",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "The Gated Community",
-      "Woolley Mack"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
     "title": "Colin Bracewell",
     "sort_date": "2026-05-22",
     "venue": "7th St Entry",
@@ -5359,6 +3527,26 @@
     "sort_date": "2026-05-22",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/5-22-suwal-singh-dean-magraw-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Ross Clowser / Josh Granowski",
+    "sort_date": "2026-05-22",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-ross-clowser-josh-granowski-may-2026",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ella Grace & Marisa Cravero",
+    "sort_date": "2026-05-22",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/marisa-cravero-ella-grace-may-2026",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -5494,26 +3682,6 @@
     "supports": []
   },
   {
-    "title": "120 Minutes Band",
-    "sort_date": "2026-05-23",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/120minutestributeband?igsh=MWxydHc5NDJtbzFqbg==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-23",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Whips",
     "sort_date": "2026-05-23",
     "venue": "7th St Entry",
@@ -5531,6 +3699,26 @@
     "sort_date": "2026-05-23",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/5-23-saturday-richard-kriehn-pat-donohue-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Harry Scott Trio",
+    "sort_date": "2026-05-23",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-harry-scott-trio-may-2026",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Joe Policastro Trio",
+    "sort_date": "2026-05-23",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/joe-policastro-trio-may-2026",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -5663,28 +3851,6 @@
     "supports": []
   },
   {
-    "title": "Doyle Turner",
-    "sort_date": "2026-05-24",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DKwAFXD9e/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Race Situation:",
-    "sort_date": "2026-05-24",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Three the Hard Way, Dj Ted Ned, Phil Dumka)"
-    ]
-  },
-  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-05-24",
     "venue": "Aster Cafe",
@@ -5755,26 +3921,6 @@
     "supports": []
   },
   {
-    "title": "HonkyTonk Ranch",
-    "sort_date": "2026-05-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Deslondes, Michael Gay, and Kiki Cavazos.",
     "sort_date": "2026-05-25",
     "venue": "Ice House",
@@ -5817,31 +3963,6 @@
     "time": "6pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Obsidian James"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/jeffraymusic1?igsh=MW1oNDhtZjdlZWhzdQ==",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Jeff Ray"
-    ]
   },
   {
     "title": "Helen",
@@ -5887,28 +4008,14 @@
     "supports": []
   },
   {
-    "title": "Harold\u2019s House Party on KFAI",
+    "title": "One-Man Shows & Immaculate Flows w/ L.A. Buckner & Midwest James",
     "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/l-a-buckner-midwest-james-may-27",
     "sold_out": false,
-    "time": "7:00pm",
+    "time": "7pm",
     "doors": null,
-    "supports": [
-      "Red Hot Django Peppers"
-    ]
-  },
-  {
-    "title": "Lenz and Frenz",
-    "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"
-    ]
+    "supports": []
   },
   {
     "title": "The Cherry Pit Open Jam",
@@ -5996,16 +4103,6 @@
     "supports": []
   },
   {
-    "title": "Pinched.",
-    "sort_date": "2026-05-28",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/pinched_music.mpls?igsh=MXBkcnYwYjJpd3NpeQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Ike Dweck",
     "sort_date": "2026-05-28",
     "venue": "7th St Entry",
@@ -6024,6 +4121,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-5-28-grant-vague-15-cover",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "One-Man Shows & Immaculate Flows w/ L.A. Buckner & Midwest James",
+    "sort_date": "2026-05-28",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/l-a-buckner-midwest-james-may-28",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -6130,31 +4237,6 @@
     "supports": []
   },
   {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-29",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
-    "title": "Wish Wash",
-    "sort_date": "2026-05-29",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/wishwashmpls?igsh=MWN2NXFkejJ6cGRndA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Ray Gun Youth",
-      "Steady Range"
-    ]
-  },
-  {
     "title": "Emerson Woolf & the Wishbones",
     "sort_date": "2026-05-29",
     "venue": "7th St Entry",
@@ -6173,6 +4255,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/friday-5-29-mae-the-guys-15-cover",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Josh Granowski / Mike Cramer",
+    "sort_date": "2026-05-29",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-josh-granowski-mike-cramer-may-2026",
+    "sold_out": false,
+    "time": "4:30pm",
     "doors": null,
     "supports": []
   },
@@ -6341,29 +4433,6 @@
     "supports": []
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Del-Viles",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/thedelviles?igsh=MWRscTRmNnczYmt3eA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "ditch pigeon",
-      "J-Mo & The J-Lighters"
-    ]
-  },
-  {
     "title": "Amelia Day",
     "sort_date": "2026-05-30",
     "venue": "7th St Entry",
@@ -6380,6 +4449,16 @@
     "sort_date": "2026-05-30",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/5-30-matt-wilson-his-orchestra-20-sat",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "JT Bates Quartet",
+    "sort_date": "2026-05-30",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/jt-bates-quartet-may-2026",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -6574,26 +4653,6 @@
     "supports": []
   },
   {
-    "title": "Becky Kapell and The Fat 6",
-    "sort_date": "2026-05-31",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1D8SsoKp6Z/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jack klatt",
-    "sort_date": "2026-05-31",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1Fc7DkBMfn/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Gozu and Restless Spirit",
     "sort_date": "2026-05-31",
     "venue": "7th St Entry",
@@ -6634,6 +4693,16 @@
     "supports": [
       "Fluorescents"
     ]
+  },
+  {
+    "title": "Obi Original and The Black Atlantics Residency",
+    "sort_date": "2026-05-31",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/9714/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Poulenc, Bart\u00f3k and Ravel",
@@ -6721,26 +4790,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-01",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Soul Trouv\u00e8re",
-    "sort_date": "2026-06-01",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Alec Collins",
     "sort_date": "2026-06-01",
     "venue": "White Squirrel",
@@ -6757,29 +4806,6 @@
     "url": "https://whitesquirrelbar.com/event/metal-monday-2/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-02",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "desdamona w/ mike michel of the Orange Goodness"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-02",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -6812,8 +4838,8 @@
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-02",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOS",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-02-2026/event/060063887F0F477C",
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -6863,26 +4889,6 @@
     "supports": []
   },
   {
-    "title": "Bosso Poetry Company",
-    "sort_date": "2026-06-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-03",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Cruvell \u23e4 'Crushed Velvet for Your Ears\u2019 Album Release Party",
     "sort_date": "2026-06-03",
     "venue": "7th St Entry",
@@ -6906,8 +4912,8 @@
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-03",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74F-K",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-03-2026/event/060063887F12478D",
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -6962,16 +4968,6 @@
     "url": "https://link.dice.fm/kf4167ff3c01",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-06-04",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -7055,8 +5051,8 @@
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-04",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOJ",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-04-2026/event/060063887F1447BF",
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -7119,26 +5115,6 @@
     "supports": []
   },
   {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-05",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Crimson Boys",
-    "sort_date": "2026-06-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/thecrimsonboys?igsh=YXRmeHJsMHpqeXI5",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Aiden Intro",
     "sort_date": "2026-06-05",
     "venue": "7th St Entry",
@@ -7177,6 +5153,16 @@
     "url": "https://www.berlinmpls.com/calendar/late-night-lounge-mike-pifer-june-2026",
     "sold_out": false,
     "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mathis Picard Trio",
+    "sort_date": "2026-06-05",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/mathis-picard-trio-june-5",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -7240,8 +5226,8 @@
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-05",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74FOU",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-05-2026/event/060063887F1747D5",
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -7329,26 +5315,6 @@
     "supports": []
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Plumstar",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/hiplumstar?igsh=MW93d25idnJxcmQ5eQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Pradabagshawty",
     "sort_date": "2026-06-06",
     "venue": "7th St Entry",
@@ -7363,6 +5329,26 @@
     "sort_date": "2026-06-06",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/6-6-spike-the-gandy-dancers-album-release-celebration-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: D. Untethered",
+    "sort_date": "2026-06-06",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/d-untethered-june-2026",
+    "sold_out": false,
+    "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mathis Picard Trio",
+    "sort_date": "2026-06-06",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/mathis-picard-trio-june-6",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -7465,16 +5451,6 @@
     "supports": []
   },
   {
-    "title": "Brass Messengers",
-    "sort_date": "2026-06-07",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-06-07",
     "venue": "Aster Cafe",
@@ -7528,8 +5504,8 @@
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-07",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74F-P",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-07-2026/event/060063887F1E47FA",
+    "sold_out": false,
     "time": "1pm",
     "doors": null,
     "supports": []
@@ -7551,16 +5527,6 @@
     "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-6/",
     "sold_out": false,
     "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-08",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -7617,29 +5583,6 @@
     "supports": []
   },
   {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-09",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "mike munson"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-09",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Yot Club",
     "sort_date": "2026-06-09",
     "venue": "Fine Line",
@@ -7649,6 +5592,25 @@
     "doors": "7pm",
     "supports": [
       "Renny Conti"
+    ]
+  },
+  {
+    "title": "15 Minutes of Femme",
+    "sort_date": "2026-06-09",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-15-minutes-of-femme-6-9-2026",
+    "sold_out": false,
+    "time": "5pm",
+    "doors": "4pm",
+    "supports": [
+      "Christy Costello & The CC Club",
+      "Laura Larson (Scrunchies)",
+      "Buio Omega",
+      "Anita Velveeta",
+      "Cindy Lawson",
+      "Momzilla",
+      "Surly Grrrly",
+      "more!"
     ]
   },
   {
@@ -7698,26 +5660,6 @@
     "url": "https://link.dice.fm/e5310e0a9e04",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-10",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ryan Gebhardt",
-    "sort_date": "2026-06-10",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/ryangebhardt?igsh=MjRqM25qOHlhNm9o",
-    "sold_out": false,
-    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -7779,12 +5721,12 @@
     "supports": []
   },
   {
-    "title": "HebbaJebba",
-    "sort_date": "2026-06-11",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1G3H8DQQCX/?mibextid=wwXIfr",
+    "title": "m.otherThing, Doll Chaser, Darkling I Listen, & CRYPT.ID",
+    "sort_date": "2026-06-10",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/rd0fd350db41",
     "sold_out": false,
-    "time": "9:30pm",
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -7805,6 +5747,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-6-11-mother-banjo-ben-cook-feltz",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Paolo Angeli",
+    "sort_date": "2026-06-11",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/paolo-angeli-june-2026",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -7896,16 +5848,6 @@
     "supports": [
       "Stygian Bough (Bell Witch & Aerial Ruin)"
     ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-12",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Tommy Goodroad",
@@ -8031,16 +5973,6 @@
     "supports": []
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-13",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Killed By Kiwis",
     "sort_date": "2026-06-13",
     "venue": "7th St Entry",
@@ -8060,6 +5992,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-13-the-umamies-12-cover",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "\"Dinkytown: A Tale of a Legendary Village\" Film Screening",
+    "sort_date": "2026-06-13",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/dinkytown-a-tale-of-a-legendary-village-film-screening",
+    "sold_out": false,
+    "time": "4pm",
     "doors": null,
     "supports": []
   },
@@ -8147,7 +6089,7 @@
     "sort_date": "2026-06-13",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/electric-feels-indie-rock-electronic-dance-minneapolis-minnesota-06-13-2026/event/06006498B99486DC",
-    "sold_out": true,
+    "sold_out": false,
     "time": "9pm",
     "doors": null,
     "supports": []
@@ -8179,26 +6121,6 @@
     "url": "https://whitesquirrelbar.com/event/mark-ross-w-hilary-yoder/",
     "sold_out": false,
     "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dr. Sketchy\u2019s Anti-Art School",
-    "sort_date": "2026-06-14",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Emmy Woods and friends",
-    "sort_date": "2026-06-14",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -8293,26 +6215,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-15",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-06-15",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Daisy the Great",
     "sort_date": "2026-06-15",
     "venue": "7th St Entry",
@@ -8337,29 +6239,6 @@
     "sort_date": "2026-06-15",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/devil-dodger-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-16",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "sand county"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-16",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
@@ -8424,16 +6303,6 @@
     "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-18/",
     "sold_out": false,
     "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-17",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -8503,18 +6372,6 @@
     "time": "9pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Cross Pollination",
-    "sort_date": "2026-06-18",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Knife Emoji"
-    ]
   },
   {
     "title": "Lily Fitts",
@@ -8613,26 +6470,6 @@
     "supports": []
   },
   {
-    "title": "Brotherhood Of Birds",
-    "sort_date": "2026-06-19",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bobmpls?igsh=MWJvNXp4bjVjeHllYw==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-19",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Thee Marloes",
     "sort_date": "2026-06-19",
     "venue": "7th St Entry",
@@ -8647,6 +6484,26 @@
     "sort_date": "2026-06-19",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/friday-6-19-joe-hysell-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cameron Kinghorn & Friends: Funk & R&B",
+    "sort_date": "2026-06-19",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/cameron-kinghorn-friends-funk-r-and-b-june-2026",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cameron Kinghorn & Friends: Jazz & Soul",
+    "sort_date": "2026-06-19",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/cameron-kinghorn-friends-june-2026",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -8735,26 +6592,6 @@
     "supports": []
   },
   {
-    "title": "Bobby Rethwish",
-    "sort_date": "2026-06-20",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bobbyrethwish?igsh=MW4zNW53eWFhNHN5NA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-20",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Enter Shikari",
     "sort_date": "2026-06-20",
     "venue": "Amsterdam Bar & Hall",
@@ -8774,6 +6611,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-20-giant-valley-string-band-with-bill-cagley-15-cover",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Vasich, Granowski, & Hepola Play \"Money Jungle\"",
+    "sort_date": "2026-06-20",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-money-jungle-june-2026",
+    "sold_out": false,
+    "time": "4:30pm",
     "doors": null,
     "supports": []
   },
@@ -8887,26 +6734,6 @@
     "url": "https://whitesquirrelbar.com/event/letters-w-hospital-property-the-dirty-pretty/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Switchyard",
-    "sort_date": "2026-06-21",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "eleven degenerates",
-    "sort_date": "2026-06-21",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -9029,26 +6856,6 @@
     "supports": []
   },
   {
-    "title": "HonkyTonk Ranch",
-    "sort_date": "2026-06-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dexter and the Moonrocks",
     "sort_date": "2026-06-22",
     "venue": "Fine Line",
@@ -9118,29 +6925,6 @@
     "supports": []
   },
   {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-23",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch",
-      "Los Pinches Gueys"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-23",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Connor Price & Nic D \"Iconic Tour\"",
     "sort_date": "2026-06-23",
     "venue": "Fillmore Minneapolis",
@@ -9192,26 +6976,6 @@
     "url": "https://whitesquirrelbar.com/event/aeris-the-piggies-residency-3/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dan Tanz & the Wildfire",
-    "sort_date": "2026-06-24",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-06-24",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -9280,18 +7044,6 @@
     "supports": []
   },
   {
-    "title": "Stephanie Was",
-    "sort_date": "2026-06-25",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DaN5h7KLw/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Rich Mattson and the Northstars"
-    ]
-  },
-  {
     "title": "Social Animals",
     "sort_date": "2026-06-25",
     "venue": "7th St Entry",
@@ -9334,34 +7086,25 @@
     "supports": []
   },
   {
+    "title": "Disappearing Wings",
+    "sort_date": "2026-06-25",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-disappearing-wings-6-25-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Anothernight",
+      "Alone-A"
+    ]
+  },
+  {
     "title": "Mike Sherm",
     "sort_date": "2026-06-25",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/mike-sherm-minneapolis-minnesota-06-25-2026/event/060064971AA84BE2",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Charlie Doesn\u2019t Surf",
-    "sort_date": "2026-06-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/charliedoesntsurf42069?igsh=MWRsYXFlbWl6cGU0aQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Templs"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-06-26",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -9388,6 +7131,26 @@
     "supports": []
   },
   {
+    "title": "Bokani Dyer Trio",
+    "sort_date": "2026-06-26",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/bokani-dyer-trio-june-2026",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Effygasm",
+    "sort_date": "2026-06-26",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-effygasm-june-2026",
+    "sold_out": false,
+    "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Chinese American Bear, The Controversial New 'Skinny Pill'",
     "sort_date": "2026-06-26",
     "venue": "Cloudland Theater",
@@ -9396,6 +7159,18 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Mel Bryant & the Mercy Makers",
+    "sort_date": "2026-06-26",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-mel-bryant-the-mercy-makers-6-26-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "June Henry"
+    ]
   },
   {
     "title": "The Secret Sisters // Night One",
@@ -9428,28 +7203,6 @@
     "supports": []
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-27",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Slaphazard",
-    "sort_date": "2026-06-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1DgyB3EmEV/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Joyful Wrath"
-    ]
-  },
-  {
     "title": "Hashtronaut, PALS, Crash Cuddle",
     "sort_date": "2026-06-27",
     "venue": "Cloudland Theater",
@@ -9478,18 +7231,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Mel Bryant & the Mercy Makers",
-    "sort_date": "2026-06-27",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-mel-bryant-the-mercy-makers-6-27-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "June Henry"
-    ]
   },
   {
     "title": "The Secret Sisters // Night Two",
@@ -9526,7 +7267,7 @@
     "sort_date": "2026-06-27",
     "venue": "Varsity Theater",
     "url": "https://www.universe.com/events/r-b-only-live-minneapolis-mn-tickets-83G6WQ?ref=ticketmaster",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -9570,16 +7311,6 @@
     "url": "https://link.dice.fm/B0499e93f19a",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Real Chuck NORAD",
-    "sort_date": "2026-06-28",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=61557848086888&mibextid=JRoKGi",
-    "sold_out": false,
-    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -9678,16 +7409,6 @@
     "supports": []
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-06-29",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Pop Wagner",
     "sort_date": "2026-06-29",
     "venue": "White Squirrel",
@@ -9704,28 +7425,6 @@
     "url": "https://whitesquirrelbar.com/event/sylvia-may/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "June Conspiracy Series featuring",
-    "sort_date": "2026-06-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Sawtooth Witch"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-06-30",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -10151,6 +7850,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Room3",
+    "sort_date": "2026-07-10",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/room3-july-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -11540,7 +9249,7 @@
     "sort_date": "2026-07-30",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/rf32fefb8ebb",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
@@ -12330,12 +10039,22 @@
     ]
   },
   {
+    "title": "COMEDY BAND CAMP ESSENTIALS Package, curated by Josh Johnson",
+    "sort_date": "2026-08-16",
+    "venue": "Orpheum Theatre",
+    "url": "https://www.ticketmaster.com/comedy-band-camp-essentials-package-curated-minneapolis-minnesota-08-16-2026/event/06006498B2896167",
+    "sold_out": true,
+    "time": "5pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
     "sort_date": "2026-08-16",
     "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-minneapolis-minnesota-08-16-2026/event/0600645BBA205AB0",
-    "sold_out": false,
-    "time": "8:30pm",
+    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-minneapolis-minnesota-08-16-2026/event/0600645BBA1C5A9D",
+    "sold_out": true,
+    "time": "5pm",
     "doors": null,
     "supports": []
   },
@@ -12525,6 +10244,16 @@
     "supports": []
   },
   {
+    "title": "Grave Society, Uxia, Hill of Crosses, & Ambivalent Chaos",
+    "sort_date": "2026-08-20",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/y4485a75dac1",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "anni xo",
     "sort_date": "2026-08-21",
     "venue": "7th St Entry",
@@ -12583,7 +10312,7 @@
     "sort_date": "2026-08-22",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/bop-to-the-top-minneapolis-minnesota-08-22-2026/event/06006498B41D6889",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -13443,7 +11172,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Boy Golden"
+    ]
   },
   {
     "title": "BERTHA: Grateful Drag",
@@ -13460,7 +11191,7 @@
     "sort_date": "2026-09-26",
     "venue": "Orpheum Theatre",
     "url": "https://www.ticketmaster.com/matute-disco-stereo-tour-minneapolis-minnesota-09-26-2026/event/06006498A5F724E8",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -13552,7 +11283,7 @@
     "sort_date": "2026-09-30",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/citizen-halcyon-blues-minneapolis-minnesota-09-30-2026/event/06006498B09D5827",
-    "sold_out": true,
+    "sold_out": false,
     "time": "5:30pm",
     "doors": null,
     "supports": [
@@ -13627,7 +11358,7 @@
     "sort_date": "2026-10-01",
     "venue": "State Theatre",
     "url": "https://www.ticketmaster.com/rocky-horror-spooktacular-tour-minneapolis-minnesota-10-01-2026/event/06006496D2255202",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -13637,7 +11368,7 @@
     "sort_date": "2026-10-01",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/i9d2f1db0366",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
@@ -13816,7 +11547,7 @@
     "sort_date": "2026-10-08",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/b3a4301f0261",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
@@ -13866,7 +11597,7 @@
     "sort_date": "2026-10-10",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/emei-night-at-the-opera-tour-minneapolis-minnesota-10-10-2026/event/06006496D7D16357",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -14790,7 +12521,7 @@
     "sort_date": "2027-02-25",
     "venue": "State Theatre",
     "url": "https://www.ticketmaster.com/professor-brian-cox-emergence-minneapolis-minnesota-02-25-2027/event/06006486B781C780",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
