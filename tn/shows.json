@@ -1,268 +1,5 @@
 [
   {
-    "title": "Midnight Riders - Allman Brothers Tribute Band with Sam Hunter",
-    "sort_date": "2026-05-01",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/midnight-riders-allman-3rd-and-lindsley-tickets/14809003",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "WMOT Finally Friday featuring India Ramey , Maisy Owen & Kara Grainger",
-    "sort_date": "2026-05-01",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/wmot-finally-friday-india-ramey-3rd-and-lindsley-tickets/14872703",
-    "sold_out": false,
-    "time": "12pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bailey Zimmerman: Different Night Same Rodeo Tour 2026",
-    "sort_date": "2026-05-01",
-    "venue": "Ascend Amphitheater",
-    "url": "https://www.axs.com/events/1097890/bailey-zimmerman-tickets",
-    "sold_out": false,
-    "time": "7:15pm",
-    "doors": null,
-    "supports": [
-      "Hudson Westbrook",
-      "Blake Whiten"
-    ]
-  },
-  {
-    "title": "Arm's Length: There's A Whole World... Tour - North America 2026",
-    "sort_date": "2026-05-01",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/arms-length-theres-a-whole-world-nashville-tennessee-05-01-2026/event/1B006384F49FA4A8",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "The Callous Daoboys",
-      "Harrison Gordon",
-      "Super Sometimes"
-    ]
-  },
-  {
-    "title": "Atlas Light | High Octavia | Etchstone",
-    "sort_date": "2026-05-01",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-ashes-to-omens-etchstone-summon-the-moon-atlas-light/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Front Bar: Miss Lonely | Taxiway | Joseph Jared",
-    "sort_date": "2026-05-01",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-miss-lonely-taxiway-joseph-jared/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Fortunes w/ Cult of Violence, So Calm, Landfilth, & Gouged Out",
-    "sort_date": "2026-05-01",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/fortunes-w-cult-of-violence-01-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "He Is Legend (18+ Event)",
-    "sort_date": "2026-05-01",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_k",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Raven with special guest Slackjaw",
-    "sort_date": "2026-05-01",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/raven-with-special-guest-slackjaw-exitin-tickets/14072094",
-    "sold_out": false,
-    "time": "7:40pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ethel Cain - The Willoughby Tucker Forever Tour",
-    "sort_date": "2026-05-01",
-    "venue": "FirstBank Amphitheater",
-    "url": "https://www.ticketmaster.com/ethel-cain-the-willoughby-tucker-forever-franklin-tennessee-05-01-2026/event/1B006328C8B44E6F",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "9Million"
-    ]
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-01",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxk3",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "ASHNIKKO",
-    "sort_date": "2026-05-01",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/ashnikko-marathon-music-works-tickets/14549573",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Royal & the Serpent"
-    ]
-  },
-  {
-    "title": "Marsh",
-    "sort_date": "2026-05-01",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/marsh?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dave Potter & Retro Groove",
-    "sort_date": "2026-05-01",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/dave-potter-retro-groove",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jacob Jezioro Quartet w/ Griffin Photoglo, Dan Hitchcock & Don Aliquo",
-    "sort_date": "2026-05-01",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/1ac24792-cc48-4874-a983-15fe833363a1",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Private Event",
-    "sort_date": "2026-05-01",
-    "venue": "Rudy's Jazz Room",
-    "url": "",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ani DiFranco w/ Special Guest Valerie June",
-    "sort_date": "2026-05-01",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1328365/ani-difranco-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Miraculous Mandarin w/ Nashville Symphony",
-    "sort_date": "2026-05-01",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpAZ",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Nashville Symphony"
-    ]
-  },
-  {
-    "title": "John Hartford Fiddle Project $25",
-    "sort_date": "2026-05-01",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/john-hartford-fiddle-project/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Ballet: Sherlock",
-    "sort_date": "2026-05-01",
-    "venue": "TPAC",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7_U76",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Anthony da Costa - The No Send Letter Album Release Show w/ Abigayle Oakley",
-    "sort_date": "2026-05-01",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/anthony-da-costa-the-basement-tickets/14737613",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Josh Womack\u2019s Turquoise Gate, followed by: The Tennessee Vomiteers, A Tribute to the music of Col. Bruce Hampton",
-    "sort_date": "2026-05-01",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/josh-womacks-turquoise-gate-followed-the-basement-tickets/14854433",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Nude Party w/ Tobacco City",
-    "sort_date": "2026-05-01",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/the-nude-party-w-tobacco-the-basement-east-tickets/14629793",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "John Butler with Band in The Caverns - 2-Night Tickets",
-    "sort_date": "2026-05-01",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/john-butler-with-band-in-the-caverns-2",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Humble Hysteria w/Collective Dust, Whimper & MOAB \u2013 All Ages",
-    "sort_date": "2026-05-01",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/humble-hysteria-w-collective-dust-whimper-moab-all-ages/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring James Otto , Jeff Trott , Marla Cannon-Goodman with Abby Anderson",
     "sort_date": "2026-05-02",
     "venue": "3rd & Lindsley",
@@ -728,16 +465,14 @@
     "supports": []
   },
   {
-    "title": "Nashville Heavy Showcase w/ Dark Hound, True Villains and Doctor Atomic",
+    "title": "Nashville Heavy Showcase w/ Dark Hound, True Villains and Mahadevi",
     "sort_date": "2026-05-04",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/nashville-heavy-showcase-w-dark-the-basement-tickets/14857283",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
-    "supports": [
-      "Doctor Atomic"
-    ]
+    "supports": []
   },
   {
     "title": "Freddie Dredd - Back to Hell Tour w/ Germ and Cursed",
@@ -853,12 +588,22 @@
     "supports": []
   },
   {
+    "title": "FREE SHOW! D\u00e4s Grizzlies",
+    "sort_date": "2026-05-05",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-ds-grizzlies-the-basement-tickets/14895793",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "New Faces Night feat. Sam Nicholson, Aurora Sage, BB Palmer, Gary Hector and Sustayn",
     "sort_date": "2026-05-05",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-sam-the-basement-tickets/13983654",
     "sold_out": false,
-    "time": "7pm",
+    "time": "8:30pm",
     "doors": null,
     "supports": []
   },
@@ -1028,10 +773,10 @@
     ]
   },
   {
-    "title": "Tommy Newport \u2013 18+",
+    "title": "Tommy Newport w/ Noah Pope \u2013 18+",
     "sort_date": "2026-05-06",
     "venue": "The End",
-    "url": "https://endnashville.com/event/tommy-newport-18/the-end/",
+    "url": "https://endnashville.com/event/tommy-newport-w-noah-pope-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -1717,10 +1462,10 @@
     "supports": []
   },
   {
-    "title": "The Knockaround Band w/Dustin Sellers As Sad Bachelor, Quinn O\u2019Donnell & Seth Beamer \u2013 18",
+    "title": "Cosmic Jade w/Dustin Sellers As Sad Bachelor, Quinn O\u2019Donnell & Seth Beamer \u2013 18",
     "sort_date": "2026-05-09",
     "venue": "The End",
-    "url": "https://endnashville.com/event/the-knockaround-band-w-dustin-sellers-as-sad-bachelor-quinn-odonnell-seth-beamer-18/the-end/",
+    "url": "https://endnashville.com/event/cosmic-jade-w-dustin-sellers-as-sad-bachelor-quinn-odonnell-seth-beamer-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -1751,7 +1496,7 @@
     ]
   },
   {
-    "title": "Alborn | Devil\u2019s Cut | Droughts | Creek Devil",
+    "title": "Alborn | Devil\u2019s Cut | Droughts | Creek Devil | Sunset Disclosure",
     "sort_date": "2026-05-10",
     "venue": "Cobra",
     "url": "https://cobranashville.com/event/venue-alborn-devils-cut-droughts-creek-devil/",
@@ -2466,6 +2211,16 @@
     "supports": []
   },
   {
+    "title": "Midtones | Melanie MacLaren | Hannah Delynn",
+    "sort_date": "2026-05-15",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-midtones-melanie-maclaren-hannah-delynn/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Happy Landing",
     "sort_date": "2026-05-15",
     "venue": "Exit/In",
@@ -2568,6 +2323,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "49 Winchester in The Caverns",
+    "sort_date": "2026-05-15",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/49-winchester-in-the-caverns",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -4884,14 +4649,16 @@
     "supports": []
   },
   {
-    "title": "Ben Chapman's Peach Jam",
+    "title": "Ben Chapman's Peach Jam - Rome, Slater Nalley, Benny G, and Taylor McCall w/ Special Guest Emcee Cornbread Cowboi",
     "sort_date": "2026-06-03",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/ben-chapmans-peach-jam-the-basement-east-tickets/14100004",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Taylor McCall"
+    ]
   },
   {
     "title": "Darryl Worley - Fan Appreciation Party",
@@ -6468,14 +6235,16 @@
     "supports": []
   },
   {
-    "title": "The Protomen - 3-Night Pass",
+    "title": "The Protomen - Night One",
     "sort_date": "2026-06-18",
     "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/the-protomen-3-marathon-music-works-tickets/14085564",
+    "url": "https://www.ticketweb.com/event/the-protomen-night-marathon-music-works-tickets/14085424",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Amigo The Devil"
+    ]
   },
   {
     "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
@@ -6877,7 +6646,7 @@
     "supports": []
   },
   {
-    "title": "John Vincent III Presents: Blue June Music Fest w/ Phosphorescent, Ethan Regan, mxmtoon, Adia Victoria, Emma Andersen and Madeleine Kelson",
+    "title": "John Vincent III Presents: Blue June Music Fest w/ Phosphorescent, Ethan Regan, mxmtoon, Adia Victoria and Emma Andersen",
     "sort_date": "2026-06-20",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/john-vincent-iii-presents-blue-the-basement-east-tickets/14861423",
@@ -7572,10 +7341,20 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: Meldrop -All Ages",
+    "title": "Garrett Thorn - Album Release Show w/ Sheyna Gee",
+    "sort_date": "2026-06-28",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/garrett-thorn-album-the-basement-tickets/14866663",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Meldrop w/ Twin Suns + Geneva -All Ages",
     "sort_date": "2026-06-28",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-meldrop-all-ages/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-meldrop-w-twin-suns-geneva-all-ages/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -7618,6 +7397,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qpPU",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Backstage Brass",
+    "sort_date": "2026-06-30",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/backstage-brass-3rd-and-lindsley-tickets/14829443",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -8497,6 +8286,16 @@
     "supports": []
   },
   {
+    "title": "Pat Coil Trio w/ Danny Gottlieb & Jake Jezioro",
+    "sort_date": "2026-07-18",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kurt Vile and the Violators",
     "sort_date": "2026-07-18",
     "venue": "Ryman Auditorium",
@@ -9309,6 +9108,16 @@
     "sort_date": "2026-07-31",
     "venue": "Night We Met",
     "url": "https://shotgun.live/events/will-clarke?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Pat Coil Quartet feat. Ted Ludwig w/ Craig Akin & Josh Hunt",
+    "sort_date": "2026-07-31",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -10140,6 +9949,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Kill Bill The Rapper w/Ashtin Larold \u2013 18+",
+    "sort_date": "2026-08-14",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/kill-bill-the-rapper-w-ashtin-larold-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -12420,7 +12239,7 @@
     "supports": []
   },
   {
-    "title": "Aaron Lee Tasjan - Album Release Show",
+    "title": "Aaron Lee Tasjan - Album Release Show w/ Madeleine Kelson",
     "sort_date": "2026-10-21",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/aaron-lee-tasjan-the-basement-east-tickets/14842753",
@@ -14464,6 +14283,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "John Butler with Band in The Caverns - 2-Night Tickets",
+    "sort_date": "2027-05-01",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/john-butler-with-band-in-the-caverns-2",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
