@@ -34,26 +34,6 @@
     "supports": []
   },
   {
-    "title": "Al Di Meola: Guitarchitect",
-    "sort_date": "2026-05-01",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/al-di-meola-guitarchitect/2026-05-01/1/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "VIP Event: Al Di Meola: Guitarchitect",
-    "sort_date": "2026-05-01",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/vip-event-al-di-meola-guitarchitect/2026-05-01/",
-    "sold_out": false,
-    "time": "4pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Lemon Twigs",
     "sort_date": "2026-05-01",
     "venue": "Fine Line",
@@ -114,79 +94,16 @@
     ]
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Record Club",
-    "sort_date": "2026-05-02",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/therecordclub_mpls?igsh=b3N2dDI1c3FjMjMz",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Powersock",
-      "Dimitri"
-    ]
-  },
-  {
     "title": "The Cribs",
     "sort_date": "2026-05-02",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-the-cribs/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "The Dead\u00a0Century"
     ]
-  },
-  {
-    "title": "Saturday 5/2 - The Long Goodbyes ($15 Cover)",
-    "sort_date": "2026-05-02",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-2-the-long-goodbye-15-cover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Atlantis Quartet",
-    "sort_date": "2026-05-02",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/atlantis-quartet-may-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Ryan Freitas Trio",
-    "sort_date": "2026-05-02",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-ryan-freitas-trio-may-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Rambo Salinas (TX) & Little Dynasty (NYC)",
-    "sort_date": "2026-05-02",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-rambo-salinas-little-dynasty",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "MAMA'S BROKE with Creekbed Carter Hogan",
@@ -234,8 +151,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-vana/",
     "sold_out": false,
-    "time": "6pm",
-    "doors": "5pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Chandler Leighton",
       "Deadlands",
@@ -248,41 +165,11 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-afi/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Choir Boy"
     ]
-  },
-  {
-    "title": "Luke Callen Album Release Show with Special Guest Voulouse",
-    "sort_date": "2026-05-02",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10538/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "And All That Jazz",
-    "sort_date": "2026-05-02",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-ball",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-02",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-02-2026/event/06006354DB9B9593",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "St. Paul & The Broken Bones",
@@ -290,60 +177,22 @@
     "venue": "Palace Theatre",
     "url": "https://first-avenue.com/event/2026-05-st-paul-the-broken-bones/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Brother Wallace"
     ]
   },
   {
-    "title": "Haze Gazer",
-    "sort_date": "2026-05-02",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-haze-gazer-5-2-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Killusonline",
-      "Fishing with Explosives",
-      "Bunny Blood"
-    ]
-  },
-  {
-    "title": "William Black",
-    "sort_date": "2026-05-02",
-    "venue": "Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/william-black-skyway-mpls/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SatchVai Band Ft Joe Satriani & Steve Vai with Animals As Leaders",
+    "title": "SatchVai Band ft. Joe Satriani & Steve Vai",
     "sort_date": "2026-05-02",
     "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/satchvai-band-ft-joe-satriani-steve-minneapolis-minnesota-05-02-2026/event/06006383B0D1D1B7",
+    "url": "https://first-avenue.com/event/2026-05-satchvai-band/",
     "sold_out": false,
-    "time": "7:30pm",
+    "time": null,
     "doors": null,
     "supports": [
-      "Animals As Leaders",
-      "Joe Satriani",
-      "Steve Vai"
-    ]
-  },
-  {
-    "title": "Demi Lovato: It's Not That Deep Tour",
-    "sort_date": "2026-05-02",
-    "venue": "Target Center",
-    "url": "https://www.ticketmaster.com/demi-lovato-its-not-that-deep-minneapolis-minnesota-05-02-2026/event/06006357EDA2CA9C",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "AD\u00c9LA"
+      "Animals As\u00a0Leaders"
     ]
   },
   {
@@ -352,31 +201,11 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-05-the-new-pornographers/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Will Sheff (of Okkervil\u00a0River)"
     ]
-  },
-  {
-    "title": "SOLD OUT: Steph Tolev // Keepin' Em Hard - Late Show",
-    "sort_date": "2026-05-02",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/A3b5849421d4",
-    "sold_out": true,
-    "time": "9:30pm",
-    "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "Steph Tolev // Keepin' Em Hard",
-    "sort_date": "2026-05-02",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/e3a94b777875",
-    "sold_out": true,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
   },
   {
     "title": "Electric Six",
@@ -384,93 +213,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-electric-six/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Tragedy: All Metal Tribute to the Bee Gees and\u00a0Beyond"
     ]
-  },
-  {
-    "title": "Prom Night Do-Over: Enchantment Under the Sea - presented by FERAL DANCE & Open Hair Space",
-    "sort_date": "2026-05-02",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/prom-night-do-over-enchantment-under-the-sea-presented-by-feral-dance-open-hair-space-may-02-2026-688798",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": [
-      "theology"
-    ]
-  },
-  {
-    "title": "Reggae Bash World Tour",
-    "sort_date": "2026-05-02",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/reggae-bash-world-tour-minneapolis-minnesota-05-02-2026/event/06006487CB53ED50",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Creekside Ruffians w. Sidewalk Diamonds, Access Otherwise",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/creekside-ruffians-w-sidewalk-diamonds/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dojo Saints w. Duck Bomb & UAGM",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dojo-saints-w-duck-bomb-uagm/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "North Country Singers",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/north-country-singers/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Angry Line Cook",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-angry-line-cook-5/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Yoga with Pete",
-    "sort_date": "2026-05-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/yoga-with-pete/",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Master Boot Record w/ arottenbit & Phase Meridian",
-    "sort_date": "2026-05-02",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/P405523fe3de",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Brass Messengers",
@@ -1057,6 +804,16 @@
     "supports": []
   },
   {
+    "title": "Nicholas David: Live at Dakota",
+    "sort_date": "2026-05-06",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/nicholas-david-live-at-dakota-may6-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Moss",
     "sort_date": "2026-05-06",
     "venue": "Fine Line",
@@ -1228,6 +985,16 @@
     "url": "https://www.thecedar.org/events/the-handsome-devil-with-human-zoo",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Martin Zellar",
+    "sort_date": "2026-05-07",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/martin-zellar-may7-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1457,6 +1224,16 @@
     "url": "https://link.dice.fm/xe42392eaf3d",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tommy Castro & The Painkillers",
+    "sort_date": "2026-05-08",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/tommy-castro-the-painkillers-may8-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
