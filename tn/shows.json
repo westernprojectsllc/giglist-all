@@ -1,110 +1,5 @@
 [
   {
-    "title": "Bluebird On 3rd featuring Matt McKinney , Brinley Addington , Ben Roberts & Kamryn Palmer + Josh Gallagher",
-    "sort_date": "2026-05-04",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-matt-3rd-and-lindsley-tickets/14152594",
-    "sold_out": false,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "THE TIME JUMPERS",
-    "sort_date": "2026-05-04",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671713",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Paper Kites - If You Go There, I Hope You Find It US / Canada Tour",
-    "sort_date": "2026-05-04",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/the-paper-kites-if-you-go-nashville-tennessee-05-04-2026/event/1B006339DFEA7D2A",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Donovan Woods"
-    ]
-  },
-  {
-    "title": "Sarah Durbin | Fleur | Sally Duhon",
-    "sort_date": "2026-05-04",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-sarah-durbin-fleur-sally-duhon/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Giovanni Rodriguez & 12 Manos",
-    "sort_date": "2026-05-04",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/51817c67-4cfc-4059-8bed-99bea7573686",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jonathan Wires Quartet",
-    "sort_date": "2026-05-04",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/jonathan-wires-quartet",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Fender Presents- Tele Town",
-    "sort_date": "2026-05-04",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xeut",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-05-04",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-05-04/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Heavy Showcase w/ Dark Hound, True Villains and Mahadevi",
-    "sort_date": "2026-05-04",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/nashville-heavy-showcase-w-dark-the-basement-tickets/14857283",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Freddie Dredd - Back to Hell Tour w/ Germ and Cursed",
-    "sort_date": "2026-05-04",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/freddie-dredd-back-the-basement-east-tickets/14153474",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Germ",
-      "Cursed"
-    ]
-  },
-  {
     "title": "Tim Miner & Friends Cinco De Mayo Fiesta featuring Benjy Gaither, Tabitha Fair, Chip Davis, Zach Gonzalez & Chris Rodriguez",
     "sort_date": "2026-05-05",
     "venue": "3rd & Lindsley",
@@ -225,10 +120,10 @@
     "supports": []
   },
   {
-    "title": "Failure w/ All Under Heaven",
+    "title": "SOLD OUT: Failure w/ All Under Heaven",
     "sort_date": "2026-05-05",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/failure-w-all-under-heaven-the-basement-east-tickets/14163184",
+    "url": "https://www.ticketweb.com/event/sold-out-failure-w-all-the-basement-east-tickets/14163184",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -923,6 +818,16 @@
     ]
   },
   {
+    "title": "Front Bar: cc2crazzzy | bellaonbass | Stargurl",
+    "sort_date": "2026-05-09",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/front-bar-cc2crazzzy-bellaonbass-stargurl/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Madeline Goldstein | Normal Bias | Ultraviolet Eden",
     "sort_date": "2026-05-09",
     "venue": "Cobra",
@@ -1035,7 +940,7 @@
     "supports": []
   },
   {
-    "title": "Gish's Birthday Bash - Featuring Heavy Cream and Sweet Time DJs",
+    "title": "Gish's Birthday Bash - Featuring Heavy Cream w/ Sweet Time DJs and Knifey",
     "sort_date": "2026-05-09",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/gishs-birthday-bash-the-basement-tickets/14875363",
@@ -1119,6 +1024,16 @@
     "url": "https://cobranashville.com/event/venue-alborn-devils-cut-droughts-creek-devil/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gun Safety Basics",
+    "sort_date": "2026-05-10",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/gun-safety-basics-10-may",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1284,6 +1199,16 @@
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671893",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mia Walz | Andy Wazz & Ya Motha | Kelsey Blackstone",
+    "sort_date": "2026-05-11",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-mia-walz-andy-wazz-ya-motha-kelsey-blackstone/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2194,6 +2119,16 @@
     "sort_date": "2026-05-17",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/parker-barrow-the-steepwater-band-3rd-and-lindsley-tickets/14104344",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "hey thanks., bad hippy, spirit ritual",
+    "sort_date": "2026-05-17",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-hey-thanks-bad-hippy-spirit-ritual/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -3413,6 +3348,16 @@
     ]
   },
   {
+    "title": "Heightened Scrutiny Screening",
+    "sort_date": "2026-05-28",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/heightened-scrutiny-screening-28-may",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "In The End - Linkin Park Experience",
     "sort_date": "2026-05-28",
     "venue": "Exit/In",
@@ -3463,10 +3408,10 @@
     "supports": []
   },
   {
-    "title": "Susto String Band",
+    "title": "Susto Stringband",
     "sort_date": "2026-05-28",
     "venue": "Skinny Dennis",
-    "url": "https://dice.fm/event/2wkxr6-susto-string-band-28th-may-skinny-dennis-nashville-nashville-tickets",
+    "url": "https://dice.fm/event/2wkxr6-susto-stringband-28th-may-skinny-dennis-nashville-nashville-tickets",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -3717,10 +3662,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: The Rare Occasions w/ Nova One \u2013 All Ages",
+    "title": "Legacy Concerts Presents: The Rare Occasions w/ Nova One, Future Crib \u2013 All Ages",
     "sort_date": "2026-05-29",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-the-rare-occasions-w-nova-one-all-ages/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-the-rare-occasions-w-nova-one-future-crib-all-ages/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -4488,6 +4433,16 @@
     "supports": []
   },
   {
+    "title": "Bollywood Nights",
+    "sort_date": "2026-06-05",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/bollywood-nights6-5?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "2026 CMA Fest presented by SoFi - Stadium FRIDAY",
     "sort_date": "2026-06-05",
     "venue": "Nissan Stadium",
@@ -4873,10 +4828,10 @@
     "supports": []
   },
   {
-    "title": "Bluebird on 3rd (located at 3rd & Lindsley Bar & Grill - Downtown Nashville)",
+    "title": "Bluebird On 3rd featuring Gary Burr , Georgia Middleman , Dave Berg & DOLAN & Meagan Allen",
     "sort_date": "2026-06-08",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-located-at-3rd-and-lindsley-tickets/14892693",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-gary-3rd-and-lindsley-tickets/14152674",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
@@ -5225,7 +5180,7 @@
     "title": "Jonathan Wires Quartet",
     "sort_date": "2026-06-11",
     "venue": "Rudy's Jazz Room",
-    "url": "",
+    "url": "https://tunehatch.com/shows/jonathan-wires-quartet-3",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -5902,6 +5857,16 @@
     "supports": [
       "Amigo The Devil"
     ]
+  },
+  {
+    "title": "Midnight Velvet",
+    "sort_date": "2026-06-18",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/midnight-velvet6-18?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
@@ -7024,6 +6989,16 @@
     "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671753",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Goetia, Ritual Fog, Defense Wound, & Savage Attack",
+    "sort_date": "2026-06-29",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/goetia-ritual-fog-defense-wound-savage-attack-29-jun",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -8610,19 +8585,6 @@
     "supports": []
   },
   {
-    "title": "The Pussycat Dolls: PCD FOREVER TOUR",
-    "sort_date": "2026-07-29",
-    "venue": "Ascend Amphitheater",
-    "url": "https://www.axs.com/events/1367011/pussycat-dolls-tickets?skin=ascendamp",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Lil Kim",
-      "Mya"
-    ]
-  },
-  {
     "title": "Hilary Duff: the lucky me tour",
     "sort_date": "2026-07-29",
     "venue": "FirstBank Amphitheater",
@@ -9078,6 +9040,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Anyone Awake w/ Jaguar On Mars, Izzy Mahoubi, photoyouth- 18+",
+    "sort_date": "2026-08-04",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-anyone-awake-w-jaguar-on-mars-izzy-mahoubi-photoyouth-18/the-end/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -10691,16 +10663,6 @@
     "supports": []
   },
   {
-    "title": "Billy Allen + The Pollies with Kristina Murray",
-    "sort_date": "2026-09-13",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/billy-allen-the-pollies-3rd-and-lindsley-tickets/14006244",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dopethrone | Fister",
     "sort_date": "2026-09-13",
     "venue": "Cobra",
@@ -12017,6 +11979,16 @@
     "supports": []
   },
   {
+    "title": "Alana Springsteen - I Hope This Helps Tour",
+    "sort_date": "2026-10-24",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/alana-springsteen-i-exitin-tickets/14890673",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-10-24",
     "venue": "Grand Ole Opry House",
@@ -12496,6 +12468,16 @@
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/grateful-shred-nashville-tennessee-11-13-2026/event/1B00647BEFE877A1",
     "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Blake Whiten",
+    "sort_date": "2026-11-13",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/blake-whiten-exitin-tickets/14879853",
+    "sold_out": true,
     "time": "8pm",
     "doors": null,
     "supports": []

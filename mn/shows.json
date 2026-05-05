@@ -24,16 +24,6 @@
     ]
   },
   {
-    "title": "ROBOT SLIDE & SPACEPORT",
-    "sort_date": "2026-05-01",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/robot-slide-and-spaceport",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Lemon Twigs",
     "sort_date": "2026-05-01",
     "venue": "Fine Line",
@@ -104,16 +94,6 @@
     "supports": [
       "The Dead\u00a0Century"
     ]
-  },
-  {
-    "title": "MAMA'S BROKE with Creekbed Carter Hogan",
-    "sort_date": "2026-05-02",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/mamas-broke",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Vana",
@@ -203,26 +183,6 @@
     ]
   },
   {
-    "title": "BIA FERREIRA with Lady Midnight",
-    "sort_date": "2026-05-03",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/bia-ferreira",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Isaiah Collier: Collier Plays Coltrane",
-    "sort_date": "2026-05-03",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/isaiah-collier-collier-plays-coltrane-may3-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Phoneboy and Heart Attack Man",
     "sort_date": "2026-05-03",
     "venue": "Fine Line",
@@ -249,33 +209,13 @@
     ]
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Soul Trouv\u00e8re",
-    "sort_date": "2026-05-04",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Rickshaw Billie's Burger Patrol",
     "sort_date": "2026-05-04",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-rickshaw-billies-burger-patrol/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "American Sharks",
       "Pink\u00a0Fuzz"
@@ -302,64 +242,12 @@
     "supports": []
   },
   {
-    "title": "Hippie Sabotage: Give and Take Tour",
-    "sort_date": "2026-05-04",
-    "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/hippie-sabotage-give-and-take-tour-minneapolis-minnesota-05-04-2026/event/06006435FB12F04E",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Kembe X"
-    ]
-  },
-  {
     "title": "Pub Choir",
     "sort_date": "2026-05-04",
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-pub-choir/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "L.A's Monday Nights",
-    "sort_date": "2026-05-04",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11073/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Catfish Troy",
-    "sort_date": "2026-05-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/catfish-troy/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Metal Mondays",
-    "sort_date": "2026-05-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/metal-mondays-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lily Blue, friendlychaos (CAN), & Nina Luna",
-    "sort_date": "2026-05-04",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/xabe331b886f",
-    "sold_out": false,
-    "time": "6:30pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1660,6 +1548,16 @@
     ]
   },
   {
+    "title": "Brad Mehldau Trio",
+    "sort_date": "2026-05-11",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/brad-mehldau-trio/2026-05-11/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "fakemink: a Terrible Beauty .- The Tour",
     "sort_date": "2026-05-11",
     "venue": "Fillmore Minneapolis",
@@ -2047,13 +1945,15 @@
     "title": "ART-A-WHIRL WEEKEND \\ 2026",
     "sort_date": "2026-05-14",
     "venue": "331 Club",
-    "url": "https://www.instagram.com/coldsweatnd?igsh=aWpsbmc1M2F3c3Fq",
+    "url": "https://www.instagram.com/hi_ah_li?igsh=Ym91dWVvM2ljYzNm",
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
     "supports": [
       "PRE-PARTY!",
-      "Cold Sweat"
+      "Hiahli",
+      "Izzy Cruz",
+      "Toussaint Morrison"
     ]
   },
   {
@@ -2446,14 +2346,19 @@
     ]
   },
   {
-    "title": "FERAL DANCE [MAY]",
+    "title": "FERAL ISLAND: Trashley \u2022 Lucid Lazer \u2022 Dimitry Killstorm \u2022 Sean Anonymous",
     "sort_date": "2026-05-15",
     "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/feral-dance-may-may-15-2026-679866",
+    "url": "https://app.opendate.io/e/feral-island-trashley-lucid-lazer-dimitry-killstorm-sean-anonymous-may-15-2026-679866",
     "sold_out": false,
     "time": "10pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Lucid Lazer",
+      "Dimitry Killstorm",
+      "Trashley",
+      "Sean Anonymous"
+    ]
   },
   {
     "title": "Chris Holm",
@@ -5181,6 +5086,16 @@
     ]
   },
   {
+    "title": "Leo Middea at Icehouse",
+    "sort_date": "2026-06-04",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11052/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "S\u00f8nderg\u00e5rd, Barton and Prokofiev",
     "sort_date": "2026-06-04",
     "venue": "Orchestra Hall",
@@ -5612,6 +5527,20 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Super Dope R&B House Party: Chris Brown & Usher edition",
+    "sort_date": "2026-06-06",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/super-dope-r-b-house-party-chris-brown-usher-edition-june-06-2026-690559",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": [
+      "Mr. Peter Parker",
+      "DJ D-MIL",
+      "DJ JG"
+    ]
   },
   {
     "title": "Cozy Worldwide: Throwback and Current R&B / Hip-Hop Party - 21+",
@@ -6573,7 +6502,7 @@
     "supports": []
   },
   {
-    "title": "Cauldron of Failure",
+    "title": "Cauldron of Failure w. Derecho, Renegade Escape",
     "sort_date": "2026-06-15",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/cauldron-of-failure/",
@@ -7165,12 +7094,34 @@
     "supports": []
   },
   {
+    "title": "Reverend Horton Heat",
+    "sort_date": "2026-06-20",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-06-reverend-horton-heat/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "The Surfrajettes"
+    ]
+  },
+  {
     "title": "Blade Rave",
     "sort_date": "2026-06-20",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/blade-rave-minneapolis-minnesota-06-20-2026/event/06006494D7ECF595",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Funk Lump & The Nugs w. Chemistry Set, Forever 41",
+    "sort_date": "2026-06-20",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/funk-lump-the-nugs/",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
@@ -7801,6 +7752,16 @@
     "supports": []
   },
   {
+    "title": "Dayshift",
+    "sort_date": "2026-06-27",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/dayshift-minneapolis-minnesota-06-27-2026/event/0600649EBB2C29AC",
+    "sold_out": true,
+    "time": "5pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Flip Phone XXL Pride Edition starring Lushious Massacr and Joey Jay and Dance Party with DJ Larry Peace",
     "sort_date": "2026-06-27",
     "venue": "First Avenue",
@@ -8079,7 +8040,7 @@
     "supports": []
   },
   {
-    "title": "River Shook",
+    "title": "River Shook with special guest Andrew Sa",
     "sort_date": "2026-06-30",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/cac2e618f2ea",
@@ -8142,6 +8103,16 @@
     "supports": [
       "Todd Albright"
     ]
+  },
+  {
+    "title": "Puppeteers For Fears presents Robopocalypse: The Musical!",
+    "sort_date": "2026-07-01",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/puppeteers-for-fears-presents-robopocalypse-the-musical",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "TopOppGen",
@@ -8482,6 +8453,16 @@
     "url": "https://whitesquirrelbar.com/event/thomas-sticha-9/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lent, hangouts. (WI), & Larrikins",
+    "sort_date": "2026-07-07",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/P803e6ec2128",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -11075,7 +11056,7 @@
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-minneapolis-minnesota-08-12-2026/event/0600649CC106F553",
     "sold_out": true,
-    "time": "6:30pm",
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -12122,7 +12103,7 @@
     "sort_date": "2026-09-12",
     "venue": "State Theatre",
     "url": "https://www.ticketmaster.com/candaces-live-tour-an-evening-with-minneapolis-minnesota-09-12-2026/event/0600649B98349092",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -12212,7 +12193,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Two Harbors"
+    ]
   },
   {
     "title": "Liz Phair",
@@ -12602,6 +12585,18 @@
     "doors": "7pm",
     "supports": [
       "Payton Smith"
+    ]
+  },
+  {
+    "title": "Alana Springsteen",
+    "sort_date": "2026-10-01",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-10-alana-springsteen/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Erin Kinsey"
     ]
   },
   {
@@ -13046,6 +13041,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Blake Whiten",
+    "sort_date": "2026-10-17",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-10-blake-whiten/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Eli Winders"
+    ]
   },
   {
     "title": "Da\u00f0i Freyr",
