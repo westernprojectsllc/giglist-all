@@ -1,159 +1,5 @@
 [
   {
-    "title": "Tim Miner & Friends Cinco De Mayo Fiesta featuring Benjy Gaither, Tabitha Fair, Chip Davis, Zach Gonzalez & Chris Rodriguez",
-    "sort_date": "2026-05-05",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/tim-miner-friends-cinco-3rd-and-lindsley-tickets/14758073",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Chocolate Carseat | Terrain | Skylar Lazor",
-    "sort_date": "2026-05-05",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-chocolate-carseat-terrain-skylar-lazor/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Haunt Me (18+ Event)",
-    "sort_date": "2026-05-05",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uE",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
-    "sort_date": "2026-05-05",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_F",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "*SOLD OUT* Patrick Droney",
-    "sort_date": "2026-05-05",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/sold-out-patrick-droney-exitin-tickets/14786483",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-05",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxka",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lux Velour [Open To Close]",
-    "sort_date": "2026-05-05",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/lux-velour-open-to-close?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Courtney Barnett Creature of Habit Tour",
-    "sort_date": "2026-05-05",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1267784/courtney-barnett-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Troubadour Blue",
-    "sort_date": "2026-05-05",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/troubadour-blue/2026-05-05/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "FREE SHOW! Austin Mackay",
-    "sort_date": "2026-05-05",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/free-show-austin-mackay-the-basement-tickets/14873113",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "FREE SHOW! D\u00e4s Grizzlies",
-    "sort_date": "2026-05-05",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/free-show-ds-grizzlies-the-basement-tickets/14895793",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "New Faces Night feat. Sam Nicholson, Aurora Sage, BB Palmer, Gary Hector and Sustayn",
-    "sort_date": "2026-05-05",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-sam-the-basement-tickets/13983654",
-    "sold_out": false,
-    "time": "8:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: Failure w/ All Under Heaven",
-    "sort_date": "2026-05-05",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/sold-out-failure-w-all-the-basement-east-tickets/14163184",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "All Under Heaven"
-    ]
-  },
-  {
-    "title": "Legacy Concerts Presents: Wolves At The Gate w/ Bloodlines, Heal The Hurt, Collective Dust \u2013 18+",
-    "sort_date": "2026-05-05",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-wolves-at-the-gate-w-bloodlines-heal-the-hurt-collective-dust-18/the-end/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Disclosure w/ Malugi",
-    "sort_date": "2026-05-05",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIZM",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Malugi"
-    ]
-  },
-  {
     "title": "Big Damn Music Jam feat. The Woods , Carlyle Griffin , Eddie Mor , Justin Andrews , Shane Pons & Emma Zinck",
     "sort_date": "2026-05-06",
     "venue": "3rd & Lindsley",
@@ -1975,6 +1821,16 @@
     "supports": []
   },
   {
+    "title": "Charlie Paso & Strumbrush w/ Stunt Girl, Finger Foods",
+    "sort_date": "2026-05-16",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/charlie-paso-strumbrush-w-rig-b-16-may",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Roots Academy Presents: Onstage Band Show",
     "sort_date": "2026-05-16",
     "venue": "Exit/In",
@@ -2380,10 +2236,10 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat.",
+    "title": "New Faces Night feat. Catherine Berdie, Maggie McCraney, Trey Hedrick, Eli Hannon, Press Pause, Allen Carrescia and Echo Drive",
     "sort_date": "2026-05-19",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983384",
+    "url": "https://www.ticketweb.com/event/new-faces-night-feat-catherine-the-basement-tickets/13983384",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -3066,6 +2922,16 @@
     "supports": []
   },
   {
+    "title": "The Beau Burnette Show - Basic Printer, Cherry Chaise, Cates, Byrd Whistle",
+    "sort_date": "2026-05-24",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/the-beau-burnette-show-the-basement-tickets/14816653",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hand Up Not A Hand Out feat. Year Of October w/Bianca Dorothe & Shakira Chinchilla \u2013 18+",
     "sort_date": "2026-05-24",
     "venue": "The End",
@@ -3128,17 +2994,7 @@
     "supports": []
   },
   {
-    "title": "The Beau Burnette Show - Basic Printer, Cherry Chaise, Cates, Byrd Whistle",
-    "sort_date": "2026-05-25",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/the-beau-burnette-show-the-basement-tickets/14816653",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "We Are The Merle: Celebrating the Music of Merle Haggard with Special Guest Sunny Sweeney",
+    "title": "We Are The Merle: Celebrating the Music of Merle Haggard with Special Guest Sunny Sweeney + Scarlett Egan",
     "sort_date": "2026-05-26",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/we-are-the-merle-celebrating-3rd-and-lindsley-tickets/14790083",
@@ -3984,10 +3840,10 @@
     "supports": []
   },
   {
-    "title": "Bluebird on 3rd (located at 3rd & Lindsley Bar & Grill - Downtown Nashville)",
+    "title": "Bluebird On 3rd featuring Kent Blazy , Victoria Shaw , Leslie Satcher & Jon Wayne Hatfield + Regan Stewart",
     "sort_date": "2026-06-01",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-located-at-3rd-and-lindsley-tickets/14892683",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-kent-3rd-and-lindsley-tickets/14152654",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
@@ -5365,6 +5221,16 @@
     "url": "https://www.ticketmaster.com/dso-presents-legendary-spitta-friends-nashville-tennessee-06-13-2026/event/1B006495C163DFCB",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Seven Year Witch | Leo Duke & the North Wind | Moondance",
+    "sort_date": "2026-06-13",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-seven-year-witch-leo-duke-the-north-wind-moondance/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -8585,6 +8451,16 @@
     "supports": []
   },
   {
+    "title": "DWLLRS- One of Those Nights Tour",
+    "sort_date": "2026-07-29",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/dwllrs-one-of-those-exitin-tickets/14890573",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hilary Duff: the lucky me tour",
     "sort_date": "2026-07-29",
     "venue": "FirstBank Amphitheater",
@@ -9701,6 +9577,16 @@
     ]
   },
   {
+    "title": "Squeeze - Tried, Tested And Trixies With Special Guest Adam Ant",
+    "sort_date": "2026-08-16",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1428020/squeeze-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bluegrass Jam",
     "sort_date": "2026-08-16",
     "venue": "Station Inn",
@@ -10785,6 +10671,16 @@
     "supports": []
   },
   {
+    "title": "Taking Back Sunday",
+    "sort_date": "2026-09-16",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A706qg",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "NEEDTOBREATHE: The Long Surrender Tour",
     "sort_date": "2026-09-17",
     "venue": "FirstBank Amphitheater",
@@ -11537,6 +11433,16 @@
     "supports": []
   },
   {
+    "title": "Finn Wolfhard - The Common Side Effects Tour w/ Malcy",
+    "sort_date": "2026-10-08",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/finn-wolfhard-the-the-basement-east-tickets/14891393",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "WEEZER: The Gathering",
     "sort_date": "2026-10-09",
     "venue": "Bridgestone Arena",
@@ -11557,7 +11463,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Plague Vendor"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -11580,6 +11488,16 @@
     "supports": []
   },
   {
+    "title": "BRENN! - AMATEUR AT BEST WORLD TOUR",
+    "sort_date": "2026-10-10",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/brenn-amateur-at-exitin-tickets/14894253",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-10-10",
     "venue": "Grand Ole Opry House",
@@ -11597,6 +11515,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Takes \u2013 All Ages",
+    "sort_date": "2026-10-10",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/the-takes-all-ages/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -11774,6 +11702,19 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Interpol w/ DIIV",
+    "sort_date": "2026-10-17",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70o_9",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "DIIV",
+      "French Police"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -11969,6 +11910,16 @@
     "supports": []
   },
   {
+    "title": "Michigander w/ Chapel",
+    "sort_date": "2026-10-23",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/michigander-w-chapel-the-basement-east-tickets/14894123",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
     "sort_date": "2026-10-24",
     "venue": "3rd & Lindsley",
@@ -11983,7 +11934,7 @@
     "sort_date": "2026-10-24",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/alana-springsteen-i-exitin-tickets/14890673",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12477,7 +12428,7 @@
     "sort_date": "2026-11-13",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/blake-whiten-exitin-tickets/14879853",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12519,6 +12470,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4Q7",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jim Gaffigan",
+    "sort_date": "2026-11-14",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xp0M",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12661,6 +12622,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Of0J",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Punch Brothers",
+    "sort_date": "2026-11-21",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1414965/punch-brothers-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },

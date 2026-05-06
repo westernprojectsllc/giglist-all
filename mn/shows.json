@@ -222,26 +222,6 @@
     ]
   },
   {
-    "title": "Volunteer Orientation",
-    "sort_date": "2026-05-04",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/volunteer-orientation",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jake Shimabukuro",
-    "sort_date": "2026-05-04",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/jake-shimabukuro-may4-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Pub Choir",
     "sort_date": "2026-05-04",
     "venue": "First Avenue",
@@ -252,38 +232,13 @@
     "supports": []
   },
   {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Kevin Gamble Quartet"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-05",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/david_huckfelt?igsh=ZHhjdWJrd2F1em5y",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "David Huckfelt"
-    ]
-  },
-  {
     "title": "Faetooth",
     "sort_date": "2026-05-05",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-faetooth/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Latter",
       "bosses"
@@ -295,8 +250,8 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-05-greyboy-allstars/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -320,50 +275,14 @@
     "supports": []
   },
   {
-    "title": "August Burns Red & The Amity Affliction: The Springs Horizons Tour",
-    "sort_date": "2026-05-05",
-    "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/august-burns-red-the-amity-affliction-minneapolis-minnesota-05-05-2026/event/060063760C08B29F",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": [
-      "The Amity Affliction",
-      "Boundaries",
-      "Heavensgate"
-    ]
-  },
-  {
     "title": "An Evening with VNV Nation",
     "sort_date": "2026-05-05",
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-vnv-nation/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": "8pm",
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-05",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-05-2026/event/06006354DBA595A1",
-    "sold_out": false,
-    "time": "7:30pm",
+    "time": null,
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Ariyel",
-    "sort_date": "2026-05-05",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-ariyel-5-5-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Kate Malanaphy and Birddog."
-    ]
   },
   {
     "title": "Taylor Austin Dye",
@@ -371,46 +290,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-taylor-austin-dye/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Haley E\u00a0Rydell"
     ]
-  },
-  {
-    "title": "Lords of Acid",
-    "sort_date": "2026-05-05",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/lords-of-acid-minneapolis-minnesota-05-05-2026/event/06006425A87D6EEA",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Dead On A Sunday",
-      "Princess Superstar",
-      "Tony & The Kiki",
-      "Mz Neon"
-    ]
-  },
-  {
-    "title": "Aestis Tuesday Night Residency w. The Morning Kings, Dashed",
-    "sort_date": "2026-05-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency-w-the-morning-kings-dashed/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Thomas Sticha",
-    "sort_date": "2026-05-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/thomas-sticha-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Bosso Poetry Company",
@@ -689,7 +573,9 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
+    "supports": [
+      "Maygen & The\u00a0Birdwatcher"
+    ]
   },
   {
     "title": "La Dispute",
@@ -1668,6 +1554,16 @@
     ]
   },
   {
+    "title": "Brad Mehldau Trio",
+    "sort_date": "2026-05-12",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/brad-mehldau-trio/2026-05-12/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Psychedelic Furs",
     "sort_date": "2026-05-12",
     "venue": "First Avenue",
@@ -1842,6 +1738,16 @@
     "supports": [
       "Scorched Waves"
     ]
+  },
+  {
+    "title": "MOBETTA & Friends - The After Party ft. DJ Pee .Wee (aka Anderson .Paak)",
+    "sort_date": "2026-05-13",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11504/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Starlight Vinyl Night: MAKR Spins the Classic",
@@ -3111,7 +3017,8 @@
     "doors": null,
     "supports": [
       "Knife Emoji",
-      "Clung Tight"
+      "Clung Tight",
+      "Maya McDonald"
     ]
   },
   {
@@ -4743,7 +4650,7 @@
     "supports": []
   },
   {
-    "title": "Tumbling Daisies",
+    "title": "Tumbling Daisies w. Switch Yard",
     "sort_date": "2026-05-31",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/tumbling-daisies/",
@@ -5139,6 +5046,16 @@
     "supports": [
       "Joey Harkum\u00a0(solo)"
     ]
+  },
+  {
+    "title": "Haters Club 15th Birthday Bash !!!! with The Unnamed, The Six Ways Collective",
+    "sort_date": "2026-06-04",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/haters-club-15th-birthday-bash-with-the-unnamed-the-six-ways-collective-june-04-2026-703302",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7:30pm",
+    "supports": []
   },
   {
     "title": "Augustana & Phantom Planet",
@@ -5643,12 +5560,22 @@
     "supports": []
   },
   {
-    "title": "GALACTIC COWBOY ORCHESTRA",
+    "title": "Jacob Hanson w. Luke Enyeart",
     "sort_date": "2026-06-07",
     "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-6/",
+    "url": "https://whitesquirrelbar.com/event/jacob-hanson-w-luke-enyeart/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Watt Meber w. Scott Hefte & Aaron James",
+    "sort_date": "2026-06-07",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/watt-meber-w-scott-hefte-aaron-james/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -5829,6 +5756,16 @@
     "supports": []
   },
   {
+    "title": "David Robinson & the Dedicated Friends",
+    "sort_date": "2026-06-10",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/davidrobinsonmusic?igsh=MXJmaTkyOGxyejY4ZA==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Harold\u2019s House Party on KFAI",
     "sort_date": "2026-06-10",
     "venue": "331 Club",
@@ -5839,16 +5776,6 @@
     "supports": [
       "Trebello Duo"
     ]
-  },
-  {
-    "title": "Ryan Gebhardt",
-    "sort_date": "2026-06-10",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/ryangebhardt?igsh=MjRqM25qOHlhNm9o",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Earth to Eve",
@@ -6871,7 +6798,7 @@
     "venue": "Cedar Cultural Center",
     "url": "https://www.thecedar.org/events/hot-8-brass-band",
     "sold_out": false,
-    "time": "11pm",
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -6903,7 +6830,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Joelton Mayfield"
+    ]
   },
   {
     "title": "Ole 60",
@@ -7470,6 +7399,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Wednesday 6/24 - Kaatwalk EP Release Show ($15 Cover)",
+    "sort_date": "2026-06-24",
+    "venue": "Aster Cafe",
+    "url": "https://tables.toasttab.com/aster-cafe/experiences/wednesday-6-24-kaatwalk-ep-release-show-15-cover",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -8122,7 +8061,9 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
+    "supports": [
+      "Aziedoesntexist"
+    ]
   },
   {
     "title": "Late Night TV",
@@ -8356,16 +8297,6 @@
     "url": "https://whitesquirrelbar.com/event/calla-mcdermott/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-07-05",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-7/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -8809,6 +8740,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cowboy Mouth",
+    "sort_date": "2026-07-11",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-07-cowboy-mouth/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -9465,6 +9406,16 @@
     "supports": []
   },
   {
+    "title": "SOS: The Recession Pop Party",
+    "sort_date": "2026-07-18",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-07-sos-the-recession-pop-party/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
+    "supports": []
+  },
+  {
     "title": "Cabaret: Nisswa",
     "sort_date": "2026-07-18",
     "venue": "Orchestra Hall",
@@ -10018,6 +9969,16 @@
     "sort_date": "2026-07-24",
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-07-one-direction-night/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
+    "supports": []
+  },
+  {
+    "title": "United We Dance",
+    "sort_date": "2026-07-24",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-07-united-we-dance/",
     "sold_out": false,
     "time": "9pm",
     "doors": "9pm",
@@ -10581,7 +10542,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Matt Koziol"
+    ]
   },
   {
     "title": "James Kennedy",
@@ -10686,16 +10649,6 @@
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-08-02-2026/event/0600636C0FB1B719",
     "sold_out": false,
     "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GALACTIC COWBOY ORCHESTRA",
-    "sort_date": "2026-08-02",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/galactic-cowboy-orchestra-8/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -10967,6 +10920,18 @@
     "time": "1pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "DWLLRS",
+    "sort_date": "2026-08-09",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-08-dwllrs/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": [
+      "thebandfriday"
+    ]
   },
   {
     "title": "Wicked",
@@ -12077,6 +12042,16 @@
     "supports": []
   },
   {
+    "title": "BRENN! - AMATEUR AT BEST WORLD TOUR",
+    "sort_date": "2026-09-11",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/brenn-amateur-at-best-world-tour-minneapolis-minnesota-09-11-2026/event/0600649EDE36943F",
+    "sold_out": true,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Mini Trees",
     "sort_date": "2026-09-12",
     "venue": "7th St Entry",
@@ -12186,6 +12161,16 @@
     ]
   },
   {
+    "title": "An Evening with Kevin Smith",
+    "sort_date": "2026-09-15",
+    "venue": "The Fitzgerald Theater",
+    "url": "https://first-avenue.com/event/2026-09-kevin-smith/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "The Charlatans UK",
     "sort_date": "2026-09-16",
     "venue": "Fine Line",
@@ -12260,6 +12245,16 @@
     "supports": []
   },
   {
+    "title": "ALOK // New Comedy Show",
+    "sort_date": "2026-09-18",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/tb02e95ec867",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "The Bros. Landreth",
     "sort_date": "2026-09-18",
     "venue": "Turf Club",
@@ -12311,6 +12306,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Takes",
+    "sort_date": "2026-09-20",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-09-the-takes/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -12383,7 +12388,21 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Plague Vendor"
+    ]
+  },
+  {
+    "title": "Kacey Musgraves w/ Carter Faith",
+    "sort_date": "2026-09-22",
+    "venue": "Target Center",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kAy",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Carter Faith"
+    ]
   },
   {
     "title": "Soda Blonde",
@@ -13043,6 +13062,19 @@
     "supports": []
   },
   {
+    "title": "The Menzingers: Everything I Ever Saw North American Tour",
+    "sort_date": "2026-10-16",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-minneapolis-minnesota-10-16-2026/event/0600649CEE9C7DDA",
+    "sold_out": true,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Hot Water Music",
+      "Weakened Friends"
+    ]
+  },
+  {
     "title": "Blake Whiten",
     "sort_date": "2026-10-17",
     "venue": "Fine Line",
@@ -13416,6 +13448,16 @@
     "supports": []
   },
   {
+    "title": "Scott Bradlee's Postmodern Jukebox: The Future Is Vintage World Tour",
+    "sort_date": "2026-11-11",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/scott-bradlees-postmodern-jukebox-the-future-minneapolis-minnesota-11-11-2026/event/0600649CE69367E5",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Choir! Choir! Choir! Presents: Landslide: Epic Fleetwood Mac Singalong",
     "sort_date": "2026-11-11",
     "venue": "Varsity Theater",
@@ -13537,6 +13579,18 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Michigander",
+    "sort_date": "2026-11-21",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-11-michigander/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Wildermiss"
+    ]
   },
   {
     "title": "Andrew Bird",
