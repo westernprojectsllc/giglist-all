@@ -255,26 +255,6 @@
     "supports": []
   },
   {
-    "title": "The Cedar and Festival de las Calaveras present: An Evening with PASCUALA ILABACA Y FAUNA",
-    "sort_date": "2026-05-05",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/an-evening-with-pascuala-ilabaca-y-fauna",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Beatles Reimagined",
-    "sort_date": "2026-05-05",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/the-beatles-reimagined-may5-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "An Evening with VNV Nation",
     "sort_date": "2026-05-05",
     "venue": "Fine Line",
@@ -297,68 +277,16 @@
     ]
   },
   {
-    "title": "Bosso Poetry Company",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-06",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Half Baked"
-    ]
-  },
-  {
     "title": "Sluice",
     "sort_date": "2026-05-06",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-sluice/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Hiding Places"
     ]
-  },
-  {
-    "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
-    "sort_date": "2026-05-06",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/mn-songwriter-showcase-hosted-by-nick-hensley-free",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "F\u00e9licia Atkinson w/ Liz Draper",
-    "sort_date": "2026-05-06",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/felicia-atkinson-liz-draper",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cherry Pit Open Jam",
-    "sort_date": "2026-05-06",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-may-6-2026",
-    "sold_out": false,
-    "time": "10:15pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "GARNET ROGERS with Carol Montag",
@@ -386,8 +314,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-the-moss/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Gatlin"
     ]
@@ -398,31 +326,11 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-mac-demarco/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Mock Media"
     ]
-  },
-  {
-    "title": "Moe Reen with Michael Gay & Sadie Gustafson-Zook",
-    "sort_date": "2026-05-06",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10190/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-06",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-06-2026/event/06006354DBA995A4",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Saint Paul Downtown Alliance Annual Meeting",
@@ -430,22 +338,9 @@
     "venue": "Palace Theatre",
     "url": "https://first-avenue.com/event/2026-05-saint-paul-downtown-alliance/",
     "sold_out": false,
-    "time": "4pm",
-    "doors": "4pm",
+    "time": null,
+    "doors": null,
     "supports": []
-  },
-  {
-    "title": "Robyn Jamner & the Soft Skills",
-    "sort_date": "2026-05-06",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-robyn-jamner-the-soft-skills-5-6-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Mikey Marget x SpectacleCase",
-      "One Big Quilt"
-    ]
   },
   {
     "title": "MATTE BLVCK",
@@ -453,41 +348,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-matte-blvck/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Night Audit"
     ]
-  },
-  {
-    "title": "HUNNY BEAR W. Sonic Bloom, J-Mo On The Beat & The J-Lighters",
-    "sort_date": "2026-05-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/hunny-bear-w-sonic-bloom-j-mo-on-the-beat-the-j-lighters/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Second Stringers w. Special Guests",
-    "sort_date": "2026-05-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-second-stringers-w-special-guests-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tim Casey & the Martyrs, Velahsa, & The Favorite Things",
-    "sort_date": "2026-05-06",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/a802a97ace44",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "HEAVY THURSDAY",
@@ -1067,6 +932,16 @@
     "supports": []
   },
   {
+    "title": "An Evening with Mdou Moctar ( solo )",
+    "sort_date": "2026-05-09",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-05-mdou-moctar-solo/",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Claire Rosinkranz",
     "sort_date": "2026-05-09",
     "venue": "Fine Line",
@@ -1074,16 +949,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "Mdou Moctar (solo)",
-    "sort_date": "2026-05-09",
-    "venue": "Fine Line",
-    "url": "https://first-avenue.com/event/2026-05-mdou-moctar-solo/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
     "supports": []
   },
   {
@@ -1710,6 +1575,16 @@
     "sort_date": "2026-05-13",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/trans-music-archive-zora-booboo3000000",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Artemis: Sketches Of Miles",
+    "sort_date": "2026-05-13",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/artemis-may13-2026/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -3315,7 +3190,7 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "Alex Amen"
+      "Lucky Cloud"
     ]
   },
   {
@@ -3349,6 +3224,16 @@
     "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-6/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Grim Lot, Electric Church, & Most of a Horse",
+    "sort_date": "2026-05-22",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/n30dd3fe025d",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -3532,7 +3417,7 @@
     "supports": []
   },
   {
-    "title": "Topiary Blush",
+    "title": "Topiary Blush w. Nicotine Addiction & River Sinclaire",
     "sort_date": "2026-05-23",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/topiary-blush/",
@@ -4092,6 +3977,16 @@
     "url": "https://www.berlinmpls.com/calendar/laeton-olaleye-omar-abdulkarim-may-2026",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: TBA",
+    "sort_date": "2026-05-29",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-may-29-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -4834,6 +4729,16 @@
     "supports": []
   },
   {
+    "title": "Mantis (\u201cYou Get Lost\u201d Album Release)",
+    "sort_date": "2026-06-03",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/mantis-june-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Alice Bag Band, Clickbait, Buio Omega",
     "sort_date": "2026-06-03",
     "venue": "Cloudland Theater",
@@ -5266,16 +5171,6 @@
     ]
   },
   {
-    "title": "synastry (june) : curated by girlblunt - lineup tba",
-    "sort_date": "2026-06-05",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/synastry-june-curated-by-girlblunt-lineup-tba-june-05-2026-679876",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Spite",
     "sort_date": "2026-06-05",
     "venue": "Varsity Theater",
@@ -5399,6 +5294,18 @@
     "doors": "6:30pm",
     "supports": [
       "Hollyn"
+    ]
+  },
+  {
+    "title": "Prince Block Party Celebration",
+    "sort_date": "2026-06-06",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-06-prince-block-party/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "7pm",
+    "supports": [
+      "DJ Jake\u00a0Rudh"
     ]
   },
   {
@@ -5736,6 +5643,16 @@
     "supports": []
   },
   {
+    "title": "DL4",
+    "sort_date": "2026-06-09",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/dl4-2/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Dans w. Special Guests",
     "sort_date": "2026-06-09",
     "venue": "White Squirrel",
@@ -5950,6 +5867,16 @@
       "Paradise Fears",
       "CARR"
     ]
+  },
+  {
+    "title": "Champagne on a Thursday! Sarah Morris Celebration",
+    "sort_date": "2026-06-11",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/sarah-morris-celebration/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Ex-Rodeo",
@@ -6439,16 +6366,6 @@
     "supports": []
   },
   {
-    "title": "Devil Dodger",
-    "sort_date": "2026-06-15",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "June Conspiracy Series featuring",
     "sort_date": "2026-06-16",
     "venue": "331 Club",
@@ -6700,6 +6617,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Permanent Record & Private Oates play Beck! Odelay! Front to Back for its 30th B-Day",
+    "sort_date": "2026-06-18",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/t11dfe68726a",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -7061,6 +6988,16 @@
     "url": "https://whitesquirrelbar.com/event/letters-w-hospital-property-the-dirty-pretty/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Self-Evident, Loss Leader, Or Does It Explode? (WI), & \u2026And I Found a Way",
+    "sort_date": "2026-06-20",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/O10c95093128",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -7681,6 +7618,20 @@
     ]
   },
   {
+    "title": "GR3G",
+    "sort_date": "2026-06-27",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-06-gr3g/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Mack OC",
+      "BLOOD $MOKE BODY",
+      "Jandeltha\u00a0Rae"
+    ]
+  },
+  {
     "title": "Hashtronaut, PALS, Crash Cuddle",
     "sort_date": "2026-06-27",
     "venue": "Cloudland Theater",
@@ -7698,6 +7649,16 @@
     "sold_out": true,
     "time": "5pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gothess \u23e4 MPLS Burning Hearts Pride Party",
+    "sort_date": "2026-06-27",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-06-gothess-mpls-burning-hearts-pride/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
     "supports": []
   },
   {
@@ -7813,6 +7774,16 @@
     "supports": []
   },
   {
+    "title": "Ben Lapidus",
+    "sort_date": "2026-06-28",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-06-ben-lapidus/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-06-28",
     "venue": "Aster Cafe",
@@ -7865,6 +7836,16 @@
     "supports": [
       "Ryan Davis + The Roadhouse\u00a0Band"
     ]
+  },
+  {
+    "title": "Jules! Mini Summer Tour",
+    "sort_date": "2026-06-28",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/O3e61ede3f0a",
+    "sold_out": true,
+    "time": "12pm",
+    "doors": "11am",
+    "supports": []
   },
   {
     "title": "Kristy Lee // An Evening of Songs & Stories",
@@ -8291,7 +8272,7 @@
     "supports": []
   },
   {
-    "title": "Calla McDermott",
+    "title": "Calla McDermott w. Mouthful & Your Favorite Crybaby",
     "sort_date": "2026-07-05",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/calla-mcdermott/",
@@ -8817,6 +8798,16 @@
     "supports": []
   },
   {
+    "title": "Revent\u00f3n Rave with Cristian Baca",
+    "sort_date": "2026-07-11",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/reventon-rave-with-cristian-baca-minneapolis-minnesota-07-11-2026/event/060064A4FCE5CB3E",
+    "sold_out": true,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "J-Mo on the Beat w. Cody James, Francis Emil Johnson & Used Goods",
     "sort_date": "2026-07-11",
     "venue": "White Squirrel",
@@ -8950,6 +8941,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Placeholder",
+    "sort_date": "2026-07-13",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-placeholder-7-13-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Drift Pattern",
+      "Big Yikes"
+    ]
   },
   {
     "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
@@ -9659,7 +9663,7 @@
     "supports": []
   },
   {
-    "title": "When We Met w. Letters",
+    "title": "When We Met w. Letters, Nice & Blue",
     "sort_date": "2026-07-20",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/when-we-met-w-letters/",
@@ -10075,6 +10079,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O7Op",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wonky Willa",
+    "sort_date": "2026-07-25",
+    "venue": "The Loft at Skyway Theatre",
+    "url": "https://skywaytheatre.com/event/wonky-willa-minneapolis/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -10653,6 +10667,16 @@
     "supports": []
   },
   {
+    "title": "Emmy Woods",
+    "sort_date": "2026-08-02",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/emmy-woods-10/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Cruz Beckham and The Breakers",
     "sort_date": "2026-08-03",
     "venue": "7th St Entry",
@@ -10820,14 +10844,18 @@
     "supports": []
   },
   {
-    "title": "Emmy Woods",
-    "sort_date": "2026-08-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-10/",
+    "title": "Sophie Hiroko",
+    "sort_date": "2026-08-07",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-08-sophie-hiroko/",
     "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Ava Levy",
+      "Scrunchies",
+      "Lana\u00a0Leone"
+    ]
   },
   {
     "title": "John Holiday",
@@ -10912,6 +10940,26 @@
     "supports": []
   },
   {
+    "title": "Kirsten Vangsness // Outdated",
+    "sort_date": "2026-08-08",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/Xb82bdf8fc43",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Dale Watson and His Lone Stars",
+    "sort_date": "2026-08-08",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-08-dale-watson-and-his-lone-stars/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Fort Road Folk Fest",
     "sort_date": "2026-08-08",
     "venue": "White Squirrel",
@@ -10941,6 +10989,16 @@
     "sold_out": false,
     "time": "1pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tracy Bonham // The Burdens of Being Upright 30th Anniversary Tour",
+    "sort_date": "2026-08-09",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/fc6cb9724bf6",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -10990,6 +11048,16 @@
     "url": "https://www.thecedar.org/events/micky-and-the-motorcars",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "DL4",
+    "sort_date": "2026-08-11",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/dl4-9/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -11322,16 +11390,6 @@
     "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-10/",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-08-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-10/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -11913,6 +11971,19 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Black Marble",
+    "sort_date": "2026-09-04",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-09-black-marble/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Public Circuit",
+      "Jimmy\u00a0Cicero"
+    ]
   },
   {
     "title": "Danny Worsnop and Tyler Rich",
@@ -12550,6 +12621,16 @@
     "supports": []
   },
   {
+    "title": "TANGI LE GALL-CARRE & TYPHAINE CORRE",
+    "sort_date": "2026-09-29",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/tangi-le-gall-carre-typhaine-corre",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Artemas - LOVERCORE / GETTING UP TO NO GOOD Tour",
     "sort_date": "2026-09-29",
     "venue": "Fillmore Minneapolis",
@@ -12829,7 +12910,7 @@
     "sort_date": "2026-10-08",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/jpegmafia-the-experimental-rap-tour-minneapolis-minnesota-10-08-2026/event/0600648AACD02598",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6:30pm",
     "doors": null,
     "supports": [
@@ -13620,6 +13701,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Preservation Hall Jazz Band",
+    "sort_date": "2026-12-01",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/preservation-hall-jazz-band",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
