@@ -289,26 +289,6 @@
     ]
   },
   {
-    "title": "GARNET ROGERS with Carol Montag",
-    "sort_date": "2026-05-06",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/an-evening-with-garnet-rogers",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nicholas David: Live at Dakota",
-    "sort_date": "2026-05-06",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/nicholas-david-live-at-dakota-may6-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Moss",
     "sort_date": "2026-05-06",
     "venue": "Fine Line",
@@ -355,70 +335,17 @@
     ]
   },
   {
-    "title": "HEAVY THURSDAY",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/shadowhexband?igsh=MWM5bm1jMXY4b2dlcw==",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Shadow Hex",
-      "6pm-dark\u2014Food by NordicDogs"
-    ]
-  },
-  {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-05-07",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Never Ending Fall",
     "sort_date": "2026-05-07",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-never-ending-fall/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "J Solomon",
       "Devvy\u00a0Dub"
     ]
-  },
-  {
-    "title": "Thursday 5/7 - The Daily Norm & Jeff Ray ($15 Cover)",
-    "sort_date": "2026-05-07",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-7-the-daily-norm-jeff-ray-15-cover",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Beech Montana",
-    "sort_date": "2026-05-07",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/beech-montana-joey-hays",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "THAT HANDSOME DEVIL with Human Zoo",
-    "sort_date": "2026-05-07",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/the-handsome-devil-with-human-zoo",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Martin Zellar",
@@ -436,8 +363,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-barns-courtney/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Maygen & The\u00a0Birdwatcher"
     ]
@@ -448,64 +375,12 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-la-dispute/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "From Indian Lakes",
       "Flooding"
     ]
-  },
-  {
-    "title": "Between Howls with Socktopus and The Confused",
-    "sort_date": "2026-05-07",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10886/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-07",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-07-2026/event/06006354DBAC95A8",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Blvck Hippie",
-    "sort_date": "2026-05-07",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-blvck-hippie-5-7-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Blvck Hippie with TBA"
-    ]
-  },
-  {
-    "title": "ELMOS GOT THE MOVES - PHOTO EXPERIENCE",
-    "sort_date": "2026-05-07",
-    "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/elmos-got-the-moves-photo-experience-minneapolis-minnesota-05-07-2026/event/0600636D154BC9B7",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Elmo's Got the Moves",
-    "sort_date": "2026-05-07",
-    "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/elmos-got-the-moves-minneapolis-minnesota-05-07-2026/event/0600636D100CC0A4",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Marc Broussard",
@@ -513,21 +388,11 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-05-marc-broussard/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Sway Wild"
     ]
-  },
-  {
-    "title": "Twin Cities Tango Music Showcase",
-    "sort_date": "2026-05-07",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/x91031d52362",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
   },
   {
     "title": "Gatecreeper",
@@ -535,33 +400,13 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-gatecreeper/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Eternal",
       "Dying Remains",
       "Another\u00a0Enemy"
     ]
-  },
-  {
-    "title": "Emmy Woods",
-    "sort_date": "2026-05-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Piss with Style w. Ben Vogel & JWAC",
-    "sort_date": "2026-05-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/piss-with-style/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "J-mo On The Beat",
@@ -1012,7 +857,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Comrade Tripp"
+    ]
   },
   {
     "title": "SOLD OUT: Amber Autry - Early Show",
@@ -1794,6 +1641,16 @@
     "url": "https://link.dice.fm/t470027cad8c",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Joe Pulice Big Band feat. Ricky Peterson",
+    "sort_date": "2026-05-14",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/joe-pulice-big-band-feat-ricky-peterson-may14-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -3001,6 +2858,16 @@
     "supports": []
   },
   {
+    "title": "Gemini Bash & Twerk Fest",
+    "sort_date": "2026-05-21",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/gemini-bash-twerk-fest-may-21-2026-705163",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": "9pm",
+    "supports": []
+  },
+  {
     "title": "COUNTRY\u2b51OKE",
     "sort_date": "2026-05-21",
     "venue": "White Squirrel",
@@ -3476,16 +3343,6 @@
     "sold_out": false,
     "time": "3pm",
     "doors": "3pm",
-    "supports": []
-  },
-  {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-05-24",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -4448,6 +4305,16 @@
     "supports": []
   },
   {
+    "title": "Flowers Now!",
+    "sort_date": "2026-05-31",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/flowers-now",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Meet Me @ The Altar",
     "sort_date": "2026-05-31",
     "venue": "Fine Line",
@@ -5123,6 +4990,16 @@
     "supports": []
   },
   {
+    "title": "TH3 EP Release Show",
+    "sort_date": "2026-06-05",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11471/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-05",
     "venue": "Orpheum Theatre",
@@ -5156,6 +5033,16 @@
       "Tabah",
       "Bird Dog"
     ]
+  },
+  {
+    "title": "2000\u2019s Rave",
+    "sort_date": "2026-06-05",
+    "venue": "The Loft at Skyway Theatre",
+    "url": "https://skywaytheatre.com/event/2000s-rave-2/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Thomas Sticha",
@@ -5434,6 +5321,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "8pm",
+    "supports": []
+  },
+  {
+    "title": "About to Run: Summertime",
+    "sort_date": "2026-06-07",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11338/",
+    "sold_out": false,
+    "time": "5pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -6011,7 +5908,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Tonina"
+    ]
   },
   {
     "title": "Dave\u2019s Manual w. The Makeouts, Yes We Are",
@@ -6485,6 +6384,16 @@
     "supports": [
       "Scarlet Rae"
     ]
+  },
+  {
+    "title": "Tomboyy, The Devil Said Jump, Ditchweed",
+    "sort_date": "2026-06-17",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/n0fbb2822eb8",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Deer Tick",
@@ -8151,6 +8060,16 @@
     "sold_out": false,
     "time": "10:00pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Terrapin Stallion",
+    "sort_date": "2026-07-03",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-terrapin-stallion/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -10453,6 +10372,16 @@
     "supports": []
   },
   {
+    "title": "DATE MY FRIEND",
+    "sort_date": "2026-07-30",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-date-my-friend/",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": "8pm",
+    "supports": []
+  },
+  {
     "title": "Valors w. Grieving Pines, Bitchslap",
     "sort_date": "2026-07-30",
     "venue": "White Squirrel",
@@ -10634,6 +10563,16 @@
     "sold_out": false,
     "time": "8:30pm",
     "doors": "8pm",
+    "supports": []
+  },
+  {
+    "title": "Brotherkenzie",
+    "sort_date": "2026-08-02",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-08-brotherkenzie/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -11124,7 +11063,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Califone"
+    ]
   },
   {
     "title": "Pelicant",
@@ -13457,6 +13398,16 @@
       "The Courettes",
       "DJ Jake\u00a0Rudh"
     ]
+  },
+  {
+    "title": "L7",
+    "sort_date": "2026-11-03",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-11-l7/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
   },
   {
     "title": "Weatherday",
