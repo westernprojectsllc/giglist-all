@@ -422,16 +422,6 @@
     "supports": []
   },
   {
-    "title": "Tommy Castro & The Painkillers",
-    "sort_date": "2026-05-08",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/tommy-castro-the-painkillers-may8-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "INTERNET KIDS \u23e4 Hyperpop Dance Party",
     "sort_date": "2026-05-08",
     "venue": "Fine Line",
@@ -466,99 +456,16 @@
     ]
   },
   {
-    "title": "Baby Mahi and the Sitters",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/b_b_mahi?igsh=MWZybHY4dGpwNnA5OQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Fairooz Nazifa and Dost Toast",
-      "Pelicant"
-    ]
-  },
-  {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-09",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "NewDad",
     "sort_date": "2026-05-09",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-newdad/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Freak Slug"
     ]
-  },
-  {
-    "title": "Saturday 5/9 - The Scarlet Goodbye \"Semi-Acoustic\" ($20 Cover)",
-    "sort_date": "2026-05-09",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-9-the-scarlet-goodbye-20-cover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Bryan Nichols / Dan Carpel / Jay Epstein",
-    "sort_date": "2026-05-09",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-nichols-carpel-epstein-may-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hamish Smith Quartet",
-    "sort_date": "2026-05-09",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/hamish-smith-quartet-may-9",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hamish Smith: Composition & Songwriting Workshop",
-    "sort_date": "2026-05-09",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/composition-and-songwriting-workshop-may-9",
-    "sold_out": false,
-    "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hamish Smith: Rhythm Section Workshop",
-    "sort_date": "2026-05-09",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/rhythm-section-workshop-may-9",
-    "sold_out": false,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: dealdrugger B2B vlush",
-    "sort_date": "2026-05-09",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-dealdrugger-vlush-may-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "ELI WINTER TRIO and LUKE SCHNEIDER with Jonah Hatten",
@@ -567,16 +474,6 @@
     "url": "https://www.thecedar.org/events/eli-winter-trio-and-luke-schneider-with-jonah-hatten",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Spit Takes, Scrunchies, Doll Chaser",
-    "sort_date": "2026-05-09",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/c5a15ea30b98",
-    "sold_out": false,
-    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -596,8 +493,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-mdou-moctar-solo/",
     "sold_out": false,
-    "time": "8:30pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -606,8 +503,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-claire-rosinkranz-postponed/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -616,62 +513,12 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-wage-war/",
     "sold_out": false,
-    "time": "6:30pm",
-    "doors": "5:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Nevertel",
       "Orthodox"
     ]
-  },
-  {
-    "title": "GRRRL SCOUT Presents: Mature Content",
-    "sort_date": "2026-05-09",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11229/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bart\u00f3k's Bluebeard's Castle",
-    "sort_date": "2026-05-09",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/bartoks-bluebeards-castle",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Spring Festival",
-    "sort_date": "2026-05-09",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/gtcys-spring-festival",
-    "sold_out": false,
-    "time": "10:15am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-09",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-09-2026/event/06006354DBB295B0",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kaivon",
-    "sort_date": "2026-05-09",
-    "venue": "Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/kaivon-the-loft-mpls/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Harland Williams",
@@ -679,31 +526,11 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-05-harland-williams/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Comrade Tripp"
     ]
-  },
-  {
-    "title": "SOLD OUT: Amber Autry - Early Show",
-    "sort_date": "2026-05-09",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/Rb6a46486d3e",
-    "sold_out": true,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: Amber Autry - Late Show",
-    "sort_date": "2026-05-09",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/Vab55548ea30",
-    "sold_out": true,
-    "time": "9:30pm",
-    "doors": "9pm",
-    "supports": []
   },
   {
     "title": "J. Roddy Walston",
@@ -711,51 +538,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-j-roddy-walston/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Beemer"
     ]
-  },
-  {
-    "title": "Giant Valley String Band w. Earnest Money",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/giant-valley-string-band-w-earnest-money/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sweet Heat w. Nathan Walker, Thomas Richey",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/nathan-walker-w-sweet-heat-thomas-richey/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Get Up Mondays w. Frannie Crego",
-    "sort_date": "2026-05-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-get-up-mondays-w-frannie-crego/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "LUNGS, SHRIVE, Body, & Fairer Sands",
-    "sort_date": "2026-05-09",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/b23ef8688d40",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Dr. Sketchy\u2019s Anti-Art School",
@@ -848,6 +635,16 @@
     "url": "https://icehouse.turntabletickets.com/shows/9714/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Spring Festival",
+    "sort_date": "2026-05-10",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/gtcys-spring-festival",
+    "sold_out": false,
+    "time": "3:30pm",
     "doors": null,
     "supports": []
   },
@@ -3848,6 +3645,16 @@
     "supports": []
   },
   {
+    "title": "Dedicated Enemy, DJ Velvet Vamp, & Patrick (Finesse)",
+    "sort_date": "2026-05-29",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/Geb1bef1e284",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Drinkin\u2019 Spelling Bee",
     "sort_date": "2026-05-30",
     "venue": "331 Club",
@@ -4906,13 +4713,13 @@
     ]
   },
   {
-    "title": "WITH YOU it\u2019s a Better UNION SOLIDARITY Dance Party: Saphira x Roiboi \u2022 haute carl \u2022 Neil Fox \u2022 MissElaineEos \u2022 Sam Woodman",
+    "title": "WITH YOU Union Solidarity Dance Party: Saphira x Roiboi \u2022 haute carl \u2022 Neil Fox \u2022 MissElaineEos \u2022 Sam Woodman",
     "sort_date": "2026-06-05",
     "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/with-you-it-s-a-better-union-solidarity-dance-party-saphira-x-roiboi-haute-carl-neil-fox-misselaineeos-sam-woodman-june-05-2026-703461",
+    "url": "https://app.opendate.io/e/with-you-union-solidarity-dance-party-saphira-x-roiboi-haute-carl-neil-fox-misselaineeos-sam-woodman-june-05-2026-703461",
     "sold_out": false,
     "time": "8pm",
-    "doors": "2am",
+    "doors": null,
     "supports": [
       "haute carl",
       "Neil Fox",
@@ -7488,6 +7295,16 @@
     ]
   },
   {
+    "title": "Saturday 6/27 - Holy Hannah! with Dark Pony ($15 Cover)",
+    "sort_date": "2026-06-27",
+    "venue": "Aster Cafe",
+    "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-27-holy-hannah-with-dark-pony-15-cover",
+    "sold_out": false,
+    "time": "7:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hashtronaut, PALS, Crash Cuddle",
     "sort_date": "2026-06-27",
     "venue": "Cloudland Theater",
@@ -8953,7 +8770,10 @@
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "QUAERY",
+      "Petits Mirages"
+    ]
   },
   {
     "title": "The Body",
@@ -9050,6 +8870,16 @@
     "supports": [
       "K.A.A.N."
     ]
+  },
+  {
+    "title": "Thursday 7/16 - Larry McDonough: George & Ira Gershwin ($15 Cover)",
+    "sort_date": "2026-07-16",
+    "venue": "Aster Cafe",
+    "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-7-16-larry-mcdonough-george-ira-gershwin-15-cover",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wavves",
@@ -9149,6 +8979,16 @@
     ]
   },
   {
+    "title": "Friday 7/17 - The New Entangled Particles ($15 Cover)",
+    "sort_date": "2026-07-17",
+    "venue": "Aster Cafe",
+    "url": "https://tables.toasttab.com/aster-cafe/experiences/friday-5-8-the-new-entangled-particles-15-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening with FANOOS ENSEMBLE",
     "sort_date": "2026-07-17",
     "venue": "Cedar Cultural Center",
@@ -9211,6 +9051,16 @@
     ]
   },
   {
+    "title": "Being As An Ocean",
+    "sort_date": "2026-07-17",
+    "venue": "Underground Music Venue",
+    "url": "https://www.skeletix.com/4504-being-as-an-ocean-underground-music-venue/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "King Midas",
     "sort_date": "2026-07-17",
     "venue": "White Squirrel",
@@ -9262,6 +9112,16 @@
       "Reed Grimm",
       "Jon\u00a0Wayne"
     ]
+  },
+  {
+    "title": "Saturday 7/18 - Zoe Says Go ($12 Cover)",
+    "sort_date": "2026-07-18",
+    "venue": "Aster Cafe",
+    "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-7-18-zoe-says-go-12-cover",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "TV Star, Makin' Out, Nathan Ma Band",
@@ -10245,7 +10105,7 @@
     "sort_date": "2026-07-28",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/x0f7b227701a",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
