@@ -412,16 +412,6 @@
     ]
   },
   {
-    "title": "JENNY DON'T AND THE SPURS with Cowboy Thoughts",
-    "sort_date": "2026-05-08",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/jenny-dont-and-the-spurs-with-cowboy-thoughts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "INTERNET KIDS \u23e4 Hyperpop Dance Party",
     "sort_date": "2026-05-08",
     "venue": "Fine Line",
@@ -466,26 +456,6 @@
     "supports": [
       "Freak Slug"
     ]
-  },
-  {
-    "title": "ELI WINTER TRIO and LUKE SCHNEIDER with Jonah Hatten",
-    "sort_date": "2026-05-09",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/eli-winter-trio-and-luke-schneider-with-jonah-hatten",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "American Roots Revue:",
-    "sort_date": "2026-05-09",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/american-roots-revue-may9-2026/2026-05-09/1/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "An Evening with Mdou Moctar ( solo )",
@@ -545,56 +515,16 @@
     ]
   },
   {
-    "title": "Dr. Sketchy\u2019s Anti-Art School",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Emmy Woods and friends",
-    "sort_date": "2026-05-10",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Foxtide",
     "sort_date": "2026-05-10",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-foxtide/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "hallpass"
     ]
-  },
-  {
-    "title": "Sunday Swing Brunch $8",
-    "sort_date": "2026-05-10",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
-    "sold_out": false,
-    "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kenny Reichert\u2019s Letters From the Road: Moldovest",
-    "sort_date": "2026-05-10",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/kenny-reichert-residency-week-2",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Women Who Cook \u2013 A Mother\u2019s Day Reunion",
@@ -612,61 +542,11 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-maye-ambar-lucid/",
     "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "judith"
     ]
-  },
-  {
-    "title": "Flamenco en la primavera By Twin Cities Flamenco Collective",
-    "sort_date": "2026-05-10",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9408/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-05-10",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Spring Festival",
-    "sort_date": "2026-05-10",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/gtcys-spring-festival",
-    "sold_out": false,
-    "time": "3:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-10",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-10-2026/event/06006354DBB795B5",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Anthony Shore & His All-Star Band\u2019s Tribute to Elvis",
-    "sort_date": "2026-05-10",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/a8bd7367dbdb",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
   },
   {
     "title": "Daniel Romano's Outfit",
@@ -674,53 +554,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-daniel-romanos-outfit/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Uni Boys"
     ]
-  },
-  {
-    "title": "The Current Presents: The Afghan Whigs 40th Anniv. Tour w/ Mercury Rev",
-    "sort_date": "2026-05-10",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/the-current-presents-the-afghan-whigs-minneapolis-minnesota-05-10-2026/event/0600642FD5B4F19B",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Mercury Rev"
-    ]
-  },
-  {
-    "title": "Cal Pflum",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/cal-pflum/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cap\u2019n Al w. Chickaboom & Troglodyte, Ballroom Surfers",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/capital-w-chickaboom-troglodyte-ballroom-surfers/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Open Jam",
-    "sort_date": "2026-05-10",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/open-jam/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "JWAC",
@@ -1585,7 +1423,7 @@
     "supports": []
   },
   {
-    "title": "The Suburbs: Two Centuries of Rock!",
+    "title": "SOLD OUT: The Suburbs: Two Centuries of Rock!",
     "sort_date": "2026-05-15",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/R31bcc50381d",
@@ -1740,6 +1578,16 @@
     "url": "https://www.thecedar.org/events/revel-and-riot-student-showcase",
     "sold_out": false,
     "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The New Standards",
+    "sort_date": "2026-05-16",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/the-new-standards-may16-2026/2026-05-16/1/",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -5294,6 +5142,16 @@
       "Max Alan",
       "Brenna\u00a0MacMilllan"
     ]
+  },
+  {
+    "title": "Starlight Vinyl Night: MAKR Spins the Classic",
+    "sort_date": "2026-06-10",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/5596/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wooden Ducks",
@@ -10551,7 +10409,7 @@
     "supports": []
   },
   {
-    "title": "RESCHEDULED // SOLD OUT: See How We Are: John Doe & Exene Cervenka in an acoustic performance",
+    "title": "SOLD OUT: See How We Are: John Doe & Exene Cervenka in an acoustic performance",
     "sort_date": "2026-08-05",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/Vacfb9f569e0",
@@ -10604,7 +10462,7 @@
     ]
   },
   {
-    "title": "RESCHEDULED // 2nd Night Added - See How We Are: John Doe & Exene Cervenka in an acoustic performance with special guest DJ Jake Rudh",
+    "title": "2nd Night Added - See How We Are: John Doe & Exene Cervenka in an acoustic performance with special guest DJ Jake Rudh",
     "sort_date": "2026-08-06",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/D74edc037dfb",
@@ -12714,6 +12572,19 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "GLAIVE - GOD SAVE THE THREE TOUR",
+    "sort_date": "2026-10-07",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/glaive-god-save-the-three-tour-minneapolis-minnesota-10-07-2026/event/060064A7CB025602",
+    "sold_out": true,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Tiffany Day",
+      "Kurtains"
+    ]
   },
   {
     "title": "Red Leather",
