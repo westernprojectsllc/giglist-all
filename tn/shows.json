@@ -1,88 +1,5 @@
 [
   {
-    "title": "Bluebird On 3rd featuring Griffen Palmer , Madison Kozak & Matt Roy with Sharayah Daves + Sam Blasko",
-    "sort_date": "2026-05-11",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-griffen-3rd-and-lindsley-tickets/14152624",
-    "sold_out": false,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "THE TIME JUMPERS",
-    "sort_date": "2026-05-11",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671893",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mia Walz | Andy Wazz & Ya Motha | Kelsey Blackstone",
-    "sort_date": "2026-05-11",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-mia-walz-andy-wazz-ya-motha-kelsey-blackstone/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Giovanni Rodriguez & 12 Manos",
-    "sort_date": "2026-05-11",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/eeba2874-e94b-474a-b63b-42f63c36ed59",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Sofia Goodman Trio",
-    "sort_date": "2026-05-11",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/the-sofia-goodman-trio",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Songteller Sessions with Dani Flowers & Friends $20",
-    "sort_date": "2026-05-11",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/songteller-sessions-with-dani-flowers-friends-20-2/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mae Martin",
-    "sort_date": "2026-05-11",
-    "venue": "TPAC",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q3GU",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Unprocessed w/ ALLT, Lauren Babic, and Midwinter",
-    "sort_date": "2026-05-11",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/unprocessed-w-allt-lauren-babic-the-basement-east-tickets/14668893",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "ALLT",
-      "Lauren Babic"
-    ]
-  },
-  {
     "title": "CANCELLED: The Lucky Losers",
     "sort_date": "2026-05-12",
     "venue": "3rd & Lindsley",
@@ -217,10 +134,10 @@
     "supports": []
   },
   {
-    "title": "(SOLD OUT) Rooney's Irregulars",
+    "title": "ROONEY\u2019S IRREGULARS featuring Pat Alger , Sam Bush , Tim O'Brien , Shawn Camp , Pat McLaughlin , Richard Bailey , Bill Kenner , Kirk \"Jellyroll\" Johnson , Dan Dugmore , Pete Wasner , Dave Pomeroy , Larry Atamanuik & Pat McInerney with John Lomax",
     "sort_date": "2026-05-13",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sold-out-rooneys-irregulars-3rd-and-lindsley-tickets/14609343",
+    "url": "https://www.ticketweb.com/event/rooneys-irregulars-pat-alger-sam-3rd-and-lindsley-tickets/14609343",
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
@@ -715,10 +632,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: Arankai w/ buffalo_farm, Bad Plans \u2013 18+",
+    "title": "*SOLD OUT* Legacy Concerts Presents: Arankai w/ buffalo_farm, Bad Plans \u2013 18+",
     "sort_date": "2026-05-15",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-arankai-w-buffalo_farm-bad-plans-18/the-end/",
+    "url": "https://endnashville.com/event/sold-out-legacy-concerts-presents-arankai-w-buffalo_farm-bad-plans-18/the-end/",
     "sold_out": true,
     "time": "7pm",
     "doors": "6pm",
@@ -928,6 +845,16 @@
     "url": "https://www.ticketweb.com/event/orca-the-basement-tickets/14087984",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Richie O'Brien & Sally Lynn",
+    "sort_date": "2026-05-16",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/richie-obrien-sally-lynn-the-basement-tickets/14914293",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1383,6 +1310,16 @@
     "url": "https://www.ticketweb.com/event/jonell-mosser-charles-wigg-walker-3rd-and-lindsley-tickets/14880383",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bubble",
+    "sort_date": "2026-05-21",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/bubble5-21?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -2240,7 +2177,7 @@
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/in-the-end-exitin-tickets/14155634",
     "sold_out": false,
-    "time": "8pm",
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -2433,16 +2370,6 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxAK",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bullet Tooth",
-    "sort_date": "2026-05-29",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/bullet-tooth529?utm_medium=widget&utm_term=html_widget",
-    "sold_out": true,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -5156,22 +5083,22 @@
     "supports": []
   },
   {
+    "title": "Daniel Kuk Quartet",
+    "sort_date": "2026-06-20",
+    "venue": "Rudy's Jazz Room",
+    "url": "https://tunehatch.com/shows/dbe2eb58-bd39-45fc-acc8-965d85ac27e2",
+    "sold_out": false,
+    "time": "11pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jody Nardone Trio",
     "sort_date": "2026-06-20",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/jody-nardone-trio-4",
     "sold_out": false,
     "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Legend Meets Brilliance feat. Don Aliquo & Marc Payne",
-    "sort_date": "2026-06-20",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/legend-meets-brilliance-feat-don-aliquo-marc-payne-4",
-    "sold_out": false,
-    "time": "11pm",
     "doors": null,
     "supports": []
   },
@@ -6564,10 +6491,10 @@
     "supports": []
   },
   {
-    "title": "22 & good for u - Olivia Rodrigo Album Party",
+    "title": "Girls In Love - Olivia Rodrigo Album Party",
     "sort_date": "2026-07-11",
     "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/22-good-for-u-exitin-tickets/14884083",
+    "url": "https://www.ticketweb.com/event/girls-in-love-exitin-tickets/14884083",
     "sold_out": false,
     "time": "8:30pm",
     "doors": null,
@@ -10137,6 +10064,16 @@
     "supports": []
   },
   {
+    "title": "Mom Jeans",
+    "sort_date": "2026-09-24",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/mom-jeans-nashville-tennessee-09-24-2026/event/1B0064A5F4D9DEF7",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Owen Riegling",
     "sort_date": "2026-09-24",
     "venue": "Exit/In",
@@ -10197,6 +10134,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fa_",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Post Sex Nachos",
+    "sort_date": "2026-09-25",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/post-sex-nachos-the-basement-east-tickets/14899953",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -11900,6 +11847,16 @@
     ]
   },
   {
+    "title": "Arrows in Action // I Think We've Toured Here Before",
+    "sort_date": "2026-11-21",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/arrows-in-action-i-exitin-tickets/14911193",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-11-21",
     "venue": "Grand Ole Opry House",
@@ -12479,6 +12436,18 @@
     "doors": null,
     "supports": [
       "Vince Gill"
+    ]
+  },
+  {
+    "title": "AUBURN v WISCONSIN",
+    "sort_date": "2026-12-19",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/auburn-v-wisconsin-nashville-tennessee-12-19-2026/event/1B0064A8CA38372A",
+    "sold_out": true,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "University of Wisconsin Badgers Mens Basketball"
     ]
   },
   {
