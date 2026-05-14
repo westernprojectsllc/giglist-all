@@ -1,97 +1,5 @@
 [
   {
-    "title": "(SOLD OUT) Rooney's Irregulars",
-    "sort_date": "2026-05-13",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sold-out-rooneys-irregulars-3rd-and-lindsley-tickets/14609343",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Tim O'Brien"
-    ]
-  },
-  {
-    "title": "Miles Minnick",
-    "sort_date": "2026-05-13",
-    "venue": "Cannery Hall",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OMv_",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "War on Women | Herly Berly | The Phoenix Lights",
-    "sort_date": "2026-05-13",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-war-on-women-herly-berly-the-phoenix-lights/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mdou Moctar w/ Quincy McCrary",
-    "sort_date": "2026-05-13",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/mdou-moctar-solo-tour-13-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Napalm Death (18+ Event)",
-    "sort_date": "2026-05-13",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uV",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nitty Gritty Dirt Band",
-    "sort_date": "2026-05-13",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4uU",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "PT Gazell & The Side Effects",
-    "sort_date": "2026-05-13",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/ee2aeb68-ce16-49b8-98bb-77e70942188d",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Regi Wooten & Friends",
-    "sort_date": "2026-05-13",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/6dca8e73-06d6-4889-9914-42a1574d0558",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Herbie Hancock",
-    "sort_date": "2026-05-13",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1241855/herbie-hancock-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Nether Hour",
     "sort_date": "2026-05-13",
     "venue": "Skinny Dennis",
@@ -100,71 +8,6 @@
     "time": "7pm",
     "doors": null,
     "supports": []
-  },
-  {
-    "title": "Reno & Finck \u2013 A Benefit for Derwin Hinson $20",
-    "sort_date": "2026-05-13",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/reno-finck-2/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Zoe Cummins - Album Release Party w/ Weston Slutz",
-    "sort_date": "2026-05-13",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/zoe-cummins-album-the-basement-tickets/14817443",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "glom w/ Buffchick",
-    "sort_date": "2026-05-13",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/glom-w-buffchick-the-basement-tickets/14734923",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: Magnolia Park - Nights After Vamp Tour w/ Silly Goose & Downswing",
-    "sort_date": "2026-05-13",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/sold-out-magnolia-park-the-basement-east-tickets/14687093",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Silly Goose"
-    ]
-  },
-  {
-    "title": "Khris Glaring w/Gatlen Gunn, Tidal Sky & Hidden Sixes \u2013 18+",
-    "sort_date": "2026-05-13",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/khris-glaring-w-gatlen-gunn-tidal-sky-hidden-sixes-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Bilmuri w/ The Home Team",
-    "sort_date": "2026-05-13",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6uP",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "The Home Team",
-      "GANG!"
-    ]
   },
   {
     "title": "CJ Solar & the Old Souls Featuring Rick Huckaby",
@@ -359,6 +202,16 @@
     "url": "https://cobranashville.com/event/venue-midtones-melanie-maclaren-hannah-delynn/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mount Pom w/ Running Late, Kendra Jennings, and Lily Harden",
+    "sort_date": "2026-05-15",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/mount-pom-w-running-late-kendra-jennings-and-lily-harden-15-may",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -705,10 +558,10 @@
     "supports": []
   },
   {
-    "title": "Orca",
+    "title": "Orca w/ Under High Street",
     "sort_date": "2026-05-16",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/orca-the-basement-tickets/14087984",
+    "url": "https://www.ticketweb.com/event/orca-w-under-high-street-the-basement-tickets/14087984",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -831,6 +684,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-U7K",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Big Daddy Brunch",
+    "sort_date": "2026-05-17",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/big-daddy-brunch/",
+    "sold_out": false,
+    "time": "4pm",
     "doors": null,
     "supports": []
   },
@@ -1100,6 +963,16 @@
     "supports": []
   },
   {
+    "title": "Open Decks",
+    "sort_date": "2026-05-20",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/open-decks5202026?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "7:45pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bizz Bigsby",
     "sort_date": "2026-05-20",
     "venue": "Rudy's Jazz Room",
@@ -1321,6 +1194,16 @@
     "url": "https://www.ticketmaster.com/chrisette-michele-grounding-room-only-tour-nashville-tennessee-05-22-2026/event/1B00644CF69E9627",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Godeyes | Actor Observer | Awful Prophet | Rotten Luck | Indifferent",
+    "sort_date": "2026-05-22",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-godeyes-actor-observer-awful-prophet-rotten-luck-indifferent/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1824,6 +1707,16 @@
     "url": "https://tunehatch.com/shows/giovanni-rodriguez-12-manos-5",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Classic Country Tonight Hosted by Faith Groves feat. Belle Frantz, Colton Dawson, & Roger Springer $20",
+    "sort_date": "2026-05-25",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/classic-country-tonight-hosted-by-faith-groves-featuring-belle-frantz-colton-dawson-roger-springer-20/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -3426,6 +3319,16 @@
     "supports": []
   },
   {
+    "title": "The Band Loula $30",
+    "sort_date": "2026-06-06",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-band-loula-30/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Los Locos Tristes - Album Release Show w/ Aprendiz",
     "sort_date": "2026-06-06",
     "venue": "The Basement",
@@ -3585,6 +3488,16 @@
     "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2026-06-07/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Band Loula $30",
+    "sort_date": "2026-06-07",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/the-band-loula-30-2/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -4130,10 +4043,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: HIMALAYAS \u2013 18+",
+    "title": "Legacy Concerts Presents: HIMALAYAS w/ Candi Carpenter and Blind Matador \u2013 18+",
     "sort_date": "2026-06-12",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-himalayas-18/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-himalayas-w-candi-carpenter-and-blind-matador-18/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -4280,10 +4193,10 @@
     "supports": []
   },
   {
-    "title": "EG Vines",
+    "title": "EG Vines with Kashena Sampson",
     "sort_date": "2026-06-14",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/eg-vines-3rd-and-lindsley-tickets/14745643",
+    "url": "https://www.ticketweb.com/event/eg-vines-kashena-sampson-3rd-and-lindsley-tickets/14745643",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -4429,6 +4342,16 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-06-15/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Holly and The Nice Lions w/ Mickey Sunshine",
+    "sort_date": "2026-06-15",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/holly-and-the-nice-lions-the-basement-tickets/14922553",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -5300,8 +5223,18 @@
     "sort_date": "2026-06-22",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/beoga-the-basement-tickets/14906393",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tim Miner & Friends featuring Benjy Gaither, Tabitha Fair, Chip Davis, Zach Gonzalez & Chris Rodriguez",
+    "sort_date": "2026-06-23",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/tim-miner-friends-featuring-3rd-and-lindsley-tickets/14918743",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -6747,6 +6680,16 @@
     "supports": []
   },
   {
+    "title": "Jerseybird | Birds?| Nehoda | Ant Death Circle",
+    "sort_date": "2026-07-15",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-jerseybird-birds-nehoda-ant-death-circle/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Paul Simon",
     "sort_date": "2026-07-15",
     "venue": "FirstBank Amphitheater",
@@ -6787,7 +6730,7 @@
     "supports": []
   },
   {
-    "title": "Rancid Vat | Hammerlock | Savage Attack",
+    "title": "Rancid Vat | Hammerlock | Sweet GA Brown",
     "sort_date": "2026-07-16",
     "venue": "Cobra",
     "url": "https://cobranashville.com/event/venue-rancid-vat-hammerlock-savage-attack-boa/",
@@ -6841,7 +6784,7 @@
     "sort_date": "2026-07-16",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/hamilton-leithauser-summer-the-basement-east-tickets/14908373",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -7315,7 +7258,7 @@
     "sort_date": "2026-07-24",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/stabbing-westward-30-years-of-exitin-tickets/14908943",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": [
@@ -8729,6 +8672,16 @@
     "supports": []
   },
   {
+    "title": "Framing Hanley",
+    "sort_date": "2026-08-14",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/framing-hanley-the-basement-east-tickets/14920103",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kill Bill The Rapper w/Ashtin Larold \u2013 18+",
     "sort_date": "2026-08-14",
     "venue": "The End",
@@ -9085,6 +9038,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Savage Hands w/ Of Virtue, Kingdom Collapse , Sorry X \u2013 18+",
+    "sort_date": "2026-08-21",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-savage-hands-w-of-virtue-kingdom-collapse-sorry-x-18/the-end/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -11402,7 +11365,7 @@
     "sort_date": "2026-10-25",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/edgehill-the-moving-the-basement-east-tickets/14911413",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -15061,6 +15024,26 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-05-08/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluegrass Jam",
+    "sort_date": "2028-05-14",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2028-05-14/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sunday Gospel with Val Storey & Larry Cordle",
+    "sort_date": "2028-05-14",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/56270/2028-05-14/",
+    "sold_out": false,
+    "time": "3pm",
     "doors": null,
     "supports": []
   }
