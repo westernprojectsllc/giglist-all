@@ -612,16 +612,6 @@
     ]
   },
   {
-    "title": "Artemis: Sketches Of Miles",
-    "sort_date": "2026-05-13",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/artemis-may13-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "High Fade",
     "sort_date": "2026-05-13",
     "venue": "Fine Line",
@@ -639,8 +629,8 @@
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-clejan/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -649,47 +639,7 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-05-glass-cannon-call-of-cthulu-live/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Thursday 5/14 - MNAKED: Will Durie & Mary Cutrufello ($12 Cover)",
-    "sort_date": "2026-05-14",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-14-mnaked-will-durie-mary-cutrufello-12-cover",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lewis / Bates / Nichols",
-    "sort_date": "2026-05-14",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/lewis-bates-nichols-may-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SAM PREKOP AND JOHN McENTIRE with White Dune",
-    "sort_date": "2026-05-14",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/sam-prekop-and-john-mcentire",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Malamiko, worrywart, critterthing",
-    "sort_date": "2026-05-14",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/t470027cad8c",
-    "sold_out": false,
-    "time": "6:30pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -709,51 +659,11 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-built-to-spill/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Wussy"
     ]
-  },
-  {
-    "title": "Pastrami w/ Heliotrope",
-    "sort_date": "2026-05-14",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11339/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
-    "sort_date": "2026-05-14",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-14",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-14-2026/event/06006354DBC195C3",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: The Suburbs: Two Centuries of Rock!",
-    "sort_date": "2026-05-14",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/R4a1d3bde8a7",
-    "sold_out": true,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
   },
   {
     "title": "Defend Our Friends \u23e4 Album Release for \u201cICE OUT\u201d Protest Record",
@@ -761,49 +671,25 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-defend-our-friends/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Todd Day Wait with Side Saddle Sirens",
-    "sort_date": "2026-05-14",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/todd-day-wait-with-side-saddle-sirens-may-14-2026-682266",
-    "sold_out": false,
-    "time": "8:30pm",
-    "doors": "7:30pm",
-    "supports": []
-  },
-  {
-    "title": "Jake Hanson & Luke Enyeart",
-    "sort_date": "2026-05-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/jake-hanson-luke-enyeart/",
-    "sold_out": false,
-    "time": "6pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
   {
-    "title": "Smokdoubt Co-Op w. The Quantum Mechanics & \u201cSPLASH!\u201d",
-    "sort_date": "2026-05-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/smokdoubt-co-op-w-the-quantum-mechanics-splash/",
+    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
+    "sort_date": "2026-05-15",
+    "venue": "331 Club",
+    "url": "https://331club.com",
     "sold_out": false,
-    "time": "9pm",
+    "time": null,
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ossuary (WI), Dead Void (DK), Diabolic Oath (PDX), & Aberration",
-    "sort_date": "2026-05-14",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/ifeddc6470d5",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
+    "supports": [
+      "FRIDAY",
+      "indoors",
+      "Fistful of Datas 10pm",
+      "Venus Yevu 8pm",
+      "Zak Sally Sings the Bee Gees (with Shawn Walker) 7pm"
+    ]
   },
   {
     "title": "Ingrid Andress",
@@ -946,6 +832,16 @@
     "supports": []
   },
   {
+    "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
+    "sort_date": "2026-05-15",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Harry Potter and the Cursed Child (Touring)",
     "sort_date": "2026-05-15",
     "venue": "Orpheum Theatre",
@@ -1009,7 +905,7 @@
     "sort_date": "2026-05-15",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/R31bcc50381d",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
@@ -1070,6 +966,26 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
+    "sort_date": "2026-05-16",
+    "venue": "331 Club",
+    "url": "https://331club.com",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "Saturday",
+      "outdoors",
+      "vintage and makers market 12-8pm",
+      "indoors",
+      "Socktopus 10pm",
+      "The Japhies 8pm",
+      "Hastings 3000 6:00",
+      "Butter Boys 5pm",
+      "Unattractive Giant Monster 4pm"
+    ]
   },
   {
     "title": "The Scratch",
@@ -1304,6 +1220,25 @@
     "supports": []
   },
   {
+    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
+    "sort_date": "2026-05-17",
+    "venue": "331 Club",
+    "url": "https://331club.com",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "Sunday",
+      "outdoors",
+      "vintage and makers market 12-6pm",
+      "indoors",
+      "Switchyard 9:30pm",
+      "Diane 7:30pm",
+      "ditch pigeon 6pm",
+      "Jim Walsh and Mikkel Bee 3-5pm"
+    ]
+  },
+  {
     "title": "The Casualties",
     "sort_date": "2026-05-17",
     "venue": "7th St Entry",
@@ -1473,6 +1408,28 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-05-18",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "\u201cWomenfolk Presents\u201d",
+    "sort_date": "2026-05-18",
+    "venue": "331 Club",
+    "url": "https://www.nikkimattesonandrichrue.com",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Nikki Mat-teson & Rich Rue"
+    ]
+  },
+  {
     "title": "Accessory (Jason Balla of Dehd)",
     "sort_date": "2026-05-18",
     "venue": "7th St Entry",
@@ -1536,6 +1493,31 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "MayConspiracy Series featuring",
+    "sort_date": "2026-05-19",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Willow Waters and the Earthtones",
+      "Robyn Jamner"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-05-19",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/playcountryblues?igsh=MThvYTF0aXBvaTV2OQ==",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Tom Feldmann"
+    ]
   },
   {
     "title": "FIGHTMASTER",
@@ -1617,6 +1599,28 @@
     "supports": []
   },
   {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-05-20",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Dean Magraw & Bruce Henry"
+    ]
+  },
+  {
+    "title": "The Matt Arthur Contraption",
+    "sort_date": "2026-05-20",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1BLqcHnADn/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
     "sort_date": "2026-05-20",
     "venue": "Aster Cafe",
@@ -1643,6 +1647,16 @@
     "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-may-20-2026",
     "sold_out": false,
     "time": "10:15pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "An Evening with Roxy Music\u2019s Phil Manzanera at The Quinlan Room",
+    "sort_date": "2026-05-20",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/an-evening-with-roxy-musics-phil-manzanera-at-the-quinlan-room-may20-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1733,6 +1747,20 @@
     "time": "6:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Cross Pollination",
+    "sort_date": "2026-05-21",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Knife Emoji",
+      "Clung Tight",
+      "Maya McDonald"
+    ]
   },
   {
     "title": "Anna Devine",
@@ -1877,6 +1905,31 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Boots & Needles",
+    "sort_date": "2026-05-22",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/bootsandneedles?igsh=M2FnNTZ0MHB4OTEw",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "The Gated Community",
+      "Woolley Mack"
+    ]
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-05-22",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt"
+    ]
   },
   {
     "title": "Colin Bracewell",
@@ -2061,6 +2114,26 @@
     "supports": []
   },
   {
+    "title": "120 Minutes Band",
+    "sort_date": "2026-05-23",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/120minutestributeband?igsh=MWxydHc5NDJtbzFqbg==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-05-23",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Whips",
     "sort_date": "2026-05-23",
     "venue": "7th St Entry",
@@ -2240,6 +2313,28 @@
     "supports": []
   },
   {
+    "title": "Doyle Turner",
+    "sort_date": "2026-05-24",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1DKwAFXD9e/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "RaveSituation:",
+    "sort_date": "2026-05-24",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Three the Hard Way, Dj Ted Ned, Phil Dumka)"
+    ]
+  },
+  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-05-24",
     "venue": "Aster Cafe",
@@ -2310,6 +2405,26 @@
     "supports": []
   },
   {
+    "title": "HonkyTonk Ranch",
+    "sort_date": "2026-05-25",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-05-25",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Deslondes, Michael Gay, and Kiki Cavazos.",
     "sort_date": "2026-05-25",
     "venue": "Ice House",
@@ -2354,6 +2469,31 @@
     "supports": []
   },
   {
+    "title": "MayConspiracy Series featuring",
+    "sort_date": "2026-05-26",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Willow Waters and the Earthtones",
+      "Obsidian James"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-05-26",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/jeffraymusic1?igsh=MW1oNDhtZjdlZWhzdQ==",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Jeff Ray"
+    ]
+  },
+  {
     "title": "Helen",
     "sort_date": "2026-05-26",
     "venue": "Pilllar Forum",
@@ -2395,6 +2535,30 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-05-27",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Red Hot Django Peppers"
+    ]
+  },
+  {
+    "title": "Lenz and Frenz",
+    "sort_date": "2026-05-27",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"
+    ]
   },
   {
     "title": "One-Man Shows & Immaculate Flows w/ L.A. Buckner & Midwest James",
@@ -2488,6 +2652,16 @@
     "url": "https://link.dice.fm/m762c90b5cda",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Pinched.",
+    "sort_date": "2026-05-28",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/pinched_music.mpls?igsh=MXBkcnYwYjJpd3NpeQ==",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -2624,6 +2798,31 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-05-29",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt"
+    ]
+  },
+  {
+    "title": "Wish Wash",
+    "sort_date": "2026-05-29",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/wishwashmpls?igsh=MWN2NXFkejJ6cGRndA==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Ray Gun Youth",
+      "Steady Range"
+    ]
   },
   {
     "title": "Emerson Woolf & the Wishbones",
@@ -2850,6 +3049,29 @@
     "time": "8:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-05-30",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Del-Viles",
+    "sort_date": "2026-05-30",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/thedelviles?igsh=MWRscTRmNnczYmt3eA==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "ditch pigeon",
+      "J-Mo & The J-Lighters"
+    ]
   },
   {
     "title": "Amelia Day",
@@ -3092,6 +3314,26 @@
     "supports": []
   },
   {
+    "title": "Becky Kapell and The Fat 6",
+    "sort_date": "2026-05-31",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1D8SsoKp6Z/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jack klatt",
+    "sort_date": "2026-05-31",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1Fc7DkBMfn/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Gozu and Restless Spirit",
     "sort_date": "2026-05-31",
     "venue": "7th St Entry",
@@ -3239,6 +3481,26 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-06-01",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Soul Trouv\u00e8re",
+    "sort_date": "2026-06-01",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Alec Collins",
     "sort_date": "2026-06-01",
     "venue": "White Squirrel",
@@ -3255,6 +3517,29 @@
     "url": "https://whitesquirrelbar.com/event/metal-monday-2/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "June Conspiracy Series featuring",
+    "sort_date": "2026-06-02",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Sawtooth Witch",
+      "desdamona w/ mike michel of the Orange Goodness"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-06-02",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -3336,6 +3621,28 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Bosso Poetry Company",
+    "sort_date": "2026-06-03",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-06-03",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "McCawley, Otto and Hurricane"
+    ]
   },
   {
     "title": "Cruvell \u23e4 'Crushed Velvet for Your Ears\u2019 Album Release Party",
@@ -3462,6 +3769,16 @@
     "url": "https://link.dice.fm/kf4167ff3c01",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "NORTHEAST INVITATIONAL",
+    "sort_date": "2026-06-04",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -3627,6 +3944,28 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-06-05",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Crimson Boys",
+    "sort_date": "2026-06-05",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/thecrimsonboys?igsh=YXRmeHJsMHpqeXI5",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Dangerbad"
+    ]
   },
   {
     "title": "Aiden Intro",
@@ -3855,6 +4194,26 @@
     "supports": []
   },
   {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-06-06",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Plumstar",
+    "sort_date": "2026-06-06",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/hiplumstar?igsh=MW93d25idnJxcmQ5eQ==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Pradabagshawty",
     "sort_date": "2026-06-06",
     "venue": "7th St Entry",
@@ -4047,12 +4406,32 @@
     "supports": []
   },
   {
+    "title": "Brass Messengers",
+    "sort_date": "2026-06-07",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-06-07",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
     "sold_out": false,
     "time": "10:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "TGNP Sundays: Crystal Myslajek & Mary Hanson Scott / Channy Leaneagh / Lonefront",
+    "sort_date": "2026-06-07",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/totally-gross-national-product-residency-week-1",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4147,6 +4526,26 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-06-08",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sidewalk Diamonds",
+    "sort_date": "2026-06-08",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/sidewalkdiamondsmpls?mibextid=wwXIfr&mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "REIKI, Agnes Uncaged and WHY NOT",
     "sort_date": "2026-06-08",
     "venue": "7th St Entry",
@@ -4209,6 +4608,29 @@
     "supports": []
   },
   {
+    "title": "June Conspiracy Series featuring",
+    "sort_date": "2026-06-09",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Sawtooth Witch",
+      "mike munson"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-06-09",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Benny Everett and the Best Intentions",
     "sort_date": "2026-06-09",
     "venue": "7th St Entry",
@@ -4238,7 +4660,7 @@
     "sort_date": "2026-06-09",
     "venue": "Pilllar Forum",
     "url": "https://www.pilllar.com/products/music-15-minutes-of-femme-6-9-2026",
-    "sold_out": false,
+    "sold_out": true,
     "time": "5pm",
     "doors": "4pm",
     "supports": [
@@ -4311,6 +4733,28 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "David Robinson & the Dedicated Friends",
+    "sort_date": "2026-06-10",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/davidrobinsonmusic?igsh=MXJmaTkyOGxyejY4ZA==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-06-10",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Trebello Duo"
+    ]
   },
   {
     "title": "Earth to Eve",
@@ -4388,6 +4832,16 @@
     "url": "https://link.dice.fm/rd0fd350db41",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "HebbaJebba",
+    "sort_date": "2026-06-11",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1G3H8DQQCX/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -4545,6 +4999,16 @@
     ]
   },
   {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-06-12",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Tommy Goodroad",
     "sort_date": "2026-06-12",
     "venue": "7th St Entry",
@@ -4686,6 +5150,26 @@
     "url": "https://link.dice.fm/J6afd4dc871b",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Chris Cashin",
+    "sort_date": "2026-06-13",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/chriscashinmusic?igsh=eDR5aG12NHBza3lo",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-06-13",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4872,6 +5356,26 @@
     "supports": []
   },
   {
+    "title": "Dr. Sketchy\u2019s Anti-Art School",
+    "sort_date": "2026-06-14",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Emmy Woods and friends",
+    "sort_date": "2026-06-14",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bob Log III",
     "sort_date": "2026-06-14",
     "venue": "7th St Entry",
@@ -4888,6 +5392,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
     "sold_out": false,
     "time": "10:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "TGNP Sundays: BRAINGIVER & Friends / *67",
+    "sort_date": "2026-06-14",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/totally-gross-national-product-residency-week-2",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4909,6 +5423,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Salsa w/Charanga Tropical",
+    "sort_date": "2026-06-14",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/9706/",
+    "sold_out": false,
+    "time": "5pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -4972,6 +5496,26 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-06-15",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "\u201cWomenfolk Presents\u201d",
+    "sort_date": "2026-06-15",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Daisy the Great",
     "sort_date": "2026-06-15",
     "venue": "7th St Entry",
@@ -4980,6 +5524,19 @@
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
+  },
+  {
+    "title": "One Singular Cigarette",
+    "sort_date": "2026-06-15",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-one-singular-cigarette-6-15-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "The Da\u00fcggers",
+      "In Limbo"
+    ]
   },
   {
     "title": "Cauldron of Failure w. Derecho, Renegade Escape",
@@ -4992,6 +5549,29 @@
     "supports": []
   },
   {
+    "title": "June Conspiracy Series featuring",
+    "sort_date": "2026-06-16",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Sawtooth Witch",
+      "sand county"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-06-16",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Mikaela Davis",
     "sort_date": "2026-06-16",
     "venue": "7th St Entry",
@@ -4999,7 +5579,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Julianna Riolino"
+    ]
   },
   {
     "title": "Chris Ramsay Presents: It's Probably Nothing...",
@@ -5052,6 +5634,30 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-06-17",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Jon Rodine and Friends"
+    ]
+  },
+  {
+    "title": "Wren and Wilde",
+    "sort_date": "2026-06-17",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/wrenandwildeband?igsh=a2R3bTN2dG40bW01",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Boots & Needles"
+    ]
   },
   {
     "title": "Greg Mendez",
@@ -5121,7 +5727,7 @@
     "supports": []
   },
   {
-    "title": "Lords of the Universe",
+    "title": "Lords of the Universe w. Attracted To Gods",
     "sort_date": "2026-06-17",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-5/",
@@ -5129,6 +5735,18 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Cross Pollination",
+    "sort_date": "2026-06-18",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Knife Emoji"
+    ]
   },
   {
     "title": "Lily Fitts",
@@ -5233,6 +5851,26 @@
     "url": "https://whitesquirrelbar.com/event/the-hazy-phase/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Brotherhood Of Birds",
+    "sort_date": "2026-06-19",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/bobmpls?igsh=MWJvNXp4bjVjeHllYw==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-06-19",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -5346,6 +5984,16 @@
     ]
   },
   {
+    "title": "Brondo",
+    "sort_date": "2026-06-19",
+    "venue": "The Loft at Skyway Theatre",
+    "url": "https://skywaytheatre.com/event/brondo/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "All Tomorrow's Petty",
     "sort_date": "2026-06-19",
     "venue": "Turf Club",
@@ -5387,6 +6035,39 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Bobby Rethwish",
+    "sort_date": "2026-06-20",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/bobbyrethwish?igsh=MW4zNW53eWFhNHN5NA==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-06-20",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "High Speed Snowshoes",
+    "sort_date": "2026-06-20",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-06-high-speed-snowshoes/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "TABAH",
+      "Sallyforth"
+    ]
   },
   {
     "title": "Enter Shikari",
@@ -5597,6 +6278,26 @@
     "supports": []
   },
   {
+    "title": "Switchyard",
+    "sort_date": "2026-06-21",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "eleven degenerates",
+    "sort_date": "2026-06-21",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bright Young Things and Wim Tapley & The Cannons",
     "sort_date": "2026-06-21",
     "venue": "7th St Entry",
@@ -5738,6 +6439,26 @@
     "supports": []
   },
   {
+    "title": "HonkyTonk Ranch",
+    "sort_date": "2026-06-22",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-06-22",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dexter and the Moonrocks",
     "sort_date": "2026-06-22",
     "venue": "Fine Line",
@@ -5803,6 +6524,29 @@
     "url": "https://link.dice.fm/nf0f3909f5a0",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "June Conspiracy Series featuring",
+    "sort_date": "2026-06-23",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Sawtooth Witch",
+      "Los Pinches Gueys"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-06-23",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -5887,6 +6631,28 @@
     "supports": []
   },
   {
+    "title": "Dan Tanz & the Wildfire",
+    "sort_date": "2026-06-24",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-06-24",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "The Beavers"
+    ]
+  },
+  {
     "title": "Aaron Rowe",
     "sort_date": "2026-06-24",
     "venue": "7th St Entry",
@@ -5961,6 +6727,18 @@
     "supports": []
   },
   {
+    "title": "Stephanie Was",
+    "sort_date": "2026-06-25",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1DaN5h7KLw/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Rich Mattson and the Northstars"
+    ]
+  },
+  {
     "title": "Social Animals",
     "sort_date": "2026-06-25",
     "venue": "7th St Entry",
@@ -6032,6 +6810,28 @@
     "url": "https://whitesquirrelbar.com/event/james-whatton-band-w-burk-and-bella/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Charlie Doesn\u2019t Surf",
+    "sort_date": "2026-06-26",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/charliedoesntsurf42069?igsh=MWRsYXFlbWl6cGU0aQ==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Templs"
+    ]
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-06-26",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -6120,10 +6920,10 @@
     "supports": []
   },
   {
-    "title": "Grrrl Scout: Mature Content",
+    "title": "Mature Content: Pride Edition",
     "sort_date": "2026-06-26",
     "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/grrrl-scout-mature-content-minneapolis-minnesota-06-26-2026/event/060064AC2368709B",
+    "url": "https://www.ticketmaster.com/mature-content-pride-edition-minneapolis-minnesota-06-26-2026/event/060064AC2368709B",
     "sold_out": true,
     "time": "7pm",
     "doors": null,
@@ -6148,6 +6948,28 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-06-27",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Slaphazard",
+    "sort_date": "2026-06-27",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1DgyB3EmEV/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Joyful Wrath"
+    ]
   },
   {
     "title": "GR3G",
@@ -6316,6 +7138,16 @@
     "supports": []
   },
   {
+    "title": "Colonel Mustard\u2019s Mechanical Orchestra",
+    "sort_date": "2026-06-28",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1BBJfmU4YK/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Ben Lapidus",
     "sort_date": "2026-06-28",
     "venue": "7th St Entry",
@@ -6332,6 +7164,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
     "sold_out": false,
     "time": "10:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "TGNP Sundays: The Clee-Shays / DJ Haley Fohr",
+    "sort_date": "2026-06-28",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/totally-gross-national-product-residency-week-4",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -6430,6 +7272,29 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-06-29",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "shugE",
+    "sort_date": "2026-06-29",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-shuge-6-29-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Average Joey",
+      "Ditch Pigeon"
+    ]
+  },
+  {
     "title": "Pop Wagner",
     "sort_date": "2026-06-29",
     "venue": "White Squirrel",
@@ -6446,6 +7311,28 @@
     "url": "https://whitesquirrelbar.com/event/sylvia-may/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "June Conspiracy Series featuring",
+    "sort_date": "2026-06-30",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/sawtoothwitch?igsh=MWhiMm12amFzZDJlYQ==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Sawtooth Witch"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-06-30",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -6513,6 +7400,28 @@
     "supports": []
   },
   {
+    "title": "Bosso Poetry Company",
+    "sort_date": "2026-07-01",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-01",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "Todd Albright"
+    ]
+  },
+  {
     "title": "Puppeteers For Fears presents Robopocalypse: The Musical!",
     "sort_date": "2026-07-01",
     "venue": "Cedar Cultural Center",
@@ -6541,6 +7450,16 @@
     "url": "https://whitesquirrelbar.com/event/late-night-tv/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "NORTHEAST INVITATIONAL",
+    "sort_date": "2026-07-02",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -6608,6 +7527,31 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-07-03",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt"
+    ]
+  },
+  {
+    "title": "Phantom fields",
+    "sort_date": "2026-07-03",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/phantom.fields?igsh=dXA2eW83bjhzeHRy",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Nato Coles & the Blue Diamond Band",
+      "Jeff Larson Band"
+    ]
   },
   {
     "title": "Terrapin Stallion",
@@ -6688,6 +7632,26 @@
     "supports": []
   },
   {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-07-04",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "TRAMPS LIKE US",
+    "sort_date": "2026-07-04",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/17atCFBSSy/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "KILL SAFARI",
     "sort_date": "2026-07-04",
     "venue": "The Loft at Skyway Theatre",
@@ -6718,6 +7682,16 @@
     "supports": []
   },
   {
+    "title": "Brass Messengers",
+    "sort_date": "2026-07-05",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sunday Swing Brunch $8",
     "sort_date": "2026-07-05",
     "venue": "Aster Cafe",
@@ -6734,6 +7708,48 @@
     "url": "https://whitesquirrelbar.com/event/calla-mcdermott/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-07-06",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Soul Trouv\u00e8re",
+    "sort_date": "2026-07-06",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1AFhiYvk34/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "July Conspiracy Series featuring",
+    "sort_date": "2026-07-07",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1JbNgkfe4j/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Paul Lawrence"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-07-07",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -6789,6 +7805,36 @@
     "url": "https://link.dice.fm/P803e6ec2128",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bosso Poetry Company",
+    "sort_date": "2026-07-08",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/bossopoetrycompany?mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-08",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Flying T",
+    "sort_date": "2026-07-08",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/tmillsvfx?igsh=Y3RtMnFid21zOGpq",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -6877,6 +7923,16 @@
     "supports": []
   },
   {
+    "title": "Nathan Walker",
+    "sort_date": "2026-07-09",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Daphne Jane",
     "sort_date": "2026-07-09",
     "venue": "7th St Entry",
@@ -6939,6 +7995,26 @@
     "url": "https://whitesquirrelbar.com/event/gradience/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jon Elconin",
+    "sort_date": "2026-07-10",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/jonelconin?igsh=MWxkZ2I1ZHhjb3Vybw==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-07-10",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -7064,6 +8140,26 @@
     ]
   },
   {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-07-11",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gabe Barnett & them Rounders",
+    "sort_date": "2026-07-11",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/gabe_barnett_rounders?igsh=MWI5ejI0aXNnNXlsdQ==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Pullstring",
     "sort_date": "2026-07-11",
     "venue": "7th St Entry",
@@ -7172,6 +8268,18 @@
     "supports": []
   },
   {
+    "title": "Dylan & The Dead Tribute ft. China Rider and Mind Out of Time",
+    "sort_date": "2026-07-11",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-dylan-the-dead-tribute/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Daisy Forester & Duncan MJ of OISTER BOY (Tom Petty\u00a0Tribute)"
+    ]
+  },
+  {
     "title": "Revent\u00f3n Rave with Cristian Baca",
     "sort_date": "2026-07-11",
     "venue": "Varsity Theater",
@@ -7208,6 +8316,26 @@
     "url": "https://link.dice.fm/Z299771c2971",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dr. Sketchy\u2019s Anti-Art School",
+    "sort_date": "2026-07-12",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Emmy Woods and friends",
+    "sort_date": "2026-07-12",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100090071273380&mibextid=7cd5pb",
+    "sold_out": false,
+    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -7297,6 +8425,26 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-07-13",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Wesley Church & the Fabulous Vanguards",
+    "sort_date": "2026-07-13",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wells Ferrari",
     "sort_date": "2026-07-13",
     "venue": "7th St Entry",
@@ -7336,6 +8484,28 @@
     "url": "https://whitesquirrelbar.com/event/spaceport/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "July Conspiracy Series featuring",
+    "sort_date": "2026-07-14",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1JbNgkfe4j/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Paul Lawrence"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-07-14",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -7400,6 +8570,29 @@
     "time": "9pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-15",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Cottonwood Shivers",
+    "sort_date": "2026-07-15",
+    "venue": "331 Club",
+    "url": "https://thecottonwoodshivers.com",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "QUAERY",
+      "Petits Mirages"
+    ]
   },
   {
     "title": "The Body",
@@ -7484,6 +8677,18 @@
     "supports": []
   },
   {
+    "title": "Cross Pollination",
+    "sort_date": "2026-07-16",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/knifeemojiband?igsh=eDRteWM2aGx4Zmx5",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Knife Emoji"
+    ]
+  },
+  {
     "title": "Wax and DJ Hoppa",
     "sort_date": "2026-07-16",
     "venue": "7th St Entry",
@@ -7565,6 +8770,28 @@
     "url": "https://link.dice.fm/Edb3168a7745",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-07-17",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt"
+    ]
+  },
+  {
+    "title": "YES WE ARE",
+    "sort_date": "2026-07-17",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/yeswearemusic?igsh=a2RzdTMxMW4wcWIy",
+    "sold_out": false,
+    "time": "10:00pm",
     "doors": null,
     "supports": []
   },
@@ -7679,6 +8906,26 @@
     "url": "https://whitesquirrelbar.com/event/the-conduit/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-07-18",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Speed Riders",
+    "sort_date": "2026-07-18",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/speedridersband?igsh=NXBwY2xiZ3Rmc3hh",
+    "sold_out": false,
+    "time": "10:00pm",
     "doors": null,
     "supports": []
   },
@@ -7827,6 +9074,26 @@
     "supports": []
   },
   {
+    "title": "Switchyard",
+    "sort_date": "2026-07-19",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/switchyard.band.mpls?igsh=eTJ6OTk2eXVubHZt",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "eleven degenerates",
+    "sort_date": "2026-07-19",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Mike Love ( solo )",
     "sort_date": "2026-07-19",
     "venue": "7th St Entry",
@@ -7951,6 +9218,26 @@
     "supports": []
   },
   {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-07-20",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "\u201cWomenfolk Presents\u201d",
+    "sort_date": "2026-07-20",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kevian Kraemer",
     "sort_date": "2026-07-20",
     "venue": "7th St Entry",
@@ -7977,6 +9264,28 @@
     "url": "https://whitesquirrelbar.com/event/when-we-met-w-letters/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "July Conspiracy Series featuring",
+    "sort_date": "2026-07-21",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1JbNgkfe4j/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Paul Lawrence"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-07-21",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -8015,12 +9324,42 @@
     ]
   },
   {
+    "title": "Carhearts",
+    "sort_date": "2026-07-21",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/carhearts/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The New Havoline Supremes",
     "sort_date": "2026-07-21",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/the-new-havoline-supremes-21/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-22",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Maybe Nebraska",
+    "sort_date": "2026-07-22",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1Nh65KLw68/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
     "doors": null,
     "supports": []
   },
@@ -8130,6 +9469,16 @@
     "supports": []
   },
   {
+    "title": "Nick Elstad Trio",
+    "sort_date": "2026-07-23",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/nickelstad?igsh=MWdnaHVmZmpmdTg5dw==",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Harvey Street",
     "sort_date": "2026-07-23",
     "venue": "7th St Entry",
@@ -8199,6 +9548,28 @@
     "url": "https://whitesquirrelbar.com/event/joes-garage/",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-07-24",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt"
+    ]
+  },
+  {
+    "title": "Noslo",
+    "sort_date": "2026-07-24",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/whatsnoslo?igsh=ZHkycWxhNmVwdzZu",
+    "sold_out": false,
+    "time": "10:00pm",
     "doors": null,
     "supports": []
   },
@@ -8319,6 +9690,26 @@
     "supports": []
   },
   {
+    "title": "Drinkin\u2019 Spelling Bee",
+    "sort_date": "2026-07-25",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Old Smugglers",
+    "sort_date": "2026-07-25",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/theoldsmugglers?igsh=MXR6bnNwODhlMDF4bA==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Blu and Exile",
     "sort_date": "2026-07-25",
     "venue": "7th St Entry",
@@ -8393,22 +9784,22 @@
     "supports": []
   },
   {
+    "title": "David Lopez 90 Miles: The Tour",
+    "sort_date": "2026-07-25",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/moblife/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Lars Nelson Band",
     "sort_date": "2026-07-25",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/lars-nelson-band/",
     "sold_out": false,
     "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Moblife",
-    "sort_date": "2026-07-25",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/moblife/",
-    "sold_out": false,
-    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -8429,6 +9820,16 @@
     "url": "https://link.dice.fm/wcddacec929c",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Real Chuck NORAD",
+    "sort_date": "2026-07-26",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=61557848086888&mibextid=JRoKGi",
+    "sold_out": false,
+    "time": "7:00pm",
     "doors": null,
     "supports": []
   },
@@ -8530,6 +9931,26 @@
     "supports": []
   },
   {
+    "title": "HonkyTonk Ranch",
+    "sort_date": "2026-07-27",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100094683949311&mibextid=LQQJ4d",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Roe Family Singers",
+    "sort_date": "2026-07-27",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "LSD and the Search for God",
     "sort_date": "2026-07-27",
     "venue": "7th St Entry",
@@ -8556,6 +9977,28 @@
     "sort_date": "2026-07-27",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/rd-the-midnight-movers-6/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "July Conspiracy Series featuring",
+    "sort_date": "2026-07-28",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1JbNgkfe4j/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "Paul Lawrence"
+    ]
+  },
+  {
+    "title": "Worker\u2019s Playtime",
+    "sort_date": "2026-07-28",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
@@ -8614,6 +10057,28 @@
     "supports": []
   },
   {
+    "title": "Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-29",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/profile.php?id=100063582730118",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lenz and Frenz",
+    "sort_date": "2026-07-29",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": [
+      "(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"
+    ]
+  },
+  {
     "title": "\u2600\ufe0fSummer at The Cedar : TAIGA",
     "sort_date": "2026-07-29",
     "venue": "Cedar Cultural Center",
@@ -8661,6 +10126,26 @@
     "sold_out": false,
     "time": "6pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Rabbit By Owl Light",
+    "sort_date": "2026-07-30",
+    "venue": "331 Club",
+    "url": "https://www.facebook.com/share/1BNwwtim1A/?mibextid=wwXIfr",
+    "sold_out": false,
+    "time": "9:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Hayden Blount",
+    "sort_date": "2026-07-30",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-hayden-blount/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -8724,6 +10209,30 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Courtney Yasmineh",
+    "sort_date": "2026-07-31",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/courtneyanneyasmineh?igsh=MWRrdjZndjdkemNjdQ==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Ira Haze and the Strays"
+    ]
+  },
+  {
+    "title": "Movie and Music Trivia",
+    "sort_date": "2026-07-31",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "7pmyt my"
+    ]
   },
   {
     "title": "Vacation Manor",
@@ -9994,6 +11503,16 @@
     "supports": []
   },
   {
+    "title": "Grand Lilac",
+    "sort_date": "2026-08-22",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/grand-lilac/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sugarcoat",
     "sort_date": "2026-08-22",
     "venue": "White Squirrel",
@@ -10387,6 +11906,16 @@
     "supports": []
   },
   {
+    "title": "Wildflowers",
+    "sort_date": "2026-09-06",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/wildflowers/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Nancy Olson w. Joe Carey",
     "sort_date": "2026-09-07",
     "venue": "White Squirrel",
@@ -10461,7 +11990,10 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Sadie Gustafson-Zook",
+      "Old\u00a0Pup"
+    ]
   },
   {
     "title": "BRENN! - AMATEUR AT BEST WORLD TOUR",
@@ -10600,6 +12132,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "SONDRE LERCHE Acrobats \u201826 Tour",
+    "sort_date": "2026-09-16",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/sondre-lerche-acrobats-26-tour",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -11939,6 +13481,18 @@
     "supports": []
   },
   {
+    "title": "Murray Hill // Showbiz! The Tour & Talkback",
+    "sort_date": "2026-10-29",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/V3e2d5c8b248",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Mr. Murray Hill"
+    ]
+  },
+  {
     "title": "Peter Antoniou",
     "sort_date": "2026-10-29",
     "venue": "The Parkway Theater",
@@ -12414,6 +13968,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Angine de Poitrine",
+    "sort_date": "2026-12-02",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-12-angine-de-poitrine/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
