@@ -1,226 +1,5 @@
 [
   {
-    "title": "SMOKING SECTION",
-    "sort_date": "2026-05-15",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/smoking-section-3rd-and-lindsley-tickets/14757313",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "WMOT Finally Friday featuring Sicard Hollow , Cole Ritter & Chicago Farmer",
-    "sort_date": "2026-05-15",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/wmot-finally-friday-sicard-hollow-3rd-and-lindsley-tickets/14872743",
-    "sold_out": false,
-    "time": "12pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Behemoth: The Godless IV 2026",
-    "sort_date": "2026-05-15",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/behemoth-the-godless-iv-2026-nashville-tennessee-05-15-2026/event/1B006428BCB3B5B9",
-    "sold_out": false,
-    "time": "6:25pm",
-    "doors": null,
-    "supports": [
-      "Deicide",
-      "Rotting Christ",
-      "Immolation"
-    ]
-  },
-  {
-    "title": "Front Bar: Scott Ivey & The Filthy Frets | Barney Wells | Still Moves",
-    "sort_date": "2026-05-15",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-scott-ivey-the-filthy-frets-blue-honey-still-moves-2/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Midtones | Melanie MacLaren | Hannah Delynn",
-    "sort_date": "2026-05-15",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-midtones-melanie-maclaren-hannah-delynn/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mount Pom w/ Running Late, Kendra Jennings, and Lily Harden",
-    "sort_date": "2026-05-15",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/mount-pom-w-running-late-kendra-jennings-and-lily-harden-15-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Happy Landing",
-    "sort_date": "2026-05-15",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/happy-landing-exitin-tickets/14079934",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Motherfolk"
-    ]
-  },
-  {
-    "title": "Bush - The Land of Milk and Honey Tour",
-    "sort_date": "2026-05-15",
-    "venue": "FirstBank Amphitheater",
-    "url": "https://www.ticketmaster.com/bush-the-land-of-milk-and-franklin-tennessee-05-15-2026/event/1B006390AB1CAB92",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Mammoth",
-      "James and the Cold Gun"
-    ]
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-15",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxAO",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Murphy's Law",
-    "sort_date": "2026-05-15",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/murphy-s-law?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dana Robbins Quintet",
-    "sort_date": "2026-05-15",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/dana-robbins-quintet",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Geoff Pfeifer Quartet",
-    "sort_date": "2026-05-15",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/geoff-pfeifer-quartet",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jerome Degey Quartet feat. Charles Treadway, De Marco Johnson & Willie B.",
-    "sort_date": "2026-05-15",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/jerome-degey-quartet-feat-charles-treadway-de-marco-johnson-willie-b",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Drew & Ellie Holcomb - NEVER GONNA LET YOU GO TOUR",
-    "sort_date": "2026-05-15",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1198188/drew-ellie-holcomb-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Symphony",
-    "sort_date": "2026-05-15",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7b9bo",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Shannon Slaughter & County Clare $25",
-    "sort_date": "2026-05-15",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/shannon-slaughter/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Patrick Sweany",
-    "sort_date": "2026-05-15",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/patrick-sweany-the-basement-tickets/14911533",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "QDP",
-    "sort_date": "2026-05-15",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/qdp-the-basement-east-tickets/14910303",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "49 Winchester in The Caverns",
-    "sort_date": "2026-05-15",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/49-winchester-in-the-caverns",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "*SOLD OUT* Legacy Concerts Presents: Arankai w/ buffalo_farm, Bad Plans \u2013 18+",
-    "sort_date": "2026-05-15",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/sold-out-legacy-concerts-presents-arankai-w-buffalo_farm-bad-plans-18/the-end/",
-    "sold_out": true,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Marilyn Manson w/ VOWWS",
-    "sort_date": "2026-05-15",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOfM",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "VOWWS"
-    ]
-  },
-  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Mike Reid , Tia Sillers , Rob Ragosta , Rebecca Lynn Howard & Dawson Steagall",
     "sort_date": "2026-05-16",
     "venue": "3rd & Lindsley",
@@ -386,16 +165,6 @@
     "supports": []
   },
   {
-    "title": "R&B Brunch",
-    "sort_date": "2026-05-16",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/rnb-brunch/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": "1pm",
-    "supports": []
-  },
-  {
     "title": "Vickie Vaughn $25",
     "sort_date": "2026-05-16",
     "venue": "Station Inn",
@@ -532,16 +301,6 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-U7K",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Big Daddy Brunch",
-    "sort_date": "2026-05-17",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/big-daddy-brunch/",
-    "sold_out": false,
-    "time": "4pm",
     "doors": null,
     "supports": []
   },
@@ -741,10 +500,10 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat. Catherine Berdie, Maggie McCraney, Trey Hedrick, Eli Hannon, Press Pause, Allen Carrescia and Echo Drive",
+    "title": "New Faces Night feat. Sophia Grace, Brian Wood Band, Silence Earthling, Eli Blackshear, poor rich, and Kieffer Infantino",
     "sort_date": "2026-05-19",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-catherine-the-basement-tickets/13983384",
+    "url": "https://www.ticketweb.com/event/new-faces-night-feat-sophia-the-basement-tickets/13983384",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -1325,32 +1084,22 @@
     ]
   },
   {
-    "title": "Dorks on the Deck",
-    "sort_date": "2026-05-23",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/dorks-on-the-deck/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rewind: The Ultimate 2000s Rave",
-    "sort_date": "2026-05-23",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/rewind-the-ultimate-2000s-rave/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": "8:30pm",
-    "supports": []
-  },
-  {
     "title": "Junior Sisk $25",
     "sort_date": "2026-05-23",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/junior-sisk-2/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Peter Levin Band",
+    "sort_date": "2026-05-23",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/peter-levin-band-the-basement-tickets/14927153",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2617,16 +2366,6 @@
     "supports": []
   },
   {
-    "title": "Country Kickoff",
-    "sort_date": "2026-06-02",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/country-kickoff-2/",
-    "sold_out": false,
-    "time": "12am",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
     "title": "Troubadour Blue",
     "sort_date": "2026-06-02",
     "venue": "Station Inn",
@@ -3387,6 +3126,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Atlanta Rhythm Section, Pure Prairie League, Firefall, Orleans at The Caverns Outdoor Amphitheater",
+    "sort_date": "2026-06-07",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/atlanta-rhythm-section-pure-prairie-league-firefall-orleans-at-the-caverns-outdoor-amphitheater",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": "4pm",
     "supports": []
   },
   {
@@ -4204,16 +3953,6 @@
     "supports": []
   },
   {
-    "title": "615 Day",
-    "sort_date": "2026-06-15",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/615-day/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": "8pm",
-    "supports": []
-  },
-  {
     "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
     "sort_date": "2026-06-15",
     "venue": "Station Inn",
@@ -4346,10 +4085,10 @@
     "supports": []
   },
   {
-    "title": "Enter Shikari: North America 2026 w/ Boston Manor and Initiate",
+    "title": "CANCELED: Enter Shikari: North America 2026 w/ Boston Manor and Initiate",
     "sort_date": "2026-06-16",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/enter-shikari-north-america-2026-the-basement-east-tickets/14159794",
+    "url": "https://www.ticketweb.com/event/canceled-enter-shikari-north-america-the-basement-east-tickets/14159794",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -4454,21 +4193,11 @@
     "supports": []
   },
   {
-    "title": "Ivy Queen",
-    "sort_date": "2026-06-17",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/ivy-queen/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": "8pm",
-    "supports": []
-  },
-  {
     "title": "A Thousand Horses - White Flag Down Tour",
     "sort_date": "2026-06-17",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/a-thousand-horses-the-basement-tickets/14914853",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -4852,7 +4581,7 @@
     "sort_date": "2026-06-20",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/my-socalled-band-nashville-tennessee-06-20-2026/event/1B0064ADC0EAEB72",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -5603,16 +5332,6 @@
     "supports": []
   },
   {
-    "title": "Blnk Cnvs \u2013 Flux Pavillion",
-    "sort_date": "2026-06-27",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/blnk-cnvs-flux-pavillion/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": "8pm",
-    "supports": []
-  },
-  {
     "title": "Newfound Road $25",
     "sort_date": "2026-06-27",
     "venue": "Station Inn",
@@ -5986,16 +5705,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Blnk Cnvs \u2013 ATLIENS",
-    "sort_date": "2026-07-03",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/blnk-cnvs-atliens/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": "8pm",
     "supports": []
   },
   {
@@ -6480,6 +6189,16 @@
     "supports": []
   },
   {
+    "title": "Rod Thill's Top 8",
+    "sort_date": "2026-07-11",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/rod-thills-top-8-the-basement-east-tickets/14924373",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Rudy's Jazz Jam",
     "sort_date": "2026-07-12",
     "venue": "Rudy's Jazz Room",
@@ -6928,7 +6647,7 @@
     "sort_date": "2026-07-21",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/steel-pulse-reggae-against-racism-tour-nashville-tennessee-07-21-2026/event/1B0064A6FBD5F0FC",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -8450,7 +8169,7 @@
     "sort_date": "2026-08-12",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/st-lucia-nashville-tennessee-08-12-2026/event/1B00649DD1F6C93A",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -8596,7 +8315,7 @@
     "sort_date": "2026-08-14",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/framing-hanley-the-basement-east-tickets/14920103",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -9640,6 +9359,18 @@
     ]
   },
   {
+    "title": "Braxton Keith - Real Damn Deal Tour 2026",
+    "sort_date": "2026-09-11",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/braxton-keith-real-damn-deal-tour-nashville-tennessee-09-11-2026/event/1B0064A4F2269224",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Wild Bill and the Bruisers"
+    ]
+  },
+  {
     "title": "Ensiferum",
     "sort_date": "2026-09-11",
     "venue": "Exit/In",
@@ -9924,7 +9655,7 @@
     "sort_date": "2026-09-18",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/black-veil-brides-vindicatour-us-2026-nashville-tennessee-09-18-2026/event/1B0064A7F913A76E",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6:35pm",
     "doors": null,
     "supports": [
@@ -10153,7 +9884,7 @@
     "sort_date": "2026-09-24",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/mom-jeans-nashville-tennessee-09-24-2026/event/1B0064A5F4D9DEF7",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -10183,7 +9914,7 @@
     "sort_date": "2026-09-24",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1438078/cameron-whitcomb-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -11082,11 +10813,11 @@
     "supports": []
   },
   {
-    "title": "Sons of Legion - Soul to S\u00d8L Tour",
+    "title": "Sons of Legion - Soul to SOL Tour",
     "sort_date": "2026-10-20",
     "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1442848/sons-of-legion-tickets?skin=ryman",
-    "sold_out": true,
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p4d",
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -11106,7 +10837,7 @@
     "sort_date": "2026-10-21",
     "venue": "Bridgestone Arena",
     "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -11414,7 +11145,7 @@
     "sort_date": "2026-10-28",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/glaive-god-save-the-three-tour-nashville-tennessee-10-28-2026/event/1B0064A4C6410AA3",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -11560,7 +11291,7 @@
     "sort_date": "2026-11-03",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/saosin-20-years-of-selftitled-nashville-tennessee-11-03-2026/event/1B006497C034939F",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -11604,7 +11335,17 @@
     "sort_date": "2026-11-04",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/madeon-presents-victory-live-nashville-tennessee-11-04-2026/event/1B0064A5D89496D4",
-    "sold_out": true,
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "ZACH JOHN KING: GET TO DRINKIN\u2019 TOUR",
+    "sort_date": "2026-11-04",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/zach-john-king-get-to-exitin-tickets/14925273",
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -11620,10 +11361,10 @@
     "supports": []
   },
   {
-    "title": "ZACH JOHN KING: GET TO DRINKIN\u2019 TOUR",
+    "title": "*SOLD OUT* ZACH JOHN KING: GET TO DRINKIN\u2019 TOUR",
     "sort_date": "2026-11-05",
     "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/zach-john-king-get-to-exitin-tickets/14894133",
+    "url": "https://www.ticketweb.com/event/sold-out-zach-john-king-exitin-tickets/14894133",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -11972,7 +11713,7 @@
     "sort_date": "2026-11-18",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/giant-rooks-nashville-tennessee-11-18-2026/event/1B00649ECD76928F",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
