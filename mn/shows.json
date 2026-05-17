@@ -688,16 +688,6 @@
     "supports": []
   },
   {
-    "title": "30th Annual: Songs In The Key of Life",
-    "sort_date": "2026-05-15",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/30th-annual-songs-in-the-key-of-life-may15-2026/2026-05-15/1/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Inner Wave",
     "sort_date": "2026-05-15",
     "venue": "Fine Line",
@@ -746,33 +736,13 @@
     ]
   },
   {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-16",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Saturday",
-      "outdoors",
-      "vintage and makers market 12-8pm",
-      "indoors",
-      "Socktopus 10pm",
-      "The Japhies 8pm",
-      "Hastings 3000 6:00",
-      "Butter Boys 5pm",
-      "Unattractive Giant Monster 4pm"
-    ]
-  },
-  {
     "title": "The Scratch",
     "sort_date": "2026-05-16",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-the-scratch/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "RiGBY"
     ]
@@ -783,47 +753,7 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-05-colorblind-windwaker-and-if-not-for-me/",
     "sold_out": false,
-    "time": "6:30pm",
-    "doors": "5:30pm",
-    "supports": []
-  },
-  {
-    "title": "Saturday 5/16 - Anna Houston & Aly Meier ($15 Cover)",
-    "sort_date": "2026-05-16",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-16-anna-houston-aly-meier-15-sat",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: WPK Trio",
-    "sort_date": "2026-05-16",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-wpk-trio-may-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Dedicated Enemy",
-    "sort_date": "2026-05-16",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-dedicated-enemy-may-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Solomon Lindenberg Trio",
-    "sort_date": "2026-05-16",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/solomon-lindenberg-trio-may-2026",
-    "sold_out": false,
-    "time": "7:30pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -853,8 +783,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-searows/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Jordan Patterson"
     ]
@@ -865,37 +795,7 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-05-hot-in-herre/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "PRIVATE EVENT",
-    "sort_date": "2026-05-16",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11165/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
-    "sort_date": "2026-05-16",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-16",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-16-2026/event/06006354DBC695CA",
-    "sold_out": false,
-    "time": "1pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -905,35 +805,11 @@
     "venue": "Palace Theatre",
     "url": "https://first-avenue.com/event/2026-05-courtney-barnett/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Truman Sinclair"
     ]
-  },
-  {
-    "title": "Trans Joy is Resistance",
-    "sort_date": "2026-05-16",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-trans-joy-is-restance-5-16-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Mouthful",
-      "Mystery Meat",
-      "Tru.Bador"
-    ]
-  },
-  {
-    "title": "BEAR GRILLZ",
-    "sort_date": "2026-05-16",
-    "venue": "The Loft at Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/bear-grillz/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Flyte",
@@ -941,71 +817,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-flyte/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Ken Pomeroy"
     ]
-  },
-  {
-    "title": "Gasolina Reggaet\u00f3n Party",
-    "sort_date": "2026-05-16",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/gasolina-reggaeton-party-minneapolis-minnesota-05-16-2026/event/060063832810F03A",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Caribou Gone w. Scarlett Tangerine",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/caribou-gone/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Garden Glow w. \u2026And I Found A Way, Daisycutter",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/garden-glow/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mammoth Moth & Unknown Legends w. Ira Haze",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mammoth-moth-2/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Patio Yoga with Pete",
-    "sort_date": "2026-05-16",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/patio-yoga-with-pete/",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Robber Robber (VT) + Empath",
-    "sort_date": "2026-05-16",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/Mebe7b1f4dd4",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
@@ -1108,6 +924,16 @@
     "url": "https://icehouse.turntabletickets.com/shows/9714/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
+    "sort_date": "2026-05-17",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -2009,8 +1835,18 @@
     "sort_date": "2026-05-23",
     "venue": "Cloudland Theater",
     "url": "https://link.dice.fm/k73a9feca8c1",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Steve Cole: Record Release",
+    "sort_date": "2026-05-23",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/steve-cole-record-release-may23-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2157,6 +1993,16 @@
     "sort_date": "2026-05-24",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/kenny-reichert-residency-week-4",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Belfast Cowboys",
+    "sort_date": "2026-05-24",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/the-belfast-cowboys-may24-2026/",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -3194,6 +3040,16 @@
     ]
   },
   {
+    "title": "J.E Sunde Trio in the Courtyard",
+    "sort_date": "2026-05-31",
+    "venue": "Ice House",
+    "url": "https://icehouse.turntabletickets.com/shows/11628/",
+    "sold_out": false,
+    "time": "5pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Obi Original and The Black Atlantics Residency",
     "sort_date": "2026-05-31",
     "venue": "Ice House",
@@ -3309,7 +3165,7 @@
     "supports": []
   },
   {
-    "title": "Alec Collins",
+    "title": "Alec Collins w. Brother Wonder",
     "sort_date": "2026-06-01",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/alec-collins-2/",
@@ -4806,7 +4662,7 @@
     "supports": []
   },
   {
-    "title": "Ex-Rodeo",
+    "title": "Ex-Rodeo w. Grim Lot & Model Model Homes",
     "sort_date": "2026-06-11",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/ex-rodeo/",
@@ -5849,6 +5705,21 @@
     "supports": [
       "Molly Dean",
       "A Travelin\u2019 Wilbury (played by David\u00a0Huckfelt)"
+    ]
+  },
+  {
+    "title": "Feral Society: Excellence + EDM at the Uptown VFW",
+    "sort_date": "2026-06-19",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/feral-society-excellence-edm-at-the-uptown-vfw-june-19-2026-679867",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": "9:45pm",
+    "supports": [
+      "Serenity",
+      "ZMO",
+      "OPTNS",
+      "Diamond Zenos"
     ]
   },
   {
@@ -7597,6 +7468,16 @@
     "supports": []
   },
   {
+    "title": "Chickaboom & Troglodyte with Cap\u2019n AL",
+    "sort_date": "2026-07-05",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/chickaboom-troglodyte-with-capn-al/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Roe Family Singers",
     "sort_date": "2026-07-06",
     "venue": "331 Club",
@@ -8618,6 +8499,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-7-16-larry-mcdonough-george-ira-gershwin-15-cover",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ryan Traster, We Are The Willows, Pink Nightmare",
+    "sort_date": "2026-07-16",
+    "venue": "Cloudland Theater",
+    "url": "https://link.dice.fm/G27ba55815a7",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -10040,6 +9931,16 @@
     "url": "https://www.ticketmaster.com/olivia-dean-the-art-of-loving-minneapolis-minnesota-07-29-2026/event/0600636CD3D9E928",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Frank the Bald Guy",
+    "sort_date": "2026-07-29",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/frank-the-bald-guy/",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
