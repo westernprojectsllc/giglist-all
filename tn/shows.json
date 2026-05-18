@@ -1,145 +1,5 @@
 [
   {
-    "title": "Parker Barrow with The Steepwater Band",
-    "sort_date": "2026-05-17",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/parker-barrow-the-steepwater-band-3rd-and-lindsley-tickets/14104344",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "hey thanks., bad hippy, spirit ritual",
-    "sort_date": "2026-05-17",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-hey-thanks-bad-hippy-spirit-ritual/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Midrift w/ Leaving Time, MX LONELY",
-    "sort_date": "2026-05-17",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/midrift-w-leaving-time-mx-lonely-17-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Says No: A Resistance to Surveillance Teach-In",
-    "sort_date": "2026-05-17",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/nashville-says-no-a-resistance-to-surveillance-teach-in-17-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Riot Ranch: Industry Night",
-    "sort_date": "2026-05-17",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/riot-ranch-industry-night-517?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jimmy Sullivan's Swingin' Scene",
-    "sort_date": "2026-05-17",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/jimmy-sullivan-s-swingin-scene-2",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rudy's Jazz Jam",
-    "sort_date": "2026-05-17",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/rudy-s-jazz-jam-3",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Treaty Oak Revival",
-    "sort_date": "2026-05-17",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-U7K",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Big Daddy Brunch",
-    "sort_date": "2026-05-17",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/big-daddy-brunch/",
-    "sold_out": false,
-    "time": "4pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2026-05-17",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2026-05-17/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2026-05-17",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2026-05-17/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ladies of Hip Hop",
-    "sort_date": "2026-05-17",
-    "venue": "TPAC",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6A8",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Little Image w/ Two Car Garage and Maggie Miles",
-    "sort_date": "2026-05-17",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/little-image-w-two-car-the-basement-east-tickets/14124094",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Legacy Concerts Presents: Keep Flying w/ Twin Stacks, Midmajor, Keepwarm \u2013 18+",
-    "sort_date": "2026-05-17",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-keep-flying-w-twin-stacks-midmajor-keepwarm-18/the-end/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
     "title": "Bluebird On 3rd featuring Ryan Larkins , Jamie Floyd & Marla Cannon-Goodman with Callie McCullough & Allison Clarke",
     "sort_date": "2026-05-18",
     "venue": "3rd & Lindsley",
@@ -285,10 +145,10 @@
     "supports": []
   },
   {
-    "title": "New Faces Night feat. Sophia Grace, Brian Wood Band, Silence Earthling, Eli Blackshear, poor rich, and Kieffer Infantino",
+    "title": "New Faces Night feat. Stargurl, Brian Wood Band, Silence Earthling, Eli Blackshear, poor rich, and Kieffer Infantino",
     "sort_date": "2026-05-19",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-sophia-the-basement-tickets/13983384",
+    "url": "https://www.ticketweb.com/event/new-faces-night-feat-stargurl-the-basement-tickets/13983384",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -1655,6 +1515,16 @@
     "supports": [
       "Nashville Symphony"
     ]
+  },
+  {
+    "title": "Cowboy Up with LANCO",
+    "sort_date": "2026-05-29",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/cowboy-up-with-lanco/",
+    "sold_out": false,
+    "time": "1am",
+    "doors": "3pm",
+    "supports": []
   },
   {
     "title": "Shawn Lane & the Lane Brothers $25",
@@ -8134,6 +8004,16 @@
     "supports": []
   },
   {
+    "title": "Josh Tatofi",
+    "sort_date": "2026-08-13",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/josh-tatofi-the-basement-east-tickets/14917933",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "PBR Three-Day Package - Ticket Includes Access to All Days",
     "sort_date": "2026-08-14",
     "venue": "Bridgestone Arena",
@@ -10502,6 +10382,16 @@
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-10-12/",
     "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Waylon Wyatt - Dustpiles World Tour",
+    "sort_date": "2026-10-13",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/waylon-wyatt-dustpiles-world-tour-nashville-tennessee-10-13-2026/event/1B0064A8FDF5DCA9",
+    "sold_out": true,
     "time": "8pm",
     "doors": null,
     "supports": []

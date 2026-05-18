@@ -678,16 +678,6 @@
     ]
   },
   {
-    "title": "CARSIE BLANTON with Nathan Evans Fox",
-    "sort_date": "2026-05-15",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/carsie-blanton-with-nathan-evans-fox",
-    "sold_out": true,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Inner Wave",
     "sort_date": "2026-05-15",
     "venue": "Fine Line",
@@ -758,26 +748,6 @@
     "supports": []
   },
   {
-    "title": "Revel and Riot: Student Showcase",
-    "sort_date": "2026-05-16",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/revel-and-riot-student-showcase",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The New Standards",
-    "sort_date": "2026-05-16",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/the-new-standards-may16-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Searows",
     "sort_date": "2026-05-16",
     "venue": "Fine Line",
@@ -824,66 +794,17 @@
     ]
   },
   {
-    "title": "ART-A-WHIRL WEEKEND AT 331CLUB 2026",
-    "sort_date": "2026-05-17",
-    "venue": "331 Club",
-    "url": "https://331club.com",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "Sunday",
-      "outdoors",
-      "vintage and makers market 12-6pm",
-      "indoors",
-      "Switchyard 9:30pm",
-      "Diane 7:30pm",
-      "ditch pigeon 6pm",
-      "Jim Walsh and Mikkel Bee 3-5pm"
-    ]
-  },
-  {
     "title": "The Casualties",
     "sort_date": "2026-05-17",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-the-casualties/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "The Drowns",
       "Menstrual\u00a0Tramps"
     ]
-  },
-  {
-    "title": "Sunday Swing Brunch $8",
-    "sort_date": "2026-05-17",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
-    "sold_out": false,
-    "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kenny Reichert\u2019s Letters From the Road: Righteous Rooster",
-    "sort_date": "2026-05-17",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/kenny-reichert-residency-week-3",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Border CrosSing Dance Party",
-    "sort_date": "2026-05-17",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/border-crossing-dance-party",
-    "sold_out": false,
-    "time": "4pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "The New Standards",
@@ -896,66 +817,16 @@
     "supports": []
   },
   {
-    "title": "Chelcie Lynn: Trailer Trash Tammy The Loose Lips Tour",
-    "sort_date": "2026-05-17",
-    "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/chelcie-lynn-trailer-trash-tammy-the-minneapolis-minnesota-05-17-2026/event/0600644593CB993F",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Babyfxce E",
     "sort_date": "2026-05-17",
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-babyfxce-e/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Luhh Dyl"
     ]
-  },
-  {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-05-17",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Chamber of Secrets\u2122 in Concert",
-    "sort_date": "2026-05-17",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-chamber-of-secrets-in-concert",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harry Potter and the Cursed Child (Touring)",
-    "sort_date": "2026-05-17",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/harry-potter-and-the-cursed-child-minneapolis-minnesota-05-17-2026/event/06006354DBCC95D6",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "An Evening with Karla Bonoff",
-    "sort_date": "2026-05-17",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/C636e284caf2",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
   },
   {
     "title": "Jackie Venson",
@@ -963,63 +834,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-jackie-venson/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Woolly Mack"
     ]
-  },
-  {
-    "title": "Cowboy Thoughts, Sunflower Fox and the Chicken Leg, Rogue Royal",
-    "sort_date": "2026-05-17",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/cowboy-thoughts-sunflower-fox-and-the-chicken-leg-rogue-royal-may-17-2026-679908",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Yebba: Jean Tour",
-    "sort_date": "2026-05-17",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/yebba-jean-tour-minneapolis-minnesota-05-17-2026/event/06006464EA7EF11C",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Astyn Turr"
-    ]
-  },
-  {
-    "title": "Bingo With Pete!",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/bingo-with-pete-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Karaoke With Ally!",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/karaoke-with-ally-7/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Long Honeymoon w. Dive Bar Orchestra, Edie Rae Band",
-    "sort_date": "2026-05-17",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-long-honeymoon-w-dive-bar-orchestra-edie-ray/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Roe Family Singers",
@@ -2075,6 +1894,16 @@
     "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Glen David Andrews",
+    "sort_date": "2026-05-25",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/glen-david-andrews-may25-2026/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4629,10 +4458,10 @@
     "supports": []
   },
   {
-    "title": "LEFT\u00f6VER CRACK x sadplant x In Lieu",
+    "title": "LEFT\u00f6VER CRACK x sadplant",
     "sort_date": "2026-06-11",
     "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/leftover-crack-x-sadplant-x-in-lieu-june-11-2026-691995",
+    "url": "https://app.opendate.io/e/leftover-crack-x-sadplant-june-11-2026-691995",
     "sold_out": false,
     "time": "9:30pm",
     "doors": "8:30pm",
@@ -12880,6 +12709,16 @@
     "supports": []
   },
   {
+    "title": "LEAP",
+    "sort_date": "2026-10-09",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-10-leap/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Vidura Bandara Rajapaksa: The Paradise Gothic Tour",
     "sort_date": "2026-10-09",
     "venue": "Varsity Theater",
@@ -12897,6 +12736,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Waylon Wyatt",
+    "sort_date": "2026-10-10",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-10-waylon-wyatt/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -13256,6 +13105,30 @@
     "doors": null,
     "supports": [
       "Brothers Osborne"
+    ]
+  },
+  {
+    "title": "In Her Own Words and Every Avenue",
+    "sort_date": "2026-10-23",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-10-in-her-own-words-and-every-avenue/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Public Works"
+    ]
+  },
+  {
+    "title": "Blondshell - Scaring Strangers Tour",
+    "sort_date": "2026-10-23",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-10-23-2026/event/060064AED1ED37AC",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Prewn"
     ]
   },
   {
