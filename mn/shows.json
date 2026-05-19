@@ -807,16 +807,6 @@
     ]
   },
   {
-    "title": "The New Standards",
-    "sort_date": "2026-05-17",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/the-new-standards-may17-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Babyfxce E",
     "sort_date": "2026-05-17",
     "venue": "Fine Line",
@@ -841,35 +831,13 @@
     ]
   },
   {
-    "title": "Roe Family Singers",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/roefamilysingers/?fref=ts",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "\u201cWomenfolk Presents\u201d",
-    "sort_date": "2026-05-18",
-    "venue": "331 Club",
-    "url": "https://www.nikkimattesonandrichrue.com",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Nikki Mat-teson & Rich Rue"
-    ]
-  },
-  {
     "title": "Accessory (Jason Balla of Dehd)",
     "sort_date": "2026-05-18",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-accessory/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Facing",
       "Sandpaper"
@@ -881,8 +849,8 @@
     "venue": "Amsterdam Bar & Hall",
     "url": "https://first-avenue.com/event/2026-05-ray-bull/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Babehoven"
     ]
@@ -894,36 +862,6 @@
     "url": "https://www.dakotacooks.com/event/travis-anderson-trio-the-music-of-studio-ghibli-may18-2026/",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "L.A's Monday Nights",
-    "sort_date": "2026-05-18",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11073/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Devil Dodger",
-    "sort_date": "2026-05-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/devil-dodger-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Freak When Sees w. Queen Jeanne, SugarBush",
-    "sort_date": "2026-05-18",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/freakwhensees/",
-    "sold_out": false,
-    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -1104,16 +1042,6 @@
     "supports": []
   },
   {
-    "title": "Dead North and LaPlant Road in The Courtyard",
-    "sort_date": "2026-05-20",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11169/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The HU and Apocalyptica with Special Guest The Rasmus",
     "sort_date": "2026-05-20",
     "venue": "Myth Live",
@@ -1265,16 +1193,6 @@
       "Crown Magnetar",
       "Mutilation\u00a0Barbecue"
     ]
-  },
-  {
-    "title": "White Dune x headtriiip Featuring Nelson Devereaux with Bobby Rethwish",
-    "sort_date": "2026-05-21",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11120/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Public Figure",
@@ -1465,16 +1383,6 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Mike Munson Trio Record Release Show",
-    "sort_date": "2026-05-22",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10862/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -1690,16 +1598,6 @@
     "supports": []
   },
   {
-    "title": "PRIVATE EVENT",
-    "sort_date": "2026-05-23",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11165/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Freddie Gibbs",
     "sort_date": "2026-05-23",
     "venue": "Palace Theatre",
@@ -1838,16 +1736,6 @@
     "supports": []
   },
   {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-05-24",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Her Cure w. Callamae, Anything You Want",
     "sort_date": "2026-05-24",
     "venue": "White Squirrel",
@@ -1904,16 +1792,6 @@
     "url": "https://www.dakotacooks.com/event/glen-david-andrews-may25-2026/",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Deslondes, Michael Gay, and Kiki Cavazos.",
-    "sort_date": "2026-05-25",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10359/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -1975,6 +1853,16 @@
     "supports": [
       "Jeff Ray"
     ]
+  },
+  {
+    "title": "Kurt Rosenwinkel Trio",
+    "sort_date": "2026-05-26",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/kurt-rosenwinkel-trio-may26-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Helen",
@@ -2070,16 +1958,6 @@
     "url": "https://www.thecedar.org/events/marisa-anderson",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jake Baldwin",
-    "sort_date": "2026-05-27",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11237/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -2201,16 +2079,6 @@
     "supports": [
       "Stevie Bill"
     ]
-  },
-  {
-    "title": "Stolyette // Pornonono // Leopard Tree Dream",
-    "sort_date": "2026-05-28",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11207/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Hindoyan and Rieppel",
@@ -2400,16 +2268,6 @@
     "supports": [
       "L.A. Witch"
     ]
-  },
-  {
-    "title": "Obadiah Gamble at Icehouse (with Bakkwooddrift)",
-    "sort_date": "2026-05-29",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/10925/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Bobby Lee: The Finally Tour 2026",
@@ -2626,16 +2484,6 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "InMotion",
-    "sort_date": "2026-05-30",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/8969/",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -2867,26 +2715,6 @@
     "supports": [
       "Fluorescents"
     ]
-  },
-  {
-    "title": "J.E Sunde Trio in the Courtyard",
-    "sort_date": "2026-05-31",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11628/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Obi Original and The Black Atlantics Residency",
-    "sort_date": "2026-05-31",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9714/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Poulenc, Bart\u00f3k and Ravel",
@@ -3158,6 +2986,16 @@
     "supports": []
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-06-03",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-june-3-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Alice Bag Band, Clickbait, Buio Omega",
     "sort_date": "2026-06-03",
     "venue": "Cloudland Theater",
@@ -3178,16 +3016,6 @@
     "supports": [
       "DJ Lenka\u00a0Paris"
     ]
-  },
-  {
-    "title": "Seje and St Anthony Mann",
-    "sort_date": "2026-06-03",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11368/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "The Great Gatsby (Touring)",
@@ -3320,7 +3148,7 @@
     "supports": []
   },
   {
-    "title": "Micah Schnabel and Vanessa Jean Speckman",
+    "title": "Micah Schnabel and Vanessa Jean Speckman, The Right Here, Car Spiders",
     "sort_date": "2026-06-04",
     "venue": "Cloudland Theater",
     "url": "https://link.dice.fm/w721f5981656",
@@ -3340,16 +3168,6 @@
     "supports": [
       "hoodtrophy bino"
     ]
-  },
-  {
-    "title": "Leo Middea at Icehouse",
-    "sort_date": "2026-06-04",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11052/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "S\u00f8nderg\u00e5rd, Barton and Prokofiev",
@@ -3566,16 +3384,6 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "TH3 EP Release Show",
-    "sort_date": "2026-06-05",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11471/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -3939,12 +3747,12 @@
     "supports": []
   },
   {
-    "title": "Citizen Soldier",
+    "title": "An Evening with Citizen Soldier",
     "sort_date": "2026-06-07",
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-06-citizen-soldier/",
     "sold_out": false,
-    "time": "7pm",
+    "time": "7:30pm",
     "doors": "6pm",
     "supports": []
   },
@@ -3956,16 +3764,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "8pm",
-    "supports": []
-  },
-  {
-    "title": "About to Run: Summertime",
-    "sort_date": "2026-06-07",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11338/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -4061,6 +3859,16 @@
     ]
   },
   {
+    "title": "BCE Trio (Emma Garau / Chris Bates / Bryan Nichols)",
+    "sort_date": "2026-06-08",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/bce-trio-niva-conference-minneapolis-live-music",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kenny Mason",
     "sort_date": "2026-06-08",
     "venue": "Fine Line",
@@ -4137,6 +3945,26 @@
     ]
   },
   {
+    "title": "HEYARLO",
+    "sort_date": "2026-06-09",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/heyarlo-niva-conference-june-2026",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "ABINNET BERHANU'S AHNDENET and FANAKA NATION",
+    "sort_date": "2026-06-09",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/abinnet-berhanus-ahndenet-and-fanaka-nation",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Yot Club",
     "sort_date": "2026-06-09",
     "venue": "Fine Line",
@@ -4147,16 +3975,6 @@
     "supports": [
       "Renny Conti"
     ]
-  },
-  {
-    "title": "Gustavo Cortinas \"The Drum Also Sings\" feat. Dave King & Isaiah Spencer",
-    "sort_date": "2026-06-09",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11608/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "15 Minutes of Femme",
@@ -4280,6 +4098,16 @@
     "supports": []
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-06-10",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-june-10-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "PRIVATE EVENT",
     "sort_date": "2026-06-10",
     "venue": "Fine Line",
@@ -4301,16 +4129,6 @@
       "Max Alan",
       "Brenna\u00a0MacMilllan"
     ]
-  },
-  {
-    "title": "Starlight Vinyl Night: MAKR Spins the Classic",
-    "sort_date": "2026-06-10",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/5596/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Wooden Ducks",
@@ -4422,16 +4240,6 @@
     "supports": [
       "Koti\u0113r"
     ]
-  },
-  {
-    "title": "Embahn, Good Doom and Rupert Angeleyes in the Courtyard",
-    "sort_date": "2026-06-11",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11366/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Linus",
@@ -4596,16 +4404,6 @@
     "supports": []
   },
   {
-    "title": "Molly Brandt: Museum of Being Album Release",
-    "sort_date": "2026-06-12",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11010/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "S\u00f8nderg\u00e5rd and Tchaikovsky",
     "sort_date": "2026-06-12",
     "venue": "Orchestra Hall",
@@ -4741,16 +4539,6 @@
     "supports": [
       "Silverada"
     ]
-  },
-  {
-    "title": "\"She's 30\" Vinyl Release Show",
-    "sort_date": "2026-06-13",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/11365/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Trey Anastasio",
@@ -4937,16 +4725,6 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
-  },
-  {
-    "title": "Salsa w/Charanga Tropical",
-    "sort_date": "2026-06-14",
-    "venue": "Ice House",
-    "url": "https://icehouse.turntabletickets.com/shows/9706/",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -5200,6 +4978,16 @@
     "supports": [
       "Scarlet Rae"
     ]
+  },
+  {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-06-17",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-june-17-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Tomboyy, The Devil Said Jump, Ditchweed",
@@ -6218,6 +6006,16 @@
     "supports": []
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-06-24",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-june-24-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Amir ElSaffar and Lorenzo Bianchi Hoesch present INNER SPACES with ROBERT LEHMANN & TOBY RAMASWAMY",
     "sort_date": "2026-06-24",
     "venue": "Cedar Cultural Center",
@@ -6427,7 +6225,7 @@
     "sort_date": "2026-06-26",
     "venue": "Cloudland Theater",
     "url": "https://link.dice.fm/h623c50121c7",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -7497,7 +7295,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "King Tuff"
+    ]
   },
   {
     "title": "The Church",
@@ -8087,6 +7887,16 @@
     ]
   },
   {
+    "title": "Shirlene Obudobi: Die For Me",
+    "sort_date": "2026-07-13",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/D9d4ea3bdfab",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Mumblin\u2019 Drew\u2019s Oldfangled Orchestrators",
     "sort_date": "2026-07-13",
     "venue": "White Squirrel",
@@ -8254,6 +8064,16 @@
     "url": "https://www.ticketmaster.com/wicked-minneapolis-minnesota-07-15-2026/event/0600636C0F7CB677",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ten02",
+    "sort_date": "2026-07-15",
+    "venue": "Skyway Theatre",
+    "url": "https://skywaytheatre.com/event/ten02/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -8703,6 +8523,18 @@
     "time": "11am",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Dorio, Little Lizard, Controversial New \"Skinny Pill\", & May + The Ladies",
+    "sort_date": "2026-07-18",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/be800d312bc6",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "The Controversial New 'Skinny Pill'"
+    ]
   },
   {
     "title": "Switchyard",
@@ -9584,6 +9416,16 @@
     "supports": []
   },
   {
+    "title": "Trh\u00e4, Saidan, & Barbelith",
+    "sort_date": "2026-07-26",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/hdb1e6eca686",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "HonkyTonk Ranch",
     "sort_date": "2026-07-27",
     "venue": "331 Club",
@@ -10257,6 +10099,16 @@
     "supports": []
   },
   {
+    "title": "Cinema Therapy LIVE!",
+    "sort_date": "2026-08-06",
+    "venue": "Cedar Cultural Center",
+    "url": "https://first-avenue.com/event/2026-08-cinema-therapy-live/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-06",
     "venue": "Orpheum Theatre",
@@ -10301,6 +10153,18 @@
       "Ava Levy",
       "Scrunchies",
       "Lana\u00a0Leone"
+    ]
+  },
+  {
+    "title": "Jack Harlow - Monica Tour",
+    "sort_date": "2026-08-07",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-minneapolis-minnesota-08-07-2026/event/060064AED6AA46C0",
+    "sold_out": true,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "James Savage"
     ]
   },
   {
@@ -11508,6 +11372,16 @@
     ]
   },
   {
+    "title": "SON LUX",
+    "sort_date": "2026-09-02",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/son-lux",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Global Get Together with OBI ORIGINAL & THE BLACK ATLANTICS",
     "sort_date": "2026-09-02",
     "venue": "Cedar Cultural Center",
@@ -11883,6 +11757,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Out of Office Tour: THESAURUS REX",
+    "sort_date": "2026-09-16",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/e215f024c833",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12335,6 +12219,16 @@
     "supports": []
   },
   {
+    "title": "MICO",
+    "sort_date": "2026-09-30",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-09-mico/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Citizen - Halcyon Blues",
     "sort_date": "2026-09-30",
     "venue": "Varsity Theater",
@@ -12699,6 +12593,26 @@
     "supports": []
   },
   {
+    "title": "Bebe Stockwell",
+    "sort_date": "2026-10-09",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-10-bebe-stockwell/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
+    "title": "Sweet Pill",
+    "sort_date": "2026-10-09",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-10-sweet-pill/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "UB40",
     "sort_date": "2026-10-09",
     "venue": "Palace Theatre",
@@ -12729,10 +12643,10 @@
     "supports": []
   },
   {
-    "title": "First Avenue presents SYML",
+    "title": "First Avenue presents SYML (Copy)",
     "sort_date": "2026-10-10",
     "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/syml",
+    "url": "https://www.thecedar.org/events/syml-9g2bz",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -12954,6 +12868,16 @@
       "Hot Water Music",
       "Weakened Friends"
     ]
+  },
+  {
+    "title": "LAURA VIERS with Karl Blau",
+    "sort_date": "2026-10-17",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/laura-viers-with-karl-blau",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Blake Whiten",
@@ -13192,6 +13116,16 @@
     "supports": []
   },
   {
+    "title": "SiM - HOOMAN WORLD TOUR",
+    "sort_date": "2026-10-25",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/sim-hooman-world-tour-minneapolis-minnesota-10-25-2026/event/060064B2C02DCD3A",
+    "sold_out": true,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "All Them Witches",
     "sort_date": "2026-10-27",
     "venue": "First Avenue",
@@ -13254,7 +13188,7 @@
     "supports": []
   },
   {
-    "title": "Murray Hill // Showbiz! The Tour & Talkback",
+    "title": "Murray Hill: Showbiz! // Show & Talkback",
     "sort_date": "2026-10-29",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/V3e2d5c8b248",
@@ -13431,6 +13365,21 @@
     "supports": []
   },
   {
+    "title": "Wrath Across North America 2026",
+    "sort_date": "2026-11-07",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/wrath-across-north-america-2026-minneapolis-minnesota-11-07-2026/event/060064B1E7F4E383",
+    "sold_out": true,
+    "time": "5pm",
+    "doors": null,
+    "supports": [
+      "The Black Dahlia Murder",
+      "Septicflesh",
+      "Crypta",
+      "Thrown Into Exile"
+    ]
+  },
+  {
     "title": "MOJO BROOKZZ: OUTTA POCKET TOUR",
     "sort_date": "2026-11-07",
     "venue": "Orpheum Theatre",
@@ -13478,6 +13427,16 @@
     "sold_out": false,
     "time": "1pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "mary in the junkyard",
+    "sort_date": "2026-11-10",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-11-mary-in-the-junkyard/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -13550,6 +13509,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Amythyst Kiah with special guest TBA",
+    "sort_date": "2026-11-13",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/f9ce72b4cda6",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -13704,6 +13673,16 @@
     "supports": [
       "Wildermiss"
     ]
+  },
+  {
+    "title": "Beartooth: Pure Ecstasy World Tour",
+    "sort_date": "2026-11-21",
+    "venue": "Myth Live",
+    "url": "https://mythlive.com/event/beartooth-pure-ecstasy-world-tour/myth-live/st-paul-minnesota/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
   },
   {
     "title": "Andrew Bird",
@@ -13952,6 +13931,16 @@
     "url": "https://www.minnesotaorchestra.org/tickets/calendar/chamber/beethoven-britten-and-more",
     "sold_out": false,
     "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Rosebud Baker: Paper Bag Princess",
+    "sort_date": "2027-01-29",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/rosebud-baker-paper-bag-princess-minneapolis-minnesota-01-29-2027/event/060064AEDEE25CEE",
+    "sold_out": true,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
