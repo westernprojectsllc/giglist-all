@@ -1,120 +1,5 @@
 [
   {
-    "title": "HOT WRITERS for COOL CHARITIES featuring Matraca Berg , Craig Campbell , Marla Cannon-Goodman , Craig Hendricks , Jeff Batson and Mark Lynn Young",
-    "sort_date": "2026-05-19",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/hot-writers-for-cool-charities-3rd-and-lindsley-tickets/14773323",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Confessions of a Traitor | Fight From Within | Exitwounds | Overeign | Dose Of Adolescence",
-    "sort_date": "2026-05-19",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-confessions-of-a-traitor-fight-from-within-exitwounds-overeign-dose-of-adolescence/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
-    "sort_date": "2026-05-19",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_4",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "GODSMACK - The Rise of Rock World Tour 2026",
-    "sort_date": "2026-05-19",
-    "venue": "FirstBank Amphitheater",
-    "url": "https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-franklin-tennessee-05-19-2026/event/1B006435DB9DF77B",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Stone Temple Pilots",
-      "Dorothy"
-    ]
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-19",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxA9",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tech N9ne x E-40: Strange Wid' It Tour 2026",
-    "sort_date": "2026-05-19",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/tech-n9ne-x-e-40-marathon-music-works-tickets/14753593",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "E-40"
-    ]
-  },
-  {
-    "title": "The Borrowed Mules $20",
-    "sort_date": "2026-05-19",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/the-borrowed-mules-20-3/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "New Faces Night feat. Stargurl, Brian Wood Band, Silence Earthling, Eli Blackshear, poor rich, Kieffer Infantino",
-    "sort_date": "2026-05-19",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-stargurl-the-basement-tickets/13983384",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Los Retros",
-    "sort_date": "2026-05-19",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/los-retros-the-basement-east-tickets/14185644",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kyren Penrose w/Marc & Max Langlinais \u2013 18+",
-    "sort_date": "2026-05-19",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/kyren-penrose-w-marc-max-langlinais-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Electric Callboy",
-    "sort_date": "2026-05-19",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q00t",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Bluegrass on 3rd: An Evening with Tim O\u2019Brien Songbook Release Show",
     "sort_date": "2026-05-20",
     "venue": "3rd & Lindsley",
@@ -943,6 +828,16 @@
     "supports": []
   },
   {
+    "title": "Cohle Smith | Meghan Curtin | Lily Crow",
+    "sort_date": "2026-05-26",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-cohle-smith-meghan-curtin-lily-crow/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Front Bar: Heartache Every Moment\u2014\u2013Poetry We Use 4Noise",
     "sort_date": "2026-05-26",
     "venue": "Cobra",
@@ -1151,10 +1046,10 @@
     "supports": []
   },
   {
-    "title": "The Nashville Funkanators with Dana Robbins",
+    "title": "Nashville Funkanators plus the Dana Robbins Band",
     "sort_date": "2026-05-28",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-nashville-funkanators-dana-robbins-3rd-and-lindsley-tickets/14861383",
+    "url": "https://www.ticketweb.com/event/nashville-funkanators-plus-the-dana-3rd-and-lindsley-tickets/14861383",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -4017,10 +3912,10 @@
     "supports": []
   },
   {
-    "title": "The Snares",
+    "title": "The Snares w/ FIN",
     "sort_date": "2026-06-18",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/the-snares-the-basement-tickets/14763693",
+    "url": "https://www.ticketweb.com/event/the-snares-w-fin-the-basement-tickets/14763693",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -4414,8 +4309,8 @@
     "venue": "The End",
     "url": "https://endnashville.com/event/band-of-silver-w-grace-pelle-all-ages/the-end/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -4753,6 +4648,16 @@
     "supports": []
   },
   {
+    "title": "Sam Gellaitry",
+    "sort_date": "2026-06-25",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/sam-gellaitry?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
     "sort_date": "2026-06-25",
     "venue": "Rudy's Jazz Room",
@@ -4820,6 +4725,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Eyecandy w/Fleur, So Sorry & Skylines & Satellites -18+",
+    "sort_date": "2026-06-25",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/eyecandy-w-fleur-so-sorry-skylines-satellites-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -4917,6 +4832,16 @@
     "sort_date": "2026-06-26",
     "venue": "Station Inn",
     "url": "https://stationinn.com/event/the-tennessee-bluegrass-band-25/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Louder Than Bombs: The Smiths Cover Band",
+    "sort_date": "2026-06-26",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/louder-than-bombs-the-smiths-the-basement-tickets/14918033",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -6862,6 +6787,16 @@
     "supports": []
   },
   {
+    "title": "Legacy Concerts Presents: Shannon Shaw w/ Georgia Maq 18+",
+    "sort_date": "2026-07-23",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-shannon-shaw-w-georgia-maq-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Men at Work w/ Toad the Wet Sprocket",
     "sort_date": "2026-07-23",
     "venue": "The Pinnacle",
@@ -6896,6 +6831,16 @@
     "supports": [
       "Icona Pop"
     ]
+  },
+  {
+    "title": "Love In The Club",
+    "sort_date": "2026-07-24",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/love-in-the-club-nashville-tennessee-07-24-2026/event/1B0064AFF18791A3",
+    "sold_out": true,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "DAK\u00d8TA | Zhaklina | Noctara",
@@ -7559,16 +7504,16 @@
     "sort_date": "2026-07-31",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/sam-sample-with-samuel-james-the-basement-tickets/14918533",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
   },
   {
-    "title": "Red Vox w/ Super Guitar Bros",
+    "title": "SOLD OUT! Red Vox w/ Super Guitar Bros",
     "sort_date": "2026-07-31",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/red-vox-w-super-guitar-the-basement-east-tickets/14842873",
+    "url": "https://www.ticketweb.com/event/sold-out-red-vox-w-the-basement-east-tickets/14842873",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -8358,7 +8303,7 @@
     "sort_date": "2026-08-13",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/josh-tatofi-the-basement-east-tickets/14917933",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -9464,6 +9409,16 @@
     ]
   },
   {
+    "title": "Joe Kaplow",
+    "sort_date": "2026-09-10",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/joe-kaplow-the-basement-tickets/14918233",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Braxton Keith - Real Damn Deal Tour 2026",
     "sort_date": "2026-09-11",
     "venue": "Brooklyn Bowl Nashville",
@@ -9975,6 +9930,18 @@
     ]
   },
   {
+    "title": "Muna w/ Hemlocke Springs",
+    "sort_date": "2026-09-22",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704Pw",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "hemlocke springs"
+    ]
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-09-23",
     "venue": "Grand Ole Opry House",
@@ -10151,6 +10118,19 @@
     "supports": []
   },
   {
+    "title": "Dylan Gossett w/ Charles Wesley Godwin",
+    "sort_date": "2026-09-26",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ke3",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Charles Wesley Godwin",
+      "Max Alan"
+    ]
+  },
+  {
     "title": "Kacey Musgraves - Middle of Nowhere Tour",
     "sort_date": "2026-09-27",
     "venue": "Bridgestone Arena",
@@ -10173,6 +10153,16 @@
     "supports": [
       "Lauren Babic"
     ]
+  },
+  {
+    "title": "Starbomb: Probably The Only Tour Ever",
+    "sort_date": "2026-09-27",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1448376/starbomb-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Bluegrass Jam",
@@ -10276,6 +10266,16 @@
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-nashville-tennessee-09-30-2026/event/1B00649BDD59D1A2",
     "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Midnight: Time Machines",
+    "sort_date": "2026-09-30",
+    "venue": "Marathon Music Works",
+    "url": "https://www.ticketweb.com/event/the-midnight-time-machines-marathon-music-works-tickets/14918503",
+    "sold_out": true,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10783,6 +10783,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4-t",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
+    "sort_date": "2026-10-15",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/ax-and-the-hatchetmen-the-the-basement-east-tickets/14921703",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -11666,7 +11676,7 @@
     "sort_date": "2026-11-10",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/sim-hooman-world-the-basement-east-tickets/14930943",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -11914,6 +11924,18 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "King Buffalo w/ L.A. Witch",
+    "sort_date": "2026-11-19",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/king-buffalo-w-la-witch-the-basement-east-tickets/14918723",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "LA Witch"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -12440,6 +12462,16 @@
     "url": "https://www.ticketmaster.com/tommee-profitt-the-birth-of-a-nashville-tennessee-12-13-2026/event/1B006371C013C35D",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dax - The Anger Management Tour",
+    "sort_date": "2026-12-13",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/dax-the-anger-management-tour-nashville-tennessee-12-13-2026/event/1B0064AEFC799F3F",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
