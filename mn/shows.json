@@ -878,16 +878,6 @@
     "supports": []
   },
   {
-    "title": "Southside Aces: A Night in New Orleans",
-    "sort_date": "2026-05-19",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/southside-aces-a-night-in-new-orleans-may19-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Kreator",
     "sort_date": "2026-05-19",
     "venue": "First Avenue",
@@ -899,58 +889,6 @@
       "Carcass",
       "Cold\u00a0Steel"
     ]
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Dean Magraw & Bruce Henry"
-    ]
-  },
-  {
-    "title": "The Matt Arthur Contraption",
-    "sort_date": "2026-05-20",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1BLqcHnADn/?mibextid=wwXIfr",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MN Songwriter Showcase hosted by Nick Hensley (FREE)",
-    "sort_date": "2026-05-20",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/mn-songwriter-showcase-hosted-by-nick-hensley-free",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Larry McDonough Quintet: Trumpetocity",
-    "sort_date": "2026-05-20",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/larry-mcdonough-quintet-trumpetocity",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cherry Pit Open Jam",
-    "sort_date": "2026-05-20",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-may-20-2026",
-    "sold_out": false,
-    "time": "10:15pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "An Evening with Roxy Music\u2019s Phil Manzanera at The Quinlan Room",
@@ -969,74 +907,6 @@
     "url": "https://www.dakotacooks.com/event/private-event-may20-2026/",
     "sold_out": false,
     "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The HU and Apocalyptica with Special Guest The Rasmus",
-    "sort_date": "2026-05-20",
-    "venue": "Myth Live",
-    "url": "https://mythlive.com/event/the-hu-and-apocalyptica-with-special-guest-the-rasmus/myth-live/st-paul-minnesota/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Sonic Sea Turtles",
-    "sort_date": "2026-05-20",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-sonic-sea-turtles-5-20-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Jonger",
-      "Million.Point.Million",
-      "DD the Spektrum"
-    ]
-  },
-  {
-    "title": "Cradle of Filth",
-    "sort_date": "2026-05-20",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/cradle-of-filth-minneapolis-minnesota-05-20-2026/event/06006384F2FD68F0",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Suffocation",
-      "Ghost Bath",
-      "Cultus Black"
-    ]
-  },
-  {
-    "title": "Lords of the Universe",
-    "sort_date": "2026-05-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/lords-of-the-universe-4/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "St Paul Mudsteppers",
-    "sort_date": "2026-05-20",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/st-paul-mudsteppers-7/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jada Brown, Will They Kiss, & Oliver Nollet",
-    "sort_date": "2026-05-20",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/B47f10a70027",
-    "sold_out": false,
-    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -1595,6 +1465,16 @@
     "supports": []
   },
   {
+    "title": "Qrrrky",
+    "sort_date": "2026-05-23",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/qrrrky/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Topiary Blush w. Nicotine Addiction & River Sinclaire",
     "sort_date": "2026-05-23",
     "venue": "White Squirrel",
@@ -1829,7 +1709,7 @@
     "supports": []
   },
   {
-    "title": "The Dans w. Special Guests",
+    "title": "Tony Cuchetti w/Blair Krivanek (guitar), Andrew Bartelson (drums), Dan Lowinger (bass)",
     "sort_date": "2026-05-26",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests-3/",
@@ -2378,10 +2258,10 @@
     "supports": []
   },
   {
-    "title": "Early Evening Jazz: TBA",
+    "title": "Early Evening Jazz: Jake Baldwin / Tommy Boynton",
     "sort_date": "2026-05-30",
     "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-may-30-2026",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-jake-baldwin-tommy-boynton-may-2026",
     "sold_out": false,
     "time": "4:30pm",
     "doors": null,
@@ -2680,6 +2560,16 @@
     ]
   },
   {
+    "title": "CANCELED: Riverdance 30 - The New Generation",
+    "sort_date": "2026-05-31",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/canceled-riverdance-30-the-new-generation-minneapolis-minnesota-05-31-2026/event/060062FFADFF4455",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Riverdance 30 - The New Generation",
     "sort_date": "2026-05-31",
     "venue": "State Theatre",
@@ -2799,11 +2689,13 @@
     "title": "Worker\u2019s Playtime",
     "sort_date": "2026-06-02",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/mikemunson_?igsh=MWd1Y3doeDNzanRteg==",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "mike munson"
+    ]
   },
   {
     "title": "By Storm",
@@ -3453,7 +3345,10 @@
     "sold_out": false,
     "time": "10:00pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Tomboyy",
+      "Billy the Shoe"
+    ]
   },
   {
     "title": "Pradabagshawty",
@@ -3546,7 +3441,8 @@
     "time": "7pm",
     "doors": "7pm",
     "supports": [
-      "DJ Jake\u00a0Rudh"
+      "DJ Jake Rudh",
+      "DJ Miss\u00a0Brit"
     ]
   },
   {
@@ -3654,6 +3550,16 @@
     "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Kelley Smith",
+    "sort_date": "2026-06-07",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "3pm",
     "doors": null,
     "supports": []
   },
@@ -3866,11 +3772,13 @@
     "title": "Worker\u2019s Playtime",
     "sort_date": "2026-06-09",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/doyleturnermusic?igsh=ZWdncTd2MzJwYjF4",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Doyle Turner"
+    ]
   },
   {
     "title": "Benny Everett and the Best Intentions",
@@ -3961,6 +3869,16 @@
     "sort_date": "2026-06-09",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/zcdb1ea191c6",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Saltydog, Clayton Ryan and Harlow",
+    "sort_date": "2026-06-09",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-06-salty-dog-clayton-ryan-and-harlow/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -4119,14 +4037,17 @@
     "supports": []
   },
   {
-    "title": "HebbaJebba",
+    "title": "The Rabbit Hole Presents:",
     "sort_date": "2026-06-11",
     "venue": "331 Club",
-    "url": "https://www.facebook.com/share/1G3H8DQQCX/?mibextid=wwXIfr",
+    "url": "https://www.facebook.com/share/18fZA5aaHX/?mibextid=wwXIfr",
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "M545",
+      "HebbaJebba"
+    ]
   },
   {
     "title": "Lilith Max",
@@ -4269,6 +4190,19 @@
     "doors": null,
     "supports": [
       "Stygian Bough (Bell Witch & Aerial Ruin)"
+    ]
+  },
+  {
+    "title": "Elour",
+    "sort_date": "2026-06-12",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/elourmusic?igsh=ZXRrZHdoN29uOGg0",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Izzy Cruz",
+      "J-Mo and the J-Lighters"
     ]
   },
   {
@@ -4844,11 +4778,13 @@
     "title": "Worker\u2019s Playtime",
     "sort_date": "2026-06-16",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/beckykapell?igsh=aDlzZ3ZuOXZscnYz",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Becky Kapell"
+    ]
   },
   {
     "title": "Mikaela Davis",
@@ -4892,7 +4828,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Carlyle Griffin"
+    ]
   },
   {
     "title": "Aeris & the Piggies Residency",
@@ -5594,6 +5532,16 @@
     "supports": []
   },
   {
+    "title": "-Pat Donohue",
+    "sort_date": "2026-06-21",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Switchyard",
     "sort_date": "2026-06-21",
     "venue": "331 Club",
@@ -5870,11 +5818,13 @@
     "title": "Worker\u2019s Playtime",
     "sort_date": "2026-06-23",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/charlie.parr?igsh=d3RkNm14Zm1jdXVj",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Charlie Parr"
+    ]
   },
   {
     "title": "The Melismatics and Che Arthur",
@@ -6524,6 +6474,16 @@
     "supports": []
   },
   {
+    "title": "Phil Heywood",
+    "sort_date": "2026-06-28",
+    "venue": "331 Club",
+    "url": "https://331club.com/",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Ben Lapidus",
     "sort_date": "2026-06-28",
     "venue": "7th St Entry",
@@ -6726,11 +6686,13 @@
     "title": "Worker\u2019s Playtime",
     "sort_date": "2026-06-30",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/pop.wagner?igsh=MWJ1Y3M1OGJ2c2hxdQ==",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Pop Wagner"
+    ]
   },
   {
     "title": "Tiny Desk Contest On The Road 2026 ft. Cure for Paranoia",
@@ -6867,6 +6829,16 @@
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ken Pomeroy",
+    "sort_date": "2026-07-02",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-ken-pomeroy/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -8077,7 +8049,8 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "BIG|BRAVE"
+      "BIG|BRAVE",
+      "Scaphe"
     ]
   },
   {
@@ -8340,6 +8313,20 @@
     "time": "9pm",
     "doors": "9pm",
     "supports": []
+  },
+  {
+    "title": "Miss Jackson If You\u2019re Nasty \u23e4 Janet Jackson Dance Night",
+    "sort_date": "2026-07-17",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-07-miss-jackson-if-youre-nasty-janet-jackson-dance-night/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
+    "supports": [
+      "McShellen",
+      "Ms. Lakesha",
+      "Mike\u00a02600"
+    ]
   },
   {
     "title": "Wicked",
@@ -8694,6 +8681,16 @@
     "supports": []
   },
   {
+    "title": "Billy Allen + The Pollies",
+    "sort_date": "2026-07-19",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-billy-allen-the-pollies/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Bingo With Pete!",
     "sort_date": "2026-07-19",
     "venue": "White Squirrel",
@@ -8912,7 +8909,9 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
-    "supports": []
+    "supports": [
+      "Justin Wells"
+    ]
   },
   {
     "title": "Wicked",
@@ -9241,7 +9240,7 @@
     "supports": []
   },
   {
-    "title": "Blu and Exile",
+    "title": "Blu & Exile",
     "sort_date": "2026-07-25",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-07-blu-and-exile/",
@@ -9644,6 +9643,19 @@
     ]
   },
   {
+    "title": "Fever Field",
+    "sort_date": "2026-07-29",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-07-fever-field/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Noslo",
+      "Poolboy"
+    ]
+  },
+  {
     "title": "\u2600\ufe0fSummer at The Cedar : TAIGA",
     "sort_date": "2026-07-29",
     "venue": "Cedar Cultural Center",
@@ -9962,6 +9974,16 @@
     "supports": []
   },
   {
+    "title": "Scottie Miller: Hello Pain \u2013 Album Release with Orchestra",
+    "sort_date": "2026-08-01",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/mb100bed480c",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Bronwyn Keith-Hynes",
     "sort_date": "2026-08-01",
     "venue": "Turf Club",
@@ -10009,6 +10031,16 @@
     "sold_out": false,
     "time": "1pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Chuck Prophet",
+    "sort_date": "2026-08-02",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/l955484755b4",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
@@ -10934,7 +10966,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Los Eclipses"
+    ]
   },
   {
     "title": "Lords of the Universe",
@@ -12273,6 +12307,16 @@
     "supports": []
   },
   {
+    "title": "Star Monster",
+    "sort_date": "2026-09-26",
+    "venue": "The Loft at Skyway Theatre",
+    "url": "https://skywaytheatre.com/event/star-monster-mpls/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Beth Orton // The Ground Above",
     "sort_date": "2026-09-26",
     "venue": "The Parkway Theater",
@@ -12298,6 +12342,16 @@
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-09-crashing-out-live/",
     "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
+    "title": "5th Annual Harvest at The Parkway // A Tribute to Neil Young",
+    "sort_date": "2026-09-27",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/i3dc03b36f88",
+    "sold_out": true,
     "time": "7pm",
     "doors": "6pm",
     "supports": []
@@ -13565,6 +13619,16 @@
     "supports": []
   },
   {
+    "title": "Dent May",
+    "sort_date": "2026-11-06",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-11-dent-may/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Death From Above 1979",
     "sort_date": "2026-11-06",
     "venue": "Fine Line",
@@ -13575,10 +13639,10 @@
     "supports": []
   },
   {
-    "title": "Wrath Across North America 2026",
+    "title": "Arch Enemy & The Black Dahlia Murder - Wrath Across North America 2026",
     "sort_date": "2026-11-07",
     "venue": "Fillmore Minneapolis",
-    "url": "https://www.ticketmaster.com/wrath-across-north-america-2026-minneapolis-minnesota-11-07-2026/event/060064B1E7F4E383",
+    "url": "https://www.ticketmaster.com/arch-enemy-the-black-dahlia-murder-minneapolis-minnesota-11-07-2026/event/060064B1E7F4E383",
     "sold_out": true,
     "time": "5pm",
     "doors": null,
@@ -13604,7 +13668,7 @@
     "sort_date": "2026-11-07",
     "venue": "Target Center",
     "url": "https://www.ticketmaster.com/katseye-spotlight-preconcert-upgrade-minneapolis-minnesota-11-07-2026/event/060064B2B540BB3C",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []

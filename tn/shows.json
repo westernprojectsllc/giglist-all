@@ -1,125 +1,5 @@
 [
   {
-    "title": "Bluegrass on 3rd: An Evening with Tim O\u2019Brien Songbook Release Show",
-    "sort_date": "2026-05-20",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluegrass-on-3rd-an-evening-3rd-and-lindsley-tickets/14725363",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Living Dead Girl | Decay | San Pedro",
-    "sort_date": "2026-05-20",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-living-dead-girl-decay-san-pedro/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Alyssa Edwards - Thanks For Everything Tour 2026",
-    "sort_date": "2026-05-20",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/alyssa-edwards-thanks-marathon-music-works-tickets/14099084",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Open Decks",
-    "sort_date": "2026-05-20",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/open-decks5202026?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "7:45pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bizz Bigsby",
-    "sort_date": "2026-05-20",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/bizz-bigsby",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Regi Wooten & Friends",
-    "sort_date": "2026-05-20",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/regi-wooten-friends-3",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Renee Fleming",
-    "sort_date": "2026-05-20",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpAd",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Songs & Stories with Larry Cordle & Friends $20",
-    "sort_date": "2026-05-20",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/songs-stories-with-larry-cordle-friends-20/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Andrew Martinez w/ Nick Folwarczny",
-    "sort_date": "2026-05-20",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/andrew-martinez-w-nick-folwarczny-the-basement-tickets/14836953",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Freedom Junction w/ Nick Armstrong, and Izzy Mahoubi",
-    "sort_date": "2026-05-20",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/freedom-junction-w-nick-armstrong-the-basement-tickets/14859383",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mixtape: 80's Tribute x Noise Pollution: The Music of AC/DC",
-    "sort_date": "2026-05-20",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/mixtape-80s-tribute-x-noise-the-basement-east-tickets/14834373",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lana w/Josiah Cross & Abbey Holdeway \u2013 18+",
-    "sort_date": "2026-05-20",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/lana-w-josiah-cross-abbey-holdeway-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "Jonell Mosser & Friends featuring Charles Wigg Walker",
     "sort_date": "2026-05-21",
     "venue": "3rd & Lindsley",
@@ -696,6 +576,16 @@
     ]
   },
   {
+    "title": "Everybody Somebody \u2013 All White Party",
+    "sort_date": "2026-05-24",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/everybody-somebody-all-white-party/",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bluegrass Jam",
     "sort_date": "2026-05-24",
     "venue": "Station Inn",
@@ -967,7 +857,7 @@
     "sort_date": "2026-05-27",
     "venue": "Marathon Music Works",
     "url": "https://www.ticketweb.com/event/deep-end-live-taylor-welch-marathon-music-works-tickets/14175204",
-    "sold_out": false,
+    "sold_out": true,
     "time": "10am",
     "doors": null,
     "supports": []
@@ -1764,6 +1654,16 @@
     "supports": []
   },
   {
+    "title": "Sma11pocket | Kid Blue | Fear of Noise",
+    "sort_date": "2026-06-01",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-sma11pocket-kid-blue-fear-of-noise/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Giovanni Rodriguez & 12 Manos",
     "sort_date": "2026-06-01",
     "venue": "Rudy's Jazz Room",
@@ -1844,6 +1744,16 @@
       "Vio-lence",
       "Incite"
     ]
+  },
+  {
+    "title": "Eden\u2019s Blessing | The City Sons | Dryver",
+    "sort_date": "2026-06-02",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-edens-blessing-the-city-sons-dryver/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Combust, Fool's Game, Tombstone, Take the Shot, & Head Trip",
@@ -1962,6 +1872,16 @@
     ]
   },
   {
+    "title": "Airhead | Eye\u2019s 2 See | Blood Play",
+    "sort_date": "2026-06-03",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-airhead-eyes-2-see-blood-play/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Conjurer, Sadness, Snooze, Pains, & Vaelravyn",
     "sort_date": "2026-06-03",
     "venue": "DRKMTTR",
@@ -2064,6 +1984,16 @@
     "supports": [
       "Pam Tillis"
     ]
+  },
+  {
+    "title": "Promises Unsaid | HalfCaster | Across Arcadia",
+    "sort_date": "2026-06-04",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-promises-unsaid-halfcaster-across-arcadia/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "2026 CMA Fest presented by SoFi - FOUR-NIGHT STADIUM PASS",
@@ -2732,6 +2662,16 @@
     ]
   },
   {
+    "title": "Living Hollow | Sakryn | Another November | Cursed Circuits",
+    "sort_date": "2026-06-08",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-living-hollow-sakryn-another-november-cursed-circuits/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jessica Baio",
     "sort_date": "2026-06-08",
     "venue": "Exit/In",
@@ -3116,6 +3056,16 @@
     "url": "https://www.ticketweb.com/event/the-iguanas-3rd-and-lindsley-tickets/14140144",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Pat Kennedy | Nico Welsh | Preston Lydotes | Clara Kay",
+    "sort_date": "2026-06-12",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-pat-kennedy-nico-welsh-preston-lydotes-clara-kay/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -4137,14 +4087,16 @@
     "supports": []
   },
   {
-    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
+    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Frank Myers , Tyler Reeve , Ryan Larkins , Ray Stephenson with Shelby Raye + Julia Hutchinson",
     "sort_date": "2026-06-20",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637573",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Ray Stephenson"
+    ]
   },
   {
     "title": "The Petty Junkies",
@@ -4392,6 +4344,16 @@
     "url": "https://stationinn.com/event/56270/2026-06-21/",
     "sold_out": false,
     "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Rock and Roll Playhouse: Music of Grateful Dead & more for kids! Father's Day Bash for Grateful Dads!",
+    "sort_date": "2026-06-21",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/the-rock-and-roll-playhouse-the-basement-east-tickets/14933183",
+    "sold_out": false,
+    "time": "11:30am",
     "doors": null,
     "supports": []
   },
@@ -4744,6 +4706,16 @@
     "url": "https://www.ticketweb.com/event/rodney-crowell-airline-highway-tour-3rd-and-lindsley-tickets/14751243",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "DAZR | Rebels Opera | Lola Vain",
+    "sort_date": "2026-06-26",
+    "venue": "Cobra",
+    "url": "https://cobranashville.com/event/venue-dazr-rebels-opera-lola-vain/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -5438,6 +5410,26 @@
     "supports": []
   },
   {
+    "title": "Legend Meets Brilliance feat. Don Aliquo & Marc Payne",
+    "sort_date": "2026-07-03",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "11pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Pat Bergeson Organ Trio feat.Charles Treadway",
+    "sort_date": "2026-07-03",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Blnk Cnvs \u2013 ATLIENS",
     "sort_date": "2026-07-03",
     "venue": "Skydeck",
@@ -5504,6 +5496,16 @@
     "url": "https://shotgun.live/events/me-n-u?utm_medium=widget&utm_term=html_widget",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "CLOSED",
+    "sort_date": "2026-07-04",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5pm",
     "doors": null,
     "supports": []
   },
@@ -5739,6 +5741,16 @@
     "supports": []
   },
   {
+    "title": "Katie Blomarz-Kimball",
+    "sort_date": "2026-07-08",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Regi Wooten & Friends",
     "sort_date": "2026-07-08",
     "venue": "Rudy's Jazz Room",
@@ -5899,6 +5911,16 @@
     "supports": []
   },
   {
+    "title": "Geoff Pfeifer Quartet",
+    "sort_date": "2026-07-10",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "11pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jody Nardone Trio",
     "sort_date": "2026-07-10",
     "venue": "Rudy's Jazz Room",
@@ -5969,12 +5991,32 @@
     "supports": []
   },
   {
+    "title": "Matt Twaddle Trio w/ Ric Fierabracci & Zach Dubay",
+    "sort_date": "2026-07-11",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "11pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Rebecca Carlson",
     "sort_date": "2026-07-11",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/rebecca-carlson-2",
     "sold_out": false,
     "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Ted Ludwig Quartet",
+    "sort_date": "2026-07-11",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -6165,6 +6207,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxvP",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Josh Couts Quintet",
+    "sort_date": "2026-07-15",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -6895,6 +6947,26 @@
     "supports": []
   },
   {
+    "title": "Jody Nardone Trio",
+    "sort_date": "2026-07-24",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ryan Devlin Trio",
+    "sort_date": "2026-07-24",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Aaron Lessard Group",
     "sort_date": "2026-07-24",
     "venue": "Rudy's Jazz Room",
@@ -7018,6 +7090,26 @@
       "USHER",
       "Chris Brown"
     ]
+  },
+  {
+    "title": "Geoff Pfeifer Quartet",
+    "sort_date": "2026-07-25",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "11pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ryan Devlin Trio",
+    "sort_date": "2026-07-25",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Blackberry Smoke: Rattle, Ramble and Roll Tour 2026",
@@ -7272,6 +7364,16 @@
     "supports": []
   },
   {
+    "title": "Matt Twaddle Trio w/ Ric Fierabracci & Zach Dubay",
+    "sort_date": "2026-07-29",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dolly Parton???s Threads: My Songs in Symphony",
     "sort_date": "2026-07-29",
     "venue": "Schermerhorn Symphony Center",
@@ -7383,6 +7485,16 @@
     "url": "https://stationinn.com/event/sad-daddy-20/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Cleverlys with Nick Fallon",
+    "sort_date": "2026-07-31",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/the-cleverlys-nick-fallon-3rd-and-lindsley-tickets/14933043",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -9233,6 +9345,16 @@
     "supports": []
   },
   {
+    "title": "RESURRECTION: A JOURNEY TRIBUTE",
+    "sort_date": "2026-09-05",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/resurrection-a-journey-tribute-3rd-and-lindsley-tickets/14924893",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-09-05",
     "venue": "Grand Ole Opry House",
@@ -9595,6 +9717,16 @@
     "supports": []
   },
   {
+    "title": "Chandler w/ TuffLuckKid and Zac Chase",
+    "sort_date": "2026-09-14",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/chandler-w-tuffluckkid-and-zac-the-basement-tickets/14924233",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Ben Harper and The Innocent Criminals",
     "sort_date": "2026-09-14",
     "venue": "The Basement East",
@@ -9645,6 +9777,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Tove Lo w/ Mallrat",
+    "sort_date": "2026-09-15",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OFA",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Mallrat"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -10275,7 +10419,7 @@
     "sort_date": "2026-09-30",
     "venue": "Marathon Music Works",
     "url": "https://www.ticketweb.com/event/the-midnight-time-machines-marathon-music-works-tickets/14918503",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10315,7 +10459,7 @@
     "sort_date": "2026-10-02",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/grace-enger-the-satisfied-exitin-tickets/14924193",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10791,7 +10935,7 @@
     "sort_date": "2026-10-15",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/ax-and-the-hatchetmen-the-the-basement-east-tickets/14921703",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10814,6 +10958,16 @@
     "venue": "Grand Ole Opry House",
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Of-E",
     "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Will Varley",
+    "sort_date": "2026-10-16",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/will-varley-the-basement-tickets/14935473",
+    "sold_out": true,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -11930,7 +12084,7 @@
     "sort_date": "2026-11-19",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/king-buffalo-w-la-witch-the-basement-east-tickets/14918723",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -12004,7 +12158,7 @@
     "sort_date": "2026-11-22",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/everclear-lucky-7-tour-nashville-tennessee-11-22-2026/event/1B0064A1C14ABE2D",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": [
@@ -14970,6 +15124,26 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-05-15/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluegrass Jam",
+    "sort_date": "2028-05-21",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2028-05-21/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sunday Gospel with Val Storey & Larry Cordle",
+    "sort_date": "2028-05-21",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/56270/2028-05-21/",
+    "sold_out": false,
+    "time": "3pm",
     "doors": null,
     "supports": []
   }
