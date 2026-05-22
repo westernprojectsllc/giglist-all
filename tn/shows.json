@@ -1,118 +1,5 @@
 [
   {
-    "title": "Jonell Mosser & Friends featuring Charles Wigg Walker",
-    "sort_date": "2026-05-21",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/jonell-mosser-charles-wigg-walker-3rd-and-lindsley-tickets/14880383",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Corpse Dust | Spectral Body | General Trust",
-    "sort_date": "2026-05-21",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-corpse-dust-spectral-body-general-trust/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bubble",
-    "sort_date": "2026-05-21",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/bubble5-21?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
-    "sort_date": "2026-05-21",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/hot-club-gypsy-jazz-thursdays-rudy-s-french-connection-3",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rougarou 7-Piece New Orleans Brass Band",
-    "sort_date": "2026-05-21",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/rougarou-6-piece-new-orleans-brass-band-2",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lindsay Lou $20",
-    "sort_date": "2026-05-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/lindsay-lou/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Proud Highway",
-    "sort_date": "2026-05-21",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/proud-highway-the-basement-tickets/14810053",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tyson Leslie w/ Sunflower Fox & The Chicken and Rachel Rodriguez & The Gringo Starrz",
-    "sort_date": "2026-05-21",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/tyson-leslie-w-sunflower-fox-the-basement-tickets/14870273",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: Jarrod Walker",
-    "sort_date": "2026-05-21",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/sold-out-jarrod-walker-the-basement-east-tickets/14808663",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tower brothers w/ Catch Fire , Sean Dunoon and The Breakdown \u2013 18+",
-    "sort_date": "2026-05-21",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/tower-brothers-w-catch-fire-sean-dunoon-and-the-breakdown-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Alter Bridge w/ Sevendust",
-    "sort_date": "2026-05-21",
-    "venue": "The Pinnacle",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jwra",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Sevendust",
-      "Tim Montana"
-    ]
-  },
-  {
     "title": "12 Against Nature \" A Steely Dan Experience \" + Make Me Smile - The Music Of Chicago",
     "sort_date": "2026-05-22",
     "venue": "3rd & Lindsley",
@@ -155,10 +42,10 @@
     "supports": []
   },
   {
-    "title": "Culture Wars",
+    "title": "*SOLD OUT* Culture Wars",
     "sort_date": "2026-05-22",
     "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/culture-wars-exitin-tickets/14078604",
+    "url": "https://www.ticketweb.com/event/sold-out-culture-wars-exitin-tickets/14078604",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -299,10 +186,10 @@
     "supports": []
   },
   {
-    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Trent Tomlinson , Trannie Anderson , Rob Hatch , Ray Stephenson + Julia Hutchinson",
+    "title": "(SOLD OUT) Backstage Nashville!",
     "sort_date": "2026-05-23",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637473",
+    "url": "https://www.ticketweb.com/event/sold-out-backstage-nashville-3rd-and-lindsley-tickets/14637473",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
@@ -818,7 +705,7 @@
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/women-kickin-country-unity-show-3rd-and-lindsley-tickets/14854123",
     "sold_out": false,
-    "time": "7:30pm",
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1482,10 +1369,10 @@
     ]
   },
   {
-    "title": "Fungkshui w/OmCat",
+    "title": "Fungkshui w/ OmCat",
     "sort_date": "2026-05-30",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/fungkshui-womcat-the-basement-tickets/14797213",
+    "url": "https://www.ticketweb.com/event/fungkshui-w-omcat-the-basement-tickets/14797213",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -1992,6 +1879,16 @@
     "url": "https://cobranashville.com/event/venue-promises-unsaid-halfcaster-across-arcadia/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Labyrinth",
+    "sort_date": "2026-06-04",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/labyrinth6-4?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -3380,6 +3277,16 @@
     "supports": []
   },
   {
+    "title": "Banda Pilates at Skydeck",
+    "sort_date": "2026-06-14",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/banda-pilates-at-skydeck/",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bluegrass Jam",
     "sort_date": "2026-06-14",
     "venue": "Station Inn",
@@ -4221,10 +4128,10 @@
     "supports": []
   },
   {
-    "title": "Jeff BearCat Bunch w/ wsg/Cass Jones",
+    "title": "Jeff BearCat Bunch w/ Cass Jones",
     "sort_date": "2026-06-20",
     "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/jeff-bearcat-bunch-w-wsgcass-the-basement-tickets/14789483",
+    "url": "https://www.ticketweb.com/event/jeff-bearcat-bunch-w-cass-the-basement-tickets/14789483",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -4626,6 +4533,16 @@
     "url": "https://tunehatch.com/shows/hot-club-gypsy-jazz-thursdays-rudy-s-french-connection-8",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Miguel Alvarado 'State of the Saxophone: Sonny Stitt'",
+    "sort_date": "2026-06-25",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -5280,6 +5197,16 @@
     "supports": []
   },
   {
+    "title": "Eric Wurzelbacher Group",
+    "sort_date": "2026-07-01",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Regi Wooten & Friends",
     "sort_date": "2026-07-01",
     "venue": "Rudy's Jazz Room",
@@ -5765,7 +5692,7 @@
     "sort_date": "2026-07-08",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1442840/bloc-party-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -5821,6 +5748,16 @@
     "supports": []
   },
   {
+    "title": "\u201cBroadway Songs Reimagined\u201d w/ The Miles Damaso Quartet",
+    "sort_date": "2026-07-09",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Harry Connick, Jr. In Concert",
     "sort_date": "2026-07-09",
     "venue": "Ryman Auditorium",
@@ -5871,6 +5808,16 @@
     "supports": []
   },
   {
+    "title": "The Music Of George Harrison",
+    "sort_date": "2026-07-09",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/the-music-of-george-harrison-the-basement-east-tickets/14937353",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "(SOLD OUT) Screamin' Cheetah Wheelies",
     "sort_date": "2026-07-10",
     "venue": "3rd & Lindsley",
@@ -5905,6 +5852,16 @@
     "sort_date": "2026-07-10",
     "venue": "Night We Met",
     "url": "https://shotgun.live/events/arlo?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Don Aliquo Quartet w/ Marc Payne, Jack Aylor & Ryan Brasley",
+    "sort_date": "2026-07-10",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -6839,10 +6796,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: Shannon Shaw w/ Georgia Maq 18+",
+    "title": "Legacy Concerts Presents: Shannon Shaw Band w/ Georgia Maq 18+",
     "sort_date": "2026-07-23",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-shannon-shaw-w-georgia-maq-18/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-shannon-shaw-band-w-georgia-maq-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -7063,7 +7020,7 @@
     "sort_date": "2026-07-25",
     "venue": "Exit/In",
     "url": "https://www.ticketweb.com/event/i-love-rb-party-exitin-tickets/14927423",
-    "sold_out": true,
+    "sold_out": false,
     "time": "9pm",
     "doors": null,
     "supports": []
@@ -7090,6 +7047,16 @@
       "USHER",
       "Chris Brown"
     ]
+  },
+  {
+    "title": "Don Aliquo Quartet w/ Marc Payne, Jack Aylor & Ryan Brasley",
+    "sort_date": "2026-07-25",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Geoff Pfeifer Quartet",
@@ -7374,6 +7341,16 @@
     "supports": []
   },
   {
+    "title": "The Nalani Trio",
+    "sort_date": "2026-07-29",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dolly Parton???s Threads: My Songs in Symphony",
     "sort_date": "2026-07-29",
     "venue": "Schermerhorn Symphony Center",
@@ -7632,10 +7609,10 @@
     "supports": []
   },
   {
-    "title": "Legacy Concerts Presents: King 810 \u2013 18+",
+    "title": "Legacy Concerts Presents: King 810 w/ Hollow Wake, Original Self, Weighed Down \u2013 18+",
     "sort_date": "2026-07-31",
     "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-king-810-18/the-end/",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-king-810-w-hollow-wake-original-self-weighed-down-18/the-end/",
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
@@ -8192,6 +8169,16 @@
     "supports": []
   },
   {
+    "title": "Sunny Side, 7-Piece Jazz Band from New Orleans",
+    "sort_date": "2026-08-09",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Beach Boys",
     "sort_date": "2026-08-09",
     "venue": "Ryman Auditorium",
@@ -8317,6 +8304,16 @@
     "supports": []
   },
   {
+    "title": "The French Connexion feat. French Family Band, Jimmy Fortune, Mike Rogers, Jenee Fleenor, Ben Isaacs, Jeff Taylor",
+    "sort_date": "2026-08-12",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/french-family-band-the-french-3rd-and-lindsley-tickets/14933063",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "St. Lucia",
     "sort_date": "2026-08-12",
     "venue": "Brooklyn Bowl Nashville",
@@ -8407,6 +8404,16 @@
     "url": "https://stationinn.com/event/crandall-creek-20/",
     "sold_out": false,
     "time": "8am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Cairo Jag w/ Knifey",
+    "sort_date": "2026-08-13",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/cairo-jag-w-knifey-the-basement-tickets/14936763",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -9122,6 +9129,16 @@
     "supports": []
   },
   {
+    "title": "Marie Vaunt",
+    "sort_date": "2026-08-29",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/marie-vaunt?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "David Nail",
     "sort_date": "2026-08-29",
     "venue": "The Basement East",
@@ -9146,7 +9163,7 @@
     "sort_date": "2026-08-30",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1444141/chance-the-rapper-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -9349,7 +9366,7 @@
     "sort_date": "2026-09-05",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/resurrection-a-journey-tribute-3rd-and-lindsley-tickets/14924893",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -9545,7 +9562,7 @@
     "sort_date": "2026-09-11",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/braxton-keith-real-damn-deal-tour-nashville-tennessee-09-11-2026/event/1B0064A4F2269224",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -10303,7 +10320,7 @@
     "sort_date": "2026-09-27",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1448376/starbomb-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10895,7 +10912,7 @@
     "sort_date": "2026-10-13",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/waylon-wyatt-dustpiles-world-tour-nashville-tennessee-10-13-2026/event/1B0064A8FDF5DCA9",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10945,7 +10962,7 @@
     "sort_date": "2026-10-15",
     "venue": "The Pinnacle",
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Efa",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -11166,6 +11183,16 @@
     "supports": []
   },
   {
+    "title": "Sons of Legion - Soul to S\u00d8L Tour",
+    "sort_date": "2026-10-21",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1452603/sons-of-legion-tickets?skin=ryman",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Aaron Lee Tasjan - Album Release Show w/ Madeleine Kelson",
     "sort_date": "2026-10-21",
     "venue": "The Basement East",
@@ -11381,7 +11408,7 @@
     "sort_date": "2026-10-26",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-nashville-tennessee-10-26-2026/event/1B0064ADD4A2160E",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12804,16 +12831,6 @@
     ]
   },
   {
-    "title": "Bluegrass Jam",
-    "sort_date": "2026-12-20",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2026-12-20/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sunday Gospel with Val Storey & Larry Cordle",
     "sort_date": "2026-12-20",
     "venue": "Station Inn",
@@ -12830,16 +12847,6 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4oo",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-12-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-12-21/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12898,132 +12905,12 @@
     "supports": []
   },
   {
-    "title": "Bluegrass Jam",
-    "sort_date": "2026-12-27",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2026-12-27/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2026-12-27",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2026-12-27/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-12-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-12-28/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "New Faces Night feat.",
     "sort_date": "2026-12-29",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983454",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-01-03",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-01-03/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-01-03",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-01-03/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-01-04",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-01-04/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-01-10",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-01-10/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-01-10",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-01-10/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-01-11",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-01-11/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-01-17",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-01-17/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-01-17",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-01-17/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-01-18",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-01-18/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -13038,276 +12925,6 @@
     "supports": []
   },
   {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-01-24",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-01-24/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-01-24",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-01-24/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-01-25",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-01-25/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-01-31",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-01-31/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-01-31",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-01-31/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-02-01",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-02-01/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-02-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-02-07/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-02-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-02-07/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-02-08",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-02-08/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-02-14",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-02-14/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-02-14",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-02-14/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-02-15",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-02-15/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-02-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-02-21/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-02-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-02-21/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-02-22",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-02-22/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-02-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-02-28/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-02-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-02-28/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-03-01",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-03-01/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-03-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-03-07/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-03-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-03-07/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-03-08",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-03-08/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-03-14",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-03-14/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-03-14",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-03-14/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-03-15",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-03-15/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-03-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-03-21/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-03-21",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-03-21/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-03-22",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-03-22/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Chris Tomlin: Good Friday Nashville 2027",
     "sort_date": "2027-03-26",
     "venue": "Bridgestone Arena",
@@ -13318,102 +12935,12 @@
     "supports": []
   },
   {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-03-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-03-28/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-03-28",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-03-28/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-03-29",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-03-29/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-04-04",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-04-04/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-04-04",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-04-04/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-04-05",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-04-05/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Foy Vance - The Wake World Tour",
     "sort_date": "2027-04-09",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/foy-vance-the-the-basement-east-tickets/14117694",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bluegrass Jam",
-    "sort_date": "2027-04-11",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/bluegrass-jam-7-2-2/2027-04-11/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Gospel with Val Storey & Larry Cordle",
-    "sort_date": "2027-04-11",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/56270/2027-04-11/",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2027-04-12",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-04-12/",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -15144,6 +14671,16 @@
     "url": "https://stationinn.com/event/56270/2028-05-21/",
     "sold_out": false,
     "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
+    "sort_date": "2028-05-22",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-05-22/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   }
