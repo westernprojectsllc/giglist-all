@@ -904,16 +904,6 @@
     ]
   },
   {
-    "title": "Jeff Dayton: Glen Campbell & Beyond",
-    "sort_date": "2026-05-21",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/jeff-dayton-glen-campbell-beyond-may21-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Archspire",
     "sort_date": "2026-05-21",
     "venue": "Fine Line",
@@ -938,82 +928,17 @@
     "supports": []
   },
   {
-    "title": "Boots & Needles",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/bootsandneedles?igsh=M2FnNTZ0MHB4OTEw",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "The Gated Community",
-      "Woolley Mack"
-    ]
-  },
-  {
-    "title": "Movie and Music Trivia",
-    "sort_date": "2026-05-22",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
-  },
-  {
     "title": "Colin Bracewell",
     "sort_date": "2026-05-22",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-colin-bracewell/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Call Me Fritz",
       "Obadiah\u00a0Gamble"
     ]
-  },
-  {
-    "title": "Friday 5/22 - Dean Magraw & Suwal Singh ($15 Cover)",
-    "sort_date": "2026-05-22",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/5-22-suwal-singh-dean-magraw-15-cover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Ross Clowser / Josh Granowski",
-    "sort_date": "2026-05-22",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-ross-clowser-josh-granowski-may-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ella Grace & Marisa Cravero",
-    "sort_date": "2026-05-22",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/marisa-cravero-ella-grace-may-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Luzia Fuschia",
-    "sort_date": "2026-05-22",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-luzia-fuschia-may-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "SMERZ with Kaitlin Simotics",
@@ -1022,16 +947,6 @@
     "url": "https://www.thecedar.org/events/smerz",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Slow Death, Micah and the Mirrors, Cheap Glue",
-    "sort_date": "2026-05-22",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/p6c54a38013a",
-    "sold_out": false,
-    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -1051,28 +966,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-decibel-magazine-tour/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "MADVKTM",
-    "sort_date": "2026-05-22",
-    "venue": "The Loft at Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/madvktm-loft-mpls/",
-    "sold_out": false,
-    "time": "9pm",
+    "time": null,
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SOLD OUT: Charlene Kaye: Tiger Daughter",
-    "sort_date": "2026-05-22",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/u42e8ae904e9",
-    "sold_out": true,
-    "time": "7:30pm",
-    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -1081,55 +976,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-whitney/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Lucky Cloud"
     ]
-  },
-  {
-    "title": "Sexy Delicious Reunion Show",
-    "sort_date": "2026-05-22",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/sexy-delicious-reunion-show-may-22-2026-679903",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": "8pm",
-    "supports": [
-      "sexy delicious",
-      "Mathias St. John",
-      "DJ Sci-fi"
-    ]
-  },
-  {
-    "title": "Sexton of Gotterdammerung w. Andy Hound, Alan Parsons",
-    "sort_date": "2026-05-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/mossformations/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Mary Cutrufello Band",
-    "sort_date": "2026-05-22",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-mary-cutrufello-band-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grim Lot, Electric Church, & Most of a Horse",
-    "sort_date": "2026-05-22",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/n30dd3fe025d",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "120 Minutes Band",
@@ -1219,7 +1070,7 @@
     "sort_date": "2026-05-23",
     "venue": "Cloudland Theater",
     "url": "https://link.dice.fm/k73a9feca8c1",
-    "sold_out": false,
+    "sold_out": true,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -1264,6 +1115,20 @@
     "doors": "7pm",
     "supports": [
       "Nourished By\u00a0Time"
+    ]
+  },
+  {
+    "title": "In Shining Armour",
+    "sort_date": "2026-05-23",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-in-shining-armour-5-23-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "i have no love for men like you",
+      "Endswell",
+      "Allergen"
     ]
   },
   {
@@ -1449,6 +1314,20 @@
     "supports": []
   },
   {
+    "title": "Admiral Fox",
+    "sort_date": "2026-05-25",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-admiral-fox-5-25-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "\u00bfWatches?",
+      "One Big Quilt",
+      "Critterthing"
+    ]
+  },
+  {
     "title": "Slaphazard w. Coax from Chuckanut, Sishir",
     "sort_date": "2026-05-25",
     "venue": "White Squirrel",
@@ -1502,6 +1381,19 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Helen",
+    "sort_date": "2026-05-26",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-helen-5-26-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Ben Vogel",
+      "Mega Flower Power"
+    ]
   },
   {
     "title": "Comedy Bang! Bang!",
@@ -1598,6 +1490,19 @@
     "supports": []
   },
   {
+    "title": "Svet",
+    "sort_date": "2026-05-27",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-svet-5-27-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Silent Monday",
+      "Aphid"
+    ]
+  },
+  {
     "title": "Weird Nightmare (Alex Edkins of METZ)",
     "sort_date": "2026-05-27",
     "venue": "Turf Club",
@@ -1647,7 +1552,10 @@
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Woodzen",
+      "Flat Wounds"
+    ]
   },
   {
     "title": "Ike Dweck",
@@ -1724,6 +1632,20 @@
     "supports": []
   },
   {
+    "title": "Cameron",
+    "sort_date": "2026-05-28",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-cameron-5-28-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Ergot",
+      "Subrurbica",
+      "lovescare"
+    ]
+  },
+  {
     "title": "GLOM",
     "sort_date": "2026-05-28",
     "venue": "Turf Club",
@@ -1775,11 +1697,9 @@
     "venue": "331 Club",
     "url": "https://331club.com/",
     "sold_out": false,
-    "time": null,
+    "time": "7pm",
     "doors": null,
-    "supports": [
-      "7pmyt"
-    ]
+    "supports": []
   },
   {
     "title": "Wish Wash",
@@ -1867,6 +1787,16 @@
     "supports": []
   },
   {
+    "title": "Robert Glasper OG Acoustic Piano Trio",
+    "sort_date": "2026-05-29",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/robert-glasper-may29-2026/2026-05-29/1/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "All Your Friends \u2014 The Indie Party",
     "sort_date": "2026-05-29",
     "venue": "Fine Line",
@@ -1897,6 +1827,19 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "My Kid Banana",
+    "sort_date": "2026-05-29",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-my-kid-banana-5-29-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Linus",
+      "and\u00a0Maelstrom In The Harbor"
+    ]
   },
   {
     "title": "Riverdance 30 - The New Generation",
@@ -2123,6 +2066,19 @@
     "supports": []
   },
   {
+    "title": "Stock Market Cinema",
+    "sort_date": "2026-05-30",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-stock-market-cinema-5-30-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Honey Please",
+      "Call Me Fritz"
+    ]
+  },
+  {
     "title": "Riverdance 30 - The New Generation",
     "sort_date": "2026-05-30",
     "venue": "State Theatre",
@@ -2320,6 +2276,18 @@
     "supports": []
   },
   {
+    "title": "The Sonder Bombs",
+    "sort_date": "2026-05-31",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-the-sonder-bombs-5-31-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "The Sonder Bombs w/ TBA"
+    ]
+  },
+  {
     "title": "CANCELED: Riverdance 30 - The New Generation",
     "sort_date": "2026-05-31",
     "venue": "State Theatre",
@@ -2493,6 +2461,18 @@
     "supports": []
   },
   {
+    "title": "Mark Winters",
+    "sort_date": "2026-06-02",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-mark-winters-6-2-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "TBD"
+    ]
+  },
+  {
     "title": "Mac Saturn",
     "sort_date": "2026-06-02",
     "venue": "Turf Club",
@@ -2607,6 +2587,19 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "BUCKLS",
+    "sort_date": "2026-06-03",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-buckls-6-3-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Slash Fire",
+      "Duck Bomb"
+    ]
   },
   {
     "title": "Chill Towards Enlightenment: A Stoke Seminar with Chad Goes Deep",
@@ -2756,6 +2749,19 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Weeklong Weekend",
+    "sort_date": "2026-06-04",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-weeklong-weekend-6-4-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Gauze",
+      "Crash House"
+    ]
   },
   {
     "title": "Satsang (solo)",
@@ -2964,6 +2970,19 @@
     ]
   },
   {
+    "title": "Willow Waters & the Earth Tones",
+    "sort_date": "2026-06-05",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-willow-waters-the-earth-tones-6-5-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Tabah",
+      "Bird Dog"
+    ]
+  },
+  {
     "title": "2000\u2019s Rave",
     "sort_date": "2026-06-05",
     "venue": "The Loft at Skyway Theatre",
@@ -3165,6 +3184,20 @@
     "supports": []
   },
   {
+    "title": "Joan of Profile",
+    "sort_date": "2026-06-06",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-joan-of-profile-6-6-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Juliet Farmer",
+      "Lake Davi",
+      "Lexie Modica"
+    ]
+  },
+  {
     "title": "Subsuka and Friends",
     "sort_date": "2026-06-06",
     "venue": "The Loft at Skyway Theatre",
@@ -3305,7 +3338,7 @@
     "url": "https://first-avenue.com/event/2026-06-private-event-060726/",
     "sold_out": false,
     "time": "8pm",
-    "doors": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -3543,6 +3576,25 @@
     "supports": []
   },
   {
+    "title": "15 Minutes of Femme",
+    "sort_date": "2026-06-09",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-15-minutes-of-femme-6-9-2026",
+    "sold_out": true,
+    "time": "5pm",
+    "doors": "4pm",
+    "supports": [
+      "Christy Costello & The CC Club",
+      "Laura Larson (Scrunchies)",
+      "Buio Omega",
+      "Anita Velveeta",
+      "Cindy Lawson",
+      "Momzilla",
+      "Surly Grrrly",
+      "more!"
+    ]
+  },
+  {
     "title": "Spotlight Showcase 2026",
     "sort_date": "2026-06-09",
     "venue": "State Theatre",
@@ -3688,6 +3740,20 @@
     ]
   },
   {
+    "title": "Wooden Ducks",
+    "sort_date": "2026-06-10",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-wooden-ducks-6-10-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Purity Olympics",
+      "White Dune",
+      "Somewhere Nice Someday"
+    ]
+  },
+  {
     "title": "Tommy Stinson",
     "sort_date": "2026-06-10",
     "venue": "Turf Club",
@@ -3756,7 +3822,7 @@
     "supports": []
   },
   {
-    "title": "Paolo Angeli",
+    "title": "Paolo Angeli w/ Laura Harada & Tim O\u2019Keefe",
     "sort_date": "2026-06-11",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/paolo-angeli-june-2026",
@@ -3795,6 +3861,20 @@
     "doors": "7pm",
     "supports": [
       "Koti\u0113r"
+    ]
+  },
+  {
+    "title": "Linus",
+    "sort_date": "2026-06-11",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-linus-6-11-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Lulled",
+      "Lana Leone",
+      "a special guest"
     ]
   },
   {
@@ -3863,20 +3943,6 @@
     ]
   },
   {
-    "title": "Izzy Cruz",
-    "sort_date": "2026-06-12",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/izzykarr.music?igsh=MTlpM3B4MW4yMTh4aw==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "J-Mo & The J-Lighters",
-      "whispered the rabbit",
-      "Elour"
-    ]
-  },
-  {
     "title": "Movie and Music Trivia",
     "sort_date": "2026-06-12",
     "venue": "331 Club",
@@ -3885,6 +3951,21 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "\u201cCelebrating the journey with Debbie and Steve\u201d",
+    "sort_date": "2026-06-12",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/izzykarr.music?igsh=MTlpM3B4MW4yMTh4aw==",
+    "sold_out": false,
+    "time": "10:00pm",
+    "doors": null,
+    "supports": [
+      "Izzy Cruz",
+      "J-Mo & The J-Lighters",
+      "whispered the rabbit",
+      "Elour"
+    ]
   },
   {
     "title": "Tommy Goodroad",
@@ -4029,7 +4110,9 @@
     "sold_out": false,
     "time": "10:00pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Pew Pew"
+    ]
   },
   {
     "title": "Drinkin\u2019 Spelling Bee",
@@ -4115,6 +4198,20 @@
     "time": "7:30pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Aergo",
+    "sort_date": "2026-06-13",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-aergo-6-13-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "I Have No Love for Men Like You",
+      "Hush Now Sweet Halo",
+      "Mystery Meat"
+    ]
   },
   {
     "title": "Codeko",
@@ -4300,6 +4397,22 @@
     "supports": []
   },
   {
+    "title": "Demon Sweat",
+    "sort_date": "2026-06-14",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-demon-sweat-6-14-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "DEMON SWEAT - a tribute to WEEN - Featuring members of Hey Ily",
+      "Malamiko",
+      "Small Animal Hospital",
+      "Jenny Matrix",
+      "more!"
+    ]
+  },
+  {
     "title": "When a Woman\u2019s Fed Up",
     "sort_date": "2026-06-14",
     "venue": "State Theatre",
@@ -4380,6 +4493,19 @@
     "supports": []
   },
   {
+    "title": "One Singular Cigarette",
+    "sort_date": "2026-06-15",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-one-singular-cigarette-6-15-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "The Da\u00fcggers",
+      "In Limbo"
+    ]
+  },
+  {
     "title": "Cauldron of Failure w. Derecho, Renegade Escape",
     "sort_date": "2026-06-15",
     "venue": "White Squirrel",
@@ -4447,15 +4573,26 @@
     "supports": []
   },
   {
-    "title": "RACING MOUNT PLEASANT",
+    "title": "RACING MOUNT PLEASANT + Isobel",
     "sort_date": "2026-06-16",
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-06-racing-mount-pleasant-isobel/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "One Big Quilt",
+    "sort_date": "2026-06-16",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-one-big-quilt-6-16-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
     "supports": [
-      "Isobel"
+      "Big Strong",
+      "Flora-Moon"
     ]
   },
   {
@@ -4556,6 +4693,19 @@
     "doors": "7pm",
     "supports": [
       "Jobi Riccio"
+    ]
+  },
+  {
+    "title": "Skulls of Tomorrow",
+    "sort_date": "2026-06-17",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-skulls-of-tomorrow-6-17-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "My Kid Banana",
+      "Popsicle Stick"
     ]
   },
   {
@@ -4831,6 +4981,21 @@
     ]
   },
   {
+    "title": "Graham Jams",
+    "sort_date": "2026-06-19",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-graham-jams-6-19-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Tarias and the Sound",
+      "Charlieboy",
+      "Yomchi",
+      "Asparagus"
+    ]
+  },
+  {
     "title": "Brondo",
     "sort_date": "2026-06-19",
     "venue": "The Loft at Skyway Theatre",
@@ -5019,6 +5184,19 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Pity Party",
+    "sort_date": "2026-06-20",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-pity-party-6-20-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Stock Market Cinema",
+      "Jammaz"
+    ]
   },
   {
     "title": "Amyl and The Sniffers",
@@ -5244,6 +5422,19 @@
     "supports": []
   },
   {
+    "title": "Eso Si Que Es",
+    "sort_date": "2026-06-21",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-eso-si-que-es-6-21-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Glurge",
+      "and\u00a0Battery Eyes"
+    ]
+  },
+  {
     "title": "Co-MingL Presents: The Kings of Soul",
     "sort_date": "2026-06-21",
     "venue": "The Parkway Theater",
@@ -5327,6 +5518,20 @@
     "supports": [
       "Cigarettes @ Sunset",
       "High\u00a0June"
+    ]
+  },
+  {
+    "title": "Dyego & BluNites",
+    "sort_date": "2026-06-22",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-dyego-blunites-6-22-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Dyego",
+      "BluNites",
+      "Otlo"
     ]
   },
   {
@@ -5430,6 +5635,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Aaron James",
+    "sort_date": "2026-06-23",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-aaron-james-6-23-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Bury Em Deep",
+      "Gelding"
+    ]
   },
   {
     "title": "Jesca Hoop // Long Wave Home Tour",
@@ -5550,6 +5768,21 @@
     ]
   },
   {
+    "title": "Coco Joey and Anita Velveeta",
+    "sort_date": "2026-06-24",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-coco-joey-and-anita-velveeta-6-24-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Cocoa Joey",
+      "Anita Velveeta",
+      "Huhroon",
+      "Onsite"
+    ]
+  },
+  {
     "title": "Family Dinner w. Doug & Sarah",
     "sort_date": "2026-06-24",
     "venue": "White Squirrel",
@@ -5622,6 +5855,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Disappearing Wings",
+    "sort_date": "2026-06-25",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-disappearing-wings-6-25-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Anothernight",
+      "Alone-A"
+    ]
   },
   {
     "title": "Mike Sherm",
@@ -5736,6 +5982,18 @@
     "time": "9pm",
     "doors": "9pm",
     "supports": []
+  },
+  {
+    "title": "Mel Bryant & the Mercy Makers",
+    "sort_date": "2026-06-26",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-mel-bryant-the-mercy-makers-6-26-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "June Henry"
+    ]
   },
   {
     "title": "Brainrack",
@@ -5902,6 +6160,20 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Lunar Moth",
+    "sort_date": "2026-06-27",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-lunar-moth-6-27-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Honeygrl",
+      "Socktopus",
+      "TBA"
+    ]
   },
   {
     "title": "TripzyLeary",
@@ -6180,6 +6452,19 @@
     "supports": []
   },
   {
+    "title": "shugE",
+    "sort_date": "2026-06-29",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-shuge-6-29-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Average Joey",
+      "Ditch Pigeon"
+    ]
+  },
+  {
     "title": "Pop Wagner",
     "sort_date": "2026-06-29",
     "venue": "White Squirrel",
@@ -6413,6 +6698,19 @@
     "supports": []
   },
   {
+    "title": "If Eye May",
+    "sort_date": "2026-07-02",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-if-eye-may-7-2-2026",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": "5:30pm",
+    "supports": [
+      "John Kerns",
+      "The Sandies"
+    ]
+  },
+  {
     "title": "Emmy Woods",
     "sort_date": "2026-07-02",
     "venue": "White Squirrel",
@@ -6486,6 +6784,20 @@
     "time": "7pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Drowning in Blood",
+    "sort_date": "2026-07-03",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-drowning-in-blood-7-3-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Parasite",
+      "Bare Knuckle Brawl",
+      "Major Malfunction"
+    ]
   },
   {
     "title": "Cole Diamond",
@@ -6606,6 +6918,20 @@
     "supports": []
   },
   {
+    "title": "Musicians for Birds and Related Animals",
+    "sort_date": "2026-07-05",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-musicians-for-birds-and-related-animals-7-5-2026",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": "6pm",
+    "supports": [
+      "PMusicians for Birds and Related Animals",
+      "Intercourse",
+      "Ice Climber"
+    ]
+  },
+  {
     "title": "Calla McDermott w. Mouthful & Your Favorite Crybaby",
     "sort_date": "2026-07-05",
     "venue": "White Squirrel",
@@ -6688,6 +7014,19 @@
     "time": "7pm",
     "doors": "5:30pm",
     "supports": []
+  },
+  {
+    "title": "Unfinished Products",
+    "sort_date": "2026-07-07",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-unfinished-product-7-7-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Citron Vision",
+      "The Makeouts"
+    ]
   },
   {
     "title": "Thomas Sticha",
@@ -7081,7 +7420,7 @@
     "sort_date": "2026-07-10",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/off-campus-night-a-briar-nation-minneapolis-minnesota-07-10-2026/event/060064B42027F27B",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -7093,16 +7432,6 @@
     "url": "https://331club.com/",
     "sold_out": false,
     "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Gabe Barnett & them Rounders",
-    "sort_date": "2026-07-11",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/gabe_barnett_rounders?igsh=MWI5ejI0aXNnNXlsdQ==",
-    "sold_out": false,
-    "time": "10:00pm",
     "doors": null,
     "supports": []
   },
@@ -7319,6 +7648,19 @@
     "supports": []
   },
   {
+    "title": "Zaq Baker",
+    "sort_date": "2026-07-12",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-zaq-baker-7-12-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Zaq Baker Team (Twin Cities) The Over Unders (Twin Cities) Nowhere Fast (Louisville)",
+      "Short Game (Louisville)"
+    ]
+  },
+  {
     "title": "Grave Society & Chuck-DEAD",
     "sort_date": "2026-07-12",
     "venue": "White Squirrel",
@@ -7387,6 +7729,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Placeholder",
+    "sort_date": "2026-07-13",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-placeholder-7-13-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Drift Pattern",
+      "Big Yikes"
+    ]
   },
   {
     "title": "Shirlene Obuobi: Die For Me",
@@ -7973,6 +8328,23 @@
     "time": "2pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Beers with Bands Fest III",
+    "sort_date": "2026-07-18",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-beers-with-bands-fest-iii-7-18-2026",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": "5pm",
+    "supports": [
+      "Stars Hollow",
+      "Bouquet",
+      "Endswell",
+      "Tiny Voices",
+      "Daisy Cutter",
+      "Flyover States"
+    ]
   },
   {
     "title": "PYKE",
@@ -8638,6 +9010,20 @@
     "supports": []
   },
   {
+    "title": "When the Sun Sets",
+    "sort_date": "2026-07-24",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-when-the-sun-sets-7-24-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Exit 122",
+      "Halfway Down",
+      "Poolside Drive"
+    ]
+  },
+  {
     "title": "ZEPPO // Stairway to Eleven",
     "sort_date": "2026-07-24",
     "venue": "The Parkway Theater",
@@ -8652,7 +9038,7 @@
     "sort_date": "2026-07-24",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/love-in-the-club-minneapolis-minnesota-07-24-2026/event/060064AFA462DDD1",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -8884,6 +9270,21 @@
     "supports": []
   },
   {
+    "title": "Stereosity",
+    "sort_date": "2026-07-26",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-stereosity-7-26-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Appleseed",
+      "MooseCreek Park",
+      "Tiny Voices",
+      "Women in Peril"
+    ]
+  },
+  {
     "title": "Dude Perfect ??? Squad Games Tour 2026",
     "sort_date": "2026-07-26",
     "venue": "Target Center",
@@ -8986,6 +9387,18 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Jonger, Argo & The Violet Queens (D.C.), & One Big Quilt",
+    "sort_date": "2026-07-27",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/O3be2afc280e",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Argo and the Violet Queens"
+    ]
   },
   {
     "title": "July Conspiracy Series featuring",
@@ -9392,6 +9805,21 @@
     "supports": []
   },
   {
+    "title": "Too Late, But Still",
+    "sort_date": "2026-08-01",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-too-late-but-still-8-1-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "H.E.A.T",
+      "Too Late But Still",
+      "SLOG",
+      "Alphabet Boys"
+    ]
+  },
+  {
     "title": "Barnacle Boi",
     "sort_date": "2026-08-01",
     "venue": "The Loft at Skyway Theatre",
@@ -9406,7 +9834,7 @@
     "sort_date": "2026-08-01",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/mb100bed480c",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
     "supports": []
@@ -9466,7 +9894,7 @@
     "sort_date": "2026-08-02",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/l955484755b4",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
     "supports": []
@@ -9669,16 +10097,6 @@
     "supports": []
   },
   {
-    "title": "Shot Down In Flames",
-    "sort_date": "2026-08-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/shot-down-in-flames/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Sophie Hiroko",
     "sort_date": "2026-08-07",
     "venue": "7th St Entry",
@@ -9765,7 +10183,8 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "Lone Rock\u00a0Bride"
+      "Lone Rock Bride",
+      "Anna\u00a0Devine"
     ]
   },
   {
@@ -10175,6 +10594,20 @@
     "supports": []
   },
   {
+    "title": "Frost Found Us",
+    "sort_date": "2026-08-15",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-frost-found-us-8-15-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Zero Fret",
+      "Stranger",
+      "Taste of Vervain"
+    ]
+  },
+  {
     "title": "Big Thief",
     "sort_date": "2026-08-15",
     "venue": "Surly Brewing Festival Field",
@@ -10355,7 +10788,7 @@
   {
     "title": "Kill Lincoln, JER , Bad Operation, and The Best of the Worst",
     "sort_date": "2026-08-19",
-    "venue": "7th St Entry",
+    "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-08-kill-lincoln-jer-bad-operation/",
     "sold_out": false,
     "time": "7:30pm",
@@ -10568,6 +11001,19 @@
     "supports": []
   },
   {
+    "title": "Damager",
+    "sort_date": "2026-08-22",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-damager-8-22-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Good Morning Midnight",
+      "Products Band"
+    ]
+  },
+  {
     "title": "Steely Dane // The Ultimate Steely Dan Tribute Band // Night Two",
     "sort_date": "2026-08-22",
     "venue": "The Parkway Theater",
@@ -10638,6 +11084,20 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Frontal Assault",
+    "sort_date": "2026-08-23",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-frontal-assault-8-23-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Bare Knuckle Brawl",
+      "Violence Condoned",
+      "Ex Cathedra and Frontal Assault"
+    ]
   },
   {
     "title": "Jason Carter Band",
@@ -10726,7 +11186,7 @@
     "sort_date": "2026-08-26",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/lucki-minneapolis-minnesota-08-26-2026/event/060064AEAF82DA05",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6pm",
     "doors": null,
     "supports": [
@@ -11011,6 +11471,20 @@
     "supports": []
   },
   {
+    "title": "The Tolerables",
+    "sort_date": "2026-09-05",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-the-tolerables-9-5-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Shadow Lake",
+      "Halfway Down",
+      "and\u00a0Maelstrom in the Harbor"
+    ]
+  },
+  {
     "title": "A Twink and a Redhead // A Musical Comedy by Grant & Ash",
     "sort_date": "2026-09-05",
     "venue": "The Parkway Theater",
@@ -11119,6 +11593,19 @@
     ]
   },
   {
+    "title": "FarFarAway",
+    "sort_date": "2026-09-11",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-farfaraway-9-11-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Powerdam",
+      "Radowl"
+    ]
+  },
+  {
     "title": "Dean Johnson",
     "sort_date": "2026-09-11",
     "venue": "Turf Club",
@@ -11190,6 +11677,16 @@
     "url": "https://whitesquirrelbar.com/event/lucinda-williams-tribute-2/",
     "sold_out": false,
     "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Paper Beast",
+    "sort_date": "2026-09-12",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/paper-beast/",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -11482,6 +11979,19 @@
     "supports": []
   },
   {
+    "title": "Cat Positive",
+    "sort_date": "2026-09-20",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-cat-positive-9-20-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Planer",
+      "Rob Taxpayer & Friends"
+    ]
+  },
+  {
     "title": "Icon For Hire",
     "sort_date": "2026-09-21",
     "venue": "Fine Line",
@@ -11628,6 +12138,16 @@
     "supports": []
   },
   {
+    "title": "Inflict",
+    "sort_date": "2026-09-25",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/inflict/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bahamas",
     "sort_date": "2026-09-26",
     "venue": "Fine Line",
@@ -11724,7 +12244,7 @@
     "sort_date": "2026-09-27",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/i3dc03b36f88",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
     "supports": []
@@ -11877,6 +12397,18 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Adam Paddock",
+    "sort_date": "2026-10-01",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-adam-paddock-10-1-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Addam Paddock w/ TBA"
+    ]
   },
   {
     "title": "Rocky Horror Spooktacular Tour",
@@ -12653,7 +13185,7 @@
     "sort_date": "2026-10-23",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-10-23-2026/event/060064AED1ED37AC",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -13004,7 +13536,7 @@
     "sort_date": "2026-11-07",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/arch-enemy-the-black-dahlia-murder-minneapolis-minnesota-11-07-2026/event/060064B1E7F4E383",
-    "sold_out": true,
+    "sold_out": false,
     "time": "5pm",
     "doors": null,
     "supports": [
@@ -13161,7 +13693,7 @@
     "sort_date": "2026-11-13",
     "venue": "The Parkway Theater",
     "url": "https://link.dice.fm/f9ce72b4cda6",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
@@ -13270,7 +13802,7 @@
     "sort_date": "2026-11-19",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/dax-the-anger-management-tour-minneapolis-minnesota-11-19-2026/event/060064AEEAEF874D",
-    "sold_out": true,
+    "sold_out": false,
     "time": "6pm",
     "doors": null,
     "supports": []
