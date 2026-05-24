@@ -1,210 +1,5 @@
 [
   {
-    "title": "(SOLD OUT) Backstage Nashville!",
-    "sort_date": "2026-05-23",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sold-out-backstage-nashville-3rd-and-lindsley-tickets/14637473",
-    "sold_out": false,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": [
-      "Rob Hatch",
-      "Ray Stephenson"
-    ]
-  },
-  {
-    "title": "The Long Players performing Jackson Browne's \"The Pretender\" feat. Jim Photoglo , Eddie Perez , Carmella Ramsey , Rick Schell , Jody Nardone , Michael Kelsh & Scott Laurent",
-    "sort_date": "2026-05-23",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-long-players-jim-photoglo-3rd-and-lindsley-tickets/14792143",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Another Night Another Dream",
-    "sort_date": "2026-05-23",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-another-night-another-dream-2/",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Front Bar: Earl Bowman | Caitlin Mae | Kara Cole",
-    "sort_date": "2026-05-23",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-earl-bowman-caitlin-mae-kara-cole/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-23",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxA4",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Krewella",
-    "sort_date": "2026-05-23",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/krewella-marathon-music-works-tickets/14873513",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Marten H\u00f8rger",
-    "sort_date": "2026-05-23",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/marten-horger?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Chris Stapleton's All-American Road Show",
-    "sort_date": "2026-05-23",
-    "venue": "Nissan Stadium",
-    "url": "https://seatgeek.com/chris-stapleton-tickets/nashville-tennessee-nissan-stadium-2026-05-23-6-pm/concert/17990981",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Alyssa Allgood Quartet",
-    "sort_date": "2026-05-23",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/alyssa-allgood-quartet-2",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Brock, Lanzetti, Ogawa",
-    "sort_date": "2026-05-23",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/brock-lanzetti-ogawa",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Aaron Lessard Group",
-    "sort_date": "2026-05-23",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/the-aaron-lessard-group",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Trace Adkins",
-    "sort_date": "2026-05-23",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OKvN",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "How to Train Your Dragon in Concert w/ Nashville Symphony",
-    "sort_date": "2026-05-23",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QvJb",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": [
-      "Nashville Symphony"
-    ]
-  },
-  {
-    "title": "Dorks on the Deck",
-    "sort_date": "2026-05-23",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/dorks-on-the-deck/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rewind: The Ultimate 2000s Rave",
-    "sort_date": "2026-05-23",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/rewind-the-ultimate-2000s-rave/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": "8:30pm",
-    "supports": []
-  },
-  {
-    "title": "Junior Sisk $25",
-    "sort_date": "2026-05-23",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/junior-sisk-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Peter Levin Band",
-    "sort_date": "2026-05-23",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/peter-levin-band-the-basement-tickets/14927153",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Best Song Ever: A 1D Dance Party",
-    "sort_date": "2026-05-23",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/best-song-ever-a-1d-the-basement-east-tickets/14799413",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ian Munsick in The Caverns",
-    "sort_date": "2026-05-23",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/ian-munsick-in-the-caverns",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Legacy Concerts Presents: Snuffed on Sight w/ Final Resting Place, Torture, Aim Down Sight, Keep The Piece- 18+",
-    "sort_date": "2026-05-23",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-snuffed-on-sight-w-final-resting-place-torture-aim-down-sight-keep-the-piece-18/the-end/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
     "title": "Hayes Carll with Brit Taylor",
     "sort_date": "2026-05-24",
     "venue": "3rd & Lindsley",
@@ -3454,6 +3249,16 @@
     "supports": []
   },
   {
+    "title": "Gay Ole Opry Presents: Lilith Feral with Lilly Hart, Ally Westover, Rae Bracey, Dill",
+    "sort_date": "2026-06-17",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/gay-ole-opry-presents-lilith-the-basement-tickets/14942123",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: John Harvie w/ MVSSIE- 18+",
     "sort_date": "2026-06-17",
     "venue": "The End",
@@ -3995,6 +3800,16 @@
       "mxmtoon",
       "Adia Victoria"
     ]
+  },
+  {
+    "title": "The Church in The Caverns",
+    "sort_date": "2026-06-20",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/the-church-in-the-caverns-2",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
   },
   {
     "title": "Band Of Silver w/ Grace Pelle- All Ages",
@@ -6030,6 +5845,26 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vAo",
     "sold_out": false,
     "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gay Ole Opry Presents: Lilith Feral 2-SHOW-PASS",
+    "sort_date": "2026-07-15",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/gay-ole-opry-presents-lilith-the-basement-tickets/14942183",
+    "sold_out": false,
+    "time": "12am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gay Ole Opry Presents: Lilith Feral lineup TBA",
+    "sort_date": "2026-07-15",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/gay-ole-opry-presents-lilith-the-basement-tickets/14942163",
+    "sold_out": false,
+    "time": "9am",
     "doors": null,
     "supports": []
   },
@@ -8208,6 +8043,16 @@
     "url": "https://stationinn.com/event/50-shades-of-hay-20-3/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gay Ole Opry Presents: Lilith Feral lineup TBA",
+    "sort_date": "2026-08-12",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/gay-ole-opry-presents-lilith-the-basement-tickets/14942173",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
