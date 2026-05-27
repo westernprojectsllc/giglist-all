@@ -1,120 +1,5 @@
 [
   {
-    "title": "We Are The Merle: Celebrating the Music of Merle Haggard with Special Guest Sunny Sweeney + Scarlett Egan",
-    "sort_date": "2026-05-26",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/we-are-the-merle-celebrating-3rd-and-lindsley-tickets/14790083",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Mountain Goats",
-    "sort_date": "2026-05-26",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/the-mountain-goats-nashville-tennessee-05-26-2026/event/1B006384D87D4019",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cohle Smith | Meghan Curtin | Lily Crow",
-    "sort_date": "2026-05-26",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-cohle-smith-meghan-curtin-lily-crow/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Front Bar: Heartache Every Moment\u2014\u2013Poetry We Use 4Noise",
-    "sort_date": "2026-05-26",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/front-bar-heartache-every-moment-poetry-we-use-4noise/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
-    "sort_date": "2026-05-26",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y_9",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-26",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxAf",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Kid LAROI - A Perfect World Tour",
-    "sort_date": "2026-05-26",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/the-kid-laroi-marathon-music-works-tickets/14150634",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "WizTheMC"
-    ]
-  },
-  {
-    "title": "Frank Evans Album Release Party $20",
-    "sort_date": "2026-05-26",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/frank-evans-20/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "New Faces Night feat. Larcin\u00e9, Frank Mastra, Expedition: Oliver, Jade Winfree, Ran Albright, Guy Christiano, Jackson Slater & The Revelators, Billy Bellino",
-    "sort_date": "2026-05-26",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/new-faces-night-feat-larcin-the-basement-tickets/13983594",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Vana - The Lady In Red Tour With special guests Eyes Set To Kill, Deadlands & Redhook",
-    "sort_date": "2026-05-26",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/vana-the-lady-the-basement-east-tickets/14711323",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Deadlands",
-      "RedHook"
-    ]
-  },
-  {
-    "title": "*POSTPONED* Legacy Concerts Presents: Solya w/ Tele Novella \u2013 All Ages",
-    "sort_date": "2026-05-26",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/postponed-legacy-concerts-presents-solya-w-tele-novella-all-ages/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "Women Kickin' Country Unity show Featuring Caitlin Mae, Kaitlyn Croker & Michelle Lee",
     "sort_date": "2026-05-27",
     "venue": "3rd & Lindsley",
@@ -784,6 +669,16 @@
     ]
   },
   {
+    "title": "Bluegrass All-Star Night $25",
+    "sort_date": "2026-05-30",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/bluegrass-all-star-night-25/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Fungkshui w/ OmCat",
     "sort_date": "2026-05-30",
     "venue": "The Basement",
@@ -814,10 +709,10 @@
     "supports": []
   },
   {
-    "title": "Fuzzripper w/Phantom & Gouged Out \u2013 18+",
+    "title": "Fuzzripper w/Phantom & Reptilian \u2013 18+",
     "sort_date": "2026-05-30",
     "venue": "The End",
-    "url": "https://endnashville.com/event/fuzzripper-w-phantom-gouged-out-18/the-end/",
+    "url": "https://endnashville.com/event/fuzzripper-w-phantom-reptilian-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -1444,6 +1339,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring Ted Russell Kamp , Adam Esrick & Andrew Sa",
+    "sort_date": "2026-06-05",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-ted-russell-3rd-and-lindsley-tickets/14948073",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Wallflowers",
     "sort_date": "2026-06-05",
     "venue": "Brooklyn Bowl Nashville",
@@ -1693,6 +1598,7 @@
     "supports": [
       "Carly Pearce",
       "Jordan Davis",
+      "Lainey Wilson",
       "Tim McGraw",
       "Zach Top"
     ]
@@ -1908,6 +1814,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Next on Deck at Skydeck",
+    "sort_date": "2026-06-07",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/cmaints-at-skydeck/",
+    "sold_out": false,
+    "time": "1am",
+    "doors": "5pm",
     "supports": []
   },
   {
@@ -2390,6 +2306,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "WMOT Finally Friday featuring Steep Canyon Rangers , Slap Dragon & The Dreggs",
+    "sort_date": "2026-06-12",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-steep-canyon-3rd-and-lindsley-tickets/14948083",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": [
+      "The Dreggs"
+    ]
   },
   {
     "title": "Pat Kennedy | Nico Welsh | Preston Lydotes | Clara Kay",
@@ -3294,6 +3222,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring Chloe-Beth , Roger Clyne & Madam Radar",
+    "sort_date": "2026-06-19",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-chloe-beth-3rd-and-lindsley-tickets/14948093",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "5 Seconds of Summer: EVERYONE'S A STAR! World Tour",
     "sort_date": "2026-06-19",
     "venue": "Bridgestone Arena",
@@ -4144,6 +4082,16 @@
     "supports": []
   },
   {
+    "title": "WMOT Finally Friday featuring The Arcadian Wild , Jack Barksdale & Shane Weisman",
+    "sort_date": "2026-06-26",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/wmot-finally-friday-the-arcadian-3rd-and-lindsley-tickets/14948113",
+    "sold_out": false,
+    "time": "12pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "DAZR | Rebels Opera | Lola Vain",
     "sort_date": "2026-06-26",
     "venue": "Cobra",
@@ -4279,19 +4227,21 @@
     "venue": "The End",
     "url": "https://endnashville.com/event/gracie-binion-w-ella-maddux-18/the-end/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": "7pm",
+    "doors": "6pm",
     "supports": []
   },
   {
-    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW",
+    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Randy Montana , Billy Montana , Bill Luther & Ray Stephenson",
     "sort_date": "2026-06-27",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637643",
     "sold_out": false,
     "time": "12:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Ray Stephenson"
+    ]
   },
   {
     "title": "Gabe Dixon",
@@ -4618,6 +4568,16 @@
     "supports": []
   },
   {
+    "title": "Finding Franklin w/The Black Orchids, Knockout Kitty & Post Psychosis \u2013 18+",
+    "sort_date": "2026-06-29",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/finding-franklin-w-the-black-orchids-knockout-kitty-post-psychosis-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Louis Tomlinson",
     "sort_date": "2026-06-29",
     "venue": "The Pinnacle",
@@ -4687,6 +4647,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Pink Triangle w/Mosh Daddy, Morbid Orchid & The Big,If True \u2013 18+",
+    "sort_date": "2026-06-30",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/pink-triangle-w-mosh-daddy-morbid-orchid-the-bigif-true-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -4909,6 +4879,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Shamiere w/Young Soul, Julia Morgan & Khaya \u2013 18+",
+    "sort_date": "2026-07-03",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/shamiere-w-young-soul-julia-morgan-khaya-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -5156,6 +5136,16 @@
     "supports": [
       "Kristy Lee"
     ]
+  },
+  {
+    "title": "Mike Barlow w/Molch & Grayson Lane \u2013 18+",
+    "sort_date": "2026-07-07",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/mike-barlow-w-molch-grayson-lane-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
   },
   {
     "title": "Hatebreed: SUMMER SLAUGHTER TOUR 2026",
@@ -5683,6 +5673,16 @@
     "supports": []
   },
   {
+    "title": "Krystian Quint & The Quitters w/Kniffy & Barcode -18+",
+    "sort_date": "2026-07-14",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/krystian-quint-the-quitters-w-kniffy-barcode-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Jerseybird | Birds?| Nehoda | Ant Death Circle",
     "sort_date": "2026-07-15",
     "venue": "Cobra",
@@ -5853,6 +5853,16 @@
     "supports": []
   },
   {
+    "title": "Insomniac w/Slumbering Sun, Silent Monolith & The Absurd \u2013 18+",
+    "sort_date": "2026-07-16",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/insomniac-w-slumbering-sun-silent-monolith-the-absurd-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Midnight North",
     "sort_date": "2026-07-17",
     "venue": "Exit/In",
@@ -5869,6 +5879,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxv0",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Durante",
+    "sort_date": "2026-07-17",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/durante?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -6022,6 +6042,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Followship w/Sun Against Artemis, Valor & Five Year Winter \u2013 18+",
+    "sort_date": "2026-07-18",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/followship-w-sun-against-artemis-valor-five-year-winter-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -6236,6 +6266,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Women In Peril w/Caroline Carter & Abbdavv \u2013 18+",
+    "sort_date": "2026-07-21",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/women-in-peril-w-caroline-carter-abbdavv-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -6822,6 +6862,19 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Bossman Dlow - Motion Party Tour",
+    "sort_date": "2026-07-28",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/bossman-dlow-motion-party-tour-nashville-tennessee-07-28-2026/event/1B0064B6BD6DE16C",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Yung Miami",
+      "Bally Baby"
+    ]
   },
   {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
@@ -8704,6 +8757,16 @@
     "supports": []
   },
   {
+    "title": "Daniel Donato's Cosmic Country",
+    "sort_date": "2026-08-28",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U0J",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "SOFT PALMS",
     "sort_date": "2026-08-28",
     "venue": "The Basement",
@@ -9149,6 +9212,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxea",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Roger Daltrey",
+    "sort_date": "2026-09-09",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_oY",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -10097,6 +10170,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Indigo Girls w/ Linda Perry",
+    "sort_date": "2026-09-30",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t8N",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Linda Perry"
+    ]
   },
   {
     "title": "The Bros. Landreth: Tumbling Wild Tour 2026 w/ Madeleine Roger",
@@ -11175,6 +11260,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Of0Z",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Marc Scibilia - One Night Only",
+    "sort_date": "2026-10-29",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1460693/marc-scibilia-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12868,6 +12963,16 @@
     "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2027-02-22/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ashley Cooke",
+    "sort_date": "2027-02-25",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_4_",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },

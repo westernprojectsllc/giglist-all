@@ -1028,41 +1028,6 @@
     "supports": []
   },
   {
-    "title": "Glen David Andrews",
-    "sort_date": "2026-05-25",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/glen-david-andrews-may25-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MayConspiracy Series featuring",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/willowwatersmusic?igsh=MWNubGE2dDk0YnN2eQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Willow Waters and the Earthtones",
-      "Obsidian James"
-    ]
-  },
-  {
-    "title": "Worker\u2019s Playtime",
-    "sort_date": "2026-05-26",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/jeffraymusic1?igsh=MW1oNDhtZjdlZWhzdQ==",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Jeff Ray"
-    ]
-  },
-  {
     "title": "Kurt Rosenwinkel Trio",
     "sort_date": "2026-05-26",
     "venue": "Dakota Jazz Club",
@@ -1073,45 +1038,12 @@
     "supports": []
   },
   {
-    "title": "Helen",
-    "sort_date": "2026-05-26",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-helen-5-26-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Ben Vogel",
-      "Mega Flower Power"
-    ]
-  },
-  {
     "title": "Comedy Bang! Bang!",
     "sort_date": "2026-05-26",
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-05-comedy-bang-bang/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Aestis Tuesday Night Residency w. Garf, Your Mom\u2019s Mom",
-    "sort_date": "2026-05-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/aestis-tuesday-night-residency-w-2/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tony Cuchetti w/Blair Krivanek (guitar), Andrew Bartelson (drums), Dan Lowinger (bass)",
-    "sort_date": "2026-05-26",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests-3/",
-    "sold_out": false,
-    "time": "6pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1954,6 +1886,16 @@
     "supports": []
   },
   {
+    "title": "Jon Cleary",
+    "sort_date": "2026-05-31",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/jon-cleary-may31-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Meet Me @ The Altar",
     "sort_date": "2026-05-31",
     "venue": "Fine Line",
@@ -2097,6 +2039,16 @@
     "url": "https://whitesquirrelbar.com/event/metal-monday-2/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dino Gala w/ Waking Hours & Kilroy",
+    "sort_date": "2026-06-01",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/Nd156fd104a4",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -2325,7 +2277,7 @@
     ]
   },
   {
-    "title": "Joey Thursday",
+    "title": "Joey Thursday w. Dad Joke",
     "sort_date": "2026-06-03",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/joey-thursday-3/",
@@ -2431,10 +2383,10 @@
     ]
   },
   {
-    "title": "S\u00f8nderg\u00e5rd, Barton and Prokofiev",
+    "title": "Barber's Adagio for Strings",
     "sort_date": "2026-06-04",
     "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-barton-and-prokofiev",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/barbers-adagio-for-strings",
     "sold_out": false,
     "time": "11am",
     "doors": null,
@@ -4186,11 +4138,13 @@
     "title": "\u201cWomenfolk Presents\u201d",
     "sort_date": "2026-06-15",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/sarahsomething_music?igsh=MTR6cjBobGdjbW1kcw==",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Sarah Something"
+    ]
   },
   {
     "title": "Daisy the Great",
@@ -4782,6 +4736,8 @@
     "time": null,
     "doors": null,
     "supports": [
+      "Pool Culture",
+      "spaceport",
       "10:00p"
     ]
   },
@@ -5036,7 +4992,7 @@
     "supports": []
   },
   {
-    "title": "-Pat Donohue",
+    "title": "Pat Donahue",
     "sort_date": "2026-06-21",
     "venue": "331 Club",
     "url": "https://331club.com/",
@@ -5411,6 +5367,16 @@
     "supports": []
   },
   {
+    "title": "\"A Legacy In Blood Tour\" with The Convalescence & Squidhammer",
+    "sort_date": "2026-06-23",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/j99681c0a333",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Dan Tanz & the Wildfire",
     "sort_date": "2026-06-24",
     "venue": "331 Club",
@@ -5713,6 +5679,16 @@
     "supports": []
   },
   {
+    "title": "DJ Keezy presents The Klituation Pride Party",
+    "sort_date": "2026-06-26",
+    "venue": "First Avenue",
+    "url": "https://first-avenue.com/event/2026-06-klituation-pride-party/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "9pm",
+    "supports": []
+  },
+  {
     "title": "Mel Bryant & the Mercy Makers",
     "sort_date": "2026-06-26",
     "venue": "Pilllar Forum",
@@ -5813,6 +5789,7 @@
     "time": "10:00pm",
     "doors": null,
     "supports": [
+      "The SERFs",
       "Joyful Wrath"
     ]
   },
@@ -5837,6 +5814,16 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-27-holy-hannah-with-dark-pony-15-cover",
     "sold_out": false,
     "time": "7:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Sami Knox",
+    "sort_date": "2026-06-27",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/sami-knox-june-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -6780,6 +6767,16 @@
     "supports": []
   },
   {
+    "title": "Excelsior Symphony for the Cities",
+    "sort_date": "2026-07-07",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/excelsior-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Unfinished Products",
     "sort_date": "2026-07-07",
     "venue": "Pilllar Forum",
@@ -6889,6 +6886,16 @@
     ]
   },
   {
+    "title": "Plymouth Symphony for the Cities",
+    "sort_date": "2026-07-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/plymouth-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "8:45pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-07-08",
     "venue": "Orpheum Theatre",
@@ -6988,6 +6995,16 @@
     "supports": [
       "Leon Majcen"
     ]
+  },
+  {
+    "title": "Hudson Symphony for the Cities",
+    "sort_date": "2026-07-09",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/hudson-symphony-for-the-cities-2",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -7203,6 +7220,16 @@
     "supports": []
   },
   {
+    "title": "Mac Hoffmann & Peter Lochner",
+    "sort_date": "2026-07-10",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/mac-hoffmann-peter-lochner/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Drinkin\u2019 Spelling Bee",
     "sort_date": "2026-07-11",
     "venue": "331 Club",
@@ -7278,6 +7305,16 @@
     "sold_out": false,
     "time": "9pm",
     "doors": "8pm",
+    "supports": []
+  },
+  {
+    "title": "Winona Symphony for the Cities",
+    "sort_date": "2026-07-11",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/winona-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -8156,6 +8193,16 @@
     ]
   },
   {
+    "title": "Heartbreakers: The Ultimate Daytime Dance Party",
+    "sort_date": "2026-07-18",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/heartbreakers-the-ultimate-daytime-dance-party-minneapolis-minnesota-07-18-2026/event/060064B5FDBA5FDE",
+    "sold_out": true,
+    "time": "5pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "37 Houses",
     "sort_date": "2026-07-18",
     "venue": "White Squirrel",
@@ -8332,7 +8379,7 @@
     "supports": []
   },
   {
-    "title": "Sidewalk Diamonds",
+    "title": "Sidewalk Diamonds w. Leslie Rich and the Rocket Soul Choir & John Magnuson",
     "sort_date": "2026-07-19",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/sidewalk-diamonds/",
@@ -8355,11 +8402,13 @@
     "title": "\u201cWomenfolk Presents\u201d",
     "sort_date": "2026-07-20",
     "venue": "331 Club",
-    "url": "https://331club.com/",
+    "url": "https://www.instagram.com/vanessalively?igsh=Zmt0Mmh4NGIwNGJ5",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Vanessa Lively"
+    ]
   },
   {
     "title": "Kevian Kraemer",
@@ -8797,7 +8846,7 @@
     "supports": [
       "Exit 122",
       "Halfway Down",
-      "Poolside Drive"
+      "Portside Dive"
     ]
   },
   {
@@ -9319,6 +9368,18 @@
     "supports": []
   },
   {
+    "title": "Space Monkey Mafia and Left on Tenth",
+    "sort_date": "2026-07-29",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-07-space-monkey-mafia-and-left-on-tenth/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Sunshine & The Night\u00a0Walkers"
+    ]
+  },
+  {
     "title": "Frank the Bald Guy",
     "sort_date": "2026-07-29",
     "venue": "White Squirrel",
@@ -9559,6 +9620,18 @@
     "supports": [
       "Waking Hours",
       "Eli\u00a0Orion"
+    ]
+  },
+  {
+    "title": "Loathe",
+    "sort_date": "2026-08-01",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/loathe-minneapolis-minnesota-08-01-2026/event/060064B6D603F963",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "all under heaven"
     ]
   },
   {
@@ -9851,6 +9924,19 @@
     "supports": []
   },
   {
+    "title": "BossMan Dlow",
+    "sort_date": "2026-08-06",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/bossman-dlow-minneapolis-minnesota-08-06-2026/event/060064B53496C9DF",
+    "sold_out": true,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Yung Miami",
+      "Bally Baby"
+    ]
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-06",
     "venue": "Orpheum Theatre",
@@ -9958,6 +10044,16 @@
     "url": "https://whitesquirrelbar.com/event/jared-mccloud/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jazicality, Ozone Creations, & Brandyn Lee Tulloch & Poetic Roots",
+    "sort_date": "2026-08-07",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/K1f9d333962a",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -11297,6 +11393,16 @@
     "supports": []
   },
   {
+    "title": "Robert Lester Folsom",
+    "sort_date": "2026-09-05",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-09-robert-lester-folsom/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "David Stoddard & Nigel Egg",
     "sort_date": "2026-09-05",
     "venue": "White Squirrel",
@@ -11745,6 +11851,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
+    "supports": []
+  },
+  {
+    "title": "Close to Toast",
+    "sort_date": "2026-09-19",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/close-to-toast/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12313,7 +12429,9 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "Rubin Brothers"
+    ]
   },
   {
     "title": "The Del-Viles w. Robyn Jamner, 1947",
@@ -12582,10 +12700,20 @@
     "supports": []
   },
   {
-    "title": "First Avenue presents SYML (Copy)",
+    "title": "First Avenue presents CINEMA THERAPY",
     "sort_date": "2026-10-10",
     "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/syml-9g2bz",
+    "url": "https://www.thecedar.org/events/cinema-therapy",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "First Avenue presents SYML",
+    "sort_date": "2026-10-10",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/syml",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -13169,6 +13297,16 @@
     "supports": []
   },
   {
+    "title": "The Tallest Man On Earth",
+    "sort_date": "2026-10-30",
+    "venue": "Palace Theatre",
+    "url": "https://first-avenue.com/event/2026-10-the-tallest-man-on-earth/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": []
+  },
+  {
     "title": "Periphery - A Pale White Dot US Tour",
     "sort_date": "2026-10-31",
     "venue": "Fillmore Minneapolis",
@@ -13437,6 +13575,16 @@
     "sort_date": "2026-11-10",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-11-mary-in-the-junkyard/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "An Evening with Julian Lage Quartet",
+    "sort_date": "2026-11-10",
+    "venue": "The Fitzgerald Theater",
+    "url": "https://first-avenue.com/event/2026-11-julian-lage-quartet/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -13718,6 +13866,18 @@
     "supports": []
   },
   {
+    "title": "Matt Hansen - The Orchid Tour",
+    "sort_date": "2026-11-22",
+    "venue": "Varsity Theater",
+    "url": "https://www.ticketmaster.com/matt-hansen-the-orchid-tour-minneapolis-minnesota-11-22-2026/event/060064B5CEEEE0A8",
+    "sold_out": true,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "Avery Lynch"
+    ]
+  },
+  {
     "title": "How to Train Your Dragon in Concert",
     "sort_date": "2026-11-28",
     "venue": "Orchestra Hall",
@@ -13847,6 +14007,18 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "10 Years of 6LACK Tour",
+    "sort_date": "2026-12-11",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/10-years-of-6lack-tour-minneapolis-minnesota-12-11-2026/event/060064B5363DCB87",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Eem Triplin"
+    ]
   },
   {
     "title": "Home Alone in Concert",
@@ -13987,6 +14159,16 @@
     "url": "https://www.ticketmaster.com/aries-spears-minneapolis-minnesota-01-30-2027/event/06006495CB0290D5",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "IRA GLASS: Stories For A Sunday Afternoon",
+    "sort_date": "2027-01-31",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/ira-glass-stories-for-a-sunday-minneapolis-minnesota-01-31-2027/event/060064B5DFCC0F74",
+    "sold_out": true,
+    "time": "3pm",
     "doors": null,
     "supports": []
   },
