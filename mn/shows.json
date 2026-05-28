@@ -1028,76 +1028,12 @@
     "supports": []
   },
   {
-    "title": "Kurt Rosenwinkel Trio",
-    "sort_date": "2026-05-26",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/kurt-rosenwinkel-trio-may26-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Comedy Bang! Bang!",
     "sort_date": "2026-05-26",
     "venue": "The Fitzgerald Theater",
     "url": "https://first-avenue.com/event/2026-05-comedy-bang-bang/",
     "sold_out": false,
     "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "Red Hot Django Peppers"
-    ]
-  },
-  {
-    "title": "Lenz and Frenz",
-    "sort_date": "2026-05-27",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/pages/Lenz-and-Frenz/1515949742024571",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"
-    ]
-  },
-  {
-    "title": "One-Man Shows & Immaculate Flows w/ L.A. Buckner & Midwest James",
-    "sort_date": "2026-05-27",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/l-a-buckner-midwest-james-may-27",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Cherry Pit: Open Jam",
-    "sort_date": "2026-05-27",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-bible-study-open-jam-minneapolis-may-27-2026",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MARISA ANDERSON with Matthew Rahaim",
-    "sort_date": "2026-05-27",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/marisa-anderson",
-    "sold_out": false,
-    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -1112,59 +1048,16 @@
     "supports": []
   },
   {
-    "title": "Svet",
-    "sort_date": "2026-05-27",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-svet-5-27-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": [
-      "Silent Monday",
-      "Aphid"
-    ]
-  },
-  {
     "title": "Weird Nightmare (Alex Edkins of METZ)",
     "sort_date": "2026-05-27",
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-weird-nightmare/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Agnes Uncaged"
     ]
-  },
-  {
-    "title": "Family Dinner w. Doug & Sarah",
-    "sort_date": "2026-05-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/family-dinner-w-doug-sarah-6/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Looper Showcase ft. John Kerns, David Cyr, eRok4a",
-    "sort_date": "2026-05-27",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/looper-showcase/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mildred (CA), Cowboy Thoughts, & The Envies",
-    "sort_date": "2026-05-27",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/m762c90b5cda",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Pinched.",
@@ -1176,7 +1069,7 @@
     "doors": null,
     "supports": [
       "Woodzen",
-      "Flat Wounds"
+      "Flatwound"
     ]
   },
   {
@@ -1698,19 +1591,6 @@
     "supports": []
   },
   {
-    "title": "Stock Market Cinema",
-    "sort_date": "2026-05-30",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-stock-market-cinema-5-30-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Honey Please",
-      "Call Me Fritz"
-    ]
-  },
-  {
     "title": "Riverdance 30 - The New Generation",
     "sort_date": "2026-05-30",
     "venue": "State Theatre",
@@ -2021,6 +1901,30 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Stella Cole",
+    "sort_date": "2026-06-01",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/stella-cole-jun1-2026/2026-06-01/1/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Anita Velveeta",
+    "sort_date": "2026-06-01",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-anita-velveeta-6-1-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Jules (NYC)",
+      "Statue (NYC)",
+      "Refute"
+    ]
   },
   {
     "title": "Alec Collins w. Brother Wonder",
@@ -3106,6 +3010,16 @@
     "supports": []
   },
   {
+    "title": "Late Night Lounge: Many Waters",
+    "sort_date": "2026-06-08",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-many-waters-june-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kenny Mason",
     "sort_date": "2026-06-08",
     "venue": "Fine Line",
@@ -3192,6 +3106,16 @@
     "url": "https://www.berlinmpls.com/calendar/heyarlo-niva-conference-june-2026",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Tony Duran",
+    "sort_date": "2026-06-09",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-tony-duran-june-2026",
+    "sold_out": false,
+    "time": "11pm",
     "doors": null,
     "supports": []
   },
@@ -3643,6 +3567,16 @@
     "supports": []
   },
   {
+    "title": "Early Evening Jazz: Joan Hutton Trio",
+    "sort_date": "2026-06-12",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-joan-hutton-trio-june-2026",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Otherlands Trio",
     "sort_date": "2026-06-12",
     "venue": "Berlin",
@@ -3680,7 +3614,9 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
-    "supports": []
+    "supports": [
+      "SIIICKBRAIN"
+    ]
   },
   {
     "title": "Earlybirds Club",
@@ -3701,6 +3637,20 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Couch Potato Massacre",
+    "sort_date": "2026-06-12",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-couch-potato-massacre-6-12-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Power Dam",
+      "Briefcase",
+      "Mint Vintage"
+    ]
   },
   {
     "title": "LOUIEJAYXX x Lev3l",
@@ -3996,7 +3946,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Samuel Locke\u00a0Ward"
+    ]
   },
   {
     "title": "Sunday Swing Brunch $8",
@@ -4982,7 +4934,7 @@
     "supports": []
   },
   {
-    "title": "Self-Evident, Loss Leader, Or Does It Explode? (WI), & \u2026And I Found a Way",
+    "title": "Self-Evident, Or Does It Explode? (WI), & \u2026And I Found a Way",
     "sort_date": "2026-06-20",
     "venue": "Zhora Darling",
     "url": "https://link.dice.fm/O10c95093128",
@@ -5319,7 +5271,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Poolboy"
+    ]
   },
   {
     "title": "Aaron James",
@@ -5413,6 +5367,16 @@
     "sort_date": "2026-06-24",
     "venue": "Aster Cafe",
     "url": "https://tables.toasttab.com/aster-cafe/experiences/wednesday-6-24-kaatwalk-ep-release-show-15-cover",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lasse Corson and His Friends From Kansas City",
+    "sort_date": "2026-06-24",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/lasse-corson-friends-kansas-city-june-2026",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -5814,16 +5778,6 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-27-holy-hannah-with-dark-pony-15-cover",
     "sold_out": false,
     "time": "7:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Sami Knox",
-    "sort_date": "2026-06-27",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/sami-knox-june-2026",
-    "sold_out": false,
-    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -6244,6 +6198,19 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Duck Bomb",
+    "sort_date": "2026-06-30",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-duck-bomb-6-30-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Iodine",
+      "Pblc Srvs Anncmnt"
+    ]
   },
   {
     "title": "River Shook with special guest Andrew Sa",
@@ -6985,6 +6952,16 @@
     "supports": []
   },
   {
+    "title": "FABIANO DO NASCIMENTO",
+    "sort_date": "2026-07-09",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/fabiano-do-nascimento",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Benjamin Tod & Lost Dog Street Band",
     "sort_date": "2026-07-09",
     "venue": "First Avenue",
@@ -7027,7 +7004,7 @@
     "supports": []
   },
   {
-    "title": "Ben Stoeck",
+    "title": "Ben Stoeck & Macahila Hinnenkamp",
     "sort_date": "2026-07-09",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/ben-stoeck/",
@@ -8197,7 +8174,7 @@
     "sort_date": "2026-07-18",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/heartbreakers-the-ultimate-daytime-dance-party-minneapolis-minnesota-07-18-2026/event/060064B5FDBA5FDE",
-    "sold_out": true,
+    "sold_out": false,
     "time": "5pm",
     "doors": null,
     "supports": []
@@ -9333,7 +9310,7 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "Noslo",
+      "1947",
       "Poolboy"
     ]
   },
@@ -9482,6 +9459,16 @@
     ]
   },
   {
+    "title": "NASCAR ALOE + JASIAH: Capital Punishment Tour",
+    "sort_date": "2026-07-30",
+    "venue": "Underground Music Venue",
+    "url": "https://www.skeletix.com/4580-nascar-aloe-jasiah-capital-punishment-to/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Valors w. Grieving Pines, Bitchslap",
     "sort_date": "2026-07-30",
     "venue": "White Squirrel",
@@ -9585,6 +9572,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mason Jennings",
+    "sort_date": "2026-07-31",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/q9fc49d9050d",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -10071,6 +10068,16 @@
     ]
   },
   {
+    "title": "Late Night Lounge: Sami Knox",
+    "sort_date": "2026-08-08",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/sami-knox-august-2026",
+    "sold_out": false,
+    "time": "10:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "CREEKBED CARTER\u2019s Hot Dog Ball",
     "sort_date": "2026-08-08",
     "venue": "Cedar Cultural Center",
@@ -10427,7 +10434,7 @@
     ]
   },
   {
-    "title": "Suzy Plays Guitar",
+    "title": "Suzy Plays Guitar w. Blue Red Roses, Rachel Melby",
     "sort_date": "2026-08-14",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/suzy-plays-guitar/",
@@ -10704,6 +10711,16 @@
     "supports": []
   },
   {
+    "title": "FunkyFrogBait Presents: Internet Kid (The Comedy Tour)",
+    "sort_date": "2026-08-19",
+    "venue": "The Parkway Theater",
+    "url": "https://link.dice.fm/V5e52d23e65a",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": []
+  },
+  {
     "title": "Meltt",
     "sort_date": "2026-08-19",
     "venue": "Turf Club",
@@ -10733,6 +10750,16 @@
     "sold_out": false,
     "time": "6pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Squeaky Feet",
+    "sort_date": "2026-08-20",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-08-squeaky-feet/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -11569,7 +11596,7 @@
     "supports": []
   },
   {
-    "title": "23watts",
+    "title": "23watts w. Jeff Lemiesz",
     "sort_date": "2026-09-12",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/23watts/",
@@ -11627,6 +11654,19 @@
     "time": "1pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "The Barbarians Of California",
+    "sort_date": "2026-09-14",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-09-the-barbarians-of-california/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Squint",
+      "Armed For\u00a0Apocalypse"
+    ]
   },
   {
     "title": "Kamelot",
@@ -11852,6 +11892,19 @@
     "time": "7pm",
     "doors": "6pm",
     "supports": []
+  },
+  {
+    "title": "Chanel Beads",
+    "sort_date": "2026-09-19",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-09-chanel-beads/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": [
+      "Mechatok",
+      "Anastasia\u00a0Coope"
+    ]
   },
   {
     "title": "Close to Toast",
@@ -12737,7 +12790,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Trapper Schoepp"
+    ]
   },
   {
     "title": "EMEI - Night at the Opera Tour",
@@ -12937,10 +12992,10 @@
     ]
   },
   {
-    "title": "LAURA VIERS with Karl Blau",
+    "title": "LAURA VEIRS with Karl Blau",
     "sort_date": "2026-10-17",
     "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/laura-viers-with-karl-blau",
+    "url": "https://www.thecedar.org/events/laura-veirs-with-karl-blau",
     "sold_out": false,
     "time": "8pm",
     "doors": null,
@@ -12979,6 +13034,20 @@
     "time": "7:30pm",
     "doors": "6:30pm",
     "supports": []
+  },
+  {
+    "title": "Catch Your Breath - Not Broken Enough Tour",
+    "sort_date": "2026-10-18",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/catch-your-breath-not-broken-enough-minneapolis-minnesota-10-18-2026/event/060064B4D6512689",
+    "sold_out": true,
+    "time": "6pm",
+    "doors": null,
+    "supports": [
+      "TX2",
+      "Arankai",
+      "Colorblind"
+    ]
   },
   {
     "title": "Disney Worlds Collide Concert Tour",
@@ -13160,6 +13229,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gilla Band",
+    "sort_date": "2026-10-24",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-10-gilla-band/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -13740,6 +13819,16 @@
     "supports": [
       "Sour Widows"
     ]
+  },
+  {
+    "title": "GHOSTWOMAN",
+    "sort_date": "2026-11-18",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-11-ghostwoman/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
   },
   {
     "title": "The Living Tombstone",
