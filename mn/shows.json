@@ -1038,16 +1038,6 @@
     "supports": []
   },
   {
-    "title": "Robert Glasper OG Acoustic Piano Trio",
-    "sort_date": "2026-05-27",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/robert-glasper-may27-2026/2026-05-27/1/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Weird Nightmare (Alex Edkins of METZ)",
     "sort_date": "2026-05-27",
     "venue": "Turf Club",
@@ -1060,59 +1050,16 @@
     ]
   },
   {
-    "title": "Pinched.",
-    "sort_date": "2026-05-28",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/pinched_music.mpls?igsh=MXBkcnYwYjJpd3NpeQ==",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": [
-      "Woodzen",
-      "Flatwound"
-    ]
-  },
-  {
     "title": "Ike Dweck",
     "sort_date": "2026-05-28",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-ike-dweck/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Anna Hamilton"
     ]
-  },
-  {
-    "title": "Thursday 5/28 - Grant Vague ($15 Cover)",
-    "sort_date": "2026-05-28",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-5-28-grant-vague-15-cover",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "One-Man Shows & Immaculate Flows w/ L.A. Buckner & Midwest James",
-    "sort_date": "2026-05-28",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/l-a-buckner-midwest-james-may-28",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Heet Deth, Din-Din, Hot Press",
-    "sort_date": "2026-05-28",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/z9a93631efd5",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Robert Glasper OG Acoustic Piano Trio",
@@ -1130,34 +1077,10 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-claire-rosinkranz/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Stevie Bill"
-    ]
-  },
-  {
-    "title": "Hindoyan and Rieppel",
-    "sort_date": "2026-05-28",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/hindoyan-and-rieppel",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cameron",
-    "sort_date": "2026-05-28",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-cameron-5-28-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Ergot",
-      "Subrurbica",
-      "lovescare"
     ]
   },
   {
@@ -1166,45 +1089,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-glom/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "SNOWMEN"
     ]
-  },
-  {
-    "title": "PeelingFlesh presented by The Pit on 93X",
-    "sort_date": "2026-05-28",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/peelingflesh-presented-by-the-pit-on-minneapolis-minnesota-05-28-2026/event/0600644AC43CC658",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "MISSING LINK",
-      "Kruelty",
-      "Fear The Dark"
-    ]
-  },
-  {
-    "title": "Smokdoubt Co-Op",
-    "sort_date": "2026-05-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/smokdoubt-co-op/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Wailing Loons",
-    "sort_date": "2026-05-28",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/the-wailing-loons/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Movie and Music Trivia",
@@ -1332,6 +1221,16 @@
     "supports": [
       "L.A. Witch"
     ]
+  },
+  {
+    "title": "Hindoyan and Rieppel",
+    "sort_date": "2026-05-29",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/hindoyan-and-rieppel",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Bobby Lee: The Finally Tour 2026",
@@ -1992,6 +1891,16 @@
     "supports": [
       "Lerado Khalil"
     ]
+  },
+  {
+    "title": "Vincen Garc\u00eda",
+    "sort_date": "2026-06-02",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/vincen-garcia-jun2-2026/2026-06-02/1/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Toadies",
@@ -3750,12 +3659,32 @@
     "supports": []
   },
   {
+    "title": "Early Evening Jazz: Will Aldrich Trio",
+    "sort_date": "2026-06-13",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-will-aldrich-june-2026",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Hannah Marks Quartet",
     "sort_date": "2026-06-13",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/hannah-marks-quartet-june-2026",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Colin Wilkinson",
+    "sort_date": "2026-06-13",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-colin-wilkinson-june-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -6122,6 +6051,16 @@
     "supports": []
   },
   {
+    "title": "Volunteer Orientation",
+    "sort_date": "2026-06-29",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/volunteer-orientation",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "shugE",
     "sort_date": "2026-06-29",
     "venue": "Pilllar Forum",
@@ -6234,6 +6173,16 @@
       "USHER",
       "Chris Brown"
     ]
+  },
+  {
+    "title": "Die Sexual",
+    "sort_date": "2026-06-30",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/die-sexual-june-30-2026-713156",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Aeris & the Piggies Residency",
@@ -7918,6 +7867,16 @@
     "supports": []
   },
   {
+    "title": "Green is Beautiful: A Tribute to the '70s Jazz Funk of Grant Green",
+    "sort_date": "2026-07-17",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/grant-green-tribute-ross-clowser-mitch-towne",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening with FANOOS ENSEMBLE",
     "sort_date": "2026-07-17",
     "venue": "Cedar Cultural Center",
@@ -8494,18 +8453,6 @@
     "supports": []
   },
   {
-    "title": "Harold\u2019s House Party on KFAI",
-    "sort_date": "2026-07-22",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063582730118",
-    "sold_out": false,
-    "time": "7:00pm",
-    "doors": null,
-    "supports": [
-      "New Havoline Supremes"
-    ]
-  },
-  {
     "title": "Maybe Nebraska",
     "sort_date": "2026-07-22",
     "venue": "331 Club",
@@ -8513,7 +8460,21 @@
     "sold_out": false,
     "time": "9:30pm",
     "doors": null,
-    "supports": []
+    "supports": [
+      "S witchyard"
+    ]
+  },
+  {
+    "title": "Pinched. Harold\u2019s House Party on KFAI",
+    "sort_date": "2026-07-22",
+    "venue": "331 Club",
+    "url": "https://www.instagram.com/pinched_music.mpls?igsh=MXBkcnYwYjJpd3NpeQ==",
+    "sold_out": false,
+    "time": "7:00pm",
+    "doors": null,
+    "supports": [
+      "New Havoline Supremes"
+    ]
   },
   {
     "title": "The Family Crest",
@@ -9315,7 +9276,7 @@
     ]
   },
   {
-    "title": "\u2600\ufe0fSummer at The Cedar : TAIGA",
+    "title": "\u2600\ufe0fSummer at The Cedar : TAIGA\u2600\ufe0f",
     "sort_date": "2026-07-29",
     "venue": "Cedar Cultural Center",
     "url": "https://www.thecedar.org/events/summer-at-the-cedar-taiga",
@@ -9839,7 +9800,7 @@
     "supports": []
   },
   {
-    "title": "\u2600\ufe0fSummer at The Cedar : DANIEL VILLARREAL",
+    "title": "\u2600\ufe0fSummer at The Cedar : DANIEL VILLARREAL\u2600\ufe0f",
     "sort_date": "2026-08-05",
     "venue": "Cedar Cultural Center",
     "url": "https://www.thecedar.org/events/summer-at-the-cedar-daniel-villarreal",
@@ -9911,12 +9872,12 @@
     "supports": []
   },
   {
-    "title": "Cinema Therapy LIVE!",
+    "title": "First Avenue presents CINEMA THERAPY",
     "sort_date": "2026-08-06",
     "venue": "Cedar Cultural Center",
-    "url": "https://first-avenue.com/event/2026-08-cinema-therapy-live/",
+    "url": "https://www.thecedar.org/events/cinema-therapy",
     "sold_out": false,
-    "time": null,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -10210,14 +10171,16 @@
     "supports": []
   },
   {
-    "title": "Tommy Oeffling and The B-Team",
+    "title": "Blimey and Tommy Oeffling and The B-Team",
     "sort_date": "2026-08-10",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-08-tommy-oeffling/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "True Lust"
+    ]
   },
   {
     "title": "Lame Sagittarius W. Spectres of Desire, Magenta Vice",
@@ -10691,6 +10654,16 @@
     "supports": []
   },
   {
+    "title": "Miki Yamanaka Trio with Nicole Glover",
+    "sort_date": "2026-08-19",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/miki-yamanaka-trio-nicole-glover-august-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kill Lincoln, JER , Bad Operation, and The Best of the Worst",
     "sort_date": "2026-08-19",
     "venue": "Fine Line",
@@ -10857,6 +10830,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Big Fuckin Skull, Virgin Whores, Sleeper Cell, Die Ghost, Goo Goo Mucks",
+    "sort_date": "2026-08-21",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/big-fuckin-skull-virgin-whores-sleeper-cell-die-ghost-goo-goo-mucks-august-21-2026-713204",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7:30pm",
     "supports": []
   },
   {
@@ -12263,6 +12246,16 @@
     "supports": []
   },
   {
+    "title": "Knocked Loose &#038; Denzel Curry",
+    "sort_date": "2026-09-29",
+    "venue": "Myth Live",
+    "url": "https://mythlive.com/event/knocked-loose-denzel-curry/myth-live/st-paul-minnesota/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Jervis Campbell",
     "sort_date": "2026-09-30",
     "venue": "Fine Line",
@@ -12452,6 +12445,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Love Spells",
+    "sort_date": "2026-10-03",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-10-love-spells/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -12749,16 +12752,6 @@
     "url": "https://www.ticketmaster.com/vidura-bandara-rajapaksa-the-paradise-gothic-minneapolis-minnesota-10-09-2026/event/06006489D0DF5695",
     "sold_out": false,
     "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "First Avenue presents CINEMA THERAPY",
-    "sort_date": "2026-10-10",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/cinema-therapy",
-    "sold_out": false,
-    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -13067,6 +13060,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Albert Cummings",
+    "sort_date": "2026-10-18",
+    "venue": "Uptown VFW",
+    "url": "https://app.opendate.io/e/albert-cummings-october-18-2026-713169",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -13383,6 +13386,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "MARIS",
+    "sort_date": "2026-10-31",
+    "venue": "7th St Entry",
+    "url": "https://first-avenue.com/event/2026-10-maris/",
+    "sold_out": false,
+    "time": "3:30pm",
+    "doors": "3pm",
     "supports": []
   },
   {
