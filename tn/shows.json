@@ -1,249 +1,5 @@
 [
   {
-    "title": "DELICIOUS with special guest UNSECRET",
-    "sort_date": "2026-05-29",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/delicious-with-special-guest-unsecret-3rd-and-lindsley-tickets/14808353",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "SIXWIRE & FRIENDS",
-    "sort_date": "2026-05-29",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/sixwire-friends-3rd-and-lindsley-tickets/14875263",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "WMOT Finally Friday featuring Sibling Wars , Golden Everything & Wily",
-    "sort_date": "2026-05-29",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/wmot-finally-friday-sibling-wars-3rd-and-lindsley-tickets/14872773",
-    "sold_out": false,
-    "time": "12pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Music City Rodeo followed by Charley Crockett | A PRCA ProRodeo",
-    "sort_date": "2026-05-29",
-    "venue": "Bridgestone Arena",
-    "url": "https://www.ticketmaster.com/music-city-rodeo-followed-by-charley-nashville-tennessee-05-29-2026/event/1B006383E9BA6C91",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": [
-      "Charley Crockett"
-    ]
-  },
-  {
-    "title": "91.ONE WNXP Presents: Echo & The Bunnymen: More Songs to Learn & Sing",
-    "sort_date": "2026-05-29",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/91one-wnxp-presents-echo-the-bunnymen-nashville-tennessee-05-29-2026/event/1B006350D333E092",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "All Your Friends: The Indie Party (18 and Over)",
-    "sort_date": "2026-05-29",
-    "venue": "Cannery Hall",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-UF9",
-    "sold_out": false,
-    "time": "8:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Night Talkers | Neckscars | the Catastrophes | the Okay Greats",
-    "sort_date": "2026-05-29",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-night-talkers-neckscars-the-catastrophes-the-okay-greats/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ava Swan, Volunteer Department, and Brand New Companion",
-    "sort_date": "2026-05-29",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/ava-swan-volunteer-department-and-brand-new-companion-29-may",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Matt Mann & The Shine Runners (18+ Event)",
-    "sort_date": "2026-05-29",
-    "venue": "Eastside Bowl",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3ug",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "*CANCELLED* Genevieve Heyward",
-    "sort_date": "2026-05-29",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/cancelled-genevieve-heyward-exitin-tickets/14819993",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-05-29",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxAK",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kyle Kinch",
-    "sort_date": "2026-05-29",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/kyle-kinch?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jonathan Wires Quartet w/ Steve Pardo, Adam Davis & Marlon Patton",
-    "sort_date": "2026-05-29",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/jonathan-wires-quartet-2",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Miles Damaso Trio",
-    "sort_date": "2026-05-29",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/miles-damaso-trio-2",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Ricardo Grilli Quartet",
-    "sort_date": "2026-05-29",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/ricardo-grilli-quartet",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Cinderella's Tom Keifer",
-    "sort_date": "2026-05-29",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1287815/cinderellas-tom-keifer-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Time for Three w/ Nashville Symphony",
-    "sort_date": "2026-05-29",
-    "venue": "Schermerhorn Symphony Center",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bpAa",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": [
-      "Nashville Symphony"
-    ]
-  },
-  {
-    "title": "Cowboy Up with LANCO",
-    "sort_date": "2026-05-29",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/cowboy-up-with-lanco/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": "3pm",
-    "supports": []
-  },
-  {
-    "title": "Shawn Lane & the Lane Brothers $25",
-    "sort_date": "2026-05-29",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/shawn-lane-the-lane-brothers-3/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Laney Jones and the Spirits w/ Max Langlinais and Father Sunn",
-    "sort_date": "2026-05-29",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/laney-jones-and-the-spirits-the-basement-tickets/14858893",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Lifeline w/ Raven Hinchey",
-    "sort_date": "2026-05-29",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/the-lifeline-w-raven-hinchey-the-basement-tickets/14924153",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Boot Scootin' Boogie Nights - A Night of 90's Country",
-    "sort_date": "2026-05-29",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/boot-scootin-boogie-nights-the-basement-east-tickets/14180034",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Punch Brothers in The Caverns",
-    "sort_date": "2026-05-29",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/punch-brothers-in-the-caverns-2",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Legacy Concerts Presents: The Rare Occasions w/ Nova One, Future Crib \u2013 All Ages",
-    "sort_date": "2026-05-29",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-the-rare-occasions-w-nova-one-future-crib-all-ages/the-end/",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
-  },
-  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Heidi Newfield , Clint Daniels , Ben Williams with Will Banister",
     "sort_date": "2026-05-30",
     "venue": "3rd & Lindsley",
@@ -576,16 +332,6 @@
     "supports": []
   },
   {
-    "title": "Outlaw Country Sunday Service",
-    "sort_date": "2026-05-31",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/outlaw-country-sunday-service-the-basement-tickets/14937063",
-    "sold_out": false,
-    "time": "5pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "PeelingFlesh w/ Kruelty & Bayway",
     "sort_date": "2026-05-31",
     "venue": "The Basement East",
@@ -656,6 +402,16 @@
     "supports": []
   },
   {
+    "title": "Whiskey Jam at Skydeck",
+    "sort_date": "2026-06-01",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/whiskey-jam-at-skydeck-2/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
     "sort_date": "2026-06-01",
     "venue": "Station Inn",
@@ -677,6 +433,19 @@
       "Pain Of Truth",
       "End It",
       "Start Today"
+    ]
+  },
+  {
+    "title": "Terror w/ Pain of Truth, End It, Start Today & Heartattack",
+    "sort_date": "2026-06-01",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/terror-w-pain-of-truth-the-basement-east-tickets/14739383",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": null,
+    "supports": [
+      "Pain Of Truth",
+      "End It"
     ]
   },
   {
@@ -894,6 +663,16 @@
     "supports": []
   },
   {
+    "title": "Whiskey Jam at Skydeck",
+    "sort_date": "2026-06-03",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/whiskey-jam-at-skydeck/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Songs & Stories by Larry Cordle & Friends $20",
     "sort_date": "2026-06-03",
     "venue": "Station Inn",
@@ -954,6 +733,16 @@
     "url": "https://cobranashville.com/event/venue-promises-unsaid-halfcaster-across-arcadia/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Sensor Ghost w/ Dial Down, Knifey",
+    "sort_date": "2026-06-04",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/sensor-ghost-w-dial-down-knifey-04-jun",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1675,6 +1464,16 @@
     "supports": []
   },
   {
+    "title": "Noah Kesey, Sacred Copy, Slowcast",
+    "sort_date": "2026-06-08",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/noah-kesey-sacred-copy-slowcast-08-jun",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jessica Baio",
     "sort_date": "2026-06-08",
     "venue": "Exit/In",
@@ -1725,6 +1524,16 @@
     "supports": []
   },
   {
+    "title": "Van Bellman w/ Abigail Hope",
+    "sort_date": "2026-06-08",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/van-bellman-w-abigail-hope-the-basement-tickets/14957803",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Scotty Chapman with Loose Lips + Ivan Pulley Band",
     "sort_date": "2026-06-09",
     "venue": "3rd & Lindsley",
@@ -1768,7 +1577,7 @@
     "supports": []
   },
   {
-    "title": "WIFIGAWD",
+    "title": "WIFIGAWD w/ Key!",
     "sort_date": "2026-06-09",
     "venue": "DRKMTTR",
     "url": "https://www.drkmttrcollective.com/shows/wifigawd-09-jun",
@@ -1864,6 +1673,16 @@
     "url": "https://cobranashville.com/event/venue-night-of-malice-my-own-will-existing-in-exile-chunder-rise-as-legends/",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Music davidson, hapsonlie, Xe1la, SEBO",
+    "sort_date": "2026-06-10",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/music-davidson-hapsonlie-xe1la-sebo-10-jun",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1997,6 +1816,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxAe",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "U, Me & Ukg",
+    "sort_date": "2026-06-11",
+    "venue": "Night We Met",
+    "url": "https://shotgun.live/events/umeukg6-11?utm_medium=widget&utm_term=html_widget",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -2385,16 +2214,6 @@
     "supports": []
   },
   {
-    "title": "Lupita Infante",
-    "sort_date": "2026-06-14",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/lupita-infante-marathon-music-works-tickets/14791093",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Riot Ranch: Industry Night",
     "sort_date": "2026-06-14",
     "venue": "Night We Met",
@@ -2472,6 +2291,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-06-15",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959823",
+    "sold_out": false,
+    "time": "12:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -2822,7 +2651,7 @@
     "sort_date": "2026-06-17",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/a-thousand-horses-the-basement-tickets/14914853",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -2879,6 +2708,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-UOV",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Brower Sisters Band w/ ashley d. and Alysia Josephine",
+    "sort_date": "2026-06-18",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/the-brower-sisters-band-w-ashley-d-and-alysia-josephine-18-jun",
+    "sold_out": false,
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -3419,6 +3258,16 @@
     "supports": []
   },
   {
+    "title": "Nicki Bluhm + Jack Blocker",
+    "sort_date": "2026-06-21",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/nicki-bluhm-jack-blocker-3rd-and-lindsley-tickets/14921693",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Kiefer Sutherland: Love Will Bring You Home",
     "sort_date": "2026-06-21",
     "venue": "Brooklyn Bowl Nashville",
@@ -3517,6 +3366,16 @@
     "url": "https://www.ticketweb.com/event/the-rock-and-roll-playhouse-the-basement-east-tickets/14933183",
     "sold_out": false,
     "time": "11:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-06-22",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959843",
+    "sold_out": false,
+    "time": "12:30pm",
     "doors": null,
     "supports": []
   },
@@ -4273,6 +4132,16 @@
     "supports": []
   },
   {
+    "title": "OSEES featuring Brigid Dawson in The Caverns - SOLD OUT",
+    "sort_date": "2026-06-27",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/osees-in-the-caverns",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Legacy Concerts Presents: Sewerperson w/ Polearm, Tommy Ice \u2013 All Ages",
     "sort_date": "2026-06-27",
     "venue": "The End",
@@ -4390,6 +4259,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-06-29",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959873",
+    "sold_out": false,
+    "time": "12:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -4552,6 +4431,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Best of Nashville Rock Grunge & Soul presented by Strawberry Basement featuring The Funk Police! , Zentrance , Angel Asylum & Big Decisions",
+    "sort_date": "2026-07-01",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/best-of-nashville-rock-grunge-3rd-and-lindsley-tickets/14956493",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -4911,6 +4800,16 @@
     ]
   },
   {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-07-06",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959833",
+    "sold_out": false,
+    "time": "12:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "THE TIME JUMPERS",
     "sort_date": "2026-07-06",
     "venue": "3rd & Lindsley",
@@ -4957,6 +4856,16 @@
     "url": "https://www.ticketweb.com/event/jack-mckeon-album-the-basement-tickets/14823263",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Come Together for Youth Mental Health and Substance Use Prevention Featuring the Beatledudes",
+    "sort_date": "2026-07-07",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/come-together-for-youth-mental-3rd-and-lindsley-tickets/14953423",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -5138,6 +5047,16 @@
     "supports": []
   },
   {
+    "title": "Sunflower Summit w/ Ben Stopfel",
+    "sort_date": "2026-07-09",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/sunflower-summit-w-ben-stopfel-09-jul",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-07-09",
     "venue": "Grand Ole Opry House",
@@ -5225,6 +5144,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Spuddy w/ Rudey \u2013 18+",
+    "sort_date": "2026-07-09",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-spuddy-w-rudey-18/the-end/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -5508,6 +5437,16 @@
     "supports": []
   },
   {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-07-13",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959883",
+    "sold_out": false,
+    "time": "12:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "THE TIME JUMPERS",
     "sort_date": "2026-07-13",
     "venue": "3rd & Lindsley",
@@ -5605,6 +5544,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "We Are The Merle: Celebrating the Music of Merle Haggard + Scarlett Egan",
+    "sort_date": "2026-07-15",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/we-are-the-merle-celebrating-3rd-and-lindsley-tickets/14954193",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -6068,6 +6017,16 @@
     "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-koy",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-07-20",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959863",
+    "sold_out": false,
+    "time": "12:30pm",
     "doors": null,
     "supports": []
   },
@@ -6779,6 +6738,16 @@
     "supports": []
   },
   {
+    "title": "Bluebird On 3rd",
+    "sort_date": "2026-07-27",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-3rd-and-lindsley-tickets/14959853",
+    "sold_out": false,
+    "time": "12:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "THE TIME JUMPERS",
     "sort_date": "2026-07-27",
     "venue": "3rd & Lindsley",
@@ -6843,7 +6812,7 @@
     "sort_date": "2026-07-28",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/bossman-dlow-motion-party-tour-nashville-tennessee-07-28-2026/event/1B0064B6BD6DE16C",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -6929,6 +6898,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Dorio w/ Kate Teague, Candynavia",
+    "sort_date": "2026-07-29",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/dorio-w-kate-teague-candynavia-29-jul",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -7587,6 +7566,16 @@
     "url": "https://stationinn.com/event/tim-graves-the-farm-hands-20/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Surfing for Daisy",
+    "sort_date": "2026-08-06",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/surfing-for-daisy-the-basement-tickets/14957403",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -9800,6 +9789,16 @@
     "supports": []
   },
   {
+    "title": "ADELA",
+    "sort_date": "2026-09-21",
+    "venue": "The Basement East",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70M-x",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Ad\u00e9la - The Red Bottoms Tour",
     "sort_date": "2026-09-21",
     "venue": "The Basement East",
@@ -10141,6 +10140,16 @@
     "supports": [
       "Flatland Cavalry"
     ]
+  },
+  {
+    "title": "Geese - Getting Killed Again Tour",
+    "sort_date": "2026-09-28",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1463151/geese-tickets?skin=ryman",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
@@ -10514,6 +10523,16 @@
     "url": "https://www.ticketweb.com/event/artemas-lovercore-marathon-music-works-tickets/14820273",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tom Jones",
+    "sort_date": "2026-10-08",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UvA",
+    "sold_out": false,
+    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -10902,7 +10921,7 @@
     "sort_date": "2026-10-19",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1446601/sonic-live-in-concert-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7:30pm",
     "doors": null,
     "supports": []
@@ -11323,7 +11342,7 @@
     "sort_date": "2026-10-29",
     "venue": "Ryman Auditorium",
     "url": "https://www.axs.com/events/1460693/marc-scibilia-tickets?skin=ryman",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -12164,6 +12183,16 @@
     "supports": []
   },
   {
+    "title": "Lupita Infante",
+    "sort_date": "2026-11-29",
+    "venue": "Marathon Music Works",
+    "url": "https://www.ticketweb.com/event/lupita-infante-marathon-music-works-tickets/14791093",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bluegrass Jam",
     "sort_date": "2026-11-29",
     "venue": "Station Inn",
@@ -12198,7 +12227,7 @@
     "sort_date": "2026-11-30",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/catch-your-breath-not-broken-enough-nashville-tennessee-11-30-2026/event/1B0064B5E34D4927",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
