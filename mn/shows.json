@@ -1108,16 +1108,6 @@
     "supports": []
   },
   {
-    "title": "Robert Glasper OG Acoustic Piano Trio",
-    "sort_date": "2026-05-29",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/robert-glasper-may29-2026/2026-05-29/1/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "All Your Friends \u2014 The Indie Party",
     "sort_date": "2026-05-29",
     "venue": "Fine Line",
@@ -1152,79 +1142,16 @@
     ]
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Del-Viles",
-    "sort_date": "2026-05-30",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/thedelviles?igsh=MWRscTRmNnczYmt3eA==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "ditch pigeon",
-      "J-Mo & The J-Lighters"
-    ]
-  },
-  {
     "title": "Amelia Day",
     "sort_date": "2026-05-30",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-05-amelia-day/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Dilly Dally\u00a0Alley"
     ]
-  },
-  {
-    "title": "Early Evening Jazz: Jake Baldwin / Tommy Boynton",
-    "sort_date": "2026-05-30",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-jake-baldwin-tommy-boynton-may-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "JT Bates Quartet",
-    "sort_date": "2026-05-30",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/jt-bates-quartet-may-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: Yonci",
-    "sort_date": "2026-05-30",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-yonci-may-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sensor Ghost, Miracle Debt, Visual Learner",
-    "sort_date": "2026-05-30",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/e777e6031a78",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Ms. Lisa Fischer & Grand Baton",
@@ -1242,68 +1169,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-05-party-girl/",
     "sold_out": false,
-    "time": "9pm",
-    "doors": "9pm",
-    "supports": []
-  },
-  {
-    "title": "Twin Cities Battle of the Badges",
-    "sort_date": "2026-05-30",
-    "venue": "Myth Live",
-    "url": "https://mythlive.com/event/twin-cities-battle-of-the-badges/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Commencement",
-    "sort_date": "2026-05-30",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/smumn-commencement-may",
-    "sold_out": false,
-    "time": "9:30am",
+    "time": null,
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "First Season Finale",
-    "sort_date": "2026-05-30",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/minnesota-winds",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Riverdance 30 - The New Generation",
-    "sort_date": "2026-05-30",
-    "venue": "State Theatre",
-    "url": "https://www.ticketmaster.com/riverdance-30-the-new-generation-minneapolis-minnesota-05-30-2026/event/060062FFADF743C7",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MACHAKI",
-    "sort_date": "2026-05-30",
-    "venue": "The Loft at Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/machaki-360/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mike Goodwin",
-    "sort_date": "2026-05-30",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/Abbd6b2df6df",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
     "supports": []
   },
   {
@@ -1312,80 +1179,7 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-05-clay-street-unit/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Golden Era: 90's Rap Celebration",
-    "sort_date": "2026-05-30",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/golden-era-90-s-rap-celebration-may-30-2026-691992",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Between the Buried and Me: The Blue Nowhere U.S. Tour - Spring 2026",
-    "sort_date": "2026-05-30",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/between-the-buried-and-me-the-minneapolis-minnesota-05-30-2026/event/06006454C0C790BB",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Imperial Triumphant",
-      "Fallujah"
-    ]
-  },
-  {
-    "title": "Big Trouble",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/big-trouble-4/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dan Rumsey w. Cathie English, Thea Ennen, Tim Fast",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dan-rumsey/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "King Caesar w. Hellseher, Gradience",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/microcat/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Patio Yoga with Pete",
-    "sort_date": "2026-05-30",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/patio-yoga-with-pete-3/",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Onlytime, Cobra Czar, Den of Thieves, Body, & Pychic Wreck",
-    "sort_date": "2026-05-30",
-    "venue": "Zhora Darling",
-    "url": "https://link.dice.fm/E4ae56b371a0",
-    "sold_out": false,
-    "time": "6:30pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1979,6 +1773,16 @@
     "supports": []
   },
   {
+    "title": "Taj Mahal & The Phantom Blues Band",
+    "sort_date": "2026-06-04",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/taj-mahal-the-phantom-blues-band-jun-2026/2026-06-04/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Shordie Shordie",
     "sort_date": "2026-06-04",
     "venue": "Fine Line",
@@ -2168,6 +1972,16 @@
     "url": "https://link.dice.fm/Ra5b818994f9",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Taj Mahal & The Phantom Blues Band",
+    "sort_date": "2026-06-05",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/taj-mahal-the-phantom-blues-band-jun-2026/2026-06-05/",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2915,16 +2729,6 @@
     "supports": []
   },
   {
-    "title": "DL4",
-    "sort_date": "2026-06-09",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-2/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Dans w. Special Guests",
     "sort_date": "2026-06-09",
     "venue": "White Squirrel",
@@ -3045,6 +2849,16 @@
       "Karla Rose",
       "Al Church\u00a0Band"
     ]
+  },
+  {
+    "title": "Cole Diamond\u2019s Whiskey Wednesdays",
+    "sort_date": "2026-06-10",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/cole-diamonds-whiskey-wednesdays-4/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Paul Bergen",
@@ -3771,7 +3585,7 @@
     "supports": []
   },
   {
-    "title": "The Gated Community",
+    "title": "The Gated Community w. Matthew French",
     "sort_date": "2026-06-14",
     "venue": "White Squirrel",
     "url": "https://whitesquirrelbar.com/event/the-gated-community/",
@@ -4123,6 +3937,16 @@
     "supports": []
   },
   {
+    "title": "Anthony Cox / Bryan Murray / Davu Seru",
+    "sort_date": "2026-06-18",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/anthony-cox-bryan-murray-davu-seru",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening with VAN ORMAN & HELWIN WITH MARC ANDERSON",
     "sort_date": "2026-06-18",
     "venue": "Cedar Cultural Center",
@@ -4263,6 +4087,16 @@
     "url": "https://www.berlinmpls.com/calendar/cameron-kinghorn-friends-june-2026",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Zachary Finnegan Trio",
+    "sort_date": "2026-06-19",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-zachary-finnegan-trio-june-2026",
+    "sold_out": false,
+    "time": "4:30pm",
     "doors": null,
     "supports": []
   },
@@ -5055,6 +4889,16 @@
     "supports": []
   },
   {
+    "title": "The Dans w. Special Guests",
+    "sort_date": "2026-06-23",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/the-dans-w-special-guests-4/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "\"A Legacy In Blood Tour\" with The Convalescence & Squidhammer",
     "sort_date": "2026-06-23",
     "venue": "Zhora Darling",
@@ -5230,6 +5074,16 @@
     "supports": []
   },
   {
+    "title": "Majmin",
+    "sort_date": "2026-06-25",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/majmin-zak-khan",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "An Evening with ALYSHA BRILLA",
     "sort_date": "2026-06-25",
     "venue": "Cedar Cultural Center",
@@ -5353,6 +5207,16 @@
     "url": "https://www.berlinmpls.com/calendar/bokani-dyer-trio-june-2026",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Henry Scamurra\u2019s Pathways Trio",
+    "sort_date": "2026-06-26",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-henry-scamurra-pathways-trio",
+    "sold_out": false,
+    "time": "4:30pm",
     "doors": null,
     "supports": []
   },
@@ -5522,6 +5386,36 @@
     "url": "https://tables.toasttab.com/aster-cafe/experiences/saturday-6-27-holy-hannah-with-dark-pony-15-cover",
     "sold_out": false,
     "time": "7:30am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Chresten Hyde Quintet",
+    "sort_date": "2026-06-27",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/chresten-hyde-quintet",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Early Evening Jazz: Mary Petrich OpenHand Trio",
+    "sort_date": "2026-06-27",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/mary-petrich-openhand-trio-june-2026",
+    "sold_out": false,
+    "time": "4:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Late Night Lounge: Ms. Ada J",
+    "sort_date": "2026-06-27",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/late-night-lounge-ms-ada-j-june-2026",
+    "sold_out": false,
+    "time": "10:30pm",
     "doors": null,
     "supports": []
   },
@@ -6682,6 +6576,16 @@
     "supports": []
   },
   {
+    "title": "Cole Diamond\u2019s Whiskey Wednesdays",
+    "sort_date": "2026-07-08",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/cole-diamonds-whiskey-wednesdays-6/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Nathan Walker",
     "sort_date": "2026-07-09",
     "venue": "331 Club",
@@ -7121,16 +7025,6 @@
     "supports": []
   },
   {
-    "title": "J-Mo on the Beat w. Cody James, Francis Emil Johnson & Used Goods",
-    "sort_date": "2026-07-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/j-mo-on-the-beat-w-cody-james-francis-emil-johnson-used-goods/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Patio Yoga with Pete",
     "sort_date": "2026-07-11",
     "venue": "White Squirrel",
@@ -7399,16 +7293,6 @@
     "url": "https://www.ticketmaster.com/lyle-lovett-and-his-small-large-minneapolis-minnesota-07-14-2026/event/06006481B0B8DE2B",
     "sold_out": false,
     "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "DL4",
-    "sort_date": "2026-07-14",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-7/",
-    "sold_out": false,
-    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -9753,6 +9637,16 @@
     "supports": []
   },
   {
+    "title": "Shot Down in Flames w. Bleak Sabbath & System 13",
+    "sort_date": "2026-08-06",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/shot-down-in-flames-w-bleak-sabbath-system-13/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sophie Hiroko",
     "sort_date": "2026-08-07",
     "venue": "7th St Entry",
@@ -10038,16 +9932,6 @@
     "supports": []
   },
   {
-    "title": "DL4",
-    "sort_date": "2026-08-11",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/dl4-9/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Dans w. Special Guests",
     "sort_date": "2026-08-11",
     "venue": "White Squirrel",
@@ -10097,6 +9981,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Cole Diamond\u2019s Whiskey Wednesdays",
+    "sort_date": "2026-08-12",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/cole-diamonds-whiskey-wednesdays-7/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10795,6 +10689,16 @@
     "url": "https://whitesquirrelbar.com/event/grand-lilac/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "J-Mo on the Beat w. Cody James & Francis Emil Johnson",
+    "sort_date": "2026-08-22",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/j-mo-on-the-beat-w-cody-james-francis-emil-johnson-used-goods/",
+    "sold_out": false,
+    "time": "1pm",
     "doors": null,
     "supports": []
   },
