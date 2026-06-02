@@ -1,112 +1,5 @@
 [
   {
-    "title": "Bluebird On 3rd featuring Kent Blazy , Victoria Shaw , Leslie Satcher & Jon Wayne Hatfield + Regan Stewart",
-    "sort_date": "2026-06-01",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bluebird-on-3rd-kent-3rd-and-lindsley-tickets/14152654",
-    "sold_out": true,
-    "time": "12:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "THE TIME JUMPERS",
-    "sort_date": "2026-06-01",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/the-time-jumpers-3rd-and-lindsley-tickets/14671803",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sma11pocket | Kid Blue | Fear of Noise",
-    "sort_date": "2026-06-01",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-sma11pocket-kid-blue-fear-of-noise/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Giovanni Rodriguez & 12 Manos",
-    "sort_date": "2026-06-01",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/giovanni-rodriguez-12-manos-6",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Trio w/ Eddie Barbash, Jeff Picker & Mark Raudabaugh",
-    "sort_date": "2026-06-01",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/nashville-trio-w-eddie-barbash-jeff-picker-mark-raudabaugh-2",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Darius Rucker",
-    "sort_date": "2026-06-01",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707p7",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Whiskey Jam at Skydeck",
-    "sort_date": "2026-06-01",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/whiskey-jam-at-skydeck-2/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
-    "sort_date": "2026-06-01",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2026-06-01/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Terror",
-    "sort_date": "2026-06-01",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/terror-w-pain-of-truth-the-basement-east-tickets/14739383",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Pain Of Truth",
-      "End It",
-      "Start Today"
-    ]
-  },
-  {
-    "title": "Terror w/ Pain of Truth, End It, Start Today & Heartattack",
-    "sort_date": "2026-06-01",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/terror-w-pain-of-truth-the-basement-east-tickets/14739383",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": [
-      "Pain Of Truth",
-      "End It"
-    ]
-  },
-  {
     "title": "Nashville Navy Party 2026 featuring Darryl Worley , Danielle Peck , Wynn Varble , Jeff Bates , Whey Jennings , Taylor Austin Dye , Justin Andrews , Ray Scott, Kelly Neff , Jaime Fox , David St. Romain , Porter Martin & The Heels",
     "sort_date": "2026-06-02",
     "venue": "3rd & Lindsley",
@@ -235,10 +128,10 @@
     "supports": []
   },
   {
-    "title": "Country For A Cause Hosted by: TG Sheppard & Kelly Lang along with Devon O'Day featuring Neal McCoy , John Berry , Hannah Dasher , Ty Herndon , Mark Wills , Makenzie Phipps , Darin & Brooke Aldridge , The Malpass Brothers , The Kody Norris Show , Jake Hoot , Linda Davis , Daniel-Elle Kleha , Allie Colleen & More",
+    "title": "(SOLD OUT) Country For A Cause",
     "sort_date": "2026-06-03",
     "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/-country-for-a-cause-3rd-and-lindsley-tickets/14774833",
+    "url": "https://www.ticketweb.com/event/sold-out-country-for-a-3rd-and-lindsley-tickets/14774833",
     "sold_out": false,
     "time": "6:30pm",
     "doors": null,
@@ -327,6 +220,16 @@
     "url": "https://stationinn.com/event/larry-cordle-songwriter-night-7/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FREE SHOW! - BMI PLUG & PLAY with performances from Abbdavv, Betty Taylor, Duke Jones and Hadlie Jo",
+    "sort_date": "2026-06-03",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-bmi-the-basement-tickets/14965963",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -690,7 +593,7 @@
     "supports": []
   },
   {
-    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Gordie Sampson , Jill Colucci , Jordan Dozzi & Tenille Townes + Gloria Anderson",
+    "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Gordie Sampson , Ed Hill , Jordan Dozzi & Tenille Townes + Gloria Anderson",
     "sort_date": "2026-06-06",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/backstage-nashville-daytime-hit-songwriters-3rd-and-lindsley-tickets/14637743",
@@ -922,6 +825,16 @@
     "sort_date": "2026-06-07",
     "venue": "DRKMTTR",
     "url": "https://www.drkmttrcollective.com/shows/dead-calm-07-jun",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Resistance Theology: Shi'ism, Malcolm X, and Our Present Moment",
+    "sort_date": "2026-06-07",
+    "venue": "DRKMTTR",
+    "url": "https://www.drkmttrcollective.com/shows/resistance-theology-shi-ism-malcolm-x-and-our-present-moment-07-jun",
     "sold_out": false,
     "time": null,
     "doors": null,
@@ -1271,6 +1184,16 @@
     "url": "https://stationinn.com/event/the-french-family-band-20-2/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FREE SHOW! Adam Esrick",
+    "sort_date": "2026-06-09",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-adam-esrick-the-basement-tickets/14964793",
+    "sold_out": false,
+    "time": "5:30pm",
     "doors": null,
     "supports": []
   },
@@ -3970,7 +3893,7 @@
     "supports": []
   },
   {
-    "title": "The Beau Burnette Show - Pale Apollo, Tijuana Bible, Cavehole, Rodeo Mouth",
+    "title": "The Beau Burnette Show - Pale Apollo, Cosmic Doom, Rodeo Mouth, and Tijuana Bible",
     "sort_date": "2026-06-29",
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/the-beau-burnette-show-the-basement-tickets/14816673",
@@ -4150,6 +4073,16 @@
     "url": "https://stationinn.com/event/larry-cordle-songwriter-night-8/",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "FREE SHOW! - BMI PLUG & PLAY",
+    "sort_date": "2026-07-01",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/free-show-bmi-the-basement-tickets/14965983",
+    "sold_out": false,
+    "time": "6:30pm",
     "doors": null,
     "supports": []
   },
@@ -5292,6 +5225,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Gary Nicholson & The Change + Yates McKendree",
+    "sort_date": "2026-07-16",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/gary-nicholson-yates-mckendree-3rd-and-lindsley-tickets/14964353",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -7990,6 +7933,16 @@
     "supports": []
   },
   {
+    "title": "Helmet w/ Spirit In The Room",
+    "sort_date": "2026-08-17",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/helmet-w-spirit-in-the-the-basement-east-tickets/14959093",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Honky Tonk Tuesday with The Cowpokes ft. Special Guests (18+ Event)",
     "sort_date": "2026-08-18",
     "venue": "Eastside Bowl",
@@ -8361,6 +8314,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Legacy Concerts Presents: Solya w/ Tele Novella \u2013 All Ages",
+    "sort_date": "2026-08-25",
+    "venue": "The End",
+    "url": "https://endnashville.com/event/legacy-concerts-presents-solya-w-tele-novella-all-ages/the-end/",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -8946,6 +8909,18 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Uncle Acid & The Deadbeats - North America '26",
+    "sort_date": "2026-09-10",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/uncle-acid-the-deadbeats-north-america-nashville-tennessee-09-10-2026/event/1B0064BBE2E19455",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Messa"
+    ]
   },
   {
     "title": "Opry Country Classics",
@@ -10112,6 +10087,19 @@
     "supports": []
   },
   {
+    "title": "REVOCATION: 20 Years of Torment",
+    "sort_date": "2026-10-06",
+    "venue": "Exit/In",
+    "url": "https://www.ticketweb.com/event/revocation-20-years-of-torment-exitin-tickets/14918093",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Defeated Sanity",
+      "Fuming Mouth"
+    ]
+  },
+  {
     "title": "Grand Ole Opry: OPRY 100",
     "sort_date": "2026-10-06",
     "venue": "Grand Ole Opry House",
@@ -10428,6 +10416,16 @@
     "url": "https://www.ticketweb.com/event/new-faces-night-feat-the-basement-tickets/13983234",
     "sold_out": false,
     "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Mind Enterprises",
+    "sort_date": "2026-10-13",
+    "venue": "The Basement East",
+    "url": "https://www.ticketweb.com/event/mind-enterprises-the-basement-east-tickets/14957843",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -12068,17 +12066,17 @@
     "supports": []
   },
   {
-    "title": "TENNESSEE v NC STATE & MURRAY STATE v GEORGIA TECH",
+    "title": "TENNESSEE v NC STATE & GEORGIA TECH v MURRAY STATE",
     "sort_date": "2026-12-06",
     "venue": "Bridgestone Arena",
-    "url": "https://www.ticketmaster.com/tennessee-v-nc-state-murray-state-nashville-tennessee-12-06-2026/event/1B0064BC42BFA582",
+    "url": "https://www.ticketmaster.com/tennessee-v-nc-state-georgia-tech-nashville-tennessee-12-06-2026/event/1B0064BC42BFA582",
     "sold_out": true,
     "time": null,
     "doors": null,
     "supports": [
       "North Carolina State University Men's Basketball",
-      "Murray State Racers Mens Basketball",
-      "Georgia Tech Yellow Jackets Mens Basketball"
+      "Georgia Tech Yellow Jackets Mens Basketball",
+      "Murray State Racers Mens Basketball"
     ]
   },
   {
