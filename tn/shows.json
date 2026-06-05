@@ -1,57 +1,5 @@
 [
   {
-    "title": "Darryl Worley - Fan Appreciation Party",
-    "sort_date": "2026-06-04",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/darryl-worley-fan-3rd-and-lindsley-tickets/14785183",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Tomato Takeover : The Sauce is Coming - Country Music & Female Power Hosted by: Danae Hays & Bridgette Tatum with performances by: Pam Tillis , Emma Zinck , SJ McDonald and Special Guests",
-    "sort_date": "2026-06-04",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/bridgette-tatum-tomato-takeover-3rd-and-lindsley-tickets/14814133",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Pam Tillis"
-    ]
-  },
-  {
-    "title": "Promises Unsaid | HalfCaster | Across Arcadia",
-    "sort_date": "2026-06-04",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-promises-unsaid-halfcaster-across-arcadia/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sensor Ghost w/ Dial Down, Knifey",
-    "sort_date": "2026-06-04",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/sensor-ghost-w-dial-down-knifey-04-jun",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Labyrinth",
-    "sort_date": "2026-06-04",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/labyrinth6-4?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "2026 CMA Fest presented by SoFi - FOUR-NIGHT STADIUM PASS",
     "sort_date": "2026-06-04",
     "venue": "Nissan Stadium",
@@ -59,102 +7,6 @@
     "sold_out": true,
     "time": null,
     "doors": null,
-    "supports": []
-  },
-  {
-    "title": "2026 CMA Fest presented by SoFi - Stadium THURSDAY",
-    "sort_date": "2026-06-04",
-    "venue": "Nissan Stadium",
-    "url": "https://www.ticketmaster.com/2026-cma-fest-presented-by-sofi-nashville-tennessee-06-04-2026/event/1B00646BA58DD472",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Deana Carter",
-      "Ella Langley",
-      "Gretchen Wilson",
-      "Jason Aldean",
-      "Tucker Wetmore"
-    ]
-  },
-  {
-    "title": "Hot Club Happy Hour - Gypsy Jazz Thursdays",
-    "sort_date": "2026-06-04",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/hot-club-gypsy-jazz-thursdays-rudy-s-french-connection-5",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Rougarou 7-Piece New Orleans Brass Band",
-    "sort_date": "2026-06-04",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/rougarou-6-piece-new-orleans-brass-band-3",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jill Scott - To Whom This May Concern Tour",
-    "sort_date": "2026-06-04",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1362388/jill-scott-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Stompin\u2019 Grounds at Skydeck | June 4th",
-    "sort_date": "2026-06-04",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/stompin-grounds-at-skydeck/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Caroline Owens $20",
-    "sort_date": "2026-06-04",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/caroline-owens/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Lunalay w/ Saint Lavender",
-    "sort_date": "2026-06-04",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/lunalay-w-saint-lavender-the-basement-tickets/14832603",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Quail P: In My Own Lane Tour w/ Anella",
-    "sort_date": "2026-06-04",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/quail-p-in-my-own-the-basement-tickets/14850603",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Legacy Concerts Presents: The Psycodelics w/ Natasha Blaine and Sarah Durbin \u2013 18+",
-    "sort_date": "2026-06-04",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/legacy-concerts-presents-the-psycodelics-w-natasha-blaine-and-sarah-durbin-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
     "supports": []
   },
   {
@@ -2496,6 +2348,16 @@
     "supports": []
   },
   {
+    "title": "Bare Knuckle Fighting Championships",
+    "sort_date": "2026-06-19",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70A_y",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Frank Myers , James McNair , Ryan Larkins , Ray Stephenson with Shelby Raye + Julia Hutchinson",
     "sort_date": "2026-06-20",
     "venue": "3rd & Lindsley",
@@ -2658,7 +2520,7 @@
     "supports": []
   },
   {
-    "title": "John Vincent III Presents: Blue June Music Fest w/ Phosphorescent, Ethan Regan, mxmtoon, Adia Victoria and Emma Andersen",
+    "title": "John Vincent III Presents: Blue June Music Fest w/ Phosphorescent, Ethan Regan, mxmtoon, Kate Stephenson, and Emma Andersen",
     "sort_date": "2026-06-20",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/john-vincent-iii-presents-blue-the-basement-east-tickets/14861423",
@@ -2668,8 +2530,7 @@
     "supports": [
       "Phosphorescent",
       "Ethan Regan",
-      "mxmtoon",
-      "Adia Victoria"
+      "mxmtoon"
     ]
   },
   {
@@ -2791,6 +2652,16 @@
     "url": "https://stationinn.com/event/56270/2026-06-21/",
     "sold_out": false,
     "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Zo\u00eb Dominguez w/ Jane Leopardo and Lily Crow",
+    "sort_date": "2026-06-21",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/zo-dominguez-w-jane-leopardo-the-basement-tickets/14970513",
+    "sold_out": false,
+    "time": "9pm",
     "doors": null,
     "supports": []
   },
@@ -4692,6 +4563,16 @@
     "supports": []
   },
   {
+    "title": "Cliff Richmond & The CliffNotes",
+    "sort_date": "2026-07-10",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Don Aliquo Quartet w/ Marc Payne, Jack Aylor & Ryan Brasley",
     "sort_date": "2026-07-10",
     "venue": "Rudy's Jazz Room",
@@ -4958,6 +4839,16 @@
     "url": "https://tunehatch.com/shows/giovanni-rodriguez-12-manos-12",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Jason Johnson Quartet",
+    "sort_date": "2026-07-13",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "6pm",
     "doors": null,
     "supports": []
   },
@@ -5250,6 +5141,18 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": []
+  },
+  {
+    "title": "Jim Brown & Karen Waldrup with Ava Paige",
+    "sort_date": "2026-07-17",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/jim-brown-karen-waldrup-ava-3rd-and-lindsley-tickets/14970533",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": [
+      "Ava Paige"
+    ]
   },
   {
     "title": "Midnight North",
@@ -6573,6 +6476,16 @@
     "supports": []
   },
   {
+    "title": "Jovan Quallo Quartet plays Kenny Garrett",
+    "sort_date": "2026-07-30",
+    "venue": "Rudy's Jazz Room",
+    "url": "",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Vince Gill",
     "sort_date": "2026-07-30",
     "venue": "Ryman Auditorium",
@@ -7657,10 +7570,10 @@
     "supports": []
   },
   {
-    "title": "Framing Hanley",
+    "title": "Framing Hanley w/ LowFye50, Flip The Mule and Hollow Wake",
     "sort_date": "2026-08-14",
     "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/framing-hanley-the-basement-east-tickets/14920103",
+    "url": "https://www.ticketweb.com/event/framing-hanley-w-lowfye50-flip-the-basement-east-tickets/14920103",
     "sold_out": false,
     "time": "7pm",
     "doors": null,
@@ -7861,7 +7774,7 @@
     "sort_date": "2026-08-17",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/helmet-w-spirit-in-the-the-basement-east-tickets/14959093",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -8555,6 +8468,16 @@
     "venue": "Marathon Music Works",
     "url": "https://www.ticketweb.com/event/minus-the-bear-marathon-music-works-tickets/14777633",
     "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Masego: Fix Your Face Tour",
+    "sort_date": "2026-09-02",
+    "venue": "Ryman Auditorium",
+    "url": "https://www.axs.com/events/1464771/masego-tickets?skin=ryman",
+    "sold_out": true,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10288,6 +10211,18 @@
     "supports": []
   },
   {
+    "title": "Phoebe Bridgers: The Lost Tour",
+    "sort_date": "2026-10-10",
+    "venue": "Bridgestone Arena",
+    "url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-nashville-tennessee-10-10-2026/event/1B0064C3B1ABF927",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": [
+      "Alex G"
+    ]
+  },
+  {
     "title": "BRENN! - AMATEUR AT BEST WORLD TOUR",
     "sort_date": "2026-10-10",
     "venue": "Exit/In",
@@ -10664,6 +10599,18 @@
     "time": "8pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Knocked Loose w/ Denzel Curry",
+    "sort_date": "2026-10-19",
+    "venue": "The Pinnacle",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd4s",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": [
+      "Denzel Curry"
+    ]
   },
   {
     "title": "Grand Ole Opry: OPRY 100",
@@ -12155,7 +12102,7 @@
     "sort_date": "2026-12-06",
     "venue": "Bridgestone Arena",
     "url": "https://www.ticketmaster.com/tennessee-v-nc-state-georgia-tech-nashville-tennessee-12-06-2026/event/1B0064BC42BFA582",
-    "sold_out": true,
+    "sold_out": false,
     "time": null,
     "doors": null,
     "supports": [
@@ -12837,7 +12784,7 @@
     "sort_date": "2027-02-14",
     "venue": "Bridgestone Arena",
     "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -12869,7 +12816,7 @@
     "sort_date": "2027-02-15",
     "venue": "Bridgestone Arena",
     "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -14943,6 +14890,16 @@
     "url": "https://stationinn.com/event/56270/2028-06-04/",
     "sold_out": false,
     "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Val Storey, Larry Cordle, Carl Jackson & New Monday",
+    "sort_date": "2028-06-05",
+    "venue": "Station Inn",
+    "url": "https://stationinn.com/event/val-storey-larry-cordle-carl-jackson-new-monday/2028-06-05/",
+    "sold_out": false,
+    "time": "8pm",
     "doors": null,
     "supports": []
   }

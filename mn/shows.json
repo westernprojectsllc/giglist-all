@@ -47,16 +47,6 @@
     "supports": []
   },
   {
-    "title": "Livingston Taylor",
-    "sort_date": "2026-06-03",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/livingston-taylor-jun3-2026/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Prince Celebration 2026 Kick-Off Party ft. Chaka Khan",
     "sort_date": "2026-06-03",
     "venue": "First Avenue",
@@ -69,68 +59,18 @@
     ]
   },
   {
-    "title": "NORTHEAST INVITATIONAL",
-    "sort_date": "2026-06-04",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "9:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "The Menagerie",
     "sort_date": "2026-06-04",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-06-the-menagerie/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Toadstool",
       "Agony in the Living Room",
       "Milk"
     ]
-  },
-  {
-    "title": "Thursday 6/4 - Jeremy Elijah & Lauren Whalen",
-    "sort_date": "2026-06-04",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/thursday-6-4-jeremy-elijah-lauren-whalen",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Gold Minefield Album Release w/ Channy Leaneagh",
-    "sort_date": "2026-06-04",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/gold-minefield-channy-leaneagh-june-2026",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Moon Walker\u2019s Wasteland Country Tour with Super Cassette",
-    "sort_date": "2026-06-04",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/moon-walkers-wasteland-country-tour-with-super-cassette",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Micah Schnabel and Vanessa Jean Speckman, Anslem, Car Spiders",
-    "sort_date": "2026-06-04",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/w721f5981656",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Taj Mahal & The Phantom Blues Band",
@@ -148,43 +88,10 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-06-shordie-shordie/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "hoodtrophy bino"
-    ]
-  },
-  {
-    "title": "Barber's Adagio for Strings",
-    "sort_date": "2026-06-04",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/barbers-adagio-for-strings",
-    "sold_out": false,
-    "time": "11am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Great Gatsby (Touring)",
-    "sort_date": "2026-06-04",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-04-2026/event/060063887F1447BF",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Weeklong Weekend",
-    "sort_date": "2026-06-04",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-weeklong-weekend-6-4-2026",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": "6pm",
-    "supports": [
-      "Gauze",
-      "Crash House"
     ]
   },
   {
@@ -193,53 +100,11 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-06-satsang-solo/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Joey Harkum\u00a0(solo)"
     ]
-  },
-  {
-    "title": "Haters Club 15th Birthday Bash !!!! with The Unnamed, The Six Ways Collective",
-    "sort_date": "2026-06-04",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/haters-club-15th-birthday-bash-with-the-unnamed-the-six-ways-collective-june-04-2026-703302",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7:30pm",
-    "supports": []
-  },
-  {
-    "title": "Augustana & Phantom Planet",
-    "sort_date": "2026-06-04",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/augustana-phantom-planet-minneapolis-minnesota-06-04-2026/event/06006452F449CF36",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": [
-      "Phantom Planet"
-    ]
-  },
-  {
-    "title": "Emmy Woods",
-    "sort_date": "2026-06-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/emmy-woods-8/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Switching fields w. LongView & Bookowski",
-    "sort_date": "2026-06-04",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/chick-singer-w-switching-fields/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
   },
   {
     "title": "Movie and Music Trivia",
@@ -382,6 +247,16 @@
     "supports": []
   },
   {
+    "title": "Barber's Adagio for Strings",
+    "sort_date": "2026-06-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/barbers-adagio-for-strings",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Great Gatsby (Touring)",
     "sort_date": "2026-06-05",
     "venue": "Orpheum Theatre",
@@ -510,16 +385,6 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Saturday 6/6 - Spike & The Gandy Dancers Album Release ($15 Cover)",
-    "sort_date": "2026-06-06",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/6-6-spike-the-gandy-dancers-album-release-celebration-15-cover",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
     "supports": []
   },
   {
@@ -1545,6 +1410,16 @@
     "supports": []
   },
   {
+    "title": "Lissie",
+    "sort_date": "2026-06-12",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/lissie-jun-2026/2026-06-12/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Royal & the Serpent",
     "sort_date": "2026-06-12",
     "venue": "Fine Line",
@@ -2345,7 +2220,9 @@
     "time": "9:30pm",
     "doors": null,
     "supports": [
-      "Knife Emoji"
+      "Knife Emoji",
+      "The Record Club",
+      "Adult Enrichment"
     ]
   },
   {
@@ -2525,7 +2402,7 @@
     "supports": []
   },
   {
-    "title": "Early Evening Jazz: Zachary Finnegan Trio",
+    "title": "Early Evening Jazz: Zachary Finnegan Organ Trio",
     "sort_date": "2026-06-19",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-zachary-finnegan-trio-june-2026",
@@ -3095,6 +2972,16 @@
     "sold_out": false,
     "time": "7pm",
     "doors": "6pm",
+    "supports": []
+  },
+  {
+    "title": "High On Fire",
+    "sort_date": "2026-06-21",
+    "venue": "Turf Club",
+    "url": "https://first-avenue.com/event/2026-06-high-on-fire/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -3938,7 +3825,7 @@
     "supports": [
       "Honeygrl",
       "Socktopus",
-      "TBA"
+      "Spiderlilly"
     ]
   },
   {
@@ -4071,7 +3958,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Products Band"
+    ]
   },
   {
     "title": "Sunday Swing Brunch $8",
@@ -4136,7 +4025,7 @@
     "time": "8pm",
     "doors": "7pm",
     "supports": [
-      "Ryan Davis + The Roadhouse\u00a0Band"
+      "The Wandering Eye (Ween\u00a0Tribute)"
     ]
   },
   {
@@ -4688,6 +4577,16 @@
     ]
   },
   {
+    "title": "Meghan Kreidler w. CB., Sophie Hiroko",
+    "sort_date": "2026-07-03",
+    "venue": "White Squirrel",
+    "url": "https://whitesquirrelbar.com/event/meghan-kreidler-w-cb-sophie-hiroko/",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Nectarous w. Fine Dials, Love Scar",
     "sort_date": "2026-07-03",
     "venue": "White Squirrel",
@@ -4715,6 +4614,16 @@
     "sold_out": false,
     "time": "10:00pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Critter Nova & the Snake Chaser Super Show",
+    "sort_date": "2026-07-04",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-critter-nova-the-snake-chaser-super-show-7-4-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
     "supports": []
   },
   {
@@ -4834,6 +4743,20 @@
     "time": "6pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Frances Avenue",
+    "sort_date": "2026-07-06",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-frances-avenue-7-6-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Francis Avenue",
+      "Lola Paradox",
+      "Timmy Knights"
+    ]
   },
   {
     "title": "Jacob Cloutier w. Lexie Modica",
@@ -5512,6 +5435,19 @@
     "time": "2pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Alexander Natalie",
+    "sort_date": "2026-07-11",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-alexander-natalie-7-11-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Keep for Cheap",
+      "Lily Blue"
+    ]
   },
   {
     "title": "Derek Hough - Symphony of Dance: Encore",
@@ -6659,6 +6595,19 @@
     "supports": []
   },
   {
+    "title": "Sleeping Dogs Lie",
+    "sort_date": "2026-07-20",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-sleeping-dogs-lie-7-20-2026",
+    "sold_out": false,
+    "time": "6:30pm",
+    "doors": "6pm",
+    "supports": [
+      "Savage Moods",
+      "and\u00a0Black Market Mothership"
+    ]
+  },
+  {
     "title": "Devil Dodger",
     "sort_date": "2026-07-20",
     "venue": "White Squirrel",
@@ -7222,6 +7171,20 @@
     "time": "2pm",
     "doors": null,
     "supports": []
+  },
+  {
+    "title": "Bunny Blood",
+    "sort_date": "2026-07-25",
+    "venue": "Pilllar Forum",
+    "url": "https://www.pilllar.com/products/music-bunny-blood-7-25-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6:30pm",
+    "supports": [
+      "Million.point.Million",
+      "Gauze",
+      "and\u00a0Virginia\u2019s Basement"
+    ]
   },
   {
     "title": "Megan Moroney",
@@ -7802,6 +7765,16 @@
     "supports": []
   },
   {
+    "title": "Jammaz, Greydeer, & 1947",
+    "sort_date": "2026-07-30",
+    "venue": "Zhora Darling",
+    "url": "https://link.dice.fm/F13cf49e1b2a",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Courtney Yasmineh",
     "sort_date": "2026-07-31",
     "venue": "331 Club",
@@ -8017,7 +7990,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "The Foxgloves"
+    ]
   },
   {
     "title": "Shannon McNally",
@@ -9326,6 +9301,16 @@
     ]
   },
   {
+    "title": "SICARD HOLLOW",
+    "sort_date": "2026-08-22",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/sicard-hollow",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Bop To The Top",
     "sort_date": "2026-08-22",
     "venue": "Fillmore Minneapolis",
@@ -9892,6 +9877,16 @@
     "supports": []
   },
   {
+    "title": "Masego: Fix Your Face Tour",
+    "sort_date": "2026-09-05",
+    "venue": "Fillmore Minneapolis",
+    "url": "https://www.ticketmaster.com/masego-fix-your-face-tour-minneapolis-minnesota-09-05-2026/event/060064C2FD3EFA62",
+    "sold_out": true,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Tolerables",
     "sort_date": "2026-09-05",
     "venue": "Pilllar Forum",
@@ -10307,6 +10302,18 @@
     "time": "6:30pm",
     "doors": "6pm",
     "supports": []
+  },
+  {
+    "title": "Phoebe Bridgers",
+    "sort_date": "2026-09-17",
+    "venue": "Grand Casino Arena",
+    "url": "https://first-avenue.com/event/2026-09-phoebe-bridgers/",
+    "sold_out": false,
+    "time": null,
+    "doors": null,
+    "supports": [
+      "Alex G"
+    ]
   },
   {
     "title": "SOLD OUT: Booker T. Presents: A Stax Revue and Journey Thru Soul, Blues, and R&B",
@@ -11646,6 +11653,16 @@
     ]
   },
   {
+    "title": "JESSE ROPER with Mae Simpson",
+    "sort_date": "2026-10-13",
+    "venue": "Cedar Cultural Center",
+    "url": "https://www.thecedar.org/events/jesse-roper-with-mae-simpson",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jazz at Lincoln Center Orchestra",
     "sort_date": "2026-10-13",
     "venue": "Orchestra Hall",
@@ -12473,7 +12490,9 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
-    "supports": []
+    "supports": [
+      "Wine Lips"
+    ]
   },
   {
     "title": "Arch Enemy & The Black Dahlia Murder - Wrath Across North America 2026",
