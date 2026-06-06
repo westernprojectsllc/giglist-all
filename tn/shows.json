@@ -1,214 +1,5 @@
 [
   {
-    "title": "2026 CMA Fest presented by SoFi - FOUR-NIGHT STADIUM PASS",
-    "sort_date": "2026-06-04",
-    "venue": "Nissan Stadium",
-    "url": "https://www.ticketmaster.com/2026-cma-fest-presented-by-sofi-nashville-tennessee-06-04-2026/event/1B0062D099082409",
-    "sold_out": true,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pat McLaughlin Band featuring Kenny Greenberg, Greg Morrow & Steve Mackey",
-    "sort_date": "2026-06-05",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/pat-mclaughlin-band-kenny-greenberg-3rd-and-lindsley-tickets/14818113",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "WMOT Finally Friday featuring Ted Russell Kamp , Adam Esrick & Andrew Sa",
-    "sort_date": "2026-06-05",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/wmot-finally-friday-ted-russell-3rd-and-lindsley-tickets/14948073",
-    "sold_out": false,
-    "time": "12pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Wallflowers",
-    "sort_date": "2026-06-05",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/the-wallflowers-nashville-tennessee-06-05-2026/event/1B006437C0E3D53E",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Early James"
-    ]
-  },
-  {
-    "title": "DAIKAIJU vs STUCK LUCKY",
-    "sort_date": "2026-06-05",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-daikaiju-vs-stuck-lucky/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Massey Lane, Horse Bread, Pilot Fish",
-    "sort_date": "2026-06-05",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/massey-lane-horse-bread-pilot-fish-05-jun",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Starlito with Special Guest Bandplay",
-    "sort_date": "2026-06-05",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/starlito-with-special-guest-bandplay-exitin-tickets/14839833",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Grand Ole Opry: OPRY 100",
-    "sort_date": "2026-06-05",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qxA6",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bollywood Nights",
-    "sort_date": "2026-06-05",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/bollywood-nights6-5?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "2026 CMA Fest presented by SoFi - Stadium FRIDAY",
-    "sort_date": "2026-06-05",
-    "venue": "Nissan Stadium",
-    "url": "https://www.ticketmaster.com/2026-cma-fest-presented-by-sofi-nashville-tennessee-06-05-2026/event/1B00646BA593D479",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "The Band Perry",
-      "Blake Shelton",
-      "Cody Johnson",
-      "Keith Urban",
-      "The Red Clay Strays",
-      "Shaboozey"
-    ]
-  },
-  {
-    "title": "Dana Robbins Quintet",
-    "sort_date": "2026-06-05",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/dana-robbins-quintet-2",
-    "sold_out": false,
-    "time": "5:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jerome Degey & Friends",
-    "sort_date": "2026-06-05",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/jerome-degey-friends",
-    "sold_out": false,
-    "time": "11pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Pat Coil's \"Music For Humans\" feat. Evan Cobb, Adam Nitti, Wes Little & Hunter Strasser",
-    "sort_date": "2026-06-05",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/pat-coil-s-music-for-humans-feat-evan-cobb-adam-nitti-wes-little-hunter-strasser",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jill Scott - To Whom This May Concern Tour",
-    "sort_date": "2026-06-05",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.axs.com/events/1364458/jill-scott-tickets?skin=ryman",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MCA Presents: Live From The Skydeck | Friday June 5th",
-    "sort_date": "2026-06-05",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/mca-presents-live-from-the-skydeck/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": "8:30am",
-    "supports": []
-  },
-  {
-    "title": "Dale Ann Bradley $25",
-    "sort_date": "2026-06-05",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/dale-ann-bradley/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Bad Bad Luck, The Sheaps, The Psyches, and El Siren",
-    "sort_date": "2026-06-05",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/bad-bad-luck-the-sheaps-the-basement-tickets/14861163",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Nashville Is The Reason & Mellow Rebel present: 3rd Annual Tony Hawk's Pro Skater Tribute",
-    "sort_date": "2026-06-05",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/nashville-is-the-reason-the-basement-east-tickets/14801623",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Claypool Gold at The Caverns Outdoor Amphitheater",
-    "sort_date": "2026-06-05",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/claypool-gold-at-the-caverns-outdoor-amphitheater",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Samantha McKaige w/Joy Hotchkiss & Thomas Parrish \u2013 18+",
-    "sort_date": "2026-06-05",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/samantha-mckaige-w-joy-hotchkiss-thomas-parrish-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "BACKSTAGE NASHVILLE! DAYTIME HIT SONGWRITERS SHOW featuring Gordie Sampson , Ed Hill , Jordan Dozzi & Tenille Townes + Gloria Anderson",
     "sort_date": "2026-06-06",
     "venue": "3rd & Lindsley",
@@ -371,7 +162,7 @@
     "url": "https://www.assemblyfoodhall.com/event/mca-presents-live-from-the-skydeck/",
     "sold_out": false,
     "time": "6pm",
-    "doors": "8:30am",
+    "doors": "9:30am",
     "supports": []
   },
   {
@@ -593,7 +384,7 @@
     "venue": "The Basement",
     "url": "https://www.ticketweb.com/event/benefit-show-for-peelander-z-the-basement-tickets/14969753",
     "sold_out": false,
-    "time": "9pm",
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -1257,16 +1048,6 @@
     "url": "https://www.ticketweb.com/event/billy-king-and-the-bad-the-basement-tickets/14828333",
     "sold_out": false,
     "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Syd Taylor",
-    "sort_date": "2026-06-12",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/syd-taylor-the-basement-tickets/14822593",
-    "sold_out": false,
-    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -2656,6 +2437,16 @@
     "supports": []
   },
   {
+    "title": "Cashville Trash Pandas Live Debut",
+    "sort_date": "2026-06-21",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/cashville-trash-pandas-live-debut-the-basement-tickets/14974863",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Zo\u00eb Dominguez w/ Jane Leopardo and Lily Crow",
     "sort_date": "2026-06-21",
     "venue": "The Basement",
@@ -3992,6 +3783,16 @@
     "supports": []
   },
   {
+    "title": "The Miguel Alvarado Quintet feat. Jeff Coffin, Jon Cowherd, Scott Mulvahill & Derrek Phillips",
+    "sort_date": "2026-07-03",
+    "venue": "Rudy's Jazz Room",
+    "url": "https://tunehatch.com/shows/the-miguel-alvarado-quintet-feat-jeff-coffin-jon-cowherd-scott-mulvahill-derrek-phillips",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Blnk Cnvs \u2013 ATLIENS",
     "sort_date": "2026-07-03",
     "venue": "Skydeck",
@@ -4029,6 +3830,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Todd Rundgren in The Caverns",
+    "sort_date": "2026-07-03",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/todd-rundgren-in-the-caverns",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -4079,6 +3890,16 @@
     "sold_out": false,
     "time": "5pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Azure Nashville 4th of July with Layton Giordani at Skydeck",
+    "sort_date": "2026-07-04",
+    "venue": "Skydeck",
+    "url": "https://www.assemblyfoodhall.com/event/azure-nashville-4th-of-july-with-layton-giordani-at-skydeck/",
+    "sold_out": false,
+    "time": "9pm",
+    "doors": "8pm",
     "supports": []
   },
   {
@@ -4566,7 +4387,7 @@
     "title": "Cliff Richmond & The CliffNotes",
     "sort_date": "2026-07-10",
     "venue": "Rudy's Jazz Room",
-    "url": "",
+    "url": "https://tunehatch.com/shows/cliff-richmond-the-cliffnotes-2",
     "sold_out": false,
     "time": "5:30pm",
     "doors": null,
@@ -4807,7 +4628,7 @@
     "sort_date": "2026-07-12",
     "venue": "The Basement East",
     "url": "https://www.ticketweb.com/event/second-harvest-food-bank-of-the-basement-east-tickets/14969633",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": []
@@ -4846,7 +4667,7 @@
     "title": "The Jason Johnson Quartet",
     "sort_date": "2026-07-13",
     "venue": "Rudy's Jazz Room",
-    "url": "",
+    "url": "https://tunehatch.com/shows/he-jason-johnson-quartet",
     "sold_out": false,
     "time": "6pm",
     "doors": null,
@@ -5245,6 +5066,16 @@
     "supports": []
   },
   {
+    "title": "The Long Players performing Fleetwood Macs \"Rumours\"",
+    "sort_date": "2026-07-18",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/the-long-players-performing-fleetwood-3rd-and-lindsley-tickets/14976483",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Tomahawk",
     "sort_date": "2026-07-18",
     "venue": "Brooklyn Bowl Nashville",
@@ -5307,7 +5138,7 @@
     "supports": []
   },
   {
-    "title": "Pat Coil Trio w/ Danny Gottlieb & Jake Jezioro",
+    "title": "The Pat Coil Quartet w/ Dan Hitchcock, Jacob Jezioro & Danny Gottlieb",
     "sort_date": "2026-07-18",
     "venue": "Rudy's Jazz Room",
     "url": "https://tunehatch.com/shows/pat-coil-trio-w-danny-gottlieb-jake-jezioro",
@@ -5789,7 +5620,7 @@
     "sort_date": "2026-07-24",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/sixwire-friends-3rd-and-lindsley-tickets/14968193",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -5947,6 +5778,16 @@
     "url": "https://www.ticketweb.com/event/joey-breaux-69th-birthday-bash-the-basement-tickets/14951023",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Scott Levi Jones & The Holy Cow with special guest Nash Hamilton & Kingston Springs",
+    "sort_date": "2026-07-24",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/scott-levi-jones-the-the-basement-tickets/14972483",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -6479,7 +6320,7 @@
     "title": "Jovan Quallo Quartet plays Kenny Garrett",
     "sort_date": "2026-07-30",
     "venue": "Rudy's Jazz Room",
-    "url": "",
+    "url": "https://tunehatch.com/shows/jovan-quallo-quartet-plays-kenny-garrett",
     "sold_out": false,
     "time": "9pm",
     "doors": null,
@@ -6772,6 +6613,16 @@
       "Rome",
       "Ocean Alley"
     ]
+  },
+  {
+    "title": "Cimarron 615 with Abigayle Oakley",
+    "sort_date": "2026-08-02",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/cimarron-615-abigayle-oakley-3rd-and-lindsley-tickets/14953713",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Bluegrass Jam",
@@ -8222,7 +8073,7 @@
     "sort_date": "2026-08-28",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/giant-feat-dann-huff-david-3rd-and-lindsley-tickets/14960883",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -8806,7 +8657,7 @@
     "sort_date": "2026-09-10",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/uncle-acid-the-deadbeats-north-america-nashville-tennessee-09-10-2026/event/1B0064BBE2E19455",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": [
@@ -9858,7 +9709,7 @@
     "sort_date": "2026-10-02",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/umphreys-mcgee-nashville-tennessee-10-02-2026/event/1B0064BCBCAD408C",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -9908,7 +9759,7 @@
     "sort_date": "2026-10-03",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/umphreys-mcgee-nashville-tennessee-10-03-2026/event/1B0064BCC16959CE",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
@@ -10399,7 +10250,7 @@
     "sort_date": "2026-10-14",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/soccer-mommy-snail-mail-the-sm-nashville-tennessee-10-14-2026/event/1B0064BBEDD5B136",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -10826,6 +10677,16 @@
     "supports": []
   },
   {
+    "title": "Noah Levine w/ Corey Harper",
+    "sort_date": "2026-10-24",
+    "venue": "The Basement",
+    "url": "https://www.ticketweb.com/event/noah-levine-w-corey-harper-the-basement-tickets/14975693",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "RESCHEDULE/VENUE CHANGE: Dylan LeBlanc w/ Carlyle Griffin",
     "sort_date": "2026-10-24",
     "venue": "The Basement",
@@ -11153,7 +11014,7 @@
     "sort_date": "2026-11-02",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/voila-presents-moonbloom-nashville-tennessee-11-02-2026/event/1B0064BCEA97F264",
-    "sold_out": true,
+    "sold_out": false,
     "time": "7pm",
     "doors": null,
     "supports": [
@@ -11300,7 +11161,7 @@
     "sort_date": "2026-11-07",
     "venue": "Brooklyn Bowl Nashville",
     "url": "https://www.ticketmaster.com/julia-jacklin-north-america-tour-2026-nashville-tennessee-11-07-2026/event/1B0064BCE2E2D6F7",
-    "sold_out": true,
+    "sold_out": false,
     "time": "8pm",
     "doors": null,
     "supports": []
