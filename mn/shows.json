@@ -119,16 +119,6 @@
     "supports": []
   },
   {
-    "title": "Taj Mahal & The Phantom Blues Band",
-    "sort_date": "2026-06-05",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/taj-mahal-the-phantom-blues-band-jun-2026/2026-06-05/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Em Beihold",
     "sort_date": "2026-06-05",
     "venue": "Fine Line",
@@ -176,65 +166,12 @@
     ]
   },
   {
-    "title": "Drinkin\u2019 Spelling Bee",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://331club.com/",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Plumstar",
-    "sort_date": "2026-06-06",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/hiplumstar?igsh=MW93d25idnJxcmQ5eQ==",
-    "sold_out": false,
-    "time": "10:00pm",
-    "doors": null,
-    "supports": [
-      "Tomboyy",
-      "Billy the Shoe"
-    ]
-  },
-  {
     "title": "Pradabagshawty",
     "sort_date": "2026-06-06",
     "venue": "7th St Entry",
     "url": "https://first-avenue.com/event/2026-06-pradabagshawty/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Early Evening Jazz: Ian Duerr Trio",
-    "sort_date": "2026-06-06",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/early-evening-jazz-ian-duerr-trio-june-2026",
-    "sold_out": false,
-    "time": "4:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Late Night Lounge: D. Untethered",
-    "sort_date": "2026-06-06",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/d-untethered-june-2026",
-    "sold_out": false,
-    "time": "10:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Mathis Picard Trio",
-    "sort_date": "2026-06-06",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/mathis-picard-trio-june-6",
-    "sold_out": false,
-    "time": "7:30pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -245,16 +182,6 @@
     "url": "https://www.thecedar.org/events/joseph-arthur-with-abe-partridge",
     "sold_out": false,
     "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Black Widows, Surly Grrly, Chick Singer",
-    "sort_date": "2026-06-06",
-    "venue": "Cloudland Theater",
-    "url": "https://link.dice.fm/zd431b6804bb",
-    "sold_out": false,
-    "time": "7:30pm",
     "doors": null,
     "supports": []
   },
@@ -274,8 +201,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-06-kings-kaleidoscope/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "Hollyn"
     ]
@@ -286,56 +213,12 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-06-prince-block-party/",
     "sold_out": false,
-    "time": "7pm",
-    "doors": "7pm",
+    "time": null,
+    "doors": null,
     "supports": [
       "DJ Jake Rudh",
       "DJ Miss\u00a0Brit"
     ]
-  },
-  {
-    "title": "The Great Gatsby (Touring)",
-    "sort_date": "2026-06-06",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-06-2026/event/060063887F1947DD",
-    "sold_out": false,
-    "time": "2pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Joan of Profile",
-    "sort_date": "2026-06-06",
-    "venue": "Pilllar Forum",
-    "url": "https://www.pilllar.com/products/music-joan-of-profile-6-6-2026",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6:30pm",
-    "supports": [
-      "Juliet Farmer",
-      "Lake Davi",
-      "Lexie Modica"
-    ]
-  },
-  {
-    "title": "Subsuka and Friends",
-    "sort_date": "2026-06-06",
-    "venue": "The Loft at Skyway Theatre",
-    "url": "https://skywaytheatre.com/event/subsuka-and-friends/",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dr. Mambo's Combo // Forever In My Life: A Birthday Tribute to Prince",
-    "sort_date": "2026-06-06",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/r5911e3bccd0",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6:30pm",
-    "supports": []
   },
   {
     "title": "GRINDHOUSE \u23e4 A Drag and Burlesque Tribute to EXXXploitation Cinema and the Films of Quentin Tarantino",
@@ -343,51 +226,7 @@
     "venue": "Turf Club",
     "url": "https://first-avenue.com/event/2026-06-grindhouse/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "Super Dope R&B House Party: Chris Brown & Usher edition",
-    "sort_date": "2026-06-06",
-    "venue": "Uptown VFW",
-    "url": "https://app.opendate.io/e/super-dope-r-b-house-party-chris-brown-usher-edition-june-06-2026-690559",
-    "sold_out": false,
-    "time": "10pm",
-    "doors": null,
-    "supports": [
-      "Mr. Peter Parker",
-      "DJ D-MIL",
-      "DJ JG"
-    ]
-  },
-  {
-    "title": "Cozy Worldwide: Throwback and Current R&B / Hip-Hop Party - 21+",
-    "sort_date": "2026-06-06",
-    "venue": "Varsity Theater",
-    "url": "https://www.ticketmaster.com/cozy-worldwide-throwback-and-current-rb-minneapolis-minnesota-06-06-2026/event/06006459CD53AC21",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kev Fest! White Squirrel\u2019s 5 Year Anniversary Party",
-    "sort_date": "2026-06-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/kev-fest/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Patio Yoga with Pete",
-    "sort_date": "2026-06-06",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/patio-yoga-with-pete-4/",
-    "sold_out": false,
-    "time": "11am",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -469,6 +308,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "2026 Commission Premiere: The Wild Iris",
+    "sort_date": "2026-06-07",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/2026-commission-premiere",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -1255,6 +1104,16 @@
     "supports": []
   },
   {
+    "title": "S\u00f8nderg\u00e5rd and Tchaikovsky",
+    "sort_date": "2026-06-12",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-and-tchaikovsky",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Couch Potato Massacre",
     "sort_date": "2026-06-12",
     "venue": "Pilllar Forum",
@@ -1627,6 +1486,16 @@
     "supports": []
   },
   {
+    "title": "Infidels: A Bob Dylan Tribute",
+    "sort_date": "2026-06-14",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/infidels-a-bob-dylan-tribute-jun14-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Del Amitri",
     "sort_date": "2026-06-14",
     "venue": "First Avenue",
@@ -1637,6 +1506,16 @@
     "supports": [
       "Little Fevers"
     ]
+  },
+  {
+    "title": "Symphonic Storytelling",
+    "sort_date": "2026-06-14",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/family-sensory-friendly/symphonic-storytelling",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Demon Sweat",
@@ -2085,6 +1964,16 @@
     ]
   },
   {
+    "title": "Juneteenth",
+    "sort_date": "2026-06-18",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/juneteenth",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Permanent Record & Private Oates play Beck! Odelay! Front to Back for its 30th B-Day",
     "sort_date": "2026-06-18",
     "venue": "The Parkway Theater",
@@ -2468,6 +2357,16 @@
     ]
   },
   {
+    "title": "Disney Pride in Concert",
+    "sort_date": "2026-06-20",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/disney-pride-in-concert",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Pity Party",
     "sort_date": "2026-06-20",
     "venue": "Pilllar Forum",
@@ -2713,6 +2612,16 @@
     "supports": [
       "Sean Anonymous"
     ]
+  },
+  {
+    "title": "Summer Solstice",
+    "sort_date": "2026-06-21",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/summer-solstice",
+    "sold_out": false,
+    "time": "5:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Eso Si Que Es",
@@ -4066,6 +3975,16 @@
     ]
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-07-01",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-july-1-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Puppeteers For Fears presents Robopocalypse: The Musical!",
     "sort_date": "2026-07-01",
     "venue": "Cedar Cultural Center",
@@ -4586,6 +4505,16 @@
     "supports": []
   },
   {
+    "title": "Excelsior Symphony for the Cities",
+    "sort_date": "2026-07-07",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/excelsior-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Unfinished Products",
     "sort_date": "2026-07-07",
     "venue": "Pilllar Forum",
@@ -4663,6 +4592,16 @@
     ]
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-07-08",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-july-8-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "corto.alto w/ cool nel d",
     "sort_date": "2026-07-08",
     "venue": "Berlin",
@@ -4693,6 +4632,16 @@
     "supports": [
       "J Boog"
     ]
+  },
+  {
+    "title": "Plymouth Symphony for the Cities",
+    "sort_date": "2026-07-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/plymouth-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "8:45pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -4814,6 +4763,16 @@
     "supports": [
       "Leon Majcen"
     ]
+  },
+  {
+    "title": "Hudson Symphony for the Cities",
+    "sort_date": "2026-07-09",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/hudson-symphony-for-the-cities-2",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -5150,6 +5109,16 @@
     "supports": []
   },
   {
+    "title": "Winona Symphony for the Cities",
+    "sort_date": "2026-07-11",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/symphony-for-the-cities/winona-symphony-for-the-cities",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-07-11",
     "venue": "Orpheum Theatre",
@@ -5275,7 +5244,7 @@
     "supports": []
   },
   {
-    "title": "Aida Shahghasemi with Kavyesh Kaviraj & Christopher Rochester",
+    "title": "Curated by Aida Shahghasemi (feat. Christopher Rochester & Kavyesh Kaviraj)",
     "sort_date": "2026-07-12",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/aida-shahghasemi-residency-week-1",
@@ -5555,6 +5524,16 @@
     ]
   },
   {
+    "title": "The Cherry Pit Open Jam",
+    "sort_date": "2026-07-15",
+    "venue": "Berlin",
+    "url": "https://www.berlinmpls.com/calendar/the-cherry-pit-open-jam-minneapolis-july-15-2026",
+    "sold_out": false,
+    "time": "10pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "\u2600\ufe0fSummer at The Cedar : SUMMER DEEP LISTENING \u2600\ufe0f",
     "sort_date": "2026-07-15",
     "venue": "Cedar Cultural Center",
@@ -5700,6 +5679,16 @@
       "Bass Drum of Death",
       "Worlds\u00a0Worst"
     ]
+  },
+  {
+    "title": "Beethoven Triple Concerto",
+    "sort_date": "2026-07-16",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/beethoven-triple-concerto",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -6001,6 +5990,16 @@
     "supports": []
   },
   {
+    "title": "Cabaret: Nisswa",
+    "sort_date": "2026-07-18",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/cabaret-nisswa",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-07-18",
     "venue": "Orpheum Theatre",
@@ -6144,7 +6143,7 @@
     "supports": []
   },
   {
-    "title": "Aida Shahghasemi with Niloofar Sohi & Niyayesh Shababi",
+    "title": "Curated by Aida Shahghasemi (feat. Niloofar Sohi & Niyayesh Shababi)",
     "sort_date": "2026-07-19",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/aida-shahghasemi-residency-week-2",
@@ -6174,6 +6173,16 @@
     "supports": [
       "Lacey Sturm"
     ]
+  },
+  {
+    "title": "Cabaret: Aitkin",
+    "sort_date": "2026-07-19",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/cabaret-aitkin",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -6569,6 +6578,16 @@
     "url": "https://www.thecedar.org/events/first-avenue-presents-wild-child2026",
     "sold_out": false,
     "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "John Williams' Greatest Scores",
+    "sort_date": "2026-07-23",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/summer-at-orchestra-hall-2/john-williams-greatest-scores",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -6974,7 +6993,7 @@
     "supports": []
   },
   {
-    "title": "Aida Shahghasemi with Jeremy Ylvisaker, Max Ylvisaker, & Joey Hays",
+    "title": "Curated by Aida Shahghasemi (feat. Jeremy Ylvisaker, Max Ylvisaker, & Joey Hays)",
     "sort_date": "2026-07-26",
     "venue": "Berlin",
     "url": "https://www.berlinmpls.com/calendar/aida-shahghasemi-residency-week-3",
@@ -6990,6 +7009,16 @@
     "url": "https://link.dice.fm/ledfbfd8171e",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "A Night in the Tropics",
+    "sort_date": "2026-07-26",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/summer-at-orchestra-hall-2/a-night-in-the-tropics",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -7506,6 +7535,26 @@
     "supports": []
   },
   {
+    "title": "Chris Thile with the Minnesota Orchestra",
+    "sort_date": "2026-07-31",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/summer-at-orchestra-hall-2/chris-thile-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Season Opening Gala: Pas de Deux",
+    "sort_date": "2026-07-31",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/pas-de-deux",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-07-31",
     "venue": "Orpheum Theatre",
@@ -7680,6 +7729,16 @@
     "supports": []
   },
   {
+    "title": "Brahms & The Schumanns",
+    "sort_date": "2026-08-02",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/brahms-and-the-schumanns",
+    "sold_out": false,
+    "time": "3pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-02",
     "venue": "Orpheum Theatre",
@@ -7766,6 +7825,16 @@
     "supports": []
   },
   {
+    "title": "Climate of Change",
+    "sort_date": "2026-08-04",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/tedxminneapolis-2",
+    "sold_out": false,
+    "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-04",
     "venue": "Orpheum Theatre",
@@ -7826,6 +7895,16 @@
     "supports": [
       "Melvins"
     ]
+  },
+  {
+    "title": "Lovers in the Night",
+    "sort_date": "2026-08-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/lovers-in-the-night",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Wicked",
@@ -7960,6 +8039,16 @@
     ]
   },
   {
+    "title": "John Holiday",
+    "sort_date": "2026-08-07",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/summer-at-orchestra-hall-2/john-holiday",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Wicked",
     "sort_date": "2026-08-07",
     "venue": "Orpheum Theatre",
@@ -8041,6 +8130,16 @@
     "url": "https://www.thecedar.org/events/creekbed-carters-hot-dog-ball",
     "sold_out": false,
     "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "An American Songbook",
+    "sort_date": "2026-08-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/summer-at-orchestra-hall-2/an-american-songbook",
+    "sold_out": false,
+    "time": "7pm",
     "doors": null,
     "supports": []
   },
@@ -8349,6 +8448,16 @@
     "supports": []
   },
   {
+    "title": "Carmen",
+    "sort_date": "2026-08-14",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/carmen",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
     "sort_date": "2026-08-14",
     "venue": "Orpheum Theatre",
@@ -8439,6 +8548,16 @@
     "supports": [
       "Brye"
     ]
+  },
+  {
+    "title": "Zorongo Flamenco",
+    "sort_date": "2026-08-15",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/zorongo-flamenco",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
@@ -8683,6 +8802,16 @@
     "supports": []
   },
   {
+    "title": "Haydn's Passion Symphony",
+    "sort_date": "2026-08-19",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/haydns-passion-symphony",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "FunkyFrogBait Presents: Internet Kid (The Comedy Tour)",
     "sort_date": "2026-08-19",
     "venue": "The Parkway Theater",
@@ -8916,6 +9045,16 @@
     "supports": [
       "Mountain Head"
     ]
+  },
+  {
+    "title": "Dances of Passion",
+    "sort_date": "2026-08-22",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/lakes-area-music-festival/dances-of-passion",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Damager",
@@ -10157,6 +10296,16 @@
     ]
   },
   {
+    "title": "Herb Alpert & The Tijuana Brass",
+    "sort_date": "2026-09-20",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/herb-alpert-and-the-tijuana-brass",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Cat Positive",
     "sort_date": "2026-09-20",
     "venue": "Pilllar Forum",
@@ -10315,6 +10464,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "S\u00f8nderg\u00e5rd Conducts Stravinsky\u2019s Firebird",
+    "sort_date": "2026-09-25",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-conducts-stravinskys-firebird",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -10596,6 +10755,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "S\u00f8nderg\u00e5rd, Mozart and Prokofiev",
+    "sort_date": "2026-10-01",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-mozart-and-prokofiev",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
     "supports": []
   },
   {
@@ -10995,6 +11164,16 @@
     ]
   },
   {
+    "title": "Return of the Jedi in Concert",
+    "sort_date": "2026-10-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/the-return-of-the-jedi-in-concert",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Buddy Guy 90",
     "sort_date": "2026-10-08",
     "venue": "State Theatre",
@@ -11208,6 +11387,16 @@
     "supports": []
   },
   {
+    "title": "Jazz at Lincoln Center Orchestra",
+    "sort_date": "2026-10-13",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/jazz-at-lincoln-center-orchestra-2026",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "STING 3.0 Tour",
     "sort_date": "2026-10-13",
     "venue": "Orpheum Theatre",
@@ -11335,6 +11524,16 @@
     "supports": [
       "Willy Porter"
     ]
+  },
+  {
+    "title": "Pictures at an Exhibition",
+    "sort_date": "2026-10-16",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/pictures-at-an-exhibition",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "The Menzingers: Everything I Ever Saw North American Tour",
@@ -11502,6 +11701,16 @@
     "supports": []
   },
   {
+    "title": "Haydn and Liszt",
+    "sort_date": "2026-10-22",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/haydn-and-liszt",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Sammy Rae & The Friends",
     "sort_date": "2026-10-22",
     "venue": "Palace Theatre",
@@ -11612,6 +11821,16 @@
     "supports": []
   },
   {
+    "title": "Ben Folds",
+    "sort_date": "2026-10-24",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/ben-folds-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Jason Salmon",
     "sort_date": "2026-10-24",
     "venue": "The Parkway Theater",
@@ -11638,6 +11857,16 @@
     "url": "https://whitesquirrelbar.com/event/public-meltdown/",
     "sold_out": false,
     "time": "9pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Brahms, Prokofiev and Tabakova",
+    "sort_date": "2026-10-25",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/chamber/brahms-prokofiev-and-bacewicz",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -11685,6 +11914,16 @@
     "supports": [
       "Emma Ruth\u00a0Rundle"
     ]
+  },
+  {
+    "title": "Peter and the Wolf",
+    "sort_date": "2026-10-27",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/young-peoples/peter-and-the-wolf",
+    "sold_out": false,
+    "time": "10am",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "The Dresden Dolls",
@@ -11756,6 +11995,16 @@
     "sold_out": false,
     "time": "7:30pm",
     "doors": "6:30pm",
+    "supports": []
+  },
+  {
+    "title": "Vertigo",
+    "sort_date": "2026-10-30",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/vertigo",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -11938,6 +12187,16 @@
     "supports": []
   },
   {
+    "title": "S\u00f8nderg\u00e5rd, Parker and Sibelius",
+    "sort_date": "2026-11-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-parker-and-sibelius",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Justin Willman: One For The Ages Tour",
     "sort_date": "2026-11-05",
     "venue": "State Theatre",
@@ -12022,6 +12281,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "The Musical Tales of Hans Christian Andersen",
+    "sort_date": "2026-11-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/family-sensory-friendly/the-musical-tales-of-hans-christian-andersen",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12151,6 +12420,16 @@
     "supports": []
   },
   {
+    "title": "V\u00e4nsk\u00e4, Chen and Nielsen",
+    "sort_date": "2026-11-13",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/vaenskae-chen-and-nielsen",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Amythyst Kiah with special guest TBA",
     "sort_date": "2026-11-13",
     "venue": "The Parkway Theater",
@@ -12262,6 +12541,16 @@
     "supports": []
   },
   {
+    "title": "Elgar and Dvo\u0159\u00e1k",
+    "sort_date": "2026-11-19",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/elgar-and-dvoak",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Davide De Pierro // The Letters I Never Sent",
     "sort_date": "2026-11-19",
     "venue": "The Parkway Theater",
@@ -12356,12 +12645,42 @@
     "supports": []
   },
   {
+    "title": "Andrew Bird",
+    "sort_date": "2026-11-21",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/andrew-bird-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Slay Bells Ring",
+    "sort_date": "2026-11-22",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/slay-bells-ring",
+    "sold_out": false,
+    "time": "1pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Matt Hansen - The Orchid Tour",
     "sort_date": "2026-11-22",
     "venue": "Varsity Theater",
     "url": "https://www.ticketmaster.com/matt-hansen-the-orchid-tour-minneapolis-minnesota-11-22-2026/event/060064B5CEEEE0A8",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "How to Train Your Dragon in Concert",
+    "sort_date": "2026-11-28",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/how-to-train-your-dragon-in-concert",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -12373,6 +12692,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "Preservation Hall Jazz Band",
+    "sort_date": "2026-12-01",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/preservation-hall-jazz-band",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
     "supports": []
   },
   {
@@ -12457,6 +12786,16 @@
     ]
   },
   {
+    "title": "A Charlie Brown Christmas",
+    "sort_date": "2026-12-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/a-charlie-brown-christmas-live-at-the-symphony",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "The Dans w. Special Guests",
     "sort_date": "2026-12-08",
     "venue": "White Squirrel",
@@ -12477,6 +12816,16 @@
     "supports": [
       "Eem Triplin"
     ]
+  },
+  {
+    "title": "Home Alone in Concert",
+    "sort_date": "2026-12-11",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/home-alone-in-concert-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Dusty Slay",
@@ -12521,12 +12870,82 @@
     "supports": []
   },
   {
+    "title": "Handel's Messiah",
+    "sort_date": "2026-12-18",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/handels-messiah",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Merry & Bright",
+    "sort_date": "2026-12-20",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/merry-and-bright-2",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "A New Year's Celebration",
+    "sort_date": "2026-12-31",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/a-new-years-celebration",
+    "sold_out": false,
+    "time": "8:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Afkham, Moser and Shostakovich",
+    "sort_date": "2027-01-08",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/afkham-moser-and-shostakovich",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Amadeus Live",
+    "sort_date": "2027-01-15",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/amadeus-live",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "DENNY LOVE: SHOW LOVE TOUR",
     "sort_date": "2027-01-22",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/denny-love-show-love-tour-minneapolis-minnesota-01-22-2027/event/060064BDA02687E6",
     "sold_out": false,
     "time": "6pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Tchaikovsky Violin Concerto",
+    "sort_date": "2027-01-22",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/tchaikovsky-violin-concerto",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Beethoven, Britten and More",
+    "sort_date": "2027-01-24",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/chamber/beethoven-britten-and-more",
+    "sold_out": false,
+    "time": "2pm",
     "doors": null,
     "supports": []
   },
@@ -12561,6 +12980,56 @@
     "supports": []
   },
   {
+    "title": "S\u00f8nderg\u00e5rd, Hadelich and Prokofiev",
+    "sort_date": "2027-02-11",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-hadelich-and-prokofiev",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Under the Red Lanterns: A Lunar New Year Celebration",
+    "sort_date": "2027-02-16",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/young-peoples/lunar-new-year-yp",
+    "sold_out": false,
+    "time": "10am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Lunar New Year Concert",
+    "sort_date": "2027-02-19",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/lunar-new-year-concert",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Under the Red Lanterns",
+    "sort_date": "2027-02-21",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/family-sensory-friendly/under-the-red-lanterns",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ravel Piano Concerto in G",
+    "sort_date": "2027-02-25",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/ravel-piano-concerto-in-g",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Professor Brian Cox - Emergence",
     "sort_date": "2027-02-25",
     "venue": "State Theatre",
@@ -12571,12 +13040,262 @@
     "supports": []
   },
   {
+    "title": "Samara Joy",
+    "sort_date": "2027-02-27",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/samara-joy",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Guster",
+    "sort_date": "2027-03-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/guster-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Rachmaninoff and Tchaikovsky",
+    "sort_date": "2027-03-12",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/rachmaninoff-and-tchaikovsky",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "S\u00f8nderg\u00e5rd and Trifonov",
+    "sort_date": "2027-03-18",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-and-trifonov",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Stories of Audacity",
+    "sort_date": "2027-03-21",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/stories-of-audacity",
+    "sold_out": false,
+    "time": "2:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Keefe, Shostakovich and Ravel",
+    "sort_date": "2027-04-01",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/keefe-shostakovich-and-ravel",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Attack on Titan",
+    "sort_date": "2027-04-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/attack-on-titan-2",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Beethoven Symphony No. 7",
+    "sort_date": "2027-04-09",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/beethoven-symphony-no-7",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Nothing But Thieves: The Stray Dogs World Tour",
     "sort_date": "2027-04-11",
     "venue": "Fillmore Minneapolis",
     "url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-minneapolis-minnesota-04-11-2027/event/060064B511729383",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dvo\u0159\u00e1k, Schubert and Bacewicz",
+    "sort_date": "2027-04-11",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/chamber/dvoak-schubert-and-bacewicz",
+    "sold_out": false,
+    "time": "2pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Ross, Beethoven and Sibelius",
+    "sort_date": "2027-04-15",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/ross-beethoven-and-sibelius",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "21st Century Broadway",
+    "sort_date": "2027-04-17",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/21st-century-broadway",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Philharmonia Fantastique: The Making of the Orchestra",
+    "sort_date": "2027-04-20",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/young-peoples/philharmonia-fantastique",
+    "sold_out": false,
+    "time": "10am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "S\u00f8nderg\u00e5rd Conducts Future Classics",
+    "sort_date": "2027-04-30",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-conducts-future-classics",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Puccini's Tosca",
+    "sort_date": "2027-05-06",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/puccinis-tosca",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Gershwin Concerto in F",
+    "sort_date": "2027-05-13",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/gershwin-concerto-in-f",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban\u2122 in Concert",
+    "sort_date": "2027-05-20",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/harry-potter-and-the-prisoner-of-azkaban-in-concert",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Dvo\u0159\u00e1k Symphony No. 7",
+    "sort_date": "2027-06-03",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/dvoak-symphony-no-7",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Leslie Odom, Jr.",
+    "sort_date": "2027-06-05",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/leslie-odom-jr-with-the-minnesota-orchestra",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "S\u00f8nderg\u00e5rd Conducts Mahler Symphony No. 5",
+    "sort_date": "2027-06-10",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/sondergard-conducts-mahler-symphony-no-5",
+    "sold_out": false,
+    "time": "11am",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Juneteenth",
+    "sort_date": "2027-06-17",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/holiday/juneteenth-celebration",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Jaws in Concert",
+    "sort_date": "2027-06-18",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/movies-music/jaws-in-concert",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Vegas Strip",
+    "sort_date": "2027-06-22",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/the-vegas-strip",
+    "sold_out": false,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Beethoven x Beyonc\u00e9",
+    "sort_date": "2027-06-25",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/beethoven-x-beyonce",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Thorgy Thor and the Thorchestra",
+    "sort_date": "2027-06-26",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/live/thorgy-thor-and-the-thorchestra",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "Beethoven and Barber",
+    "sort_date": "2027-07-15",
+    "venue": "Orchestra Hall",
+    "url": "https://www.minnesotaorchestra.org/tickets/calendar/classical/beethoven-and-barber",
+    "sold_out": false,
+    "time": "11am",
     "doors": null,
     "supports": []
   }
