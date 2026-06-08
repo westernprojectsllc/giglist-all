@@ -1,0 +1,30 @@
+name: Smoke Tests
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # Daily at 8am Central, 1h after the scrape job
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run scraper smoke tests
+        env:
+          TM_API_KEY: ${{ secrets.TM_API_KEY }}
+        run: pytest tests/test_scrapers.py -v
