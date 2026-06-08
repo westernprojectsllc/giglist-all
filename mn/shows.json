@@ -109,16 +109,6 @@
     ]
   },
   {
-    "title": "TURN TURN TURN with Triple Fiddle (EP Release show)",
-    "sort_date": "2026-06-05",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/turn-turn-turn-with-triple-fiddle",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Em Beihold",
     "sort_date": "2026-06-05",
     "venue": "Fine Line",
@@ -176,26 +166,6 @@
     "supports": []
   },
   {
-    "title": "JOSEPH ARTHUR with Abe Partridge",
-    "sort_date": "2026-06-06",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/joseph-arthur-with-abe-partridge",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "MonoNeon",
-    "sort_date": "2026-06-06",
-    "venue": "Dakota Jazz Club",
-    "url": "https://www.dakotacooks.com/event/mononeon-jun6-2026/2026-06-06/1/",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Kings Kaleidoscope",
     "sort_date": "2026-06-06",
     "venue": "Fine Line",
@@ -231,56 +201,6 @@
     "supports": []
   },
   {
-    "title": "Brass Messengers",
-    "sort_date": "2026-06-07",
-    "venue": "331 Club",
-    "url": "https://www.facebook.com/profile.php?id=100063684781557&mibextid=LQQJ4d",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Kelley Smith",
-    "sort_date": "2026-06-07",
-    "venue": "331 Club",
-    "url": "https://www.instagram.com/kelleysmithmusic?igsh=MmVnZGtpcWpvcjRl",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Swing Brunch $8",
-    "sort_date": "2026-06-07",
-    "venue": "Aster Cafe",
-    "url": "https://tables.toasttab.com/aster-cafe/experiences/sunday-swing-brunch-8",
-    "sold_out": false,
-    "time": "10:30am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "TGNP Sundays: Crystal Myslajek & Mary Hanson Scott / Channy Leaneagh / Lonefront",
-    "sort_date": "2026-06-07",
-    "venue": "Berlin",
-    "url": "https://www.berlinmpls.com/calendar/totally-gross-national-product-residency-week-1",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "NOISE PARTY 14",
-    "sort_date": "2026-06-07",
-    "venue": "Cedar Cultural Center",
-    "url": "https://www.thecedar.org/events/noise-party-14",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
     "title": "Dylan Salfer Band",
     "sort_date": "2026-06-07",
     "venue": "Dakota Jazz Club",
@@ -296,8 +216,8 @@
     "venue": "Fine Line",
     "url": "https://first-avenue.com/event/2026-06-citizen-soldier/",
     "sold_out": false,
-    "time": "7:30pm",
-    "doors": "6pm",
+    "time": null,
+    "doors": null,
     "supports": []
   },
   {
@@ -306,67 +226,7 @@
     "venue": "First Avenue",
     "url": "https://first-avenue.com/event/2026-06-private-event-060726/",
     "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
-    "title": "2026 Commission Premiere: The Wild Iris",
-    "sort_date": "2026-06-07",
-    "venue": "Orchestra Hall",
-    "url": "https://www.minnesotaorchestra.org/tickets/calendar/rentals/2026-commission-premiere",
-    "sold_out": false,
-    "time": "3pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Great Gatsby (Touring)",
-    "sort_date": "2026-06-07",
-    "venue": "Orpheum Theatre",
-    "url": "https://www.ticketmaster.com/the-great-gatsby-touring-minneapolis-minnesota-06-07-2026/event/060063887F1E47FA",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Delvon Lamarr Organ Trio",
-    "sort_date": "2026-06-07",
-    "venue": "The Parkway Theater",
-    "url": "https://link.dice.fm/Me61abe5568e",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": "6pm",
-    "supports": []
-  },
-  {
-    "title": "Jake Hanson w. Luke Enyeart",
-    "sort_date": "2026-06-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/jacob-hanson-w-luke-enyeart/",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Joe Nicola w. Leon Redbone",
-    "sort_date": "2026-06-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/joe-nicola-w-rockabilly-mayhem/",
-    "sold_out": false,
-    "time": "1pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Watt Meber w. Scott Hefte & Aaron James",
-    "sort_date": "2026-06-07",
-    "venue": "White Squirrel",
-    "url": "https://whitesquirrelbar.com/event/watt-meber-w-scott-hefte-aaron-james/",
-    "sold_out": false,
-    "time": "9pm",
+    "time": null,
     "doors": null,
     "supports": []
   },
@@ -1618,6 +1478,16 @@
     ]
   },
   {
+    "title": "Kinga G\u0142yk",
+    "sort_date": "2026-06-15",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/kinga-glyk-jun15-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "One Singular Cigarette",
     "sort_date": "2026-06-15",
     "venue": "Pilllar Forum",
@@ -1686,6 +1556,16 @@
     "supports": [
       "Julianna Riolino"
     ]
+  },
+  {
+    "title": "Naturally 7",
+    "sort_date": "2026-06-16",
+    "venue": "Dakota Jazz Club",
+    "url": "https://www.dakotacooks.com/event/naturally-7-jun16-2026/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Chris Ramsay Presents: It's Probably Nothing...",
@@ -3091,7 +2971,7 @@
     "supports": []
   },
   {
-    "title": "An Evening with ALYSHA BRILLA",
+    "title": "An Evening with ALYSHA BRILLA with Brandyn Lee Tulloch",
     "sort_date": "2026-06-25",
     "venue": "Cedar Cultural Center",
     "url": "https://www.thecedar.org/events/an-evening-with-alysha-brilla",
@@ -10028,6 +9908,16 @@
     "supports": []
   },
   {
+    "title": "Kevin Atwater",
+    "sort_date": "2026-09-17",
+    "venue": "Amsterdam Bar & Hall",
+    "url": "https://first-avenue.com/event/2026-09-kevin-atwater/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": []
+  },
+  {
     "title": "Phoebe Bridgers",
     "sort_date": "2026-09-17",
     "venue": "Grand Casino Arena",
@@ -10283,6 +10173,19 @@
     "supports": []
   },
   {
+    "title": "Show Me The Body",
+    "sort_date": "2026-09-20",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-09-show-me-the-body/",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "6pm",
+    "supports": [
+      "Whispers",
+      "Holder"
+    ]
+  },
+  {
     "title": "Hulvey",
     "sort_date": "2026-09-20",
     "venue": "First Avenue",
@@ -10430,6 +10333,16 @@
     "url": "https://link.dice.fm/F58c8116e62d",
     "sold_out": false,
     "time": "6:30pm",
+    "doors": null,
+    "supports": []
+  },
+  {
+    "title": "The Basement Yard Live",
+    "sort_date": "2026-09-24",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/the-basement-yard-live-minneapolis-minnesota-09-24-2026/event/060064C1C063A17C",
+    "sold_out": true,
+    "time": "8pm",
     "doors": null,
     "supports": []
   },
@@ -10905,6 +10818,16 @@
     "supports": []
   },
   {
+    "title": "Stephen Day",
+    "sort_date": "2026-10-03",
+    "venue": "Fine Line",
+    "url": "https://first-avenue.com/event/2026-10-stephen-day/",
+    "sold_out": false,
+    "time": "8pm",
+    "doors": "7pm",
+    "supports": []
+  },
+  {
     "title": "Mastodon",
     "sort_date": "2026-10-03",
     "venue": "Palace Theatre",
@@ -11288,6 +11211,16 @@
     "supports": [
       "Brennan Wedl"
     ]
+  },
+  {
+    "title": "Little Big Town - For The Art Of It Tour",
+    "sort_date": "2026-10-10",
+    "venue": "State Theatre",
+    "url": "https://www.ticketmaster.com/little-big-town-for-the-art-minneapolis-minnesota-10-10-2026/event/060064C2EC6DE7C7",
+    "sold_out": true,
+    "time": "7:30pm",
+    "doors": null,
+    "supports": []
   },
   {
     "title": "Roger Clyne & The Peacemakers",

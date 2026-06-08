@@ -1,213 +1,10 @@
 [
   {
-    "title": "High Fade: Twice As Nice Tour with Moga Family Band",
-    "sort_date": "2026-06-07",
-    "venue": "3rd & Lindsley",
-    "url": "https://www.ticketweb.com/event/high-fade-twice-as-nice-3rd-and-lindsley-tickets/14104424",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Yebba",
-    "sort_date": "2026-06-07",
-    "venue": "Brooklyn Bowl Nashville",
-    "url": "https://www.ticketmaster.com/yebba-nashville-tennessee-06-07-2026/event/1B006464DD223E65",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Astyn Turr"
-    ]
-  },
-  {
-    "title": "Selias | Screwed Ends | Dead Alive",
-    "sort_date": "2026-06-07",
-    "venue": "Cobra",
-    "url": "https://cobranashville.com/event/venue-selias-screwed-ends-dead-alive/",
-    "sold_out": false,
-    "time": "8am",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Dead Calm",
-    "sort_date": "2026-06-07",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/dead-calm-07-jun",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Resistance Theology: Shi'ism, Malcolm X, and Our Present Moment",
-    "sort_date": "2026-06-07",
-    "venue": "DRKMTTR",
-    "url": "https://www.drkmttrcollective.com/shows/resistance-theology-shi-ism-malcolm-x-and-our-present-moment-07-jun",
-    "sold_out": false,
-    "time": null,
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "*SOLD OUT* Haute & Freddy\u2019s Big Disgrace Tour",
-    "sort_date": "2026-06-07",
-    "venue": "Exit/In",
-    "url": "https://www.ticketweb.com/event/sold-out-haute-freddys-exitin-tickets/14188904",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sunday Mornin' Country",
-    "sort_date": "2026-06-07",
-    "venue": "Grand Ole Opry House",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OfxZ",
-    "sold_out": false,
-    "time": "4pm",
-    "doors": null,
-    "supports": [
-      "Mandy Barnett",
-      "John Berry",
-      "John McEuen"
-    ]
-  },
-  {
-    "title": "Dance Gavin Dance",
-    "sort_date": "2026-06-07",
-    "venue": "Marathon Music Works",
-    "url": "https://www.ticketweb.com/event/dance-gavin-dance-with-special-marathon-music-works-tickets/14156564",
-    "sold_out": false,
-    "time": "6:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Riot Ranch: Industry Night",
-    "sort_date": "2026-06-07",
-    "venue": "Night We Met",
-    "url": "https://shotgun.live/events/riot-ranch-industry-night-6-7?utm_medium=widget&utm_term=html_widget",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "2026 CMA Fest presented by SoFi - Stadium SUNDAY",
-    "sort_date": "2026-06-07",
-    "venue": "Nissan Stadium",
-    "url": "https://www.ticketmaster.com/2026-cma-fest-presented-by-sofi-nashville-tennessee-06-07-2026/event/1B00646BA5A0D492",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": [
-      "Bailey Zimmerman",
-      "HARDY",
-      "Luke Bryan",
-      "Riley Green",
-      "Russell Dickerson",
-      "Stephen Wilson Jr."
-    ]
-  },
-  {
-    "title": "Rudy's Jazz Jam",
-    "sort_date": "2026-06-07",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/rudy-s-jazz-jam-6",
-    "sold_out": false,
-    "time": "9pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Sarah Jane Nelson",
-    "sort_date": "2026-06-07",
-    "venue": "Rudy's Jazz Room",
-    "url": "https://tunehatch.com/shows/sarah-jane-nelson",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Jill Scott (Phone free show)",
-    "sort_date": "2026-06-07",
-    "venue": "Ryman Auditorium",
-    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xd37",
-    "sold_out": false,
-    "time": "7:30pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Next on Deck at Skydeck",
-    "sort_date": "2026-06-07",
-    "venue": "Skydeck",
-    "url": "https://www.assemblyfoodhall.com/event/cmaints-at-skydeck/",
-    "sold_out": false,
-    "time": "1am",
-    "doors": "5pm",
-    "supports": []
-  },
-  {
-    "title": "The Band Loula $30",
-    "sort_date": "2026-06-07",
-    "venue": "Station Inn",
-    "url": "https://stationinn.com/event/the-band-loula-30-2/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Benefit Show for Peelander-Z w/ Hans Condor and Tayls",
-    "sort_date": "2026-06-07",
-    "venue": "The Basement",
-    "url": "https://www.ticketweb.com/event/benefit-show-for-peelander-z-the-basement-tickets/14969753",
-    "sold_out": false,
-    "time": "7pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "The Ultimate Doors: Tribute to The Doors",
-    "sort_date": "2026-06-07",
-    "venue": "The Basement East",
-    "url": "https://www.ticketweb.com/event/the-ultimate-doors-tribute-to-the-basement-east-tickets/14759463",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": null,
-    "supports": []
-  },
-  {
-    "title": "Atlanta Rhythm Section, Pure Prairie League, Firefall, Orleans at The Caverns Outdoor Amphitheater",
-    "sort_date": "2026-06-07",
-    "venue": "The Caverns",
-    "url": "https://www.thecaverns.com/event/atlanta-rhythm-section-pure-prairie-league-firefall-orleans-at-the-caverns-outdoor-amphitheater",
-    "sold_out": false,
-    "time": "6pm",
-    "doors": "4pm",
-    "supports": []
-  },
-  {
-    "title": "Neutral Snap w/Speakeasy, Intension & Frigga Five \u2013 18+",
-    "sort_date": "2026-06-07",
-    "venue": "The End",
-    "url": "https://endnashville.com/event/neutral-snap-w-speakeasy-intension-frigga-five-18/the-end/",
-    "sold_out": false,
-    "time": "8pm",
-    "doors": "7pm",
-    "supports": []
-  },
-  {
     "title": "Bluebird On 3rd featuring Gary Burr , Georgia Middleman , Dave Berg & DOLAN & Meagan Allen",
     "sort_date": "2026-06-08",
     "venue": "3rd & Lindsley",
     "url": "https://www.ticketweb.com/event/bluebird-on-3rd-gary-3rd-and-lindsley-tickets/14152674",
-    "sold_out": false,
+    "sold_out": true,
     "time": "12:30pm",
     "doors": null,
     "supports": []
@@ -3345,10 +3142,10 @@
     "supports": []
   },
   {
-    "title": "Pink Triangle w/Mosh Daddy, Morbid Orchid & The Big,If True \u2013 18+",
+    "title": "Morbid Orchid w/Big, If True, Mosh Daddy & Pink Triangle \u2013 18+",
     "sort_date": "2026-06-30",
     "venue": "The End",
-    "url": "https://endnashville.com/event/pink-triangle-w-mosh-daddy-morbid-orchid-the-bigif-true-18/the-end/",
+    "url": "https://endnashville.com/event/morbid-orchid-w-big-if-true-mosh-daddy-pink-triangle-18/the-end/",
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
@@ -4355,6 +4152,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": null,
+    "supports": []
+  },
+  {
+    "title": "ALLEYCVT PRESENTS: SUPERSONIC CAVERNS",
+    "sort_date": "2026-07-11",
+    "venue": "The Caverns",
+    "url": "https://www.thecaverns.com/event/alleycvt-presents-supersonic-caverns",
+    "sold_out": false,
+    "time": "7pm",
+    "doors": "7pm",
     "supports": []
   },
   {
@@ -7873,6 +7680,16 @@
     "supports": []
   },
   {
+    "title": "Dexter and The Moonrocks",
+    "sort_date": "2026-08-28",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/dexter-and-the-moonrocks-nashville-tennessee-08-28-2026/event/1B0064C5B39CE98D",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Drive!Drive!",
     "sort_date": "2026-08-28",
     "venue": "Exit/In",
@@ -10451,6 +10268,16 @@
     "supports": []
   },
   {
+    "title": "Stephen Day Presents: The Self Titled Tour",
+    "sort_date": "2026-10-24",
+    "venue": "Brooklyn Bowl Nashville",
+    "url": "https://www.ticketmaster.com/stephen-day-presents-the-self-titled-nashville-tennessee-10-24-2026/event/1B0064C3C6924A03",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
+    "supports": []
+  },
+  {
     "title": "Alana Springsteen - I Hope This Helps Tour",
     "sort_date": "2026-10-24",
     "venue": "Exit/In",
@@ -11358,6 +11185,16 @@
     "sold_out": false,
     "time": "8pm",
     "doors": "7pm",
+    "supports": []
+  },
+  {
+    "title": "An Evening with The Floating Men",
+    "sort_date": "2026-11-21",
+    "venue": "3rd & Lindsley",
+    "url": "https://www.ticketweb.com/event/an-evening-with-the-floating-3rd-and-lindsley-tickets/14964263",
+    "sold_out": true,
+    "time": "8pm",
+    "doors": null,
     "supports": []
   },
   {
