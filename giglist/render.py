@@ -198,6 +198,7 @@ def _week_page_html(config, favicon, week_shows, week_label, short_label, all_we
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{escape(config.short_title)} - {escape(short_label)}</title>
   {favicon}
   <link rel="stylesheet" href="page.css">
@@ -229,6 +230,7 @@ def _index_page_html(config, favicon, upcoming_count, updated,
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{escape(config.short_title)}</title>
   {favicon}
   <link rel="stylesheet" href="page.css">
@@ -249,6 +251,7 @@ def _list_page_html(config, favicon, upcoming, updated):
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{escape(config.short_title)}</title>
   {favicon}
   <link rel="stylesheet" href="table.css">
@@ -328,11 +331,22 @@ def write_site(config: RegionConfig, shows: List[Show]):
         short_label = f"{monday.strftime('%-m/%-d')} to {sunday.strftime('%-m/%-d')}"
         all_weeks.append((monday, label, short_label))
 
+    current_week_files = set()
     for monday, label, short_label in all_weeks:
+        fname = f"week-{monday.strftime('%Y-%m-%d')}.html"
+        current_week_files.add(fname)
         html = _week_page_html(
             config, favicon, weeks[monday], label, short_label, all_weeks,
         )
-        (output_dir / f"week-{monday.strftime('%Y-%m-%d')}.html").write_text(html)
+        (output_dir / fname).write_text(html)
+
+    stale = 0
+    for old in output_dir.glob("week-*.html"):
+        if old.name not in current_week_files:
+            old.unlink()
+            stale += 1
+    if stale:
+        print(f"Removed {stale} stale week page(s)")
 
     window_end = today + timedelta(days=6)
     this_week = [s for s in upcoming if s.sort_date <= window_end]

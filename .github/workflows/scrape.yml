@@ -27,21 +27,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Scrape and render MN
+      - name: Scrape and render MN + TN in parallel
         env:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
-        working-directory: mn
         run: |
-          python scraper.py
-          python render.py
-
-      - name: Scrape and render TN
-        env:
-          TM_API_KEY: ${{ secrets.TM_API_KEY }}
-        working-directory: tn
-        run: |
-          python scraper.py
-          python render.py
+          (cd mn && python scraper.py && python render.py) &
+          PID_MN=$!
+          (cd tn && python scraper.py && python render.py) &
+          PID_TN=$!
+          wait $PID_MN || exit 1
+          wait $PID_TN || exit 1
 
       - name: Commit updated output
         run: |

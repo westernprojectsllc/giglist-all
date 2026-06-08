@@ -1150,6 +1150,9 @@ if __name__ == "__main__":
             for r in rows:
                 print(f"      - {r.title}")
 
+    today = date.today()
+    shows = [s for s in shows if s.sort_date >= today]
+
     with open(SHOWS_JSON, "w") as f:
-        json.dump([s.to_json_dict() for s in shows], f, indent=2)
+        json.dump([s.to_json_dict() for s in shows], f, separators=(",", ":"))
     print(f"\nWrote {len(shows)} shows to {SHOWS_JSON}")
