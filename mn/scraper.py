@@ -449,24 +449,23 @@ def scrape_icehouse():
         print(f"  Error: {e}")
         return []
 
-    # Ice House embeds data as a Python dict literal containing JSON values.
-    # Extract just the pagination JSON object, which contains "performances".
-    match = re.search(r"'pagination':\s*", response.text)
+    match = re.search(r"window\.__pinia\s*=\s*", response.text)
     if not match:
-        print("  Could not find pagination data in Ice House page")
+        print("  Could not find Pinia data in Ice House page")
         return []
 
     try:
         decoder = json.JSONDecoder()
-        data, _ = decoder.raw_decode(response.text[match.end():])
-    except (json.JSONDecodeError, ValueError):
+        pinia, _ = decoder.raw_decode(response.text[match.end():])
+        performances = pinia["performancePaginate"]["performances"]
+    except (json.JSONDecodeError, ValueError, KeyError):
         print("  Failed to parse Ice House JSON")
         return []
 
     shows = []
     today = date.today()
 
-    for perf in data.get("performances", []):
+    for perf in performances:
         show = perf.get("show", {})
         title = show.get("name", "Unknown")
         show_id = show.get("id")
