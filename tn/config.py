@@ -20,6 +20,9 @@ VENUE_URLS = {
     "Nissan Stadium":               "https://nissanstadium.com/",
     "The Pinnacle":                 "https://thepinnaclenashville.com/",
     "Cannery Hall":                 "https://canneryhall.com/",
+    "Cannery Hall - Mainstage":     "https://canneryhall.com/",
+    "Cannery Hall - Row One Stage": "https://canneryhall.com/",
+    "Cannery Hall - The Mil":       "https://canneryhall.com/",
     "Exit/In":                      "https://exitin.com/",
     "The Basement East":            "https://thebasementnashville.com/the-basement-east/",
     "The Basement":                 "https://thebasementnashville.com/",
@@ -52,7 +55,10 @@ TICKETMASTER_VENUES = {
     "FirstBank Amphitheater":       "KovZ917AJek",
     "Nissan Stadium":               "KovZpZA7AnJA",
     "The Pinnacle":                 "KovZ917ARXe",
-    "Cannery Hall":                 "KovZ917A_O0",
+    # Cannery Hall ticketing is on AXS, not TM — its full calendar
+    # (~9 months, 3 rooms, ~75 events) is fetched directly by
+    # scrape_cannery_hall() in scraper.py. The TM venue ID only ever
+    # surfaced ~6 events and overlapped with the AXS feed.
     "Exit/In":                      "KovZpZAFaFnA",
     "The Basement East":            "KovZ917ACl7",
     "The Basement":                 "KovZpZAkdn6A",

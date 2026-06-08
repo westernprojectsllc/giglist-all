@@ -401,6 +401,279 @@ def scrape_ticketmaster(api_key):
     return _scrape_tm(TICKETMASTER_VENUES, api_key)
 
 
+def scrape_pinnacle():
+    """The Pinnacle is AEG-managed, so its events are published as a
+    public CDN-cached JSON feed populated by AEG's CMS. Same feed the
+    venue's own website fetches. Richer than the TM API: includes door
+    times and explicit support-act lists."""
+    print("  Fetching The Pinnacle...")
+    url = "https://aegwebprod.blob.core.windows.net/json/events/334/events.json"
+    r = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+    data = r.json()
+
+    today = date.today()
+    shows = []
+    for ev in data.get("events", []):
+        title_obj = ev.get("title") or {}
+        title = (title_obj.get("headlinersText")
+                 or title_obj.get("eventTitleText") or "").strip()
+        if not title:
+            continue
+
+        iso = ev.get("eventDateTimeISO") or ev.get("eventDateTime")
+        if not iso:
+            continue
+        try:
+            dt = datetime.fromisoformat(iso)
+        except ValueError:
+            continue
+        # Strip tz so .date() reflects the venue-local wall-clock date.
+        dt_local = dt.replace(tzinfo=None)
+        if dt_local.date() < today:
+            continue
+
+        # Supporting text often has a "with " prefix or comma-separated list.
+        supports_raw = (title_obj.get("supportingText") or "").strip()
+        supports_raw = re.sub(r"^(with|w/|featuring|feat\.?)\s+", "",
+                              supports_raw, flags=re.I)
+        supports = [s.strip() for s in re.split(r",|/| & |\s+and\s+",supports_raw)
+                    if s.strip()]
+
+        ticketing = ev.get("ticketing") or {}
+        event_url = ticketing.get("eventUrl") or ticketing.get("url") or ""
+        sold_out = ticketing.get("status", "").lower() in {"sold out", "soldout"}
+
+        door_iso = ev.get("doorDateTime")
+        doors = None
+        if door_iso:
+            try:
+                doors = format_local_time(datetime.fromisoformat(door_iso))
+            except ValueError:
+                pass
+
+        shows.append(Show(
+            title=title,
+            sort_date=dt_local.date(),
+            venue="The Pinnacle",
+            url=event_url,
+            sold_out=sold_out,
+            time=format_local_time(dt_local) if dt_local.hour else None,
+            doors=doors,
+            supports=supports,
+        ))
+    return shows
+
+
+_CANNERY_KNOWN_ROOMS = {
+    "Cannery Hall - Mainstage",
+    "Cannery Hall - Row One Stage",
+    "Cannery Hall - The Mil",
+}
+
+
+def _parse_cannery_card(card, today):
+    """Pull a single Show out of a `.pk-eachevent` card. Shared between
+    the initial /calendar fetch and the AJAX load-more pages."""
+    title_el = card.select_one(".pk-headline")
+    if not title_el:
+        return None
+    title = unescape(title_el.get_text(" ", strip=True))
+    if not title:
+        return None
+
+    link_el = card.select_one("a.pk-title-link") or card.select_one("a.pk-link")
+    event_url = link_el.get("href", "") if link_el else ""
+
+    month_el = card.select_one(".pk-date")
+    if not month_el:
+        return None
+    m = re.match(r"^([A-Za-z]+)\s+(\d{1,2})$", month_el.get_text(strip=True))
+    if not m:
+        return None
+    dt = infer_upcoming_date(m.group(1)[:3].title(), int(m.group(2)))
+    if not dt or dt < today:
+        return None
+
+    times_el = card.select_one(".pk-times")
+    time_blob = times_el.get_text(" ", strip=True) if times_el else ""
+    # "Doors 7:00pm, Start 8:00pm" — labels precede times.
+    show_time = find_time(time_blob, "Start") or find_time(time_blob, "Show")
+    doors = find_time(time_blob, "Doors")
+
+    sub_el = card.select_one(".pksubtitle")
+    sub_raw = sub_el.get_text(" ", strip=True) if sub_el else ""
+    sub_raw = re.sub(r"^(with|w/|featuring|feat\.?)\s+", "", sub_raw, flags=re.I)
+    supports = [s.strip() for s in re.split(r",|/| & |\s+and\s+", sub_raw) if s.strip()]
+
+    # Cannery Hall has three rooms (Mainstage / Row One Stage / The Mil);
+    # the venue card carries the room in `.pk-venue-name`. Surface that
+    # so the rendered listing can distinguish concurrent bookings.
+    venue_el = card.select_one(".pk-venue-name")
+    venue = venue_el.get_text(" ", strip=True) if venue_el else "Cannery Hall"
+    if venue not in _CANNERY_KNOWN_ROOMS and not venue.startswith("Cannery Hall"):
+        venue = "Cannery Hall"
+
+    card_classes = " ".join(card.get("class") or []).lower()
+    link_text = link_el.get_text(" ", strip=True).lower() if link_el else ""
+    sold_out = ("sold-out" in card_classes
+                or "soldout" in card_classes
+                or "sold out" in link_text)
+
+    return Show(
+        title=title,
+        sort_date=dt,
+        venue=venue,
+        url=event_url,
+        sold_out=sold_out,
+        time=show_time,
+        doors=doors,
+        supports=supports,
+    )
+
+
+def scrape_cannery_hall():
+    """Cannery Hall sells through AXS, so the TM API only catches the
+    rare TM-cross-listed show. The venue's own /calendar page server-
+    renders the first 30 events as `.pk-eachevent` cards (the AXS
+    Events Infinite Scroll plugin), with subsequent pages loaded via
+    POST to /wp-admin/admin-ajax.php using a per-session nonce embedded
+    in page 1. We follow that paginated chain to capture the full ~9-
+    month horizon, splitting the result by room (Mainstage / Row One
+    Stage / The Mil)."""
+    print("  Fetching Cannery Hall...")
+    session = requests.Session()
+    session.headers.update(BROWSER_HEADERS)
+
+    r = session.get("https://canneryhall.com/calendar", timeout=DEFAULT_TIMEOUT)
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    today = date.today()
+    shows = []
+    for card in soup.select(".pk-eachevent"):
+        s = _parse_cannery_card(card, today)
+        if s:
+            shows.append(s)
+
+    nonce_match = re.search(r'"nonce":"([a-f0-9]+)"', r.text)
+    if not nonce_match:
+        return shows  # Page 1 only — nonce missing, can't paginate.
+    nonce = nonce_match.group(1)
+
+    page = 2
+    while page <= 20:  # hard ceiling so a runaway loop can't hang the run
+        try:
+            r2 = session.post(
+                "https://canneryhall.com/wp-admin/admin-ajax.php",
+                data={
+                    "action": "load_more_axs_events",
+                    "page": page,
+                    "rows": 30,
+                    "nonce": nonce,
+                    "majorCat": "",
+                },
+                headers={
+                    "X-Requested-With": "XMLHttpRequest",
+                    "Referer": "https://canneryhall.com/calendar",
+                },
+                timeout=DEFAULT_TIMEOUT,
+            )
+            data = r2.json()
+        except Exception as e:
+            print(f"  [Cannery Hall] page {page} failed, keeping {len(shows)}: {e}")
+            break
+        if not (isinstance(data, dict) and data.get("success") and data.get("data")):
+            break
+        soup_p = BeautifulSoup(data["data"], "html.parser")
+        new_cards = soup_p.select(".pk-eachevent")
+        if not new_cards:
+            break
+        for card in new_cards:
+            s = _parse_cannery_card(card, today)
+            if s:
+                shows.append(s)
+        page += 1
+    return shows
+
+
+def scrape_ascend():
+    """Ascend Amphitheater is also AXS-ticketed. Its /events page server-
+    renders `.eventItem.entry` cards with full year+time in plain text.
+    The first item on the page is a Vue.js template (has `v-html`/`{{ }}`
+    placeholders) — skip it."""
+    soup = _fetch_soup("Ascend Amphitheater", "https://www.ascendamphitheater.com/events", BROWSER_HEADERS)
+
+    today = date.today()
+    shows = []
+    for card in soup.select(".eventItem.entry"):
+        # Skip the Vue template row.
+        if card.select_one("[v-html]") or "{{" in card.get_text():
+            continue
+
+        title_a = card.select_one(".title a")
+        if not title_a:
+            continue
+        title = unescape(title_a.get_text(" ", strip=True))
+        if not title:
+            continue
+
+        href = title_a.get("href", "")
+        if href.startswith("/"):
+            event_url = "https://www.ascendamphitheater.com" + href
+        else:
+            event_url = href
+
+        # The href encodes the start date as /event/YYYY-MM-DD-… which
+        # is the most reliable source — the visible .date can be a
+        # range ("May 1 - 2, 2026") for multi-day stands.
+        m = re.search(r"/event/(\d{4})-(\d{2})-(\d{2})-", event_url)
+        if m:
+            try:
+                dt = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            except ValueError:
+                continue
+        else:
+            date_el = card.select_one(".date")
+            if not date_el:
+                continue
+            date_text = date_el.get_text(" ", strip=True)
+            dm = re.match(r"^([A-Za-z]+)\s+(\d{1,2}).*?(\d{4})", date_text)
+            if not dm:
+                continue
+            try:
+                dt = datetime.strptime(
+                    f"{dm.group(1)[:3]} {dm.group(2)} {dm.group(3)}", "%b %d %Y"
+                ).date()
+            except ValueError:
+                continue
+        if dt < today:
+            continue
+
+        date_el = card.select_one(".date")
+        date_text = date_el.get_text(" ", strip=True) if date_el else ""
+        show_time = normalize_time(date_text.split("|", 1)[1]) if "|" in date_text else None
+
+        tagline_el = card.select_one(".tagline")
+        tagline = tagline_el.get_text(" ", strip=True) if tagline_el else ""
+        tagline = re.sub(r"^(with|w/|featuring|feat\.?)\s+", "",
+                         tagline, flags=re.I)
+        supports = [s.strip() for s in re.split(r",|/| & |\s+and\s+",tagline) if s.strip()]
+
+        btn = card.select_one(".tickets")
+        btn_classes = " ".join(btn.get("class") or []).lower() if btn else ""
+        sold_out = "soldout" in btn_classes or "sold-out" in btn_classes
+
+        shows.append(Show(
+            title=title,
+            sort_date=dt,
+            venue="Ascend Amphitheater",
+            url=event_url,
+            sold_out=sold_out,
+            time=show_time,
+            supports=supports,
+        ))
+    return shows
+
+
 # ---------- main ----------
 
 if __name__ == "__main__":
@@ -418,6 +691,9 @@ if __name__ == "__main__":
         ("Skinny Dennis", scrape_skinny_dennis),
         ("Fogg Street Lawn Club", scrape_fogg_street),
         ("Rudy's Jazz Room", scrape_rudys),
+        ("The Pinnacle", scrape_pinnacle),
+        ("Cannery Hall", scrape_cannery_hall),
+        ("Ascend Amphitheater", scrape_ascend),
     ]
 
     shows = []

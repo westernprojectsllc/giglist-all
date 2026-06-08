@@ -1,7 +1,7 @@
 """Region-agnostic static-site renderer.
 
 Takes a RegionConfig + a list of Show, writes index.html / list.html /
-past.html / week-*.html / sitemap.xml / style CSS into the region's
+week-*.html / sitemap.xml / style CSS into the region's
 output directory.
 """
 
@@ -204,7 +204,7 @@ def _week_page_html(config, favicon, week_shows, week_label, short_label, all_we
 </head>
 <body>
   <h1><a href="index.html">{escape(config.display_name)}</a></h1>
-  <nav><a href="list.html">List View</a> | <a href="past.html">Past Shows</a></nav>
+  <nav><a href="list.html">List View</a></nav>
   <div class="week-nav">{week_nav_html}</div>
   <h2>{escape(week_label)}</h2>
   <ul class="days">
@@ -214,7 +214,7 @@ def _week_page_html(config, favicon, week_shows, week_label, short_label, all_we
 </html>"""
 
 
-def _index_page_html(config, favicon, upcoming_count, past_count, updated,
+def _index_page_html(config, favicon, upcoming_count, updated,
                      all_weeks, this_week_shows):
     week_nav_html = _build_week_nav(all_weeks)
     this_week_html = ""
@@ -235,7 +235,7 @@ def _index_page_html(config, favicon, upcoming_count, past_count, updated,
 </head>
 <body>
   <h1>{escape(config.display_name)}</h1>
-  <p class="subtitle">Updated: {updated} &mdash; {upcoming_count} upcoming shows &mdash; <a href="past.html">Past Shows ({past_count})</a></p>
+  <p class="subtitle">Updated: {updated} &mdash; {upcoming_count} upcoming shows</p>
   <nav><a href="list.html">List View</a></nav>
   <h2>Concerts By Week</h2>
   <div class="week-nav">{week_nav_html}</div>
@@ -244,7 +244,7 @@ def _index_page_html(config, favicon, upcoming_count, past_count, updated,
 </html>"""
 
 
-def _list_page_html(config, favicon, upcoming, past_count, updated):
+def _list_page_html(config, favicon, upcoming, updated):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -257,45 +257,11 @@ def _list_page_html(config, favicon, upcoming, past_count, updated):
   <h1>{escape(config.display_name)}</h1>
   <p class="subtitle">Updated: {updated} &mdash; {len(upcoming)} upcoming shows across {escape(config.region_label)}</p>
   <nav>
-    <a href="past.html">Past Shows ({past_count})</a>
     <a href="index.html">Weekly View</a>
   </nav>
   <table>
 {_build_table(upcoming)}
   </table>
-</body>
-</html>"""
-
-
-def _past_page_html(config, favicon, past, updated):
-    past_days = {}
-    for show in past:
-        past_days.setdefault(show.sort_date, []).append(show)
-
-    rows = []
-    for day_date in sorted(past_days.keys(), reverse=True):
-        day_label = day_date.strftime("%a %b %-d, %Y")
-        rows.append(f'<li><span>{day_label}</span><ul class="shows">')
-        for show in sorted(past_days[day_date], key=_show_sort_key):
-            venue_html, show_html = _venue_show_html(show, config.venue_urls)
-            rows.append(f"<li>{venue_html} {show_html}</li>")
-        rows.append("</ul></li>")
-
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{escape(config.short_title)} - PAST</title>
-  {favicon}
-  <link rel="stylesheet" href="page.css">
-</head>
-<body>
-  <h1><a href="index.html">{escape(config.display_name)}</a> — Past Shows</h1>
-  <p class="subtitle">Updated: {updated} &mdash; {len(past)} past shows</p>
-  <nav><a href="index.html">← Upcoming Shows</a></nav>
-  <ul class="days">
-{"".join(rows)}
-  </ul>
 </body>
 </html>"""
 
@@ -306,7 +272,6 @@ def _sitemap_xml(config, all_weeks):
     entries = [
         f'  <url><loc>{prefix}/</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
         f'  <url><loc>{prefix}/list.html</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
-        f'  <url><loc>{prefix}/past.html</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
     ]
     for monday, _label, _short in all_weeks:
         fname = f"week-{monday.strftime('%Y-%m-%d')}.html"
@@ -339,14 +304,12 @@ def write_site(config: RegionConfig, shows: List[Show]):
     now_central = datetime.now(CENTRAL_TZ)
     updated = now_central.strftime("%B %d, %Y at %I:%M %p")
     today = now_central.date()
-    one_month_ago = today - timedelta(days=31)
 
     upcoming = [s for s in shows if s.sort_date >= today]
-    past = [s for s in shows if one_month_ago <= s.sort_date < today]
 
     # List view
     (output_dir / "list.html").write_text(
-        _list_page_html(config, favicon, upcoming, len(past), updated)
+        _list_page_html(config, favicon, upcoming, updated)
     )
 
     # Group upcoming by week
@@ -374,11 +337,7 @@ def write_site(config: RegionConfig, shows: List[Show]):
     window_end = today + timedelta(days=6)
     this_week = [s for s in upcoming if s.sort_date <= window_end]
     (output_dir / "index.html").write_text(
-        _index_page_html(config, favicon, len(upcoming), len(past), updated, all_weeks, this_week)
-    )
-
-    (output_dir / "past.html").write_text(
-        _past_page_html(config, favicon, past, updated)
+        _index_page_html(config, favicon, len(upcoming), updated, all_weeks, this_week)
     )
 
     (output_dir / "sitemap.xml").write_text(_sitemap_xml(config, all_weeks))
@@ -386,5 +345,4 @@ def write_site(config: RegionConfig, shows: List[Show]):
     print(f"Wrote list.html ({len(upcoming)} upcoming shows, table view)")
     print(f"Wrote index.html with {len(all_weeks)} weeks (weekly view)")
     print(f"Wrote {len(all_weeks)} week pages")
-    print(f"Wrote past.html with {len(past)} past shows")
     print("Wrote sitemap.xml")
