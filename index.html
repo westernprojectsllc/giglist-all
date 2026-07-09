@@ -3,25 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gig Lists</title>
+  <title>giglist</title>
+  <meta name="description" content="Live music gig lists, state by state. Pick your state.">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <style>
-    body { font-family: serif; padding: 20px; background: #fff; max-width: 1100px; margin: 0 auto; font-size: 1.15em; }
-    h1 { font-size: 2em; margin-bottom: 16px; text-decoration: underline; }
-    ul.regions { list-style: none; padding: 0; margin: 0; }
-    ul.regions li { margin: 8px 0; font-size: 1.3em; }
-    ul.regions li a { color: #00c; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: #002FA7; /* International Klein Blue */
+      overflow: auto;
+      font-family: "Helvetica Neue", -apple-system, "Segoe UI", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .logo {
+      position: fixed;
+      top: 20px; left: 24px;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: -0.03em;
+      color: #C7CCD6;
+      line-height: 1;
+    }
+
+    .stage {
+      position: fixed;
+      inset: 0;
+      padding: 56px 24px 40px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    .field {
+      width: 100%;
+      text-align: justify;
+      text-align-last: justify;
+      text-transform: uppercase;
+      /* no-JS fallback size; fit() refines it to exactly fill the screen */
+      font-size: clamp(13px, 2.6vw, 34px);
+      line-height: 1.7;
+      word-spacing: .6em;
+    }
+    .state {
+      display: inline-block;
+      white-space: nowrap;
+      font-weight: 600;
+      letter-spacing: .14em;
+      color: #000;
+      opacity: .82;
+    }
+    a.state {
+      color: #fff;
+      opacity: 1;
+      text-decoration: none;
+    }
+    a.state:hover, a.state:focus-visible {
+      text-decoration: underline;
+      text-decoration-thickness: .07em;
+      text-underline-offset: .14em;
+    }
+    a.state:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
   </style>
 </head>
 <body>
-  <h1>Gig Lists</h1>
-  <ul class="regions">
-    <li><a href="/mn">MINNESOTA</a></li>
-    <li><a href="/tn">TENNESSEE</a></li>
-  </ul>
+  <span class="logo" aria-hidden="true">gl</span>
+
+  <main class="stage">
+    <!-- To launch a state, change its <span> to a link:
+         <span class="state" data-href="/xx/">Name</span>
+      becomes
+         <a class="state" href="/xx/">Name</a> -->
+    <nav class="field" id="field" aria-label="Gig lists by state">
+      <span class="state" data-href="/al/">Alabama</span>
+      <span class="state" data-href="/ak/">Alaska</span>
+      <span class="state" data-href="/az/">Arizona</span>
+      <span class="state" data-href="/ar/">Arkansas</span>
+      <span class="state" data-href="/ca/">California</span>
+      <span class="state" data-href="/co/">Colorado</span>
+      <span class="state" data-href="/ct/">Connecticut</span>
+      <span class="state" data-href="/de/">Delaware</span>
+      <span class="state" data-href="/fl/">Florida</span>
+      <span class="state" data-href="/ga/">Georgia</span>
+      <span class="state" data-href="/hi/">Hawaii</span>
+      <span class="state" data-href="/id/">Idaho</span>
+      <span class="state" data-href="/il/">Illinois</span>
+      <span class="state" data-href="/in/">Indiana</span>
+      <span class="state" data-href="/ia/">Iowa</span>
+      <span class="state" data-href="/ks/">Kansas</span>
+      <span class="state" data-href="/ky/">Kentucky</span>
+      <span class="state" data-href="/la/">Louisiana</span>
+      <span class="state" data-href="/me/">Maine</span>
+      <span class="state" data-href="/md/">Maryland</span>
+      <span class="state" data-href="/ma/">Massachusetts</span>
+      <span class="state" data-href="/mi/">Michigan</span>
+      <a class="state" href="/mn/">Minnesota</a>
+      <span class="state" data-href="/ms/">Mississippi</span>
+      <span class="state" data-href="/mo/">Missouri</span>
+      <span class="state" data-href="/mt/">Montana</span>
+      <span class="state" data-href="/ne/">Nebraska</span>
+      <span class="state" data-href="/nv/">Nevada</span>
+      <span class="state" data-href="/nh/">New Hampshire</span>
+      <span class="state" data-href="/nj/">New Jersey</span>
+      <span class="state" data-href="/nm/">New Mexico</span>
+      <span class="state" data-href="/ny/">New York</span>
+      <span class="state" data-href="/nc/">North Carolina</span>
+      <span class="state" data-href="/nd/">North Dakota</span>
+      <span class="state" data-href="/oh/">Ohio</span>
+      <span class="state" data-href="/ok/">Oklahoma</span>
+      <span class="state" data-href="/or/">Oregon</span>
+      <span class="state" data-href="/pa/">Pennsylvania</span>
+      <span class="state" data-href="/ri/">Rhode Island</span>
+      <span class="state" data-href="/sc/">South Carolina</span>
+      <span class="state" data-href="/sd/">South Dakota</span>
+      <a class="state" href="/tn/">Tennessee</a>
+      <span class="state" data-href="/tx/">Texas</span>
+      <span class="state" data-href="/ut/">Utah</span>
+      <span class="state" data-href="/vt/">Vermont</span>
+      <span class="state" data-href="/va/">Virginia</span>
+      <span class="state" data-href="/wa/">Washington</span>
+      <span class="state" data-href="/wv/">West Virginia</span>
+      <span class="state" data-href="/wi/">Wisconsin</span>
+      <span class="state" data-href="/wy/">Wyoming</span>
+    </nav>
+  </main>
+
+  <script>
+    // Size the type so all 50 states exactly fill the viewport, no scrolling.
+    const field = document.getElementById("field");
+    const stage = document.querySelector(".stage");
+
+    function fit() {
+      const cs = getComputedStyle(stage);
+      const room = stage.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+      let lo = 6, hi = 120;
+      for (let k = 0; k < 24; k++) {
+        const mid = (lo + hi) / 2;
+        field.style.fontSize = mid + "px";
+        if (field.scrollHeight <= room && field.scrollWidth <= field.clientWidth + 1) {
+          lo = mid;
+        } else {
+          hi = mid;
+        }
+      }
+      field.style.fontSize = lo + "px";
+    }
+
+    fit();
+    addEventListener("resize", fit);
+  </script>
 </body>
 </html>
