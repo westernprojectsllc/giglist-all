@@ -22,13 +22,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from giglist.http import (
     BROWSER_HEADERS, DEFAULT_HEADERS, DEFAULT_TIMEOUT, USER_AGENT,
+    get_with_retry,
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    CENTRAL_TZ, WS_RE, deduplicate, filter_junk_and_sports,
-    find_duplicate_suspects, format_local_time, normalize_titles,
-    parse_loose_time, scrape_dice, scrape_ticketmaster as _scrape_tm,
-    scrape_tribe_events,
+    CENTRAL_TZ, WS_RE, check_venue_dropouts, deduplicate,
+    filter_junk_and_sports, find_duplicate_suspects, format_local_time,
+    normalize_titles, parse_loose_time, scrape_dice,
+    scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
 from config import (
@@ -48,8 +49,8 @@ BASE_URL = "https://first-avenue.com/shows"
 def scrape_month(start_date):
     date_str = start_date.strftime("%Y%m%d")
     url = f"{BASE_URL}?post_type=event&start_date={date_str}"
-    response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-    soup = BeautifulSoup(response.text, "html.parser")
+    response = get_with_retry(url)
+    soup = BeautifulSoup(response.text, "lxml")
 
     shows = []
     # First Ave's monthly listing can spill into the next calendar year
@@ -158,7 +159,7 @@ def _enrich_one(session, show):
     for attempt in range(2):
         try:
             resp = session.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-            soup = BeautifulSoup(resp.text, "html.parser")
+            soup = BeautifulSoup(resp.text, "lxml")
             break
         except Exception:
             if attempt == 1:
@@ -261,11 +262,11 @@ def scrape_cedar():
     url = "https://www.thecedar.org/events"
     print("  Fetching Cedar Cultural Center...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(response.text, "lxml")
 
     shows = []
     seen = set()
@@ -323,7 +324,7 @@ def scrape_orchestra():
     def fetch(mos):
         url = f"https://www.minnesotaorchestra.org/api/event-feed/{mos}"
         try:
-            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+            response = get_with_retry(url)
         except Exception:
             return []
         if response.status_code != 200:
@@ -379,11 +380,11 @@ def scrape_myth():
     url = "https://mythlive.com/"
     print("  Fetching Myth Live...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(response.text, "lxml")
 
     shows = []
     current_year = date.today().year
@@ -444,7 +445,7 @@ def scrape_icehouse():
     url = "https://icehouse.turntabletickets.com/"
     print("  Fetching Ice House...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -515,12 +516,12 @@ def scrape_331():
     url = "https://331club.com/"
     print("  Fetching 331 Club...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(response.text, "lxml")
     shows = []
     today = date.today()
 
@@ -555,7 +556,7 @@ def scrape_331():
             chunks = _331_BR_RE.split(p.decode_contents())
             lines = []
             for chunk in chunks:
-                sub = BeautifulSoup(chunk, "html.parser")
+                sub = BeautifulSoup(chunk, "lxml")
                 text = sub.get_text(" ", strip=True).replace("\xa0", " ").strip()
                 if not text:
                     continue
@@ -610,7 +611,7 @@ def scrape_skyway():
     url = "https://skywaytheatre.com/events/"
     print("  Fetching Skyway Theatre...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -698,7 +699,7 @@ def scrape_pilllar():
     url = "https://www.pilllar.com/collections/tickets/products.json?limit=250"
     print("  Fetching Pilllar Forum...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
         data = response.json()
     except Exception as e:
         print(f"  Error: {e}")
@@ -725,7 +726,7 @@ def scrape_pilllar():
 
         artist = _PILLLAR_DATE_RE.sub("", clean_title).strip(" -–—")
 
-        body_text = BeautifulSoup(body, "html.parser").get_text(" ", strip=True)
+        body_text = BeautifulSoup(body, "lxml").get_text(" ", strip=True)
 
         show_time = doors = None
         tm = _PILLLAR_TIME_RE.search(body_text)
@@ -778,7 +779,7 @@ def scrape_underground():
     url = "https://www.undergroundmusicvenue.com/events"
     print("  Fetching Underground Music Venue...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+        response = get_with_retry(url)
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -792,8 +793,8 @@ def scrape_underground():
     def fetch_event(event_id):
         embed_url = f"https://promoter.skeletix.com/events/{event_id}/embed"
         try:
-            r = requests.get(embed_url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-            soup = BeautifulSoup(r.text, "html.parser")
+            r = get_with_retry(embed_url)
+            soup = BeautifulSoup(r.text, "lxml")
         except Exception:
             return None
 
@@ -860,8 +861,8 @@ def scrape_berlin():
     url = "https://www.berlinmpls.com/calendar"
     print("  Fetching Berlin...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-        soup = BeautifulSoup(response.text, "html.parser")
+        response = get_with_retry(url)
+        soup = BeautifulSoup(response.text, "lxml")
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -932,8 +933,8 @@ def scrape_uptown_vfw():
     url = "https://app.opendate.io/c/uptown-vfw-681"
     print("  Fetching Uptown VFW...")
     try:
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-        soup = BeautifulSoup(response.text, "html.parser")
+        response = get_with_retry(url)
+        soup = BeautifulSoup(response.text, "lxml")
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -1033,12 +1034,11 @@ def scrape_aster_cafe():
         "Toast-Restaurant-External-ID": restaurant_guid,
     }
     try:
-        resp = requests.get(
+        data = get_with_retry(
             api_url, headers=headers,
             params={"startDate": start_param},
-            timeout=DEFAULT_TIMEOUT,
+            expect_json=True,
         )
-        data = resp.json()
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -1152,6 +1152,18 @@ if __name__ == "__main__":
 
     today = date.today()
     shows = [s for s in shows if s.sort_date >= today]
+
+    # Guard against a scraper silently breaking: a venue that had shows
+    # yesterday but zero today is suspicious; several at once means the
+    # run is bad — bail without clobbering the last good shows.json.
+    skip = set(TICKETMASTER_VENUES) if not TM_API_KEY else set()
+    dropped = check_venue_dropouts(shows, SHOWS_JSON, skip_venues=skip)
+    for v in dropped:
+        print(f"  [WARN] venue dropped to 0 shows: {v}")
+    if len(dropped) > 2:
+        print(f"ERROR: {len(dropped)} venues returned zero shows — "
+              f"refusing to overwrite {SHOWS_JSON}")
+        sys.exit(1)
 
     with open(SHOWS_JSON, "w") as f:
         json.dump([s.to_json_dict() for s in shows], f, separators=(",", ":"))

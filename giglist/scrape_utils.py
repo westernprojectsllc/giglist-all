@@ -1,9 +1,11 @@
 """Scraper helpers shared by both regions: time parsing, generic
 venue-fetch scaffolding (Tribe Events, Ticketmaster, Dice), dedupe,
-and the junk/sports filter."""
+the junk/sports filter, and the venue-dropout guard."""
 
+import json
 import os
 import re
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime
 from html import unescape
@@ -114,7 +116,7 @@ def scrape_tribe_events(base_url, venue_name, headers=None):
     def fetch(page):
         url = f"{base_url}?per_page=50&page={page}&start_date={today_str}"
         print(f"  Fetching {venue_name} page {page}...")
-        return requests.get(url, headers=req_headers, timeout=DEFAULT_TIMEOUT).json()
+        return get_with_retry(url, headers=req_headers, expect_json=True)
 
     try:
         first = fetch(1)
@@ -271,13 +273,12 @@ def scrape_dice(venue_name, dice_venues, dice_promoters=None, exclude_tags=None)
         params.append(("filter[promoters][]", p))
 
     try:
-        response = requests.get(
+        data = get_with_retry(
             DICE_API_URL,
             params=params,
             headers={"x-api-key": DICE_API_KEY, "User-Agent": USER_AGENT},
-            timeout=DEFAULT_TIMEOUT,
+            expect_json=True,
         )
-        data = response.json()
     except Exception as e:
         print(f"  Error: {e}")
         return []
@@ -471,18 +472,55 @@ def filter_junk_and_sports(shows, *, junk_keywords, sports_venues,
 
 
 def find_duplicate_suspects(shows):
-    """Return (date, venue, time) groups with >1 surviving show.
+    """Return (date, venue, time) groups that look like scrape glitches.
 
-    The dedupe pass only merges same-time pairs whose first substantive
-    token matches. Anything that survives with a shared slot is either a
-    legit concurrent bill (multi-room venue) or a scrape glitch that
-    needs human eyes — this surfaces them for review."""
+    Only groups where two surviving titles share a first substantive
+    token (or one normalized title contains the other) are reported —
+    those are the near-identical pairs the dedupe pass would have merged
+    but couldn't safely. Same-slot groups with clearly different bills
+    (Station Inn's nightly double sets, multi-room venues) are normal
+    programming, not suspects, and are no longer flagged."""
     groups = {}
     for s in shows:
         if not s.time:
             continue
         groups.setdefault((s.sort_date, s.venue, s.time), []).append(s)
-    return [(k, v) for k, v in groups.items() if len(v) > 1]
+
+    suspects = []
+    for key, rows in groups.items():
+        if len(rows) < 2:
+            continue
+        tokens = [_dedup_first_token(r.title) for r in rows]
+        norms = [normalize_title(r.title) for r in rows]
+        near_identical = any(
+            (tokens[i] and tokens[i] == tokens[j])
+            or norms[i] in norms[j] or norms[j] in norms[i]
+            for i in range(len(rows)) for j in range(i + 1, len(rows))
+        )
+        if near_identical:
+            suspects.append((key, rows))
+    return suspects
+
+
+def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
+    """Guard against a scraper silently breaking: compare per-venue counts
+    against the previous shows.json and return venues that had at least
+    ``min_prev`` shows last run but have zero now.
+
+    ``skip_venues`` excludes venues whose scraper was deliberately skipped
+    this run (e.g. Ticketmaster venues when TM_API_KEY is absent) so a
+    missing key doesn't read as a dropout."""
+    try:
+        with open(prev_json_path) as f:
+            prev = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return []
+    prev_counts = Counter(d.get("venue") for d in prev)
+    current_venues = {s.venue for s in shows}
+    return sorted(
+        v for v, n in prev_counts.items()
+        if n >= min_prev and v not in current_venues and v not in skip_venues
+    )
 
 
 def normalize_titles(shows):

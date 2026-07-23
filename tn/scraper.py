@@ -19,12 +19,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from giglist.http import (
     BROWSER_HEADERS, DEFAULT_HEADERS, DEFAULT_TIMEOUT,
+    get_with_retry,
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    deduplicate, filter_junk_and_sports, find_duplicate_suspects,
-    find_time, format_local_time, infer_upcoming_date, normalize_time,
-    normalize_titles, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
+    check_venue_dropouts, deduplicate, filter_junk_and_sports,
+    find_duplicate_suspects, find_time, format_local_time,
+    infer_upcoming_date, normalize_time, normalize_titles,
+    scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
 from config import (
@@ -41,8 +43,8 @@ SHOWS_JSON = REGION_DIR / "shows.json"
 def _fetch_soup(venue_name, url, headers=None):
     """Shared fetch+parse used by the HTML-scraping venues."""
     print(f"  Fetching {venue_name}...")
-    r = requests.get(url, headers=headers or DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-    return BeautifulSoup(r.text, "html.parser")
+    r = get_with_retry(url, headers=headers or DEFAULT_HEADERS)
+    return BeautifulSoup(r.text, "lxml")
 
 
 def scrape_station_inn():
@@ -206,7 +208,7 @@ def scrape_night_we_met():
     in the event's timezone field."""
     print("  Fetching Night We Met...")
     url = "https://shotgun.live/api/data/organizers/235887/events-listing-widget"
-    r = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+    r = get_with_retry(url)
     data = r.json()
 
     shows = []
@@ -327,7 +329,7 @@ def scrape_rudys():
     `start` has a bogus +00:00 offset but is actually a Central Time
     wall-clock value (6pm/9pm sets), so we strip the tz info."""
     print("  Fetching Rudy's Jazz Room...")
-    r = requests.get("https://rudysjazzroom.com/calendar", headers=BROWSER_HEADERS, timeout=DEFAULT_TIMEOUT)
+    r = get_with_retry("https://rudysjazzroom.com/calendar", headers=BROWSER_HEADERS)
     m = re.search(r"events:\s*(\[.+?\]),", r.text, re.S)
     if not m:
         print("  [Rudy's] events array not found")
@@ -363,7 +365,7 @@ def scrape_skinny_dennis():
     __NEXT_DATA__ JSON blob, so we pull and parse that directly."""
     print("  Fetching Skinny Dennis...")
     url = "https://dice.fm/venue/skinny-dennis-nashville-2ww96"
-    r = requests.get(url, headers=BROWSER_HEADERS, timeout=DEFAULT_TIMEOUT)
+    r = get_with_retry(url, headers=BROWSER_HEADERS)
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
     if not m:
         print("  [Skinny Dennis] __NEXT_DATA__ not found")
@@ -408,7 +410,7 @@ def scrape_pinnacle():
     times and explicit support-act lists."""
     print("  Fetching The Pinnacle...")
     url = "https://aegwebprod.blob.core.windows.net/json/events/334/events.json"
-    r = requests.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
+    r = get_with_retry(url)
     data = r.json()
 
     today = date.today()
@@ -545,7 +547,7 @@ def scrape_cannery_hall():
     session.headers.update(BROWSER_HEADERS)
 
     r = session.get("https://canneryhall.com/calendar", timeout=DEFAULT_TIMEOUT)
-    soup = BeautifulSoup(r.text, "html.parser")
+    soup = BeautifulSoup(r.text, "lxml")
 
     today = date.today()
     shows = []
@@ -583,7 +585,7 @@ def scrape_cannery_hall():
             break
         if not (isinstance(data, dict) and data.get("success") and data.get("data")):
             break
-        soup_p = BeautifulSoup(data["data"], "html.parser")
+        soup_p = BeautifulSoup(data["data"], "lxml")
         new_cards = soup_p.select(".pk-eachevent")
         if not new_cards:
             break
@@ -732,6 +734,18 @@ if __name__ == "__main__":
 
     today = date.today()
     shows = [s for s in shows if s.sort_date >= today]
+
+    # Guard against a scraper silently breaking: a venue that had shows
+    # yesterday but zero today is suspicious; several at once means the
+    # run is bad — bail without clobbering the last good shows.json.
+    skip = set(TICKETMASTER_VENUES) if not TM_API_KEY else set()
+    dropped = check_venue_dropouts(shows, SHOWS_JSON, skip_venues=skip)
+    for v in dropped:
+        print(f"  [WARN] venue dropped to 0 shows: {v}")
+    if len(dropped) > 2:
+        print(f"ERROR: {len(dropped)} venues returned zero shows — "
+              f"refusing to overwrite {SHOWS_JSON}")
+        sys.exit(1)
 
     with open(SHOWS_JSON, "w") as f:
         json.dump([s.to_json_dict() for s in shows], f, separators=(",", ":"))

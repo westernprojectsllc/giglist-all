@@ -208,15 +208,27 @@ def test_dedupe_same_artist_pass_off_keeps_non_substring_pairs():
 
 # --- find_duplicate_suspects --------------------------------------------
 
-def test_find_duplicate_suspects_flags_unresolved_conflicts():
+def test_find_duplicate_suspects_ignores_clearly_different_bills():
+    # Same venue + slot but obviously different acts (Station Inn's
+    # nightly double sets) is normal programming, not a scrape glitch.
     a = mk("David Peterson & 1946", venue="Station Inn", time="9pm")
     b = mk("Shannon Slaughter & County Clare", venue="Station Inn", time="9pm")
     solo = mk("Tyler Childers", time="8pm")
     result = deduplicate([a, b, solo])
-    suspects = find_duplicate_suspects(result)
+    assert find_duplicate_suspects(result) == []
+
+
+def test_find_duplicate_suspects_flags_near_identical_titles():
+    # Same first substantive token at the same slot — the pair dedupe
+    # would have merged if it could tell them apart. Different explicit
+    # times keep them from being merged upstream, so build the group
+    # directly at one slot with differing supporting-text titles.
+    a = mk("Flyleaf w/ Lacey Sturm", venue="Exit/In", time="8pm")
+    b = mk("Flyleaf presents an evening of hits", venue="Exit/In", time="8pm")
+    suspects = find_duplicate_suspects([a, b])
     assert len(suspects) == 1
     (d, v, t), rows = suspects[0]
-    assert (d, v, t) == (D, "Station Inn", "9pm")
+    assert (d, v, t) == (D, "Exit/In", "8pm")
     assert {r.title for r in rows} == {a.title, b.title}
 
 
@@ -249,3 +261,28 @@ def test_format_local_time_minutes_and_noon_edge_cases():
     assert format_local_time(datetime(2026, 5, 1, 7, 0)) == "7am"
     assert format_local_time(datetime(2026, 5, 1, 0, 0)) == "12am"
     assert format_local_time(datetime(2026, 5, 1, 12, 0)) == "12pm"
+
+
+# --- check_venue_dropouts -----------------------------------------------
+
+def test_check_venue_dropouts_flags_vanished_venue(tmp_path):
+    import json as _json
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps(
+        [{"venue": "Big Room"}] * 6 + [{"venue": "Tiny Bar"}] * 2
+        + [{"venue": "Steady Club"}] * 5
+    ))
+    survivors = [mk("A", venue="Steady Club")]
+    from giglist.scrape_utils import check_venue_dropouts
+    dropped = check_venue_dropouts(survivors, prev)
+    # Big Room (6 -> 0) flagged; Tiny Bar below min_prev; Steady Club present.
+    assert dropped == ["Big Room"]
+
+
+def test_check_venue_dropouts_respects_skip_and_missing_file(tmp_path):
+    import json as _json
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps([{"venue": "TM Hall"}] * 9))
+    from giglist.scrape_utils import check_venue_dropouts
+    assert check_venue_dropouts([], prev, skip_venues={"TM Hall"}) == []
+    assert check_venue_dropouts([], tmp_path / "absent.json") == []
