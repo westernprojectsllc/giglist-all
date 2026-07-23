@@ -42,7 +42,8 @@ slides in from the left.
   through four states on click:
   1. show — solid white square
   2. highlight (blue) — solid Klein blue square
-  3. highlight (grey) — solid Stone square
+  3. highlight (grey) — solid `#C4C4C1` square (deliberately a darker
+     step than the Stone wash it stands for; see Colors)
   4. hide — solid black square with white outline
 - Hidden venues: struck-through name, rows removed from listings.
 - A small "reset" link restores all venues to show.
@@ -54,7 +55,8 @@ slides in from the left.
 | Paper | `#FFFFFF` | page ground (inverts to black in dark mode) |
 | Ink | `#000000` | text, rules, day bars |
 | Klein blue | `#002FA7` | matches landing page; banner, logo tile, blue highlight rows (white text) |
-| Grey highlight | **Stone `#E4E4E2`** | chosen from six candidates; black text; a whisper-subtle tint that doesn't compete with the blue |
+| Grey highlight (rows) | **Stone `#E4E4E2`** | chosen from six candidates; black text; a whisper-subtle tint that doesn't compete with the blue |
+| Grey highlight (sidebar swatch) | `#C4C4C1` | amended 2026-07-23. The swatch runs darker than the row wash it represents: at 14px on the inverted sidebar, Stone sat too close to the white "show" square to tell apart, and vanished entirely against the white sidebar in dark mode. Rows keep Stone — only the icon darkens. |
 | Logo mark | `#C7CCD6` | the silvery "gl" on Klein blue, from the landing page |
 
 Highlighted rows are full-bleed blocks (background color across the whole

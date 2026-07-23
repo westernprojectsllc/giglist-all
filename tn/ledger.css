@@ -5,8 +5,12 @@
   --paper: #ffffff;
   --ink: #000000;
   --klein: #002FA7;
-  --hl2-bg: #E4E4E2; /* Stone */
+  --hl2-bg: #E4E4E2; /* Stone — the highlighted-row wash */
   --hl2-fg: #000000;
+  /* The sidebar swatch runs darker than the row wash it stands for:
+     Stone against the inverted sidebar sits too close to the white
+     "show" square to tell apart at 14px. */
+  --hl2-ico: #C4C4C1;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 @media (prefers-color-scheme: dark) {
@@ -105,7 +109,7 @@ body.wk-banner .week-h { display: none; }
 .v-ico[data-state="show"] { background: var(--paper); }
 .v-ico[data-state="hide"] { background: var(--ink); }
 .v-ico[data-state="hl"]   { background: var(--klein); border-color: var(--klein); }
-.v-ico[data-state="hl2"]  { background: var(--hl2-bg); border-color: var(--hl2-bg); }
+.v-ico[data-state="hl2"]  { background: var(--hl2-ico); border-color: var(--hl2-ico); }
 .v-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #sb-venues li[data-state="hide"] .v-name { opacity: .45; text-decoration: line-through; }
 #sb-venues li[data-state="hl"] .v-name,
