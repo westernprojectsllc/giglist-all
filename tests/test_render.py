@@ -1,19 +1,23 @@
 """Unit tests for the region-agnostic render helpers.
 
 Covers the small pure functions in giglist.render so that renderer
-refactors don't silently break day/time sorting or the week navigation
-grouping. Full-page rendering is exercised via end-to-end `render.py`
-runs in CI, not here.
+refactors don't silently break day/time sorting or the ledger label
+formats (see DESIGN.md). Full-page rendering is exercised via
+end-to-end `render.py` runs in CI, not here.
 """
 
 from datetime import date
 
 from giglist.models import Show
 from giglist.render import (
-    _build_week_nav,
+    _day_bar_label,
     _get_week_monday,
+    _ledger_time,
     _parse_time_minutes,
+    _row_html,
     _show_sort_key,
+    _week_label,
+    _week_section_html,
 )
 
 
@@ -79,22 +83,77 @@ def test_show_sort_key_pushes_untimed_last():
     assert [r.title for r in rows] == ["A", "B"]
 
 
-# --- _build_week_nav ----------------------------------------------------
+# --- ledger labels (formats fixed by DESIGN.md + mockup) ----------------
 
-def test_build_week_nav_groups_by_month_and_highlights():
-    weeks = [
-        (date(2026, 4, 20), "Apr 20 - Apr 26", "4/20"),
-        (date(2026, 4, 27), "Apr 27 - May 3",  "4/27"),
-        (date(2026, 5, 4),  "May 4 - May 10",  "5/4"),
+def test_ledger_time_show_only():
+    s = Show(title="A", sort_date=date(2026, 7, 23), venue="V", time="7:30pm")
+    assert _ledger_time(s) == "7:30PM"
+
+
+def test_ledger_time_doors_and_show():
+    s = Show(title="A", sort_date=date(2026, 7, 23), venue="V",
+             time="8pm", doors="7pm")
+    assert _ledger_time(s) == "7PM/8PM"
+
+
+def test_ledger_time_doors_only():
+    s = Show(title="A", sort_date=date(2026, 7, 23), venue="V", doors="7pm")
+    assert _ledger_time(s) == "DRS7PM"
+
+
+def test_ledger_time_unknown():
+    s = Show(title="A", sort_date=date(2026, 7, 23), venue="V")
+    assert _ledger_time(s) == "·"
+
+
+def test_week_label_same_month():
+    assert _week_label(date(2026, 7, 20)) == "WEEK OF JUL 20 – 26"
+
+
+def test_week_label_crossing_months():
+    assert _week_label(date(2026, 7, 27)) == "WEEK OF JUL 27 – AUG 2"
+
+
+def test_day_bar_label_zero_pads_day():
+    assert _day_bar_label(date(2026, 7, 6)) == "MONDAY — JUL 06"
+    assert _day_bar_label(date(2026, 7, 23)) == "THURSDAY — JUL 23"
+
+
+# --- row + week-section structure ---------------------------------------
+
+def test_row_html_links_and_flags():
+    s = Show(title="Harvey Street", sort_date=date(2026, 7, 23),
+             venue="7th St Entry", url="https://example.com/e",
+             time="8pm", doors="7pm", supports=["Bright Young Things"],
+             sold_out=True)
+    html = _row_html(s, {"7th St Entry": "https://example.com/v"})
+    assert '<span class="t">7PM/8PM</span>' in html
+    assert '<a href="https://example.com/v">7th St Entry</a>' in html
+    assert '<a href="https://example.com/e">Harvey Street</a>' in html
+    assert '<span class="sup">+ Bright Young Things</span>' in html
+    assert '<span class="flag">Sold out</span>' in html
+
+
+def test_row_html_plain_text_without_urls():
+    s = Show(title="A & B", sort_date=date(2026, 7, 23), venue="V")
+    html = _row_html(s, {})
+    assert "<a " not in html
+    assert "A &amp; B" in html
+    assert '<span class="flag">' not in html
+
+
+def test_week_section_has_anchor_day_bars_and_counts():
+    monday = date(2026, 7, 20)
+    shows = [
+        Show(title="A", sort_date=date(2026, 7, 23), venue="V", time="7pm"),
+        Show(title="B", sort_date=date(2026, 7, 23), venue="W", time="9pm"),
+        Show(title="C", sort_date=date(2026, 7, 24), venue="V"),
     ]
-    html = _build_week_nav(weeks, highlight="Apr 27 - May 3")
-    # All three weeks appear
-    assert "Apr 20 - Apr 26" in html
-    assert "Apr 27 - May 3" in html
-    assert "May 4 - May 10" in html
-    # The highlighted week is bold, the others are links
-    assert "<strong>Apr 27 - May 3</strong>" in html
-    assert '<a href="week-2026-04-20.html">' in html
-    assert '<a href="week-2026-05-04.html">' in html
-    # Weeks are grouped by month header line
-    assert html.count('<div class="month-line">') == 2  # April, May
+    html = _week_section_html(monday, _week_label(monday), shows, {})
+    assert 'id="week-2026-07-20"' in html
+    assert '<h2 class="week-h">WEEK OF JUL 20 – 26</h2>' in html
+    assert html.count('class="day-h"') == 2
+    assert 'data-count="2"' in html  # Jul 23 has two shows
+    assert 'data-count="1"' in html  # Jul 24 has one
+    # No rendered timestamps anywhere in a week section (byte-stability).
+    assert "Updated" not in html
