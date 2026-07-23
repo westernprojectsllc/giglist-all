@@ -1011,6 +1011,52 @@ def scrape_analog():
     return shows
 
 
+def scrape_the_office():
+    """The Office (Gallatin Ave; EDM/house/bass). Webflow site whose
+    /events page server-renders the whole CMS collection — there is no
+    JSON API, and ticketing is split across five platforms (SeatFun,
+    TicketFairy, Posh, LinkStub, LikeIt-LoveIt), so this page is the
+    only aggregate. Date and start time share one string
+    ("July 24, 2026 10:00 PM"); the site publishes no doors time,
+    structured lineup, or sold-out state."""
+    soup = _fetch_soup("The Office", "https://www.theofficenashville.com/events")
+
+    today = date.today()
+    shows = []
+    for item in soup.select(".event-item"):
+        title_el = item.select_one("h3.event-name")
+        date_el = item.select_one(".event-date")
+        if not (title_el and date_el):
+            continue
+        title = unescape(title_el.get_text(" ", strip=True))
+        if not title:
+            continue
+
+        raw = " ".join(date_el.get_text(" ", strip=True).replace("\xa0", " ").split())
+        try:
+            dt = datetime.strptime(raw, "%B %d, %Y %I:%M %p")
+        except ValueError:
+            continue
+        # Webflow bakes its "upcoming" filter in at publish time, so a
+        # stale publish can leave past events in the list.
+        if dt.date() < today:
+            continue
+
+        link = item.select_one("a.view-event-btn.centre-lines")
+        href = link.get("href", "") if link else ""
+        if href.startswith("/"):
+            href = "https://www.theofficenashville.com" + href
+
+        shows.append(Show(
+            title=title,
+            sort_date=dt.date(),
+            venue="The Office",
+            url=href or "https://www.theofficenashville.com/events",
+            time=format_local_time(dt),
+        ))
+    return shows
+
+
 # ---------- main ----------
 
 if __name__ == "__main__":
@@ -1036,6 +1082,7 @@ if __name__ == "__main__":
         ("Bluebird Cafe", scrape_bluebird),
         ("The 5 Spot", scrape_five_spot),
         ("Dee's Country Cocktail Lounge", scrape_dees),
+        ("The Office", scrape_the_office),
         # Analog at Hutton Hotel: scraper exists (scrape_analog) but is
         # unregistered — WP Engine bot-blocks datacenter IPs; see its
         # docstring before re-enabling.

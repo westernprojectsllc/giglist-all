@@ -46,6 +46,7 @@ VENUE_URLS = {
     "Bluebird Cafe":                "https://bluebirdcafe.com/",
     "The 5 Spot":                   "https://the5spotnashville.com/",
     "Dee's Country Cocktail Lounge": "https://deeslounge.com/",
+    "The Office":                   "https://www.theofficenashville.com/",
 }
 
 
