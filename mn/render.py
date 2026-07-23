@@ -21,7 +21,7 @@ SHOWS_JSON = CONFIG.output_dir / "shows.json"
 
 
 def load_shows(path):
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         raw = json.load(f)
     return [Show.from_json_dict(d) for d in raw]
 

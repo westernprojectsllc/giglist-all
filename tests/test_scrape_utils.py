@@ -286,3 +286,40 @@ def test_check_venue_dropouts_respects_skip_and_missing_file(tmp_path):
     from giglist.scrape_utils import check_venue_dropouts
     assert check_venue_dropouts([], prev, skip_venues={"TM Hall"}) == []
     assert check_venue_dropouts([], tmp_path / "absent.json") == []
+
+
+# --- repair_mangled_punctuation -----------------------------------------
+
+@pytest.mark.parametrize("raw,expected", [
+    # Possessive / contractions: a 3-byte ’ flattened to "???" upstream.
+    ("Dolly Parton???s Threads", "Dolly Parton’s Threads"),
+    ("Don???t Look Back", "Don’t Look Back"),
+    ("We???re Only In It For The Money", "We’re Only In It For The Money"),
+    # Space-delimited: an en/em dash flattened to "???".
+    ("Dude Perfect ??? Squad Games Tour 2026", "Dude Perfect – Squad Games Tour 2026"),
+])
+def test_repair_mangled_punctuation_restores(raw, expected):
+    from giglist.scrape_utils import repair_mangled_punctuation
+    assert repair_mangled_punctuation(raw) == expected
+
+
+@pytest.mark.parametrize("title", [
+    # Real question marks in real titles must survive untouched.
+    "DOMi & JD Beck - WHO ASKED? Tour",
+    "Jerry Garcia’s Birthday ft. Hooteroll?, Marty Schwartz",
+    "Stewart Copeland: Have I Said Too Much? // The Police",
+    "Really??? Yes Really",       # emphasis, not encoding damage
+    "What???",                     # trailing emphasis
+    "Tyler Childers",
+])
+def test_repair_mangled_punctuation_leaves_legitimate_text(title):
+    from giglist.scrape_utils import repair_mangled_punctuation
+    assert repair_mangled_punctuation(title) == title
+
+
+def test_normalize_titles_repairs_titles_and_supports():
+    from giglist.scrape_utils import normalize_titles
+    s = mk("Dolly Parton???s Threads", supports=["Ricky Skaggs ??? special guest"])
+    normalize_titles([s])
+    assert s.title == "Dolly Parton’s Threads"
+    assert s.supports == ["Ricky Skaggs – special guest"]

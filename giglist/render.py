@@ -358,7 +358,7 @@ def write_site(config: RegionConfig, shows: List[Show]):
             config, favicon, monday, label, weeks[monday],
             prev_monday, next_monday, all_weeks,
         )
-        (output_dir / fname).write_text(html)
+        (output_dir / fname).write_text(html, encoding="utf-8")
 
     stale = 0
     for old in output_dir.glob("week-*.html"):
@@ -368,13 +368,18 @@ def write_site(config: RegionConfig, shows: List[Show]):
     if stale:
         print(f"Removed {stale} stale week page(s)")
 
+    # Explicit UTF-8: Path.write_text() otherwise uses the locale
+    # encoding, which raises on curly quotes under a C/POSIX locale.
     (output_dir / "index.html").write_text(
-        _index_page_html(config, favicon, all_weeks, weeks, len(upcoming), updated)
+        _index_page_html(config, favicon, all_weeks, weeks, len(upcoming), updated),
+        encoding="utf-8",
     )
 
-    (output_dir / "list.html").write_text(_list_stub_html(config))
+    (output_dir / "list.html").write_text(
+        _list_stub_html(config), encoding="utf-8")
 
-    (output_dir / "sitemap.xml").write_text(_sitemap_xml(config, all_weeks))
+    (output_dir / "sitemap.xml").write_text(
+        _sitemap_xml(config, all_weeks), encoding="utf-8")
 
     print(f"Wrote index.html: continuous ledger, {len(all_weeks)} weeks, "
           f"{len(upcoming)} shows")

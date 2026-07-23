@@ -511,7 +511,7 @@ def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
     this run (e.g. Ticketmaster venues when TM_API_KEY is absent) so a
     missing key doesn't read as a dropout."""
     try:
-        with open(prev_json_path) as f:
+        with open(prev_json_path, encoding="utf-8") as f:
             prev = json.load(f)
     except (OSError, json.JSONDecodeError):
         return []
@@ -523,7 +523,38 @@ def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
     )
 
 
+# ---------- upstream encoding damage ----------
+
+# Some feeds (seen on Ticketmaster) carry titles where a 3-byte UTF-8
+# punctuation character was replaced byte-for-byte with ASCII '?' long
+# before it reached us — "Dolly Parton???s", "Dude Perfect ??? Squad
+# Games". The original character is unrecoverable from the '???' alone
+# (’ – — “ ” … all encode to 3 bytes), so repair only the two shapes
+# that context makes unambiguous and leave every other '?' alone —
+# real titles do use question marks ("WHO ASKED? Tour", "Hooteroll?").
+_MOJI_APOSTROPHE_RE = re.compile(r"(?<=\w)\?{3}(?=(?:s|t|re|ve|ll|d|m)\b)", re.I)
+_MOJI_DASH_RE = re.compile(r"(?<=\s)\?{3}(?=\s)")
+
+
+def repair_mangled_punctuation(text):
+    """Restore punctuation lost to upstream byte-wise '?' substitution."""
+    if not text or "???" not in text:
+        return text
+    text = _MOJI_APOSTROPHE_RE.sub("’", text)
+    return _MOJI_DASH_RE.sub("–", text)
+
+
 def normalize_titles(shows):
-    """Collapse whitespace + NBSP across titles in place."""
+    """Collapse whitespace + NBSP and repair upstream encoding damage
+    across titles and support acts, in place."""
     for s in shows:
-        s.title = WS_RE.sub(" ", s.title.replace("\xa0", " ")).strip()
+        s.title = WS_RE.sub(
+            " ", repair_mangled_punctuation(s.title).replace("\xa0", " ")
+        ).strip()
+        if s.supports:
+            s.supports = [
+                WS_RE.sub(
+                    " ", repair_mangled_punctuation(a).replace("\xa0", " ")
+                ).strip()
+                for a in s.supports
+            ]
