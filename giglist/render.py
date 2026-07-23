@@ -3,10 +3,15 @@
 Takes a RegionConfig + a list of Show, writes index.html / list.html /
 week-*.html / sitemap.xml / style CSS into the region's
 output directory.
+
+Layout is the "Tight Ledger" design — see DESIGN.md at the repo root and
+the reference mockup in mockups/giglist-bw-mockup.html. The region index
+is one continuous ledger of every upcoming week (anchored per week for
+deep links); week-*.html pages carry the same ledger one week at a time.
 """
 
 import shutil
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from html import escape
 from pathlib import Path
@@ -35,7 +40,7 @@ class RegionConfig:
     region_key: str                    # URL path segment, e.g. "mn"
     display_name: str                  # e.g. "Minnesota Gig List"
     short_title: str                   # e.g. "MN GIG LIST" (HTML <title>)
-    region_label: str                  # e.g. "Minnesota" (subtitle)
+    region_label: str                  # e.g. "Minnesota" (banner label)
     venue_urls: Dict[str, str]
     output_dir: Path
     months_ahead: int = 10
@@ -50,10 +55,6 @@ FAVICON_TAGS = (
     '  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">\n'
     '  <link rel="manifest" href="/site.webmanifest">'
 )
-
-
-def _favicon_tag(config: RegionConfig) -> str:
-    return FAVICON_TAGS
 
 
 def _get_week_monday(d):
@@ -95,176 +96,166 @@ def _show_sort_key(show):
     return (show.venue, t if t is not None else 10**6, show.title)
 
 
-def _venue_show_html(show, venue_urls):
+# ---------- ledger formatting (labels match the DESIGN.md mockup) ----------
+
+def _ledger_time(show):
+    """Ledger time cell: '7PM', doors+show '7PM/8PM', doors-only
+    'DRS7PM', unknown '·'."""
+    def up(t):
+        return t.upper().replace(" ", "") if t else None
+
+    doors, show_time = up(show.doors), up(show.time)
+    if doors and show_time:
+        return f"{doors}/{show_time}"
+    if show_time:
+        return show_time
+    if doors:
+        return f"DRS{doors}"
+    return "·"
+
+
+def _week_label(monday):
+    """'WEEK OF JUL 20 – 26', crossing months 'WEEK OF JUL 27 – AUG 2'."""
+    sunday = monday + timedelta(days=6)
+    a = f"{monday.strftime('%b').upper()} {monday.day}"
+    b = (
+        f"{sunday.day}" if sunday.month == monday.month
+        else f"{sunday.strftime('%b').upper()} {sunday.day}"
+    )
+    return f"WEEK OF {a} – {b}"
+
+
+def _day_bar_label(d):
+    """'THURSDAY — JUL 23' (zero-padded day, per the mockup)."""
+    return (
+        f"{d.strftime('%A').upper()} — "
+        f"{d.strftime('%b').upper()} {d.strftime('%d')}"
+    )
+
+
+# ---------- page fragments ----------
+
+def _row_html(show, venue_urls):
     venue_safe = escape(show.venue)
     title_safe = escape(show.title)
     venue_url = venue_urls.get(show.venue, "")
-    if venue_url:
-        venue_html = f'<span class="venue-link"><a href="{escape(venue_url)}">{venue_safe}</a></span>'
-    else:
-        venue_html = f'<span class="venue-link">{venue_safe}</span>'
-    if show.url:
-        show_html = f'<span class="show-link"><a href="{escape(show.url)}">{title_safe}</a></span>'
-    else:
-        show_html = f'<span class="show-link">{title_safe}</span>'
-    return venue_html, show_html
+    ven = (
+        f'<a href="{escape(venue_url)}">{venue_safe}</a>' if venue_url
+        else venue_safe
+    )
+    act = (
+        f'<a href="{escape(show.url)}">{title_safe}</a>' if show.url
+        else title_safe
+    )
+    if show.supports:
+        support_str = escape(", ".join(show.supports))
+        act += f' <span class="sup">+ {support_str}</span>'
+    flag = '<span class="flag">Sold out</span>' if show.sold_out else ""
+    return (
+        f'<div class="row">'
+        f'<span class="t">{escape(_ledger_time(show))}</span>'
+        f'<span class="ven">{ven}</span>'
+        f'<span class="act">{act}</span>'
+        f'<span>{flag}</span>'
+        f'</div>'
+    )
 
 
-def _build_day_rows(week_shows, venue_urls):
+def _week_section_html(monday, label, week_shows, venue_urls, heading=True):
+    """One <section> of the ledger: week heading, then a black day bar +
+    rows per day. ``heading`` stays on for the no-JS fallback; the
+    stage-2 banner JS hides it when the banner carries the label."""
     days = {}
     for show in week_shows:
         days.setdefault(show.sort_date, []).append(show)
 
-    rows = []
+    fname = f"week-{monday.strftime('%Y-%m-%d')}"
+    parts = [f'<section class="wk-sec" id="{fname}" data-label="{escape(label)}">']
+    if heading:
+        parts.append(f'<h2 class="week-h">{escape(label)}</h2>')
     for day_date in sorted(days.keys()):
-        day_label = day_date.strftime("%a %b %-d")
-        rows.append(f'<li><span>{day_label}</span>')
-        rows.append('<ul class="shows">')
-        for show in sorted(days[day_date], key=_show_sort_key):
-            venue_html, show_html = _venue_show_html(show, venue_urls)
-
-            if show.supports:
-                support_str = ", ".join(escape(s) for s in show.supports)
-                show_html += f' <span class="supports">with {support_str}</span>'
-
-            extras = []
-            if show.doors and show.time:
-                extras.append(f'<span class="time">{escape(show.doors)}/{escape(show.time)}</span>')
-            elif show.doors:
-                extras.append(f'<span class="time">doors {escape(show.doors)}</span>')
-            elif show.time:
-                extras.append(f'<span class="time">{escape(show.time)}</span>')
-            if show.sold_out:
-                extras.append('<span class="sold-out">sold out</span>')
-
-            line = venue_html + " " + show_html
-            if extras:
-                line += " - " + " ".join(extras)
-            rows.append(f"<li>{line}</li>")
-        rows.append("</ul></li>")
-    return rows
+        day_shows = sorted(days[day_date], key=_show_sort_key)
+        parts.append(
+            f'<h3 class="day-h" data-count="{len(day_shows)}">'
+            f'{_day_bar_label(day_date)}</h3>'
+        )
+        parts.extend(_row_html(s, venue_urls) for s in day_shows)
+    parts.append("</section>")
+    return "\n".join(parts)
 
 
-def _build_week_nav(all_weeks, highlight=None):
-    months = {}
-    for wdate, wlabel, _short in all_weeks:
-        month_key = wdate.strftime("%B %Y")
-        months.setdefault(month_key, [])
-        fname = f"week-{wdate.strftime('%Y-%m-%d')}.html"
-        if wlabel == highlight:
-            months[month_key].append(f'<strong>{wlabel}</strong>')
-        else:
-            months[month_key].append(f'<a href="{fname}">{wlabel}</a>')
-    return "\n".join(
-        f'<div class="month-line">{" | ".join(links)}</div>'
-        for links in months.values()
+def _page_shell(config, favicon, title, body):
+    """Shared skeleton: Klein-blue banner (gl mark links home, region
+    label right) over the ledger column. No page title in the content —
+    per DESIGN.md the first day bar leads."""
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{escape(title)}</title>
+  {favicon}
+  <link rel="stylesheet" href="ledger.css">
+</head>
+<body>
+  <a id="banner" href="/" aria-label="giglist home"><span class="mark">gl</span><span class="rlabel">{escape(config.region_label)}</span></a>
+  <main class="ledger">
+{body}
+  </main>
+</body>
+</html>"""
+
+
+def _index_page_html(config, favicon, all_weeks, weeks, upcoming_count, updated):
+    sections = [
+        _week_section_html(monday, label, weeks[monday], config.venue_urls)
+        for monday, label in all_weeks
+    ]
+    foot = (
+        f'<p class="foot">Updated {updated} '
+        f'&middot; {upcoming_count} shows</p>'
     )
+    body = "\n".join(sections + [foot])
+    return _page_shell(config, favicon, config.short_title, body)
 
 
-def _build_table(shows):
-    months = {}
-    for show in shows:
-        months.setdefault(show.sort_date.strftime("%B %Y"), []).append(show)
-
-    rows = []
-    for month_name, month_shows in months.items():
-        rows.append(f'  <tr class="month-header"><td colspan="3">{month_name}</td></tr>')
-        for show in month_shows:
-            date_display = show.sort_date.strftime("%b %-d")
-            day_name = show.sort_date.strftime("%a")
-            title_safe = escape(show.title)
-            venue_safe = escape(show.venue)
-            if show.url:
-                title_cell = f'<a href="{escape(show.url)}">{title_safe}</a>'
-            else:
-                title_cell = title_safe
-            rows.append(
-                f'  <tr>'
-                f'<td>{day_name} {date_display}</td>'
-                f'<td>{venue_safe}</td>'
-                f'<td>{title_cell}</td>'
-                f'</tr>'
-            )
-    return "\n".join(rows)
-
-
-def _week_page_html(config, favicon, week_shows, week_label, short_label, all_weeks):
+def _week_page_html(config, favicon, monday, label, week_shows, prev_monday,
+                    next_monday):
     """Week pages intentionally omit the 'Updated:' timestamp so the
     file's content is stable across daily scrapes when no shows moved —
     otherwise every week page diffs every single day."""
-    rows = _build_day_rows(week_shows, config.venue_urls)
-    week_nav_html = _build_week_nav(all_weeks, highlight=week_label)
+    nav = ['<nav class="subnav">']
+    if prev_monday:
+        nav.append(
+            f'<a href="week-{prev_monday.strftime("%Y-%m-%d")}.html">'
+            f'&larr; Prev week</a>'
+        )
+    nav.append('<a href="./">All weeks</a>')
+    if next_monday:
+        nav.append(
+            f'<a href="week-{next_monday.strftime("%Y-%m-%d")}.html">'
+            f'Next week &rarr;</a>'
+        )
+    nav.append("</nav>")
+    section = _week_section_html(monday, label, week_shows, config.venue_urls)
+    body = "\n".join(["\n".join(nav), section])
+    title = f'{config.short_title} - {label.replace("WEEK OF ", "")}'
+    return _page_shell(config, favicon, title, body)
+
+
+def _list_stub_html(config):
+    """list.html was the old table view; the region index now carries the
+    full list, so keep the URL alive as a redirect stub."""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{escape(config.short_title)} - {escape(short_label)}</title>
-  {favicon}
-  <link rel="stylesheet" href="page.css">
-</head>
-<body>
-  <h1><a href="index.html">{escape(config.display_name)}</a></h1>
-  <nav><a href="list.html">List View</a></nav>
-  <div class="week-nav">{week_nav_html}</div>
-  <h2>{escape(week_label)}</h2>
-  <ul class="days">
-{"".join(rows)}
-  </ul>
-</body>
-</html>"""
-
-
-def _index_page_html(config, favicon, upcoming_count, updated,
-                     all_weeks, this_week_shows):
-    week_nav_html = _build_week_nav(all_weeks)
-    this_week_html = ""
-    if this_week_shows:
-        rows = _build_day_rows(this_week_shows, config.venue_urls)
-        this_week_html = f"""  <h2 style="margin-top: 24px;">This Week</h2>
-  <ul class="days">
-{"".join(rows)}
-  </ul>"""
-
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./">
+  <link rel="canonical" href="./">
   <title>{escape(config.short_title)}</title>
-  {favicon}
-  <link rel="stylesheet" href="page.css">
 </head>
 <body>
-  <h1>{escape(config.display_name)}</h1>
-  <p class="subtitle">Updated: {updated} &mdash; {upcoming_count} upcoming shows</p>
-  <nav><a href="list.html">List View</a></nav>
-  <h2>Concerts By Week</h2>
-  <div class="week-nav">{week_nav_html}</div>
-{this_week_html}
-</body>
-</html>"""
-
-
-def _list_page_html(config, favicon, upcoming, updated):
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{escape(config.short_title)}</title>
-  {favicon}
-  <link rel="stylesheet" href="table.css">
-</head>
-<body>
-  <h1>{escape(config.display_name)}</h1>
-  <p class="subtitle">Updated: {updated} &mdash; {len(upcoming)} upcoming shows across {escape(config.region_label)}</p>
-  <nav>
-    <a href="index.html">Weekly View</a>
-  </nav>
-  <table>
-{_build_table(upcoming)}
-  </table>
+  <p><a href="./">Moved &mdash; the full list is now the front page.</a></p>
 </body>
 </html>"""
 
@@ -274,9 +265,8 @@ def _sitemap_xml(config, all_weeks):
     prefix = f"{config.base_url}/{config.region_key}"
     entries = [
         f'  <url><loc>{prefix}/</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
-        f'  <url><loc>{prefix}/list.html</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>',
     ]
-    for monday, _label, _short in all_weeks:
+    for monday, _label in all_weeks:
         fname = f"week-{monday.strftime('%Y-%m-%d')}.html"
         entries.append(
             f'  <url><loc>{prefix}/{fname}</loc><lastmod>{today_str}</lastmod><changefreq>daily</changefreq></url>'
@@ -290,10 +280,14 @@ def _sitemap_xml(config, all_weeks):
 
 
 def _copy_assets(output_dir: Path):
-    for name in ("page.css", "table.css"):
-        src = ASSETS_DIR / name
-        if src.exists():
-            shutil.copyfile(src, output_dir / name)
+    src = ASSETS_DIR / "ledger.css"
+    if src.exists():
+        shutil.copyfile(src, output_dir / "ledger.css")
+    # The pre-ledger stylesheets; remove stale copies from output dirs.
+    for old in ("page.css", "table.css"):
+        stale = output_dir / old
+        if stale.exists():
+            stale.unlink()
 
 
 def write_site(config: RegionConfig, shows: List[Show]):
@@ -302,18 +296,13 @@ def write_site(config: RegionConfig, shows: List[Show]):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     _copy_assets(output_dir)
-    favicon = _favicon_tag(config)
+    favicon = FAVICON_TAGS
 
     now_central = datetime.now(CENTRAL_TZ)
-    updated = now_central.strftime("%B %d, %Y at %I:%M %p")
+    updated = now_central.strftime("%b %-d, %Y")
     today = now_central.date()
 
     upcoming = [s for s in shows if s.sort_date >= today]
-
-    # List view
-    (output_dir / "list.html").write_text(
-        _list_page_html(config, favicon, upcoming, updated)
-    )
 
     # Group upcoming by week
     weeks = {}
@@ -322,21 +311,21 @@ def write_site(config: RegionConfig, shows: List[Show]):
         weeks.setdefault(monday, []).append(show)
 
     cutoff_date = today + relativedelta(months=config.months_ahead)
-    all_weeks = []
-    for monday in sorted(weeks.keys()):
-        if monday > cutoff_date:
-            continue
-        sunday = monday + timedelta(days=6)
-        label = f"{monday.strftime('%b %-d')} - {sunday.strftime('%b %-d')}"
-        short_label = f"{monday.strftime('%-m/%-d')} to {sunday.strftime('%-m/%-d')}"
-        all_weeks.append((monday, label, short_label))
+    all_weeks = [
+        (monday, _week_label(monday))
+        for monday in sorted(weeks.keys())
+        if monday <= cutoff_date
+    ]
 
     current_week_files = set()
-    for monday, label, short_label in all_weeks:
+    for i, (monday, label) in enumerate(all_weeks):
         fname = f"week-{monday.strftime('%Y-%m-%d')}.html"
         current_week_files.add(fname)
+        prev_monday = all_weeks[i - 1][0] if i > 0 else None
+        next_monday = all_weeks[i + 1][0] if i < len(all_weeks) - 1 else None
         html = _week_page_html(
-            config, favicon, weeks[monday], label, short_label, all_weeks,
+            config, favicon, monday, label, weeks[monday],
+            prev_monday, next_monday,
         )
         (output_dir / fname).write_text(html)
 
@@ -348,15 +337,16 @@ def write_site(config: RegionConfig, shows: List[Show]):
     if stale:
         print(f"Removed {stale} stale week page(s)")
 
-    window_end = today + timedelta(days=6)
-    this_week = [s for s in upcoming if s.sort_date <= window_end]
     (output_dir / "index.html").write_text(
-        _index_page_html(config, favicon, len(upcoming), updated, all_weeks, this_week)
+        _index_page_html(config, favicon, all_weeks, weeks, len(upcoming), updated)
     )
+
+    (output_dir / "list.html").write_text(_list_stub_html(config))
 
     (output_dir / "sitemap.xml").write_text(_sitemap_xml(config, all_weeks))
 
-    print(f"Wrote list.html ({len(upcoming)} upcoming shows, table view)")
-    print(f"Wrote index.html with {len(all_weeks)} weeks (weekly view)")
+    print(f"Wrote index.html: continuous ledger, {len(all_weeks)} weeks, "
+          f"{len(upcoming)} shows")
     print(f"Wrote {len(all_weeks)} week pages")
+    print("Wrote list.html redirect stub")
     print("Wrote sitemap.xml")

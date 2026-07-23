@@ -1,0 +1,430 @@
+<title>Giglist B/W mockups — Ledger refinements</title>
+<style>
+  :root {
+    --paper: #ffffff;
+    --ink: #000000;
+    --klein: #002FA7;
+    --hl2-bg: #E4E4E2; /* Stone — preferred grey (see DESIGN.md) */
+    --hl2-fg: #000000;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #000000; --ink: #ffffff; }
+  }
+  :root[data-theme="dark"]  { --paper: #000000; --ink: #ffffff; }
+  :root[data-theme="light"] { --paper: #ffffff; --ink: #000000; }
+
+  html, body { background: var(--paper); color: var(--ink); }
+  body { margin: 0; font-family: var(--mono); }
+  a { color: var(--ink); }
+  * { box-sizing: border-box; }
+  :focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+
+  /* ---------- chrome: gl logo button (landing-page mark, opens menu) ---------- */
+  #menu-btn {
+    position: fixed; top: 0; left: 0; z-index: 60;
+    background: var(--klein); color: #C7CCD6;
+    border: 0; cursor: pointer;
+    font-family: "Helvetica Neue", -apple-system, "Segoe UI", Arial, sans-serif;
+    font-weight: 800; font-size: 15px; letter-spacing: -0.03em; line-height: 1;
+    padding: 12px 19px 13px; text-align: left;
+  }
+  #menu-btn:hover { color: #ffffff; }
+  #menu-btn.banner { width: 100%; padding-left: 24px; display: flex; align-items: center; }
+  #menu-btn .wk { display: none; }
+  body.wk-banner #menu-btn .wk {
+    display: block; margin-left: auto; padding-right: 5px;
+    font-family: var(--mono); font-size: 11px; font-weight: 400;
+    letter-spacing: .22em; color: #ffffff;
+  }
+  body.wk-banner .v1 .week-h { display: none; }
+
+  /* ---------- sidebar : inverted, compact ---------- */
+  #sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0; z-index: 70;
+    width: 208px; max-width: 82vw;
+    background: var(--ink); color: var(--paper);
+    transform: translateX(-100%);
+    transition: transform .16s ease;
+    overflow-y: auto;
+    font-size: 11px;
+  }
+  #sidebar.open { transform: translateX(0); }
+  @media (prefers-reduced-motion: reduce) { #sidebar { transition: none; } }
+  #sidebar a { color: var(--paper); text-decoration: none; }
+  #sidebar a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  #sidebar .sb-head {
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid var(--paper); padding: 8px 10px;
+  }
+  #sidebar .sb-head span { letter-spacing: .16em; font-size: 10px; }
+  #sb-close {
+    background: none; border: 1px solid var(--paper); color: var(--paper);
+    font-family: var(--mono); font-size: 9px; letter-spacing: .1em;
+    padding: 2px 6px; cursor: pointer;
+  }
+  #sb-close:hover { background: var(--paper); color: var(--ink); }
+  #sidebar h3 {
+    margin: 0; padding: 9px 10px 4px;
+    font-size: 9px; font-weight: 400; letter-spacing: .22em; text-transform: uppercase;
+    border-top: 1px solid var(--paper);
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  #sidebar .sb-head + h3 { border-top: 0; }
+  #sidebar h3 button {
+    background: none; border: 0; color: var(--paper); font-family: var(--mono);
+    font-size: 9px; letter-spacing: .1em; cursor: pointer; padding: 0;
+    text-decoration: underline; text-underline-offset: 2px;
+  }
+  #sidebar ul { list-style: none; margin: 0 0 6px; padding: 0 10px; }
+  #sidebar li { margin: 0; }
+  #sidebar ul a { display: block; padding: 2px 0; }
+  #sidebar .now { font-size: 9px; letter-spacing: .08em; }
+
+  /* venue rows with cycling state icon */
+  #sb-venues li {
+    display: flex; align-items: center; gap: 7px; padding: 1.5px 0;
+  }
+  .v-ico {
+    flex: none; width: 14px; height: 14px; padding: 0; cursor: pointer;
+    border: 1px solid var(--paper);
+  }
+  .v-ico[data-state="show"] { background: var(--paper); }
+  .v-ico[data-state="hide"] { background: var(--ink); }
+  .v-ico[data-state="hl"]   { background: var(--klein); border-color: var(--klein); }
+  .v-ico[data-state="hl2"]  { background: var(--hl2-bg); border-color: var(--hl2-bg); }
+  .v-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #sb-venues li[data-state="hide"] .v-name { opacity: .45; text-decoration: line-through; }
+  #sb-venues li[data-state="hl"] .v-name,
+  #sb-venues li[data-state="hl2"] .v-name { font-weight: 700; }
+
+  /* collapsible categories */
+  #sidebar h3.cat { cursor: pointer; user-select: none; }
+  #sidebar h3 .cat-r { display: flex; gap: 9px; align-items: baseline; }
+  #sidebar h3 .ind { font-size: 10px; width: 8px; text-align: center; }
+
+  #scrim { position: fixed; inset: 0; z-index: 65; display: none; }
+  #scrim.open { display: block; }
+
+  /* ---------- variant switcher (mockup chrome) ---------- */
+  #switcher {
+    position: fixed; bottom: 0; right: 0; z-index: 60;
+    display: flex; flex-direction: column; align-items: stretch;
+    border: 2px solid var(--ink); border-right: 0; border-bottom: 0;
+    background: var(--paper);
+  }
+  #switcher .sw-row { display: flex; align-items: stretch; flex-wrap: wrap; }
+  #switcher .sw-row + .sw-row { border-top: 1px solid var(--ink); }
+  #switcher .chip {
+    display: inline-block; width: 11px; height: 11px;
+    border: 1px solid var(--ink); margin-right: 6px; vertical-align: -1px;
+  }
+  #switcher button[aria-pressed="true"] .chip { border-color: var(--paper); }
+  #switcher .sw-label {
+    font-size: 9px; letter-spacing: .14em; padding: 9px 10px;
+    border-right: 2px solid var(--ink); text-transform: uppercase;
+    display: flex; align-items: center;
+  }
+  #switcher button {
+    background: var(--paper); color: var(--ink); border: 0;
+    border-right: 1px solid var(--ink);
+    font-family: var(--mono); font-size: 11px; padding: 9px 12px; cursor: pointer;
+  }
+  #switcher button:last-child { border-right: 0; }
+  #switcher button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+  main { padding-bottom: 72px; }
+
+  /* ---------- shared ledger row ---------- */
+  .row {
+    display: grid; grid-template-columns: 74px 168px 1fr max-content;
+    gap: 0 12px; align-items: baseline;
+    padding: 3px 8px; border-bottom: 1px solid var(--ink);
+    font-size: 12px; line-height: 1.35;
+  }
+  .row .t   { font-size: 11px; white-space: nowrap; }
+  .row .ven { font-size: 11px; text-transform: uppercase; letter-spacing: .03em; overflow-wrap: break-word; }
+  .row .act { font-weight: 700; }
+  .row .sup { font-weight: 400; font-size: 11px; }
+  .flag {
+    background: var(--ink); color: var(--paper);
+    font-size: 9px; letter-spacing: .12em; padding: 1px 5px; text-transform: uppercase;
+  }
+  .row.hl { background: var(--klein); color: #ffffff; }
+  .row.hl .flag { background: #ffffff; color: var(--klein); }
+  .row.hl2 { background: var(--hl2-bg); color: var(--hl2-fg); }
+  .row.hl2 .flag { background: var(--hl2-fg); color: var(--hl2-bg); }
+  @media (max-width: 640px) {
+    .row { grid-template-columns: 64px 1fr max-content; row-gap: 0; }
+    .row .ven { grid-column: 2; grid-row: 1; }
+    .row .act { grid-column: 2; grid-row: 2; }
+    .row .t   { grid-row: 1; }
+  }
+
+  .empty-note { padding: 28px 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+
+  /* =============================================================
+     VARIANT 1 — LEDGER TIGHT : slim black day bars, compact rows
+     ============================================================= */
+  .v1 { max-width: 940px; margin: 0 auto; padding: 46px 16px 0; }
+  .v1 .week-h {
+    margin: 34px 0 0; padding: 5px 0 4px;
+    font-size: 13px; font-weight: 400; letter-spacing: .22em; text-transform: uppercase;
+  }
+  .v1 .wk-sec:first-child .week-h { margin-top: 4px; }
+  .v1 .day-h {
+    margin: 10px 0 0; padding: 3px 8px;
+    background: var(--ink); color: var(--paper);
+    font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  }
+  #switcher .sw-label:not(:first-child) { border-left: 2px solid var(--ink); }
+</style>
+
+<button id="menu-btn" aria-expanded="false" aria-controls="sidebar" aria-label="Menu"><span class="mark">gl</span><span class="wk" id="wk-label"></span></button>
+
+<div id="scrim"></div>
+<aside id="sidebar" aria-label="Site navigation">
+  <div class="sb-head"><span>GIGLIST — MN</span><button id="sb-close">Close</button></div>
+  <h3 class="cat" role="button" tabindex="0" aria-expanded="true"><span>Venues</span><span class="cat-r"><button id="v-reset">reset</button><span class="ind">−</span></span></h3>
+  <ul id="sb-venues"></ul>
+  <h3 class="cat" role="button" tabindex="0" aria-expanded="false"><span>Weeks</span><span class="ind">+</span></h3>
+  <ul id="sb-weeks" hidden></ul>
+  <h3 class="cat" role="button" tabindex="0" aria-expanded="false"><span>Months</span><span class="ind">+</span></h3>
+  <ul hidden>
+    <li><a href="#" class="dead">July 2026</a></li>
+    <li><a href="#" class="dead">August 2026</a></li>
+    <li><a href="#" class="dead">September 2026</a></li>
+    <li><a href="#" class="dead">October 2026</a></li>
+  </ul>
+  <h3 class="cat" role="button" tabindex="0" aria-expanded="false"><span>Region</span><span class="ind">+</span></h3>
+  <ul hidden>
+    <li><a href="#" class="dead">Minnesota</a></li>
+    <li><a href="#" class="dead">Tennessee</a></li>
+  </ul>
+  <h3 class="cat" role="button" tabindex="0" aria-expanded="false"><span>Views</span><span class="ind">+</span></h3>
+  <ul hidden>
+    <li><a href="#" class="dead">Weekly view</a></li>
+    <li><a href="#" class="dead">Full list</a></li>
+  </ul>
+</aside>
+
+<main id="app"></main>
+
+<div id="switcher" role="group" aria-label="Mockup options">
+  <div class="sw-row">
+    <span class="sw-label">Grey</span>
+    <button data-grey="warm" data-bg="#8A8A8A" data-fg="#000000" aria-pressed="false"><span class="chip" style="background:#8A8A8A"></span>Warm</button>
+    <button data-grey="slate" data-bg="#A9AFBC" data-fg="#000000" aria-pressed="false"><span class="chip" style="background:#A9AFBC"></span>Slate</button>
+    <button data-grey="cool" data-bg="#7A7E87" data-fg="#000000" aria-pressed="false"><span class="chip" style="background:#7A7E87"></span>Cool</button>
+    <button data-grey="silver" data-bg="#C7C7C7" data-fg="#000000" aria-pressed="false"><span class="chip" style="background:#C7C7C7"></span>Silver</button>
+    <button data-grey="charcoal" data-bg="#3C3C3E" data-fg="#ffffff" aria-pressed="false"><span class="chip" style="background:#3C3C3E"></span>Charcoal</button>
+    <button data-grey="stone" data-bg="#E4E4E2" data-fg="#000000" aria-pressed="true"><span class="chip" style="background:#E4E4E2"></span>Stone</button>
+  </div>
+  <div class="sw-row">
+    <span class="sw-label">Logo</span>
+    <button data-btn="box" aria-pressed="false">Box</button>
+    <button data-btn="banner" aria-pressed="false">Banner</button>
+    <button data-btn="wk" aria-pressed="true">Banner + Week</button>
+  </div>
+</div>
+
+<script>
+const SHOWS = [{"title":"Nick Elstad Trio","sort_date":"2026-07-23","venue":"331 Club","time":"9:30pm","doors":null,"supports":["The Wooden Nickel Factory","Jack Klatt"],"sold_out":false},{"title":"Harvey Street","sort_date":"2026-07-23","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Bright Young Things","Syncline"],"sold_out":false},{"title":"Thursday 7/23 - Scott Keever & Joe Cruz ($15 Cover)","sort_date":"2026-07-23","venue":"Aster Cafe","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Crates: \"Three\u201d by Four Tet","sort_date":"2026-07-23","venue":"Berlin","time":"10pm","doors":null,"supports":[],"sold_out":false},{"title":"Raina Sokolov-Gonzalez w/ SOLORAH the Essence","sort_date":"2026-07-23","venue":"Berlin","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"First Avenue presents WILD CHILD with motenko","sort_date":"2026-07-23","venue":"Cedar Cultural Center","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Toronzo Cannon","sort_date":"2026-07-23","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Shady Cove + Molly Dean","sort_date":"2026-07-23","venue":"Ice House","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"John Williams' Greatest Scores","sort_date":"2026-07-23","venue":"Orchestra Hall","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-23","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Forrest Frank w/ Tori Kelly","sort_date":"2026-07-23","venue":"Target Center","time":"7pm","doors":null,"supports":["Tori Kelly","Cory Asbury"],"sold_out":false},{"title":"Rattle and Hum (A U2 Tribute Band) and Kars 4 Skids (The Cars Tribute)","sort_date":"2026-07-23","venue":"Turf Club","time":"8pm","doors":"7pm","supports":["DJ Jake\u00a0Rudh"],"sold_out":false},{"title":"Chick Singer w. Shot Down In Flames","sort_date":"2026-07-23","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"John\u2019s Garage w. SongBirks & Dean","sort_date":"2026-07-23","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Trace Amount w/ Lunacy and Insula Iscariot","sort_date":"2026-07-23","venue":"Zhora Darling","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Movie and Music Trivia","sort_date":"2026-07-24","venue":"331 Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Noslo","sort_date":"2026-07-24","venue":"331 Club","time":"10:00pm","doors":null,"supports":["Killed by Kiwis"],"sold_out":false},{"title":"Kill Bill the Rapper","sort_date":"2026-07-24","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Ashtin Larold"],"sold_out":false},{"title":"Friday 7/24 - Thomas Sticha ($20 Cover)","sort_date":"2026-07-24","venue":"Aster Cafe","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Calvin Caron's American West Quintet","sort_date":"2026-07-24","venue":"Berlin","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Early Evening Jazz: Nick Bhalla","sort_date":"2026-07-24","venue":"Berlin","time":"4:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Late Night Lounge: Radio Pocho","sort_date":"2026-07-24","venue":"Berlin","time":"10:30pm","doors":null,"supports":[],"sold_out":false},{"title":"MAGIC TUBER STRINGBAND with Mother Shipton","sort_date":"2026-07-24","venue":"Cedar Cultural Center","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Products Band, Angel Band, Oyster World","sort_date":"2026-07-24","venue":"Cloudland Theater","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Just the Two of Us: Celebrating Grover Washington, Jr. & Bill Withers","sort_date":"2026-07-24","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"One Direction Night","sort_date":"2026-07-24","venue":"Fine Line","time":"9pm","doors":"9pm","supports":[],"sold_out":false},{"title":"United We Dance","sort_date":"2026-07-24","venue":"First Avenue","time":"9pm","doors":"9pm","supports":[],"sold_out":false},{"title":"GRL, LINK.","sort_date":"2026-07-24","venue":"Ice House","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-24","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"When the Sun Sets","sort_date":"2026-07-24","venue":"Pilllar Forum","time":"7pm","doors":"6:30pm","supports":["Exit 122","Halfway Down","Portside Dive"],"sold_out":false},{"title":"Kyndal","sort_date":"2026-07-24","venue":"Skyway Theatre","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"The Many Over The Money Rally with Elizabeth Warren and Peggy Flanagan","sort_date":"2026-07-24","venue":"The Fitzgerald Theater","time":"7:30pm","doors":"5:30pm","supports":[],"sold_out":false},{"title":"The WonkyWilla Official Pre Party","sort_date":"2026-07-24","venue":"The Loft at Skyway Theatre","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"ZEPPO // Stairway to Eleven","sort_date":"2026-07-24","venue":"The Parkway Theater","time":"7:30pm","doors":"6:30pm","supports":[],"sold_out":false},{"title":"Birthday Suits","sort_date":"2026-07-24","venue":"Turf Club","time":"8pm","doors":"7pm","supports":["Panel","ME ME\u00a0ME"],"sold_out":false},{"title":"Transmission Presents: PARTY ON! A Most EXCELLENT! 90s Dance Party","sort_date":"2026-07-24","venue":"Uptown VFW","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Love In The Club","sort_date":"2026-07-24","venue":"Varsity Theater","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"The Mary Cutrufello Band","sort_date":"2026-07-24","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"ValleyKil w. Heliocene, Marvin Magic","sort_date":"2026-07-24","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Miracle Blood (MA), Wanderer, Baumgardner, & Welt","sort_date":"2026-07-24","venue":"Zhora Darling","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Drinkin\u2019 Spelling Bee","sort_date":"2026-07-25","venue":"331 Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"The Old Smugglers","sort_date":"2026-07-25","venue":"331 Club","time":"10:00pm","doors":null,"supports":["The Hazy Phase","Johnny Sincerely (solo)"],"sold_out":false},{"title":"Blu & Exile","sort_date":"2026-07-25","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Dwynell Roland","Sirplus"],"sold_out":false},{"title":"Saturday 7/25 - Kray Klaas Single Release Show ($20 Cover)","sort_date":"2026-07-25","venue":"Aster Cafe","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Early Evening Jazz: Steven Hobert / Tim O\u2019Keefe","sort_date":"2026-07-25","venue":"Berlin","time":"4:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Kelly Doyle (feat. Nelson Devereaux)","sort_date":"2026-07-25","venue":"Berlin","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Late Night Lounge: Justis Brokenrope","sort_date":"2026-07-25","venue":"Berlin","time":"10:30pm","doors":null,"supports":[],"sold_out":false},{"title":"SLEEPYTIME GORILLA MUSEUM with Wendy Eisenberg","sort_date":"2026-07-25","venue":"Cedar Cultural Center","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"The Stress of Her Regard, Toilet Rats, Razordaisies","sort_date":"2026-07-25","venue":"Cloudland Theater","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"The Belfast Cowboys","sort_date":"2026-07-25","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"GoldFish","sort_date":"2026-07-25","venue":"Fine Line","time":"8pm","doors":"7pm","supports":["Alboa"],"sold_out":false},{"title":"Off Campus Night","sort_date":"2026-07-25","venue":"First Avenue","time":"9pm","doors":"9pm","supports":[],"sold_out":false},{"title":"Tim Sparks, Ben Abrahamson and Gary Raynor","sort_date":"2026-07-25","venue":"Ice House","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"JVNA with Elephante","sort_date":"2026-07-25","venue":"Myth Live","time":"10pm","doors":"9pm","supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-25","venue":"Orpheum Theatre","time":"2pm","doors":null,"supports":[],"sold_out":false},{"title":"Bunny Blood","sort_date":"2026-07-25","venue":"Pilllar Forum","time":"7pm","doors":"6:30pm","supports":["Million.point.Million","Gauze","and\u00a0Virginia\u2019s Basement"],"sold_out":false},{"title":"Megan Moroney","sort_date":"2026-07-25","venue":"Target Center","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Wonky Willa","sort_date":"2026-07-25","venue":"The Loft at Skyway Theatre","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Larry McCray Band","sort_date":"2026-07-25","venue":"The Parkway Theater","time":"7:30pm","doors":"6:30pm","supports":["The Larry McCray Band"],"sold_out":false},{"title":"House of Heavy: Nu Metal + Metalcore Night","sort_date":"2026-07-25","venue":"Turf Club","time":"9pm","doors":"9pm","supports":[],"sold_out":false},{"title":"Heat On Beat x Elite EDM x Winn Presents: OG NIXIN","sort_date":"2026-07-25","venue":"Uptown VFW","time":"8pm","doors":null,"supports":["Vicious","Kurlz","Sinist3r","Bass Kitty"],"sold_out":false},{"title":"MAMA LIBERIA CONCERT","sort_date":"2026-07-25","venue":"Varsity Theater","time":"9pm","doors":null,"supports":["Deetweh","Mazee Blanco"],"sold_out":false},{"title":"Big Trouble","sort_date":"2026-07-25","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"David Lopez 90 Miles: The Tour","sort_date":"2026-07-25","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Lars Nelson Band w. UFaudiO","sort_date":"2026-07-25","venue":"White Squirrel","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Patio Yoga with Pete","sort_date":"2026-07-25","venue":"White Squirrel","time":"11am","doors":null,"supports":[],"sold_out":false},{"title":"Parachute Pandas, Rada K & the Cicadas, & Kurt Russell's Muscles","sort_date":"2026-07-25","venue":"Zhora Darling","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Chuck Board Bingo","sort_date":"2026-07-26","venue":"331 Club","time":"7:00pm","doors":null,"supports":[],"sold_out":false},{"title":"Dakota Dave Hull","sort_date":"2026-07-26","venue":"331 Club","time":"3pm","doors":null,"supports":[],"sold_out":false},{"title":"Sunday Swing Brunch $8","sort_date":"2026-07-26","venue":"Aster Cafe","time":"10:30am","doors":null,"supports":[],"sold_out":false},{"title":"Curated by Aida Shahghasemi: feat. Jeremy Ylvisaker, Max Ylvisaker, & Joey Hays","sort_date":"2026-07-26","venue":"Berlin","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Lord Buffalo, Lovely Dark","sort_date":"2026-07-26","venue":"Cloudland Theater","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Keiko Matsui","sort_date":"2026-07-26","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Obi Original and The Black Atlantics","sort_date":"2026-07-26","venue":"Ice House","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"PV$$Y CNTRL","sort_date":"2026-07-26","venue":"Ice House","time":"5pm","doors":null,"supports":[],"sold_out":false},{"title":"A Night in the Tropics","sort_date":"2026-07-26","venue":"Orchestra Hall","time":"2pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-26","venue":"Orpheum Theatre","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Stereosity","sort_date":"2026-07-26","venue":"Pilllar Forum","time":"6:30pm","doors":"6pm","supports":["Tiny Voices","Melancholy Club"],"sold_out":false},{"title":"Dude Perfect ??? Squad Games Tour 2026","sort_date":"2026-07-26","venue":"Target Center","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Legacy of Lilith Fair: A Celebration of Women in Music","sort_date":"2026-07-26","venue":"The Parkway Theater","time":"7pm","doors":"6pm","supports":[],"sold_out":false},{"title":"Rx Bandits - And The Battle Begun 20th Anniversary Tour with Catbite","sort_date":"2026-07-26","venue":"Varsity Theater","time":"7pm","doors":null,"supports":["Catbite"],"sold_out":false},{"title":"Blood, Bath, & Beyond w. Redeemer Shane Louis, Chippu & Somewhere Nice, Someday","sort_date":"2026-07-26","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Clint Niosi w. Nikki Matteson and Rich Rue & Ditch Pigeon","sort_date":"2026-07-26","venue":"White Squirrel","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Conduit Presents: Minds On Fire","sort_date":"2026-07-26","venue":"White Squirrel","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Trh\u00e4, Saidan, & Barbelith w/ Eudaemon","sort_date":"2026-07-26","venue":"Zhora Darling","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"HonkyTonk Ranch","sort_date":"2026-07-27","venue":"331 Club","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Roe Family Singers","sort_date":"2026-07-27","venue":"331 Club","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"LSD and the Search for God","sort_date":"2026-07-27","venue":"7th St Entry","time":"7:30pm","doors":"6:30pm","supports":["Total Wife"],"sold_out":false},{"title":"Deradoorian w/ Greg Fox","sort_date":"2026-07-27","venue":"Berlin","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Kavyesh Kaviraj & Omar Abdulkarim","sort_date":"2026-07-27","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Audrey Hobert","sort_date":"2026-07-27","venue":"First Avenue","time":"8:30pm","doors":"7pm","supports":[],"sold_out":false},{"title":"L.A.'s Monday Nights","sort_date":"2026-07-27","venue":"Ice House","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"The Midnight Movers","sort_date":"2026-07-27","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Willingdone","sort_date":"2026-07-27","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Jonger, Argo & The Violet Queens (D.C.), & One Big Quilt","sort_date":"2026-07-27","venue":"Zhora Darling","time":"7pm","doors":null,"supports":["Argo and the Violet Queens"],"sold_out":false},{"title":"July Conspiracy Series featuring","sort_date":"2026-07-28","venue":"331 Club","time":"9:30pm","doors":null,"supports":["Paul Lawrence","Climes"],"sold_out":false},{"title":"Worker\u2019s Playtime","sort_date":"2026-07-28","venue":"331 Club","time":"6pm","doors":null,"supports":["Jake Manders"],"sold_out":false},{"title":"Good Boy Daisy","sort_date":"2026-07-28","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Summerdrive","Pity\u00a0Party"],"sold_out":false},{"title":"Allen Stone","sort_date":"2026-07-28","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"An Evening with Jukebox the Ghost","sort_date":"2026-07-28","venue":"Fine Line","time":"8pm","doors":"7pm","supports":[],"sold_out":false},{"title":"Chris Pierce","sort_date":"2026-07-28","venue":"Ice House","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-28","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Safety Knife","sort_date":"2026-07-28","venue":"Pilllar Forum","time":"6:30pm","doors":"6pm","supports":["Piss With Style","Glurge"],"sold_out":false},{"title":"SOLD OUT: Stewart Copeland: Have I Said Too Much? // The Police, Hollywood and Other Adventures: An Evening of Conversation with the Hall of Fame Rock Star","sort_date":"2026-07-28","venue":"The Parkway Theater","time":"7:30pm","doors":"6:30pm","supports":[],"sold_out":true},{"title":"Joseph Huber + The May North","sort_date":"2026-07-28","venue":"Uptown VFW","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Dread Spells w. Physics & Neptune IV","sort_date":"2026-07-28","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"The Twang Express","sort_date":"2026-07-28","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Harold\u2019s House Party on KFAI","sort_date":"2026-07-29","venue":"331 Club","time":"7:00pm","doors":null,"supports":["RLB (Rich Lewis Band)"],"sold_out":false},{"title":"Lenz and Frenz","sort_date":"2026-07-29","venue":"331 Club","time":"9:30pm","doors":null,"supports":["(Certain members of Pert Near Sandstone, Farmhouse Band, San Souci Quartet, Row of Ducks)"],"sold_out":false},{"title":"Fever Field","sort_date":"2026-07-29","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["1947","Poolboy"],"sold_out":false},{"title":"Logan Richardson: A Living Score","sort_date":"2026-07-29","venue":"Berlin","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"The Cherry Pit Open Jam","sort_date":"2026-07-29","venue":"Berlin","time":"10pm","doors":null,"supports":[],"sold_out":false},{"title":"\u2600\ufe0fSummer at The Cedar : TAIGA\u2600\ufe0f","sort_date":"2026-07-29","venue":"Cedar Cultural Center","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"DakhaBrakha","sort_date":"2026-07-29","venue":"Dakota Jazz Club","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-29","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Heavy Diamond Ring","sort_date":"2026-07-29","venue":"Pilllar Forum","time":"6pm","doors":"6pm","supports":["Buffalo Function Music Band"],"sold_out":false},{"title":"Olivia Dean: The Art Of Loving Live","sort_date":"2026-07-29","venue":"Target Center","time":"8pm","doors":null,"supports":["Baby Rose"],"sold_out":false},{"title":"Space Monkey Mafia and Left on Tenth","sort_date":"2026-07-29","venue":"Turf Club","time":"8pm","doors":"7pm","supports":["Sunshine & The Night\u00a0Walkers"],"sold_out":false},{"title":"Frank the Bald Guy","sort_date":"2026-07-29","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Joe Finstrom w. Flutes & Low, Boots & Needles","sort_date":"2026-07-29","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Say It Ain\u2019t Faux, Foovana, & Longview","sort_date":"2026-07-29","venue":"Zhora Darling","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Brotherhood Of Birds","sort_date":"2026-07-30","venue":"331 Club","time":"10:00pm","doors":null,"supports":[],"sold_out":false},{"title":"Hayden Blount","sort_date":"2026-07-30","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Zandi Holup"],"sold_out":false},{"title":"Thursday 7/30 - River & Rail with Sam Ryden ($15 Cover)","sort_date":"2026-07-30","venue":"Aster Cafe","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Crates: \u201cSo Help Me God\u201d by Kelsey Lu","sort_date":"2026-07-30","venue":"Berlin","time":"10pm","doors":null,"supports":[],"sold_out":false},{"title":"Logan Richardson: A Living Score","sort_date":"2026-07-30","venue":"Berlin","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"ML BUCH with Lee Noble","sort_date":"2026-07-30","venue":"Cedar Cultural Center","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Badzy, Cheap Glue, American Muscle","sort_date":"2026-07-30","venue":"Cloudland Theater","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"DakhaBrakha","sort_date":"2026-07-30","venue":"Dakota Jazz Club","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-30","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Thirsty Giants","sort_date":"2026-07-30","venue":"Pilllar Forum","time":"6:30pm","doors":"6pm","supports":["T hirsty Giants","H.E.A.T.","Laugh Track"],"sold_out":false},{"title":"Joanne Shaw Taylor LIVE!","sort_date":"2026-07-30","venue":"The Parkway Theater","time":"7:30pm","doors":"6:30pm","supports":[],"sold_out":false},{"title":"ABOUT MY FRIEND","sort_date":"2026-07-30","venue":"Turf Club","time":"8:30pm","doors":"8pm","supports":["Jake Luppen"],"sold_out":false},{"title":"NASCAR ALOE + JASIAH: Capital Punishment Tour","sort_date":"2026-07-30","venue":"Underground Music Venue","time":null,"doors":null,"supports":[],"sold_out":false},{"title":"Valors w. Grieving Pines, Bitchslap","sort_date":"2026-07-30","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Vittorior","sort_date":"2026-07-30","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Jammaz, Greydeer, & 1947","sort_date":"2026-07-30","venue":"Zhora Darling","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Courtney Yasmineh","sort_date":"2026-07-31","venue":"331 Club","time":"10:00pm","doors":null,"supports":["Ira Haze and the Strays"],"sold_out":false},{"title":"Movie and Music Trivia","sort_date":"2026-07-31","venue":"331 Club","time":null,"doors":null,"supports":["7pmyt my"],"sold_out":false},{"title":"Vacation Manor","sort_date":"2026-07-31","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Nolen Durham"],"sold_out":false},{"title":"Friday 7/31 - Dresses With Pockets ($12 Cover)","sort_date":"2026-07-31","venue":"Aster Cafe","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Late Night Lounge: Sophia Eris","sort_date":"2026-07-31","venue":"Berlin","time":"10:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Logan Richardson: A Living Score","sort_date":"2026-07-31","venue":"Berlin","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Robert Earl Keen:","sort_date":"2026-07-31","venue":"Dakota Jazz Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Tyler Braden","sort_date":"2026-07-31","venue":"Fine Line","time":"8pm","doors":"7pm","supports":["Thomas Sticha"],"sold_out":false},{"title":"Hot in Herre \u23e4 2000s Dance Party","sort_date":"2026-07-31","venue":"First Avenue","time":"9pm","doors":"9pm","supports":[],"sold_out":false},{"title":"Chris Thile with the Minnesota Orchestra","sort_date":"2026-07-31","venue":"Orchestra Hall","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Season Opening Gala: Pas de Deux","sort_date":"2026-07-31","venue":"Orchestra Hall","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-07-31","venue":"Orpheum Theatre","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"SIDEQUEST","sort_date":"2026-07-31","venue":"The Loft at Skyway Theatre","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Mason Jennings","sort_date":"2026-07-31","venue":"The Parkway Theater","time":"8pm","doors":"7pm","supports":[],"sold_out":false},{"title":"A Thousand Horses","sort_date":"2026-07-31","venue":"Turf Club","time":"8pm","doors":"7pm","supports":["Matt Koziol"],"sold_out":false},{"title":"James Kennedy","sort_date":"2026-07-31","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"John Magnuson Trio Album Release Celebration","sort_date":"2026-07-31","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Sleepersound (MKE), Life Skills, & Velvet Ghost","sort_date":"2026-07-31","venue":"Zhora Darling","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Drinkin\u2019 Spelling Bee","sort_date":"2026-08-01","venue":"331 Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"TV for Dogs","sort_date":"2026-08-01","venue":"331 Club","time":"10:00pm","doors":null,"supports":[],"sold_out":false},{"title":"League Two","sort_date":"2026-08-01","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Waking Hours","Eli\u00a0Orion"],"sold_out":false},{"title":"Saturday 8/1 - Tom Lieberman & Tim Sparks ($15 Cover)","sort_date":"2026-08-01","venue":"Aster Cafe","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Early Evening Jazz: JC Sanford / Dean Granros / Anthony Cox","sort_date":"2026-08-01","venue":"Berlin","time":"4:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Late Night Lounge: DJ Lemony","sort_date":"2026-08-01","venue":"Berlin","time":"10:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Michael Cain Trio with Terrell X","sort_date":"2026-08-01","venue":"Berlin","time":"7:30pm","doors":null,"supports":[],"sold_out":false},{"title":"CONSPIRACY TO ROCK: An antifacist hootenanny to benefit the MN 15","sort_date":"2026-08-01","venue":"Cedar Cultural Center","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"Loathe","sort_date":"2026-08-01","venue":"Fillmore Minneapolis","time":"7pm","doors":null,"supports":["all under heaven"],"sold_out":false},{"title":"Faouzia","sort_date":"2026-08-01","venue":"Fine Line","time":"8pm","doors":"6:30pm","supports":[],"sold_out":false},{"title":"F1rst Wrestling presents WREMIX","sort_date":"2026-08-01","venue":"First Avenue","time":"10pm","doors":"9pm","supports":[],"sold_out":false},{"title":"GCW presents RUDE AWAKENING","sort_date":"2026-08-01","venue":"First Avenue","time":"1pm","doors":"12pm","supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-08-01","venue":"Orpheum Theatre","time":"2pm","doors":null,"supports":[],"sold_out":false},{"title":"Too Late, But Still","sort_date":"2026-08-01","venue":"Pilllar Forum","time":"7pm","doors":"6:30pm","supports":["H.E.A.T","Too Late But Still","SLOG","Alphabet Boys"],"sold_out":false},{"title":"Barnacle Boi","sort_date":"2026-08-01","venue":"The Loft at Skyway Theatre","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Scottie Miller: Hello Pain \u2013 Album Release with Orchestra","sort_date":"2026-08-01","venue":"The Parkway Theater","time":"8pm","doors":"7pm","supports":[],"sold_out":false},{"title":"Bronwyn Keith-Hynes","sort_date":"2026-08-01","venue":"Turf Club","time":"8pm","doors":"7pm","supports":["The Foxgloves"],"sold_out":false},{"title":"Shannon McNally","sort_date":"2026-08-01","venue":"Uptown VFW","time":"8pm","doors":null,"supports":[],"sold_out":false},{"title":"VUKA - AWAKEN THE FIRE!","sort_date":"2026-08-01","venue":"Uptown VFW","time":"10:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Jesse Irwin w. Joe Carey, Ross Bell","sort_date":"2026-08-01","venue":"White Squirrel","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Macro Man w. Human Sex","sort_date":"2026-08-01","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Society Green w. Modern Wildlife","sort_date":"2026-08-01","venue":"White Squirrel","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Reaping Asmodeia, Torment, Courier, Dirtgod (IA), & Protolith","sort_date":"2026-08-01","venue":"Zhora Darling","time":"6:30pm","doors":null,"supports":[],"sold_out":false},{"title":"Brass Messengers","sort_date":"2026-08-02","venue":"331 Club","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"Dan Schwartz","sort_date":"2026-08-02","venue":"331 Club","time":"3pm","doors":null,"supports":[],"sold_out":false},{"title":"Brotherkenzie","sort_date":"2026-08-02","venue":"7th St Entry","time":"8pm","doors":"7pm","supports":["Dirt Buyer"],"sold_out":false},{"title":"Sunday Swing Brunch $8","sort_date":"2026-08-02","venue":"Aster Cafe","time":"10:30am","doors":null,"supports":[],"sold_out":false},{"title":"Curated by Laeton Olaleye: Cannonball Adderley Tribute","sort_date":"2026-08-02","venue":"Berlin","time":"7pm","doors":null,"supports":[],"sold_out":false},{"title":"GCW vs. F1rst Wrestling","sort_date":"2026-08-02","venue":"First Avenue","time":"1pm","doors":"12pm","supports":[],"sold_out":false},{"title":"Brahms & The Schumanns","sort_date":"2026-08-02","venue":"Orchestra Hall","time":"3pm","doors":null,"supports":[],"sold_out":false},{"title":"Wicked (Touring)","sort_date":"2026-08-02","venue":"Orpheum Theatre","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Morbid Visionz","sort_date":"2026-08-02","venue":"Pilllar Forum","time":"7pm","doors":"6pm","supports":["Fear the Dark","Grotesque Abdication","and\u00a0Hacked to Bits"],"sold_out":false},{"title":"Chuck Prophet","sort_date":"2026-08-02","venue":"The Parkway Theater","time":"7pm","doors":"6pm","supports":[],"sold_out":false},{"title":"Emmy Woods","sort_date":"2026-08-02","venue":"White Squirrel","time":"6pm","doors":null,"supports":[],"sold_out":false},{"title":"Joe Nicola w. tba","sort_date":"2026-08-02","venue":"White Squirrel","time":"1pm","doors":null,"supports":[],"sold_out":false},{"title":"Shuffle","sort_date":"2026-08-02","venue":"White Squirrel","time":"9pm","doors":null,"supports":[],"sold_out":false},{"title":"Bermuda Search Party w/ Hollyy","sort_date":"2026-08-02","venue":"Zhora Darling","time":"7:30pm","doors":null,"supports":[],"sold_out":false}];
+
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const WD = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const WD_FULL = ["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"];
+const MO = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+
+function d(iso){ const [y,m,dd] = iso.split("-").map(Number); return new Date(y, m-1, dd); }
+function timeStr(s){
+  const up = t => t ? t.toUpperCase().replace(/\s+/g,"") : null;
+  const doors = up(s.doors), time = up(s.time);
+  if (doors && time) return doors + "/" + time;
+  if (time) return time;
+  if (doors) return "DRS" + doors;
+  return "·";
+}
+function mondayOf(iso){
+  const dt = d(iso), off = (dt.getDay() + 6) % 7;
+  dt.setDate(dt.getDate() - off);
+  return dt;
+}
+function weekLabel(mon){
+  const sun = new Date(mon); sun.setDate(sun.getDate() + 6);
+  const a = MO[mon.getMonth()] + " " + mon.getDate();
+  const b = (sun.getMonth() === mon.getMonth() ? "" : MO[sun.getMonth()] + " ") + sun.getDate();
+  return "WEEK OF " + a + " – " + b;
+}
+
+function grouped(){
+  const weeks = new Map();
+  for (const s of SHOWS){
+    const mon = mondayOf(s.sort_date), wk = mon.getFullYear() + "-" + mon.getMonth() + "-" + mon.getDate();
+    if (!weeks.has(wk)) weeks.set(wk, { mon, days: new Map() });
+    const w = weeks.get(wk);
+    if (!w.days.has(s.sort_date)) w.days.set(s.sort_date, []);
+    w.days.get(s.sort_date).push(s);
+  }
+  return [...weeks.values()].sort((a,b)=>a.mon-b.mon).map(w => ({
+    label: weekLabel(w.mon),
+    days: [...w.days.entries()].sort((a,b)=>a[0]<b[0]?-1:1)
+          .map(([iso, shows]) => ({ iso, shows }))
+  }));
+}
+const DATA = grouped();
+const VENUES = [...new Set(SHOWS.map(s => s.venue))].sort((a,b)=>a.localeCompare(b));
+
+/* venue state: "show" | "hl" (blue) | "hl2" (grey) | "hide" */
+const vstate = new Map(VENUES.map(v => [v, "show"]));
+
+function visibleDays(week){
+  return week.days
+    .map(day => ({ iso: day.iso, shows: day.shows.filter(s => vstate.get(s.venue) !== "hide") }))
+    .filter(day => day.shows.length);
+}
+function sup(s){
+  return s.supports && s.supports.length
+    ? ' <span class="sup">+ ' + esc(s.supports.join(", ")) + '</span>' : "";
+}
+function rowHtml(s){
+  const st = vstate.get(s.venue);
+  const hl = st === "hl" ? " hl" : st === "hl2" ? " hl2" : "";
+  return '<div class="row' + hl + '"><span class="t">' + timeStr(s) + '</span>'
+    + '<span class="ven">' + esc(s.venue) + '</span>'
+    + '<span class="act">' + esc(s.title) + sup(s) + '</span>'
+    + '<span>' + (s.sold_out ? '<span class="flag">Sold out</span>' : '') + '</span></div>';
+}
+function emptyNote(){
+  return '<p class="empty-note">All venues hidden — reopen the menu to bring some back.</p>';
+}
+
+/* ---------- variant renderer ---------- */
+function render1(){
+  let h = '<div class="v1">', any = false;
+  for (const w of DATA){
+    h += '<section class="wk-sec" data-label="' + w.label + '">';
+    h += '<h2 class="week-h">' + w.label + '</h2>';
+    for (const day of visibleDays(w)){
+      any = true;
+      const dt = d(day.iso);
+      h += '<h3 class="day-h" data-count="' + day.shows.length + '">' + WD_FULL[dt.getDay()] + ' — ' + MO[dt.getMonth()] + ' '
+         + String(dt.getDate()).padStart(2,"0") + '</h3>';
+      h += day.shows.map(rowHtml).join("");
+    }
+    h += '</section>';
+  }
+  return h + (any ? "" : emptyNote()) + '</div>';
+}
+
+const app = document.getElementById("app");
+function show(){ app.innerHTML = render1(); updateWkLabel(); }
+
+/* banner week label follows the week section in view */
+function updateWkLabel(){
+  const wkLabel = document.getElementById("wk-label");
+  if (!document.body.classList.contains("wk-banner")) { wkLabel.textContent = ""; return; }
+  const secs = document.querySelectorAll(".wk-sec");
+  let label = secs.length ? secs[0].dataset.label : "";
+  const y = menuBtn.offsetHeight + 12;
+  for (const s of secs){
+    if (s.getBoundingClientRect().top <= y) label = s.dataset.label;
+  }
+  wkLabel.textContent = label;
+}
+addEventListener("scroll", updateWkLabel, { passive: true });
+
+document.getElementById("switcher").addEventListener("click", e => {
+  const g = e.target.closest("button[data-grey]");
+  if (g) {
+    document.documentElement.style.setProperty("--hl2-bg", g.dataset.bg);
+    document.documentElement.style.setProperty("--hl2-fg", g.dataset.fg);
+    document.querySelectorAll("#switcher button[data-grey]").forEach(b =>
+      b.setAttribute("aria-pressed", String(b === g)));
+  }
+  const bt = e.target.closest("button[data-btn]");
+  if (bt) {
+    const mode = bt.dataset.btn;
+    menuBtn.classList.toggle("banner", mode !== "box");
+    document.body.classList.toggle("wk-banner", mode === "wk");
+    document.querySelectorAll("#switcher button[data-btn]").forEach(b =>
+      b.setAttribute("aria-pressed", String(b === bt)));
+    updateWkLabel();
+  }
+});
+
+/* ---------- sidebar: venue list, icon cycles show → hl → hl2 → hide ---------- */
+const STATE_LABEL = { show: "shown", hl: "highlighted blue", hl2: "highlighted grey", hide: "hidden" };
+const CYCLE = { show: "hl", hl: "hl2", hl2: "hide", hide: "show" };
+const venuesUl = document.getElementById("sb-venues");
+function renderVenues(){
+  venuesUl.innerHTML = VENUES.map(v => {
+    const st = vstate.get(v);
+    return '<li data-state="' + st + '" data-venue="' + esc(v) + '">'
+      + '<button class="v-ico" data-state="' + st + '" aria-label="' + esc(v) + ': ' + STATE_LABEL[st] + '. Click to change."></button>'
+      + '<span class="v-name">' + esc(v) + '</span></li>';
+  }).join("");
+}
+renderVenues();
+
+venuesUl.addEventListener("click", e => {
+  const ico = e.target.closest(".v-ico");
+  if (!ico) return;
+  const v = ico.closest("li").dataset.venue;
+  vstate.set(v, CYCLE[vstate.get(v)]);
+  ico.dataset.state = vstate.get(v);
+  ico.closest("li").dataset.state = vstate.get(v);
+  ico.setAttribute("aria-label", v + ': ' + STATE_LABEL[vstate.get(v)] + '. Click to change.');
+  show();
+});
+document.getElementById("v-reset").addEventListener("click", e => {
+  e.stopPropagation();
+  VENUES.forEach(v => vstate.set(v, "show"));
+  renderVenues(); show();
+});
+
+/* ---------- sidebar: collapsible categories ---------- */
+document.querySelectorAll("#sidebar h3.cat").forEach(h => {
+  h.addEventListener("click", e => {
+    if (e.target.closest("#v-reset")) return;
+    const ul = h.nextElementSibling;
+    const opening = ul.hasAttribute("hidden");
+    ul.toggleAttribute("hidden", !opening);
+    h.setAttribute("aria-expanded", String(opening));
+    h.querySelector(".ind").textContent = opening ? "−" : "+";
+  });
+  h.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); h.click(); }
+  });
+});
+
+/* ---------- sidebar: weeks + open/close ---------- */
+document.getElementById("sb-weeks").innerHTML = DATA.map((w,i) =>
+  '<li><a href="#" class="dead">' + w.label.replace("WEEK OF ","").toLowerCase() +
+  (i===0 ? ' <span class="now">← this week</span>' : '') + '</a></li>').join("")
+  + ['Aug 3 – 9','Aug 10 – 16','Aug 17 – 23','Aug 24 – 30'].map(t =>
+  '<li><a href="#" class="dead">' + t.toLowerCase() + '</a></li>').join("");
+
+const sidebar = document.getElementById("sidebar");
+const scrim = document.getElementById("scrim");
+const menuBtn = document.getElementById("menu-btn");
+function setSidebar(open){
+  sidebar.classList.toggle("open", open);
+  scrim.classList.toggle("open", open);
+  menuBtn.setAttribute("aria-expanded", String(open));
+}
+menuBtn.addEventListener("click", () => setSidebar(!sidebar.classList.contains("open")));
+document.getElementById("sb-close").addEventListener("click", () => setSidebar(false));
+scrim.addEventListener("click", () => setSidebar(false));
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") setSidebar(false);
+});
+sidebar.addEventListener("click", e => {
+  if (e.target.closest("a.dead")) e.preventDefault();
+});
+
+/* default to the preferred setup (DESIGN.md): Banner + Week, Stone grey */
+menuBtn.classList.add("banner");
+document.body.classList.add("wk-banner");
+show();
+</script>
