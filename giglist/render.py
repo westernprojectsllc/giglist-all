@@ -10,6 +10,7 @@ is one continuous ledger of every upcoming week (anchored per week for
 deep links); week-*.html pages carry the same ledger one week at a time.
 """
 
+import json
 import shutil
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -106,6 +107,9 @@ def _ledger_time(show):
 
     doors, show_time = up(show.doors), up(show.time)
     if doors and show_time:
+        # A few sources report doors == showtime; showing "9PM/9PM" is noise.
+        if doors == show_time:
+            return show_time
         return f"{doors}/{show_time}"
     if show_time:
         return show_time
@@ -152,7 +156,7 @@ def _row_html(show, venue_urls):
         act += f' <span class="sup">+ {support_str}</span>'
     flag = '<span class="flag">Sold out</span>' if show.sold_out else ""
     return (
-        f'<div class="row">'
+        f'<div class="row" data-venue="{venue_safe}">'
         f'<span class="t">{escape(_ledger_time(show))}</span>'
         f'<span class="ven">{ven}</span>'
         f'<span class="act">{act}</span>'
@@ -184,10 +188,30 @@ def _week_section_html(monday, label, week_shows, venue_urls, heading=True):
     return "\n".join(parts)
 
 
-def _page_shell(config, favicon, title, body):
+def _gl_data_json(config, all_weeks):
+    """Compact JSON blob consumed by ledger.js to build the sidebar
+    (week/month nav) on every page. Depends only on the week set, so
+    it changes when weeks roll on/off — not on every render."""
+    data = {
+        "region": config.region_key,
+        "weeks": [
+            {"id": f"week-{monday.strftime('%Y-%m-%d')}", "label": label}
+            for monday, label in all_weeks
+        ],
+    }
+    return json.dumps(data, separators=(",", ":"))
+
+
+def _page_shell(config, favicon, title, body, gl_data):
     """Shared skeleton: Klein-blue banner (gl mark links home, region
     label right) over the ledger column. No page title in the content —
-    per DESIGN.md the first day bar leads."""
+    per DESIGN.md the first day bar leads.
+
+    Without JS the banner is a plain home link and the week headings
+    show. ledger.js progressively enhances: the banner becomes the menu
+    button, its right label follows the week in view, and the sidebar
+    (venue show/highlight/hide states, week/month/region/view nav) is
+    built client-side from the #gl-data blob + row data-venue attrs."""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,7 +225,10 @@ def _page_shell(config, favicon, title, body):
   <a id="banner" href="/" aria-label="giglist home"><span class="mark">gl</span><span class="rlabel">{escape(config.region_label)}</span></a>
   <main class="ledger">
 {body}
+    <p class="empty-note" hidden>All venues hidden &mdash; open the menu to bring some back.</p>
   </main>
+  <script type="application/json" id="gl-data">{gl_data}</script>
+  <script src="ledger.js" defer></script>
 </body>
 </html>"""
 
@@ -216,11 +243,12 @@ def _index_page_html(config, favicon, all_weeks, weeks, upcoming_count, updated)
         f'&middot; {upcoming_count} shows</p>'
     )
     body = "\n".join(sections + [foot])
-    return _page_shell(config, favicon, config.short_title, body)
+    return _page_shell(config, favicon, config.short_title, body,
+                       _gl_data_json(config, all_weeks))
 
 
 def _week_page_html(config, favicon, monday, label, week_shows, prev_monday,
-                    next_monday):
+                    next_monday, all_weeks):
     """Week pages intentionally omit the 'Updated:' timestamp so the
     file's content is stable across daily scrapes when no shows moved —
     otherwise every week page diffs every single day."""
@@ -240,7 +268,8 @@ def _week_page_html(config, favicon, monday, label, week_shows, prev_monday,
     section = _week_section_html(monday, label, week_shows, config.venue_urls)
     body = "\n".join(["\n".join(nav), section])
     title = f'{config.short_title} - {label.replace("WEEK OF ", "")}'
-    return _page_shell(config, favicon, title, body)
+    return _page_shell(config, favicon, title, body,
+                       _gl_data_json(config, all_weeks))
 
 
 def _list_stub_html(config):
@@ -280,9 +309,10 @@ def _sitemap_xml(config, all_weeks):
 
 
 def _copy_assets(output_dir: Path):
-    src = ASSETS_DIR / "ledger.css"
-    if src.exists():
-        shutil.copyfile(src, output_dir / "ledger.css")
+    for name in ("ledger.css", "ledger.js"):
+        src = ASSETS_DIR / name
+        if src.exists():
+            shutil.copyfile(src, output_dir / name)
     # The pre-ledger stylesheets; remove stale copies from output dirs.
     for old in ("page.css", "table.css"):
         stale = output_dir / old
@@ -325,7 +355,7 @@ def write_site(config: RegionConfig, shows: List[Show]):
         next_monday = all_weeks[i + 1][0] if i < len(all_weeks) - 1 else None
         html = _week_page_html(
             config, favicon, monday, label, weeks[monday],
-            prev_monday, next_monday,
+            prev_monday, next_monday, all_weeks,
         )
         (output_dir / fname).write_text(html)
 

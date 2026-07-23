@@ -42,6 +42,81 @@ a { color: var(--ink); }
   letter-spacing: .22em; color: #ffffff; text-transform: uppercase;
 }
 
+/* When ledger.js is active the banner carries the week label, so the
+   in-page week headings are redundant (DESIGN.md "Banner + Week"). */
+body.wk-banner .week-h { display: none; }
+
+/* ---------- sidebar: inverted, compact (built by ledger.js) ---------- */
+#sidebar {
+  position: fixed; top: 0; left: 0; bottom: 0; z-index: 70;
+  width: 208px; max-width: 82vw;
+  background: var(--ink); color: var(--paper);
+  transform: translateX(-100%);
+  transition: transform .16s ease;
+  overflow-y: auto;
+  font-size: 11px;
+}
+#sidebar.open { transform: translateX(0); }
+@media (prefers-reduced-motion: reduce) { #sidebar { transition: none; } }
+#sidebar a { color: var(--paper); text-decoration: none; }
+#sidebar a:hover { text-decoration: underline; text-underline-offset: 3px; }
+#sidebar .sb-head {
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid var(--paper); padding: 8px 10px;
+}
+#sidebar .sb-head span { letter-spacing: .16em; font-size: 10px; }
+#sb-close {
+  background: none; border: 1px solid var(--paper); color: var(--paper);
+  font-family: var(--mono); font-size: 9px; letter-spacing: .1em;
+  padding: 2px 6px; cursor: pointer;
+}
+#sb-close:hover { background: var(--paper); color: var(--ink); }
+#sidebar h3 {
+  margin: 0; padding: 9px 10px 4px;
+  font-size: 9px; font-weight: 400; letter-spacing: .22em; text-transform: uppercase;
+  border-top: 1px solid var(--paper);
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+#sidebar .sb-head + h3 { border-top: 0; }
+#sidebar h3 button {
+  background: none; border: 0; color: var(--paper); font-family: var(--mono);
+  font-size: 9px; letter-spacing: .1em; cursor: pointer; padding: 0;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+#sidebar ul { list-style: none; margin: 0 0 6px; padding: 0 10px; }
+#sidebar li { margin: 0; }
+#sidebar ul a { display: block; padding: 2px 0; }
+#sidebar .now { font-size: 9px; letter-spacing: .08em; }
+#sidebar h3.cat { cursor: pointer; user-select: none; }
+#sidebar h3 .cat-r { display: flex; gap: 9px; align-items: baseline; }
+#sidebar h3 .ind { font-size: 10px; width: 8px; text-align: center; }
+
+/* venue rows with cycling state icon */
+#sb-venues li {
+  display: flex; align-items: center; gap: 7px; padding: 1.5px 0;
+}
+.v-ico {
+  flex: none; width: 14px; height: 14px; padding: 0; cursor: pointer;
+  border: 1px solid var(--paper);
+}
+.v-ico[data-state="show"] { background: var(--paper); }
+.v-ico[data-state="hide"] { background: var(--ink); }
+.v-ico[data-state="hl"]   { background: var(--klein); border-color: var(--klein); }
+.v-ico[data-state="hl2"]  { background: var(--hl2-bg); border-color: var(--hl2-bg); }
+.v-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#sb-venues li[data-state="hide"] .v-name { opacity: .45; text-decoration: line-through; }
+#sb-venues li[data-state="hl"] .v-name,
+#sb-venues li[data-state="hl2"] .v-name { font-weight: 700; }
+
+#scrim { position: fixed; inset: 0; z-index: 65; display: none; }
+#scrim.open { display: block; }
+
+/* venue-state effects on the ledger (classes applied by ledger.js) */
+.row.gl-hidden, .day-h.gl-hidden, .wk-sec.gl-hidden { display: none; }
+.empty-note {
+  padding: 28px 8px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+}
+
 /* ---------- ledger ---------- */
 main.ledger { max-width: 940px; margin: 0 auto; padding: 46px 16px 72px; }
 
