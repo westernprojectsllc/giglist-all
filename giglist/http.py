@@ -1,5 +1,6 @@
 """HTTP helpers shared by the region scrapers."""
 
+import subprocess
 import time
 import requests
 
@@ -42,4 +43,28 @@ def get_with_retry(url, *, session=None, headers=None, params=None,
             time.sleep(backoff * (attempt + 1))
     if last_response is not None:
         return last_response.json() if expect_json else last_response
+    raise last_exc
+
+
+def curl_get_text(url, *, timeout=DEFAULT_TIMEOUT, retries=2):
+    """Fetch a page via the system curl binary.
+
+    Some Cloudflare-fronted sites (e.g. analognashville.com) 403 every
+    python-requests call regardless of headers — they fingerprint the
+    TLS handshake — but accept curl. Used only where requests cannot
+    get through; curl ships on macOS and the ubuntu CI runners."""
+    cmd = [
+        "curl", "-sS", "--compressed", "--max-time", str(timeout),
+        "-A", BROWSER_UA, url,
+    ]
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            out = subprocess.run(
+                cmd, capture_output=True, timeout=timeout + 5, check=True,
+            )
+            return out.stdout.decode("utf-8", errors="replace")
+        except Exception as e:
+            last_exc = e
+            time.sleep(0.5 * (attempt + 1))
     raise last_exc

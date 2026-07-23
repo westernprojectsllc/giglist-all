@@ -43,6 +43,7 @@ MN_SCRAPERS = [
     ("mn/berlin", mn_scraper.scrape_berlin),
     ("mn/uptown_vfw", mn_scraper.scrape_uptown_vfw),
     ("mn/aster_cafe", mn_scraper.scrape_aster_cafe),
+    ("mn/green_room", mn_scraper.scrape_green_room),
 ]
 
 TN_SCRAPERS = [
@@ -60,6 +61,12 @@ TN_SCRAPERS = [
     ("tn/pinnacle", tn_scraper.scrape_pinnacle),
     ("tn/cannery_hall", tn_scraper.scrape_cannery_hall),
     ("tn/ascend", tn_scraper.scrape_ascend),
+    ("tn/city_winery", tn_scraper.scrape_city_winery),
+    ("tn/blue_room", tn_scraper.scrape_blue_room),
+    ("tn/bluebird", tn_scraper.scrape_bluebird),
+    ("tn/five_spot", tn_scraper.scrape_five_spot),
+    ("tn/dees", tn_scraper.scrape_dees),
+    ("tn/analog", tn_scraper.scrape_analog),
 ]
 
 ALL_SCRAPERS = MN_SCRAPERS + TN_SCRAPERS

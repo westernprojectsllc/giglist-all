@@ -43,6 +43,7 @@ VENUE_URLS = {
     "Berlin":                 "https://www.berlinmpls.com/calendar",
     "Uptown VFW":             "https://app.opendate.io/c/uptown-vfw-681",
     "Aster Cafe":             "https://astercafe.com/live-music-calendar/",
+    "Green Room":             "https://greenroommn.com/",
 }
 
 

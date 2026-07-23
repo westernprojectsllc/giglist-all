@@ -41,6 +41,12 @@ VENUE_URLS = {
     "Skinny Dennis":                "https://skinnydennisnashville.com/",
     "Fogg Street Lawn Club":        "https://www.foggstreet.live/",
     "Rudy's Jazz Room":             "https://rudysjazzroom.com/",
+    "City Winery":                  "https://citywinery.com/nashville",
+    "The Blue Room":                "https://thirdmanrecords.com/pages/events",
+    "Bluebird Cafe":                "https://bluebirdcafe.com/",
+    "The 5 Spot":                   "https://the5spotnashville.com/",
+    "Dee's Country Cocktail Lounge": "https://deeslounge.com/",
+    "Analog":                       "https://www.analognashville.com/",
 }
 
 

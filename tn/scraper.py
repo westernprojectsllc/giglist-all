@@ -13,20 +13,21 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from giglist.http import (
     BROWSER_HEADERS, DEFAULT_HEADERS, DEFAULT_TIMEOUT,
-    get_with_retry,
+    curl_get_text, get_with_retry,
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
     check_venue_dropouts, deduplicate, filter_junk_and_sports,
     find_duplicate_suspects, find_time, format_local_time,
-    infer_upcoming_date, normalize_time, normalize_titles,
-    scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
+    infer_upcoming_date, normalize_time, normalize_titles, parse_loose_time,
+    scrape_dice, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
 from config import (
@@ -676,6 +677,331 @@ def scrape_ascend():
     return shows
 
 
+_CW_NON_MUSIC_RE = re.compile(
+    r"\b(dinner|tasting|brunch|tour|class|trivia|paint(?:ing)?|market)\b", re.I,
+)
+
+
+def scrape_city_winery():
+    """City Winery Nashville's Shopify site fronts a Vivenu-backed JSON
+    API (window.apiUrl in the theme). One call with a big `top` returns
+    the full ~6-month calendar for both rooms (Main Stage + The Lounge).
+    `start` is showtime in UTC; convert via the event's own timezone.
+    Doors times aren't exposed anywhere machine-readable."""
+    print("  Fetching City Winery...")
+    try:
+        data = get_with_retry(
+            "https://awsapi.citywinery.com/events",
+            params={"location": "Nashville", "top": "200", "skip": "0"},
+            expect_json=True,
+        )
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+
+    today = date.today()
+    shows = []
+    for ev in (data.get("data") or {}).get("event_data", []):
+        name = (ev.get("name") or "").strip()
+        start = ev.get("start")
+        if not name or not start:
+            continue
+
+        attrs = ev.get("attributes") or {}
+        # Wine tastings / chef dinners carry no genre; music events do.
+        if not attrs.get("primary_genre") and _CW_NON_MUSIC_RE.search(name):
+            continue
+
+        try:
+            dt_utc = datetime.fromisoformat(start.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        try:
+            tz = ZoneInfo(ev.get("timezone") or "America/Chicago")
+        except Exception:
+            tz = ZoneInfo("America/Chicago")
+        dt_local = dt_utc.astimezone(tz)
+        if dt_local.date() < today:
+            continue
+
+        slug = ev.get("url") or ""
+        shows.append(Show(
+            title=name,
+            sort_date=dt_local.date(),
+            venue="City Winery",
+            url=f"https://tickets.citywinery.com/event/{slug}" if slug else
+                "https://citywinery.com/nashville",
+            sold_out=ev.get("saleStatus") == "soldOut",
+            time=format_local_time(dt_local),
+        ))
+    return shows
+
+
+def scrape_blue_room():
+    """The Blue Room at Third Man Records books through Dice; the
+    partners API covers it with a plain venue filter (verified against
+    the events-api widget on thirdmanrecords.com/pages/events)."""
+    return scrape_dice("The Blue Room", dice_venues=["The Blue Room"])
+
+
+# Bluebird's calendar embeds a FullCalendar init whose events array is
+# JS (single quotes), not JSON — pull fields per object with a regex.
+_BLUEBIRD_EVENT_RE = re.compile(
+    # Field order is fixed (id, start, [// end comment], title, imageUrl,
+    # doors, url, sortbyTime, displayTime); non-greedy gaps absorb the
+    # commented-out end date and the imageUrl HTML blob.
+    r"id:\s*'(?P<id>\d+)',\s*"
+    r"start:\s*'(?P<start>\d{4}-\d{2}-\d{2})',"
+    r".*?title:\s*'(?P<title>(?:\\'|[^'])*)'"
+    r".*?doors:\s*'(?P<doors>[^']*)'"
+    r".*?url:\s*'(?P<url>[^']*)'"
+    r".*?displayTime:\s*'(?P<disp>[^']*)'",
+    re.S,
+)
+_BLUEBIRD_NOISE_RE = re.compile(
+    r"gift shop|closed|private event|bluebird on 3rd", re.I,
+)
+
+
+def scrape_bluebird(months_ahead=3):
+    """The Bluebird Cafe (WordPress + TicketWeb plugin) server-renders
+    one calendar page per month. Cloudflare 403s /wp-json/ so the Tribe
+    REST route is unusable; the page itself is fine with a browser UA.
+    Supporting acts and the real sold-out state live in per-event popup
+    divs (#tw-event-dialog-{id}); the buy button's TEXT is authoritative
+    ('SOLD OUT!' vs 'Walk Up Seats Available' — the tw_soldout class is
+    applied inconsistently)."""
+    print("  Fetching Bluebird Cafe...")
+    today = date.today()
+    shows = []
+    for i in range(months_ahead):
+        month = today.replace(day=1) + relativedelta(months=i)
+        try:
+            r = get_with_retry(
+                "https://bluebirdcafe.com/calendar/",
+                params={"cal-month": month.month, "cal-year": month.year},
+                headers=BROWSER_HEADERS,
+            )
+        except Exception as e:
+            print(f"  [Bluebird] {month:%B %Y} failed: {e}")
+            continue
+
+        soup = BeautifulSoup(r.text, "lxml")
+        for m in _BLUEBIRD_EVENT_RE.finditer(r.text):
+            title = unescape(m.group("title").replace("\\'", "'")).strip()
+            if not title or _BLUEBIRD_NOISE_RE.search(title):
+                continue
+            try:
+                sort_date = date.fromisoformat(m.group("start"))
+            except ValueError:
+                continue
+            if sort_date < today:
+                continue
+
+            supports = []
+            sold_out = False
+            popup = soup.select_one(f"#tw-event-dialog-{m.group('id')}")
+            if popup:
+                acts_el = popup.select_one(".tw-attractions")
+                if acts_el:
+                    acts = re.sub(r"^\s*with\s+", "", acts_el.get_text(" ", strip=True), flags=re.I)
+                    supports = [a.strip() for a in re.split(r",\s*|\s+&\s+", acts)
+                                if a.strip() and a.strip().lower() not in title.lower()]
+                btn = popup.select_one("a.tw-buy-tix-btn")
+                sold_out = bool(btn and "sold out" in btn.get_text(strip=True).lower())
+
+            shows.append(Show(
+                title=title,
+                sort_date=sort_date,
+                venue="Bluebird Cafe",
+                url=m.group("url") or "https://bluebirdcafe.com/calendar/",
+                sold_out=sold_out,
+                time=normalize_time(m.group("disp")),
+                doors=parse_loose_time(m.group("doors")) if m.group("doors") else None,
+                supports=supports,
+            ))
+    return shows
+
+
+def _scrape_tunehatch(venue_name, venue_uuid, fallback_url):
+    """Shared TuneHatch public API client (The 5 Spot, Dee's). No auth.
+    `startsAt` is UTC; the event's own `timezone` converts it. Titles
+    are often the full comma-joined bill; `performerNames` carries the
+    structured lineup."""
+    print(f"  Fetching {venue_name} (TuneHatch)...")
+    now_utc = datetime.now(ZoneInfo("UTC"))
+    try:
+        data = get_with_retry(
+            "https://tunehatch.com/api/v1/shows",
+            params={
+                "venue_id": venue_uuid,
+                "published": "true",
+                "private": "false",
+                "starts_after": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "sort_direction": "asc",
+                "limit": "200",
+                "offset": "0",
+            },
+            expect_json=True,
+        )
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+
+    today = date.today()
+    shows = []
+    for ev in data.get("data") or []:
+        name = (ev.get("name") or "").strip()
+        starts = ev.get("startsAt")
+        if not name or not starts:
+            continue
+        # The API leaks a dateless "Support Pass" gift product despite
+        # starts_after; drop it and anything else already past.
+        if "support pass" in name.lower():
+            continue
+        try:
+            dt_utc = datetime.fromisoformat(starts.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        try:
+            tz = ZoneInfo(ev.get("timezone") or "America/Chicago")
+        except Exception:
+            tz = ZoneInfo("America/Chicago")
+        dt_local = dt_utc.astimezone(tz)
+        if dt_local.date() < today:
+            continue
+
+        doors = None
+        doors_at = ev.get("doorsAt")
+        if doors_at:
+            try:
+                doors = format_local_time(
+                    datetime.fromisoformat(doors_at.replace("Z", "+00:00")).astimezone(tz)
+                )
+            except ValueError:
+                pass
+        show_time = format_local_time(dt_local)
+        if doors == show_time:
+            doors = None
+
+        supports = []
+        for p in ev.get("performerNames") or []:
+            pname = (p.get("name") or "").strip()
+            if pname and pname.lower() not in name.lower():
+                supports.append(pname)
+
+        slug = ev.get("slug") or ev.get("id") or ""
+        shows.append(Show(
+            title=name,
+            sort_date=dt_local.date(),
+            venue=venue_name,
+            url=f"https://tunehatch.com/shows/{slug}" if slug else fallback_url,
+            sold_out=ev.get("availableTickets") == 0,
+            time=show_time,
+            doors=doors,
+            supports=supports,
+        ))
+    return shows
+
+
+def scrape_five_spot():
+    return _scrape_tunehatch(
+        "The 5 Spot", "dc6b2a1a-b2c4-489b-bade-d1f3664ae171",
+        "https://the5spotnashville.com/",
+    )
+
+
+def scrape_dees():
+    return _scrape_tunehatch(
+        "Dee's Country Cocktail Lounge", "5aabb476-45ca-4fbf-b671-7d24732fc3f5",
+        "https://deeslounge.com/",
+    )
+
+
+# Analog's /event-calendar/ embeds a FullCalendar JS array (single-quoted
+# object literals, local Nashville times without tz suffix).
+_ANALOG_EVENT_RE = re.compile(
+    r"title:\s*'(?P<title>(?:\\'|[^'])*)',\s*"
+    r"start:\s*'(?P<start>[^']*)'"
+    r".*?url:\s*'(?P<url>[^']*)'",
+    re.S,
+)
+_ANALOG_NON_MUSIC_RE = re.compile(r"\b(tedx|pitch meeting|private event)\b", re.I)
+
+
+def scrape_analog():
+    """Analog at Hutton Hotel. The calendar page carries every event
+    (~2 years) as a JS array; the lighter /events/ grid is the only
+    source of doors/show times, so use it to enrich by title."""
+    print("  Fetching Analog...")
+    # Cloudflare 403s python-requests here on TLS fingerprint alone;
+    # the system curl binary passes (see curl_get_text).
+    try:
+        page = curl_get_text("https://www.analognashville.com/event-calendar/")
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+    if "403 - Forbidden" in page[:2000]:
+        # WP Engine serves its Forbidden page with HTTP 200 when it
+        # rate-limits an IP; surface it instead of silently parsing air.
+        print("  [Analog] blocked by WP Engine bot filter (403 body)")
+        return []
+
+    # Doors/show enrichment from the upcoming-events grid (best effort).
+    times_by_title = {}
+    try:
+        grid_text = curl_get_text("https://www.analognashville.com/events/")
+        gsoup = BeautifulSoup(grid_text, "lxml")
+        for card in gsoup.select("article.event-grid"):
+            title_el = card.select_one(".event-grid__title h3 a") or \
+                card.select_one(".event-grid__title a")
+            if not title_el:
+                continue
+            blob = " ".join(
+                li.get_text(" ", strip=True)
+                for li in card.select(".dt-list li")
+            )
+            times_by_title[title_el.get_text(strip=True).lower()] = (
+                find_time(blob, "Doors"), find_time(blob, "Show"),
+            )
+    except Exception:
+        pass
+
+    today = date.today()
+    shows = []
+    seen = set()
+    for m in _ANALOG_EVENT_RE.finditer(page):
+        title = unescape(m.group("title").replace("\\'", "'")).strip()
+        if not title or _ANALOG_NON_MUSIC_RE.search(title):
+            continue
+        try:
+            dt = datetime.fromisoformat(m.group("start"))
+        except ValueError:
+            continue
+        if dt.date() < today:
+            continue
+        key = (title, dt.date())
+        if key in seen:
+            continue
+        seen.add(key)
+
+        doors, show_time = times_by_title.get(title.lower(), (None, None))
+        if not show_time and (dt.hour or dt.minute):
+            show_time = format_local_time(dt)
+        if doors == show_time:
+            doors = None
+
+        shows.append(Show(
+            title=title,
+            sort_date=dt.date(),
+            venue="Analog",
+            url=m.group("url") or "https://www.analognashville.com/events/",
+            time=show_time,
+            doors=doors,
+        ))
+    return shows
+
+
 # ---------- main ----------
 
 if __name__ == "__main__":
@@ -696,6 +1022,12 @@ if __name__ == "__main__":
         ("The Pinnacle", scrape_pinnacle),
         ("Cannery Hall", scrape_cannery_hall),
         ("Ascend Amphitheater", scrape_ascend),
+        ("City Winery", scrape_city_winery),
+        ("The Blue Room", scrape_blue_room),
+        ("Bluebird Cafe", scrape_bluebird),
+        ("The 5 Spot", scrape_five_spot),
+        ("Dee's Country Cocktail Lounge", scrape_dees),
+        ("Analog", scrape_analog),
     ]
 
     shows = []

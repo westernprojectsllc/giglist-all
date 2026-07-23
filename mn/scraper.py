@@ -1090,6 +1090,86 @@ def scrape_aster_cafe():
     return shows
 
 
+_GREEN_ROOM_GQL = (
+    "query($accountIds:[Int!]!,$startDate:String!){"
+    "publicEvents(accountIds:$accountIds,startDate:$startDate){"
+    "name date doorTime startTime support status ticketsUrl venue{name}}}"
+)
+_SUPPORT_PREFIX_RE = re.compile(r"^\s*(?:w/|with)\s+", re.I)
+
+
+def _hms_to_display(hms):
+    """Venuepilot times are local 'HH:MM:SS' strings."""
+    if not hms:
+        return None
+    try:
+        return format_local_time(datetime.strptime(hms, "%H:%M:%S"))
+    except ValueError:
+        return None
+
+
+def scrape_green_room():
+    """Green Room's Squarespace site renders no events server-side — the
+    embedded Venuepilot widget (account 1147) fetches them via a public
+    GraphQL endpoint, no auth. POST directly; one response covers the
+    full upcoming slate."""
+    print("  Fetching Green Room...")
+    try:
+        r = requests.post(
+            "https://www.venuepilot.co/graphql",
+            json={
+                "query": _GREEN_ROOM_GQL,
+                "variables": {
+                    "accountIds": [1147],
+                    "startDate": date.today().isoformat(),
+                },
+            },
+            headers=DEFAULT_HEADERS,
+            timeout=DEFAULT_TIMEOUT,
+        )
+        data = r.json()
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+
+    today = date.today()
+    shows = []
+    for ev in (data.get("data") or {}).get("publicEvents") or []:
+        name = (ev.get("name") or "").strip()
+        date_str = ev.get("date") or ""
+        if not name or not date_str:
+            continue
+        venue_name = (ev.get("venue") or {}).get("name") or "Green Room"
+        if venue_name != "Green Room":
+            continue
+        try:
+            sort_date = date.fromisoformat(date_str)
+        except ValueError:
+            continue
+        if sort_date < today:
+            continue
+
+        show_time = _hms_to_display(ev.get("startTime"))
+        doors = _hms_to_display(ev.get("doorTime"))
+        if doors == show_time:
+            doors = None
+
+        support_raw = _SUPPORT_PREFIX_RE.sub("", ev.get("support") or "")
+        supports = [s.strip() for s in support_raw.split(",") if s.strip()]
+
+        shows.append(Show(
+            title=name,
+            sort_date=sort_date,
+            venue="Green Room",
+            url=ev.get("ticketsUrl") or "https://greenroommn.com/events",
+            sold_out="sold" in (ev.get("status") or "").lower(),
+            time=show_time,
+            doors=doors,
+            supports=supports,
+        ))
+    return shows
+
+
 # ---------- main ----------
 
 if __name__ == "__main__":
@@ -1114,6 +1194,7 @@ if __name__ == "__main__":
         ("Berlin", scrape_berlin),
         ("Uptown VFW", scrape_uptown_vfw),
         ("Aster Cafe", scrape_aster_cafe),
+        ("Green Room", scrape_green_room),
     ]
 
     # Load prior shows.json to skip re-enriching distant FA shows.
