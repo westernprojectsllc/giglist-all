@@ -932,7 +932,16 @@ _ANALOG_NON_MUSIC_RE = re.compile(r"\b(tedx|pitch meeting|private event)\b", re.
 def scrape_analog():
     """Analog at Hutton Hotel. The calendar page carries every event
     (~2 years) as a JS array; the lighter /events/ grid is the only
-    source of doors/show times, so use it to enrich by title."""
+    source of doors/show times, so use it to enrich by title.
+
+    UNREGISTERED (2026-07-23): analognashville.com's WP Engine bot
+    filter serves its Forbidden page (with HTTP 200) to python-requests
+    (TLS fingerprint), to curl from this dev machine after recon
+    traffic, AND to curl from GitHub Actions runners — datacenter IPs
+    appear to be blocked wholesale. Parser kept because the recon is
+    solid (FullCalendar blob + .event-grid doors); revive if a viable
+    fetch path appears (residential proxy, official feed, or WPE rules
+    change)."""
     print("  Fetching Analog...")
     # Cloudflare 403s python-requests here on TLS fingerprint alone;
     # the system curl binary passes (see curl_get_text).
@@ -941,7 +950,7 @@ def scrape_analog():
     except Exception as e:
         print(f"  Error: {e}")
         return []
-    if "403 - Forbidden" in page[:2000]:
+    if "403 - Forbidden" in page:
         # WP Engine serves its Forbidden page with HTTP 200 when it
         # rate-limits an IP; surface it instead of silently parsing air.
         print("  [Analog] blocked by WP Engine bot filter (403 body)")
@@ -1027,7 +1036,9 @@ if __name__ == "__main__":
         ("Bluebird Cafe", scrape_bluebird),
         ("The 5 Spot", scrape_five_spot),
         ("Dee's Country Cocktail Lounge", scrape_dees),
-        ("Analog", scrape_analog),
+        # Analog at Hutton Hotel: scraper exists (scrape_analog) but is
+        # unregistered — WP Engine bot-blocks datacenter IPs; see its
+        # docstring before re-enabling.
     ]
 
     shows = []

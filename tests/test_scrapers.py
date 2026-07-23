@@ -66,7 +66,7 @@ TN_SCRAPERS = [
     ("tn/bluebird", tn_scraper.scrape_bluebird),
     ("tn/five_spot", tn_scraper.scrape_five_spot),
     ("tn/dees", tn_scraper.scrape_dees),
-    ("tn/analog", tn_scraper.scrape_analog),
+    # tn/analog intentionally absent — see scrape_analog docstring.
 ]
 
 ALL_SCRAPERS = MN_SCRAPERS + TN_SCRAPERS
