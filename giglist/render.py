@@ -202,10 +202,10 @@ def _gl_data_json(config, all_weeks):
     return json.dumps(data, separators=(",", ":"))
 
 
-def _page_shell(config, favicon, title, body, gl_data):
-    """Shared skeleton: Klein-blue banner (gl mark links home, region
-    label right) over the ledger column. No page title in the content —
-    per DESIGN.md the first day bar leads.
+def _page_shell(config, favicon, title, body, gl_data, banner_label):
+    """Shared skeleton: Klein-blue banner (gl mark links home, week
+    label centered) over the ledger column. No page title in the
+    content — per DESIGN.md the first day bar leads.
 
     Without JS the banner is a plain home link and the week headings
     show. ledger.js progressively enhances: the banner becomes the menu
@@ -222,7 +222,7 @@ def _page_shell(config, favicon, title, body, gl_data):
   <link rel="stylesheet" href="ledger.css">
 </head>
 <body>
-  <a id="banner" href="/" aria-label="giglist home"><span class="mark">gl</span><span class="rlabel">{escape(config.region_label)}</span></a>
+  <a id="banner" href="/" aria-label="giglist home"><span class="mark">gl</span><span class="rlabel">{escape(banner_label)}</span></a>
   <main class="ledger">
 {body}
     <p class="empty-note" hidden>All venues hidden &mdash; open the menu to bring some back.</p>
@@ -243,8 +243,9 @@ def _index_page_html(config, favicon, all_weeks, weeks, upcoming_count, updated)
         f'&middot; {upcoming_count} shows</p>'
     )
     body = "\n".join(sections + [foot])
+    first_label = all_weeks[0][1] if all_weeks else config.short_title
     return _page_shell(config, favicon, config.short_title, body,
-                       _gl_data_json(config, all_weeks))
+                       _gl_data_json(config, all_weeks), first_label)
 
 
 def _week_page_html(config, favicon, monday, label, week_shows, prev_monday,
@@ -269,7 +270,7 @@ def _week_page_html(config, favicon, monday, label, week_shows, prev_monday,
     body = "\n".join(["\n".join(nav), section])
     title = f'{config.short_title} - {label.replace("WEEK OF ", "")}'
     return _page_shell(config, favicon, title, body,
-                       _gl_data_json(config, all_weeks))
+                       _gl_data_json(config, all_weeks), label)
 
 
 def _list_stub_html(config):

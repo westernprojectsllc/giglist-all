@@ -26,8 +26,10 @@ Mockup source file (session scratchpad, may not persist): `giglist-bw-mockups.ht
 - Left: the lowercase `gl` logo exactly as on the landing page
   (Helvetica Neue 800, 15px, letter-spacing -0.03em, color `#C7CCD6`),
   24px from the left edge.
-- Right: the week label (`WEEK OF JUL 6 – 12`) in the ledger monospace,
-  11px uppercase, letter-spacing .22em, white.
+- Centered: the week label (`WEEK OF JUL 6 – 12`) in the ledger monospace,
+  11px uppercase, letter-spacing .22em, white. (Amended 2026-07-23 from
+  right-aligned to centered; server-rendered so it shows without JS —
+  the index carries the first week's label until scrolling updates it.)
 - The in-page week heading is omitted in this mode — the banner carries it.
 - Clicking the banner opens the sidebar (the logo is the menu button).
 
