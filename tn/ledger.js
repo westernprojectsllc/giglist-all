@@ -88,18 +88,20 @@
     return e;
   }
 
-  function category(title, opened, extraBtn) {
+  function category(title, opened, extraBtns) {
+    extraBtns = extraBtns ? [].concat(extraBtns) : [];
     var h = el("h3", { class: "cat", role: "button", tabindex: "0",
                        "aria-expanded": String(opened) });
     h.appendChild(el("span", {}, title));
     var right = el("span", { class: "cat-r" });
-    if (extraBtn) right.appendChild(extraBtn);
+    extraBtns.forEach(function (b) { right.appendChild(b); });
     right.appendChild(el("span", { class: "ind" }, opened ? "−" : "+"));
     h.appendChild(right);
     var ul = el("ul", {});
     if (!opened) ul.hidden = true;
     h.addEventListener("click", function (e) {
-      if (extraBtn && e.target === extraBtn) return;
+      // Let the action buttons handle their own clicks without toggling.
+      if (extraBtns.indexOf(e.target) !== -1) return;
       var opening = ul.hidden;
       ul.hidden = !opening;
       h.setAttribute("aria-expanded", String(opening));
@@ -135,9 +137,10 @@
   head.appendChild(closeBtn);
   sidebar.appendChild(head);
 
-  /* Venues (open by default, with reset) */
+  /* Venues (open by default, with clear + reset) */
+  var clearBtn = el("button", { id: "v-clear" }, "clear");
   var resetBtn = el("button", { id: "v-reset" }, "reset");
-  var catV = category("Venues", true, resetBtn);
+  var catV = category("Venues", true, [clearBtn, resetBtn]);
   catV.ul.id = "sb-venues";
   sidebar.appendChild(catV.h); sidebar.appendChild(catV.ul);
 
@@ -163,6 +166,11 @@
   resetBtn.addEventListener("click", function (e) {
     e.stopPropagation();
     venues.forEach(function (v) { vstate[v] = "show"; });
+    persist(); renderVenues(); applyStates();
+  });
+  clearBtn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    venues.forEach(function (v) { vstate[v] = "hide"; });
     persist(); renderVenues(); applyStates();
   });
 
