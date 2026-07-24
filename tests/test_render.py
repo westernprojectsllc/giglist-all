@@ -157,3 +157,29 @@ def test_week_section_has_anchor_day_bars_and_counts():
     assert 'data-count="1"' in html  # Jul 24 has one
     # No rendered timestamps anywhere in a week section (byte-stability).
     assert "Updated" not in html
+
+
+# --- _venue_sort_key (ignore leading "The") -----------------------------
+
+def test_venue_sort_key_strips_leading_the():
+    from giglist.render import _venue_sort_key
+    assert _venue_sort_key("The Basement") == "basement"
+    assert _venue_sort_key("The 5 Spot") == "5 spot"
+    assert _venue_sort_key("the office") == "office"  # case-insensitive
+
+
+def test_venue_sort_key_keeps_the_when_not_a_leading_word():
+    from giglist.render import _venue_sort_key
+    # "The" only stripped as a leading whole word + space.
+    assert _venue_sort_key("Theater X") == "theater x"
+    assert _venue_sort_key("Bluebird Cafe") == "bluebird cafe"
+
+
+def test_show_sort_key_files_the_venue_under_stripped_name():
+    from datetime import date
+    basement = Show(title="A", sort_date=date(2026, 5, 1), venue="The Basement", time="9pm")
+    cobra = Show(title="B", sort_date=date(2026, 5, 1), venue="Cobra", time="7pm")
+    apple = Show(title="C", sort_date=date(2026, 5, 1), venue="Amsterdam", time="7pm")
+    # Order: Amsterdam, The Basement (->basement), Cobra
+    rows = sorted([cobra, basement, apple], key=_show_sort_key)
+    assert [r.venue for r in rows] == ["Amsterdam", "The Basement", "Cobra"]

@@ -31,7 +31,12 @@
     var v = r.dataset.venue;
     if (venues.indexOf(v) === -1) venues.push(v);
   });
-  venues.sort(function (a, b) { return a.localeCompare(b); });
+  // Sort ignoring a leading "The " (mirrors _venue_sort_key in
+  // render.py) so "The Basement" files under B, not T.
+  function venueSortKey(v) { return v.replace(/^the\s+/i, "").toLowerCase(); }
+  venues.sort(function (a, b) {
+    return venueSortKey(a).localeCompare(venueSortKey(b));
+  });
 
   var vstate = {};
   venues.forEach(function (v) { vstate[v] = "show"; });

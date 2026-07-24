@@ -90,11 +90,21 @@ def _parse_time_minutes(time_str):
     return h * 60 + m
 
 
+def _venue_sort_key(venue):
+    """Alphabetical key that ignores a leading 'The ' so "The Basement"
+    files under B, not T. Kept in sync with venueSortKey() in ledger.js
+    so the schedule day-order and the sidebar venue list agree."""
+    v = venue.strip()
+    if v[:4].lower() == "the ":
+        v = v[4:]
+    return v.lower()
+
+
 def _show_sort_key(show):
     t = _parse_time_minutes(show.time)
     if t is None:
         t = _parse_time_minutes(show.doors)
-    return (show.venue, t if t is not None else 10**6, show.title)
+    return (_venue_sort_key(show.venue), t if t is not None else 10**6, show.title)
 
 
 # ---------- ledger formatting (labels match the DESIGN.md mockup) ----------
