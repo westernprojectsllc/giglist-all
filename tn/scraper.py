@@ -237,8 +237,21 @@ def scrape_night_we_met():
 def scrape_caverns():
     """The Caverns runs on SpaceCraft CMS. The /shows page server-
     renders the next batch of events. SpaceCraft's CDN rejects bare
-    'Mozilla/5.0', so we use a fuller Chrome UA."""
-    soup = _fetch_soup("The Caverns", "https://www.thecaverns.com/shows", BROWSER_HEADERS)
+    'Mozilla/5.0', so we use a fuller Chrome UA.
+
+    Fetched via curl, not requests: the site serves a chain anchored on
+    Let's Encrypt's new "ISRG Root YR" root, which reaches the trusted
+    "ISRG Root X1" only through a cross-sign published via the
+    intermediate's AIA extension. curl follows that AIA and verifies;
+    Python's ssl module does not chase AIA, so requests fails with
+    CERTIFICATE_VERIFY_FAILED until certifi ships the new root."""
+    print("  Fetching The Caverns...")
+    try:
+        page = curl_get_text("https://www.thecaverns.com/shows")
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+    soup = BeautifulSoup(page, "lxml")
 
     shows = []
     for item in soup.select(".eventColl-item"):
