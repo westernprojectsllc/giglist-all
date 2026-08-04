@@ -490,6 +490,26 @@ _CANNERY_KNOWN_ROOMS = {
 # "cannery hall" query returns all three rooms' events as direct matches.
 _AXS_DISCOVERY_URL = "https://unifiedapisearch.discovery-prod.axs.com/v2/Discovery"
 
+_TN_SHOWS_JSON = Path(__file__).resolve().parent / "shows.json"
+
+
+def _carry_forward_cannery(today):
+    """Still-upcoming Cannery Hall shows from the previous run's
+    shows.json. Used only when the live AXS fetch is *blocked* (see
+    scrape_cannery_hall) so the venue neither vanishes from the site nor
+    trips the dropout guard on a transient Cloudflare block."""
+    try:
+        raw = json.loads(_TN_SHOWS_JSON.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    out = []
+    for d in raw:
+        if str(d.get("venue", "")).startswith("Cannery Hall"):
+            s = Show.from_json_dict(d)
+            if s.sort_date >= today:
+                out.append(s)
+    return out
+
 
 def _parse_cannery_event(e, today, seen_ids):
     """Turn one AXS Discovery event object into a Show, or None if it is
@@ -558,11 +578,18 @@ def scrape_cannery_hall():
     and the plain curl binary alike, so we go through cffi_get_json, which
     replays a real Chrome TLS fingerprint. The "cannery hall" query
     returns all three rooms (Mainstage / Row One Stage / The Mil) as
-    direct matches, each carrying its room in venue.venueTitle."""
+    direct matches, each carrying its room in venue.venueTitle.
+
+    Caveat: the Cloudflare challenge blocks *datacenter* IPs (the GitHub
+    Actions runners) even through curl_cffi, though residential IPs pass.
+    When the fetch is blocked we carry forward the previous scrape's
+    Cannery shows rather than dropping the venue to zero — it refreshes on
+    any run that reaches AXS (e.g. a local scrape)."""
     print("  Fetching Cannery Hall (AXS Discovery)...")
     today = date.today()
     shows = []
     seen_ids = set()
+    fetch_blocked = False
 
     page = 1
     while page <= 10:  # hard ceiling; the full ~9-month horizon fits in 1 page
@@ -577,7 +604,8 @@ def scrape_cannery_hall():
             data = cffi_get_json(_AXS_DISCOVERY_URL + params,
                                  referer="https://www.axs.com/")
         except Exception as e:
-            print(f"  [Cannery Hall] page {page} failed, keeping {len(shows)}: {e}")
+            print(f"  [Cannery Hall] page {page} fetch blocked: {e}")
+            fetch_blocked = True
             break
 
         events = data.get("events") or {}
@@ -595,6 +623,16 @@ def scrape_cannery_hall():
         if len(seen_ids) >= (events.get("total") or 0) or added == 0:
             break
         page += 1
+
+    # Only carry forward on an actual block (a 403/exception), never on a
+    # clean empty response — a genuinely empty result should still surface
+    # via the dropout guard rather than be papered over with stale data.
+    if not shows and fetch_blocked:
+        carried = _carry_forward_cannery(today)
+        if carried:
+            print(f"  [Cannery Hall] AXS blocked — carried forward "
+                  f"{len(carried)} show(s) from last scrape")
+        return carried
     return shows
 
 
