@@ -26,15 +26,33 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Scrape and render MN + TN in parallel
+        id: scrape
         env:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: |
-          (cd mn && python scraper.py && python render.py) &
+          # Regions are independent: one region's dropout guard tripping
+          # (a broken venue) must NOT block the other region's re-render
+          # from being committed. And render always runs — even when the
+          # scraper refused to overwrite stale shows.json — so the
+          # current-week view stays correct off the last-good data.
+          # Failures are recorded, not aborted here; the job fails at the
+          # end (after committing whatever rendered) so the red run still
+          # flags the broken region.
+          scrape_region() {
+            dir=$1
+            rc=0
+            (cd "$dir" && python scraper.py) || rc=1
+            (cd "$dir" && python render.py) || rc=1
+            return $rc
+          }
+          scrape_region mn &
           PID_MN=$!
-          (cd tn && python scraper.py && python render.py) &
+          scrape_region tn &
           PID_TN=$!
-          wait $PID_MN || exit 1
-          wait $PID_TN || exit 1
+          FAIL=0
+          wait $PID_MN || { echo "::warning::MN scrape/render failed"; FAIL=1; }
+          wait $PID_TN || { echo "::warning::TN scrape/render failed"; FAIL=1; }
+          echo "fail=$FAIL" >> "$GITHUB_OUTPUT"
 
       - name: Commit updated output
         run: |
@@ -47,3 +65,9 @@ jobs:
           fi
           git commit -m "Daily scrape $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Fail run if any region failed
+        if: steps.scrape.outputs.fail == '1'
+        run: |
+          echo "One or more regions failed to scrape — a venue likely needs attention."
+          exit 1
