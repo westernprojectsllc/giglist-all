@@ -244,13 +244,32 @@ def scrape_caverns():
     "ISRG Root X1" only through a cross-sign published via the
     intermediate's AIA extension. curl follows that AIA and verifies;
     Python's ssl module does not chase AIA, so requests fails with
-    CERTIFICATE_VERIFY_FAILED until certifi ships the new root."""
+    CERTIFICATE_VERIFY_FAILED until certifi ships the new root.
+
+    SpaceCraft's CDN also bot-blocks datacenter IPs: the GitHub Actions
+    runners get a challenge page with none of the event markup, parsing
+    to zero. When the fetch is blocked we carry the last-good shows
+    forward (see _carry_forward_venue) rather than dropping the venue;
+    it refreshes on any run from a residential IP."""
     print("  Fetching The Caverns...")
+    today = date.today()
     try:
         page = curl_get_text("https://www.thecaverns.com/shows")
     except Exception as e:
         print(f"  Error: {e}")
-        return []
+        page = ""
+
+    # The real listing always carries the SpaceCraft "eventColl" widget;
+    # a block/challenge page has none of it. Treat its absence as a block
+    # (carry forward), but an empty page that *does* have the widget as a
+    # genuine "no shows" result so the dropout guard can still catch a
+    # real break.
+    if "eventColl" not in page:
+        carried = _carry_forward_venue("The Caverns", today)
+        print(f"  [The Caverns] fetch blocked — carried forward "
+              f"{len(carried)} show(s) from last scrape")
+        return carried
+
     soup = BeautifulSoup(page, "lxml")
 
     shows = []
@@ -493,18 +512,25 @@ _AXS_DISCOVERY_URL = "https://unifiedapisearch.discovery-prod.axs.com/v2/Discove
 _TN_SHOWS_JSON = Path(__file__).resolve().parent / "shows.json"
 
 
-def _carry_forward_cannery(today):
-    """Still-upcoming Cannery Hall shows from the previous run's
-    shows.json. Used only when the live AXS fetch is *blocked* (see
-    scrape_cannery_hall) so the venue neither vanishes from the site nor
-    trips the dropout guard on a transient Cloudflare block."""
+def _carry_forward_venue(venue_prefix, today):
+    """Still-upcoming shows for a venue (matched by name prefix) from the
+    previous run's shows.json.
+
+    Several venues (AXS/Cannery, SpaceCraft/Caverns) serve their listings
+    only to residential IPs and hand the GitHub Actions runners a bot
+    block instead. Rather than let a blocked fetch drop the venue to zero
+    — vanishing it from the site and, in bulk, tripping the dropout guard
+    — the scraper carries its last-good shows forward. They refresh on any
+    run that reaches the source (e.g. a local scrape). Used ONLY on a
+    detected block, never on a clean empty response, so a genuine breakage
+    still surfaces."""
     try:
         raw = json.loads(_TN_SHOWS_JSON.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return []
     out = []
     for d in raw:
-        if str(d.get("venue", "")).startswith("Cannery Hall"):
+        if str(d.get("venue", "")).startswith(venue_prefix):
             s = Show.from_json_dict(d)
             if s.sort_date >= today:
                 out.append(s)
@@ -628,7 +654,7 @@ def scrape_cannery_hall():
     # clean empty response — a genuinely empty result should still surface
     # via the dropout guard rather than be papered over with stale data.
     if not shows and fetch_blocked:
-        carried = _carry_forward_cannery(today)
+        carried = _carry_forward_venue("Cannery Hall", today)
         if carried:
             print(f"  [Cannery Hall] AXS blocked — carried forward "
                   f"{len(carried)} show(s) from last scrape")
