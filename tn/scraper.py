@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from giglist.http import (
     BROWSER_HEADERS, DEFAULT_HEADERS, DEFAULT_TIMEOUT,
-    curl_get_text, get_with_retry,
+    cffi_get_json, curl_get_text, get_with_retry,
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
@@ -486,127 +486,114 @@ _CANNERY_KNOWN_ROOMS = {
     "Cannery Hall - The Mil",
 }
 
+# AXS "Discovery" search API. Nashville geo + a 50mi radius scoped to the
+# "cannery hall" query returns all three rooms' events as direct matches.
+_AXS_DISCOVERY_URL = "https://unifiedapisearch.discovery-prod.axs.com/v2/Discovery"
 
-def _parse_cannery_card(card, today):
-    """Pull a single Show out of a `.pk-eachevent` card. Shared between
-    the initial /calendar fetch and the AJAX load-more pages."""
-    title_el = card.select_one(".pk-headline")
-    if not title_el:
+
+def _parse_cannery_event(e, today, seen_ids):
+    """Turn one AXS Discovery event object into a Show, or None if it is
+    not an upcoming Cannery Hall music event we haven't already seen."""
+    if e.get("majorCategory") != "Music":
+        return None  # drops the handful of ArtsOrFamily bookings
+
+    venue = ((e.get("venue") or {}).get("venueTitle") or "").strip()
+    if not venue.startswith("Cannery Hall"):
+        return None  # the search can surface nearby non-Cannery venues
+    if venue not in _CANNERY_KNOWN_ROOMS:
+        venue = "Cannery Hall"  # unknown/renamed room — fold to the parent
+
+    eid = e.get("eventId") or e.get("id")
+    if eid is not None and eid in seen_ids:
         return None
-    title = unescape(title_el.get_text(" ", strip=True))
+
+    local = e.get("eventDatetimeLocal")  # e.g. "2027-01-22T20:00:00"
+    if not local:
+        return None
+    try:
+        dt_local = datetime.fromisoformat(local)
+    except ValueError:
+        return None
+    if dt_local.date() < today:
+        return None
+
+    title = unescape((e.get("headlinersText") or e.get("eventTitle") or "").strip())
     if not title:
         return None
 
-    link_el = card.select_one("a.pk-title-link") or card.select_one("a.pk-link")
-    event_url = link_el.get("href", "") if link_el else ""
+    # AXS gives the start time only (no separate doors). `eventDatetimeTbd`
+    # flags a placeholder time we shouldn't render.
+    show_time = None if e.get("eventDatetimeTbd") else format_local_time(dt_local)
 
-    month_el = card.select_one(".pk-date")
-    if not month_el:
-        return None
-    m = re.match(r"^([A-Za-z]+)\s+(\d{1,2})$", month_el.get_text(strip=True))
-    if not m:
-        return None
-    dt = infer_upcoming_date(m.group(1)[:3].title(), int(m.group(2)))
-    if not dt or dt < today:
-        return None
-
-    times_el = card.select_one(".pk-times")
-    time_blob = times_el.get_text(" ", strip=True) if times_el else ""
-    # "Doors 7:00pm, Start 8:00pm" — labels precede times.
-    show_time = find_time(time_blob, "Start") or find_time(time_blob, "Show")
-    doors = find_time(time_blob, "Doors")
-
-    sub_el = card.select_one(".pksubtitle")
-    sub_raw = sub_el.get_text(" ", strip=True) if sub_el else ""
+    sub_raw = unescape((e.get("supportingText") or "").strip())
     sub_raw = re.sub(r"^(with|w/|featuring|feat\.?)\s+", "", sub_raw, flags=re.I)
     supports = [s.strip() for s in re.split(r",|/| & |\s+and\s+", sub_raw) if s.strip()]
 
-    # Cannery Hall has three rooms (Mainstage / Row One Stage / The Mil);
-    # the venue card carries the room in `.pk-venue-name`. Surface that
-    # so the rendered listing can distinguish concurrent bookings.
-    venue_el = card.select_one(".pk-venue-name")
-    venue = venue_el.get_text(" ", strip=True) if venue_el else "Cannery Hall"
-    if venue not in _CANNERY_KNOWN_ROOMS and not venue.startswith("Cannery Hall"):
-        venue = "Cannery Hall"
+    status = (e.get("ticketingStatusText") or "").lower()
+    sold_out = "sold out" in status or "sold-out" in status
 
-    card_classes = " ".join(card.get("class") or []).lower()
-    link_text = link_el.get_text(" ", strip=True).lower() if link_el else ""
-    sold_out = ("sold-out" in card_classes
-                or "soldout" in card_classes
-                or "sold out" in link_text)
-
+    if eid is not None:
+        seen_ids.add(eid)
     return Show(
         title=title,
-        sort_date=dt,
+        sort_date=dt_local.date(),
         venue=venue,
-        url=event_url,
+        url=e.get("eventURL", "") or "",
         sold_out=sold_out,
         time=show_time,
-        doors=doors,
+        doors=None,
         supports=supports,
     )
 
 
 def scrape_cannery_hall():
-    """Cannery Hall sells through AXS, so the TM API only catches the
-    rare TM-cross-listed show. The venue's own /calendar page server-
-    renders the first 30 events as `.pk-eachevent` cards (the AXS
-    Events Infinite Scroll plugin), with subsequent pages loaded via
-    POST to /wp-admin/admin-ajax.php using a per-session nonce embedded
-    in page 1. We follow that paginated chain to capture the full ~9-
-    month horizon, splitting the result by room (Mainstage / Row One
-    Stage / The Mil)."""
-    print("  Fetching Cannery Hall...")
-    session = requests.Session()
-    session.headers.update(BROWSER_HEADERS)
+    """Cannery Hall sells exclusively through AXS. Its own WordPress
+    calendar (the axs-events-infinite-scroll plugin) broke: the
+    /wp-admin/admin-ajax.php bridge now answers every page with
+    {"success": false, "No events found or invalid response."}, so the
+    old canneryhall.com/calendar scrape yields zero across all rooms.
 
-    r = session.get("https://canneryhall.com/calendar", timeout=DEFAULT_TIMEOUT)
-    soup = BeautifulSoup(r.text, "lxml")
-
+    Pull straight from the AXS Discovery search API instead. That host
+    sits behind a Cloudflare *managed challenge* that 403s python-requests
+    and the plain curl binary alike, so we go through cffi_get_json, which
+    replays a real Chrome TLS fingerprint. The "cannery hall" query
+    returns all three rooms (Mainstage / Row One Stage / The Mil) as
+    direct matches, each carrying its room in venue.venueTitle."""
+    print("  Fetching Cannery Hall (AXS Discovery)...")
     today = date.today()
     shows = []
-    for card in soup.select(".pk-eachevent"):
-        s = _parse_cannery_card(card, today)
-        if s:
-            shows.append(s)
+    seen_ids = set()
 
-    nonce_match = re.search(r'"nonce":"([a-f0-9]+)"', r.text)
-    if not nonce_match:
-        return shows  # Page 1 only — nonce missing, can't paginate.
-    nonce = nonce_match.group(1)
-
-    page = 2
-    while page <= 20:  # hard ceiling so a runaway loop can't hang the run
+    page = 1
+    while page <= 10:  # hard ceiling; the full ~9-month horizon fits in 1 page
+        params = (
+            f"?page={page}&results=100&searchQuery=cannery+hall"
+            "&Geo.CountryCode=US&Geo.Lat=36.166&Geo.Lng=-86.784"
+            "&timeZoneId=America%2FChicago"
+            "&Types%5B0%5D.Type=events&Types%5B0%5D.SortOrder=Date"
+            "&Types%5B0%5D.SplitByRadius=50mi"
+        )
         try:
-            r2 = session.post(
-                "https://canneryhall.com/wp-admin/admin-ajax.php",
-                data={
-                    "action": "load_more_axs_events",
-                    "page": page,
-                    "rows": 30,
-                    "nonce": nonce,
-                    "majorCat": "",
-                },
-                headers={
-                    "X-Requested-With": "XMLHttpRequest",
-                    "Referer": "https://canneryhall.com/calendar",
-                },
-                timeout=DEFAULT_TIMEOUT,
-            )
-            data = r2.json()
+            data = cffi_get_json(_AXS_DISCOVERY_URL + params,
+                                 referer="https://www.axs.com/")
         except Exception as e:
             print(f"  [Cannery Hall] page {page} failed, keeping {len(shows)}: {e}")
             break
-        if not (isinstance(data, dict) and data.get("success") and data.get("data")):
+
+        events = data.get("events") or {}
+        matches = events.get("matches") or []
+        if not matches:
             break
-        soup_p = BeautifulSoup(data["data"], "lxml")
-        new_cards = soup_p.select(".pk-eachevent")
-        if not new_cards:
-            break
-        for card in new_cards:
-            s = _parse_cannery_card(card, today)
+        added = 0
+        for e in matches:
+            s = _parse_cannery_event(e, today, seen_ids)
             if s:
                 shows.append(s)
+                added += 1
+        # `total` counts every match for the query; stop once we've walked
+        # them all (or a page adds nothing new — belt-and-suspenders).
+        if len(seen_ids) >= (events.get("total") or 0) or added == 0:
+            break
         page += 1
     return shows
 

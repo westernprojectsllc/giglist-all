@@ -68,3 +68,34 @@ def curl_get_text(url, *, timeout=DEFAULT_TIMEOUT, retries=2):
             last_exc = e
             time.sleep(0.5 * (attempt + 1))
     raise last_exc
+
+
+def cffi_get_json(url, *, timeout=DEFAULT_TIMEOUT, retries=3, backoff=0.5,
+                  referer=None, impersonate="chrome124"):
+    """GET JSON from a host guarded by a Cloudflare *managed challenge* —
+    the kind that 403s python-requests AND the plain curl binary alike
+    (e.g. AXS's unifiedapisearch Discovery API). curl_cffi replays a real
+    Chrome TLS/HTTP2 (JA3) fingerprint, which the challenge accepts with
+    no JS solving. Use only where curl_get_text also gets a 403.
+
+    curl_cffi is imported lazily so a missing wheel only breaks the one
+    scraper that needs it, not every scraper that imports this module."""
+    from curl_cffi import requests as cffi  # heavy optional dep; lazy
+
+    headers = {"Accept": "application/json"}
+    if referer:
+        headers["Referer"] = referer
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            r = cffi.get(url, headers=headers, timeout=timeout,
+                         impersonate=impersonate)
+            if r.status_code == 429 or r.status_code >= 500:
+                time.sleep(backoff * (attempt + 1))
+                continue
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            last_exc = e
+            time.sleep(backoff * (attempt + 1))
+    raise last_exc
