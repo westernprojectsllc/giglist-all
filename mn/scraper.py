@@ -43,6 +43,15 @@ load_dotenv()
 SHOWS_JSON = REGION_DIR / "shows.json"
 BASE_URL = "https://first-avenue.com/shows"
 
+# first-avenue.com rate-limits bursts: firing all MONTHS_AHEAD month
+# requests at once reliably 429s one of them, and since get_with_retry
+# returns the last 429 response rather than raising, that month parsed to
+# zero shows *silently* — dropping ~100 shows with nothing in the logs.
+# Four concurrent fetches stays under the limit. Kept here rather than in
+# config.py: it is a First Ave detail, and the smoke tests put tn/ ahead of
+# mn/ on sys.path, so a new name in mn/config.py resolves to tn/config.py.
+FIRST_AVE_WORKERS = 4
+
 
 # ---------- First Avenue ----------
 
@@ -50,6 +59,12 @@ def scrape_month(start_date):
     date_str = start_date.strftime("%Y%m%d")
     url = f"{BASE_URL}?post_type=event&start_date={date_str}"
     response = get_with_retry(url)
+    # get_with_retry hands back the final 429/5xx response instead of
+    # raising. Parsing that error page yields zero .show_list_item and
+    # looks exactly like a month with no shows, so reject it explicitly
+    # rather than silently publishing a month-shaped hole.
+    if response.status_code != 200:
+        raise RuntimeError(f"HTTP {response.status_code} for {url}")
     soup = BeautifulSoup(response.text, "lxml")
 
     shows = []
@@ -125,21 +140,33 @@ def scrape_first_avenue():
     start_month = datetime.today().replace(day=1)
     months = [start_month + relativedelta(months=i) for i in range(MONTHS_AHEAD)]
 
-    print(f"Scraping First Avenue ({MONTHS_AHEAD} months in parallel)...")
+    print(f"Scraping First Avenue ({MONTHS_AHEAD} months, "
+          f"{FIRST_AVE_WORKERS} at a time)...")
+
+    failed = []
 
     def fetch(month):
         try:
             return scrape_month(month)
         except Exception as e:
             print(f"  Error scraping {month.strftime('%B %Y')}: {e}")
+            failed.append(month)
             return []
 
-    with ThreadPoolExecutor(max_workers=MONTHS_AHEAD) as executor:
+    with ThreadPoolExecutor(max_workers=FIRST_AVE_WORKERS) as executor:
         for shows in executor.map(fetch, months):
             for show in shows:
                 if show.url not in seen_urls:
                     seen_urls.add(show.url)
                     all_shows.append(show)
+
+    # A month that failed to fetch is not a month with no shows. Returning
+    # the partial list would quietly drop every First Ave show in it while
+    # the other months keep the venue non-empty, so neither the dropout
+    # guard nor the smoke test would notice.
+    if failed:
+        months_str = ", ".join(m.strftime("%B %Y") for m in failed)
+        raise RuntimeError(f"First Avenue: {len(failed)} month(s) failed to fetch: {months_str}")
 
     return all_shows
 
