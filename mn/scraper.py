@@ -32,10 +32,19 @@ from giglist.scrape_utils import (
     scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
-from config import (
-    JUNK_KEYWORDS, MONTHS_AHEAD, REGION_DIR, SPORTS_KEYWORDS,
-    SPORTS_VENUES, TICKETMASTER_VENUES,
-)
+from giglist.region_config import load_region_config
+
+# Loaded by path, not via ``from config import ...``: mn/ and tn/ both
+# define a module named ``config``, so a bare import binds whichever
+# region was imported into the process first (see giglist/region_config.py).
+_config = load_region_config(__file__)
+
+JUNK_KEYWORDS = _config.JUNK_KEYWORDS
+MONTHS_AHEAD = _config.MONTHS_AHEAD
+REGION_DIR = _config.REGION_DIR
+SPORTS_KEYWORDS = _config.SPORTS_KEYWORDS
+SPORTS_VENUES = _config.SPORTS_VENUES
+TICKETMASTER_VENUES = _config.TICKETMASTER_VENUES
 
 load_dotenv()
 
@@ -793,73 +802,15 @@ def scrape_pilllar():
     return shows
 
 
-_UNDERGROUND_EMBED_RE = re.compile(r"promoter\.skeletix\.com/events/(\d+)")
-_UNDERGROUND_DATE_RE = re.compile(
-    r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+([A-Z][a-z]{2})\s+(\d{1,2}),\s+(\d{4})"
-)
-
-
 def scrape_underground():
-    """Underground Music Venue's site embeds Skeletix iframes for each show.
-    We pull the embed URLs from the events page, then fetch each embed for
-    the title and date."""
-    url = "https://www.undergroundmusicvenue.com/events"
-    print("  Fetching Underground Music Venue...")
-    try:
-        response = get_with_retry(url)
-    except Exception as e:
-        print(f"  Error: {e}")
-        return []
-
-    event_ids = sorted(set(_UNDERGROUND_EMBED_RE.findall(response.text)))
-    if not event_ids:
-        return []
-
-    today = date.today()
-
-    def fetch_event(event_id):
-        embed_url = f"https://promoter.skeletix.com/events/{event_id}/embed"
-        try:
-            r = get_with_retry(embed_url)
-            soup = BeautifulSoup(r.text, "lxml")
-        except Exception:
-            return None
-
-        title_tag = soup.select_one(".card-title")
-        desc_tag = soup.select_one(".card-desc")
-        link_tag = soup.select_one("a.card")
-        if not title_tag or not desc_tag:
-            return None
-
-        title = title_tag.get_text(strip=True)
-        desc = desc_tag.get_text(" ", strip=True)
-        m = _UNDERGROUND_DATE_RE.search(desc)
-        if not m:
-            return None
-        try:
-            sort_date = datetime.strptime(
-                f"{m.group(1)} {m.group(2)} {m.group(3)}", "%b %d %Y"
-            ).date()
-        except ValueError:
-            return None
-        if sort_date < today:
-            return None
-
-        href = link_tag["href"] if link_tag and link_tag.get("href") else embed_url
-        return Show(
-            title=title,
-            sort_date=sort_date,
-            venue="Underground Music Venue",
-            url=href,
-        )
-
-    shows = []
-    with ThreadPoolExecutor(max_workers=min(8, len(event_ids))) as executor:
-        for show in executor.map(fetch_event, event_ids):
-            if show is not None:
-                shows.append(show)
-
-    return shows
+    """Underground Music Venue sells through Dice. The venue rebuilt its
+    Squarespace site in 2026: /events (which hosted per-show Skeletix
+    iframes) now 404s and the homepage renders a Dice widget instead, so
+    we go straight to the Dice partners API like the other Dice rooms."""
+    return scrape_dice(
+        "Underground Music Venue",
+        dice_venues=["underground music venue - event space"],
+    )
 
 
 def scrape_zhora_darling():

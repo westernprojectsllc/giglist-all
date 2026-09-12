@@ -30,10 +30,20 @@ from giglist.scrape_utils import (
     scrape_dice, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
-from config import (
-    JUNK_KEYWORDS, NON_MUSIC_EXEMPT_ARTISTS, NON_MUSIC_RE, REGION_DIR,
-    SPORTS_KEYWORDS, SPORTS_VENUES, TICKETMASTER_VENUES,
-)
+from giglist.region_config import load_region_config
+
+# Loaded by path, not via ``from config import ...``: mn/ and tn/ both
+# define a module named ``config``, so a bare import binds whichever
+# region was imported into the process first (see giglist/region_config.py).
+_config = load_region_config(__file__)
+
+JUNK_KEYWORDS = _config.JUNK_KEYWORDS
+NON_MUSIC_EXEMPT_ARTISTS = _config.NON_MUSIC_EXEMPT_ARTISTS
+NON_MUSIC_RE = _config.NON_MUSIC_RE
+REGION_DIR = _config.REGION_DIR
+SPORTS_KEYWORDS = _config.SPORTS_KEYWORDS
+SPORTS_VENUES = _config.SPORTS_VENUES
+TICKETMASTER_VENUES = _config.TICKETMASTER_VENUES
 
 load_dotenv()
 
