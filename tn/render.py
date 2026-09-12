@@ -14,7 +14,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from giglist.models import Show
 from giglist.render import write_site
 
-from config import CONFIG
+from giglist.region_config import load_region_config
+
+# See giglist/region_config.py: mn/ and tn/ both define a module
+# named ``config``, so load this region's by path.
+CONFIG = load_region_config(__file__).CONFIG
 
 
 SHOWS_JSON = CONFIG.output_dir / "shows.json"

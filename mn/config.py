@@ -36,7 +36,7 @@ VENUE_URLS = {
     "Skyway Theatre":         "https://skywaytheatre.com/",
     "The Loft at Skyway Theatre": "https://skywaytheatre.com/",
     "Pilllar Forum":          "https://www.pilllar.com/pages/events",
-    "Underground Music Venue": "https://www.undergroundmusicvenue.com/events",
+    "Underground Music Venue": "https://www.undergroundmusicvenue.com/",
     "Zhora Darling":          "https://www.zhoradarling.com/events",
     "Cloudland Theater":      "https://www.cloudlandtheater.com/",
     "The Parkway Theater":    "https://theparkwaytheater.com/live-events",
