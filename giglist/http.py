@@ -1,7 +1,13 @@
 """HTTP helpers shared by the region scrapers."""
 
+import atexit
+import os
 import subprocess
+import tempfile
 import time
+from pathlib import Path
+
+import certifi
 import requests
 
 USER_AGENT = "Mozilla/5.0"
@@ -13,10 +19,49 @@ DEFAULT_HEADERS = {"User-Agent": USER_AGENT}
 BROWSER_HEADERS = {"User-Agent": BROWSER_UA}
 DEFAULT_TIMEOUT = 15
 
+EXTRA_CA_DIR = Path(__file__).resolve().parent / "certs"
+_extra_ca_bundle = None
+
+
+def ca_bundle_with_extras():
+    """Path to a CA bundle of certifi plus giglist/certs/*.pem.
+
+    Some venues serve a chain that only verifies if the client chases the
+    intermediate's authorityInfoAccess URI to a cross-signed root. macOS
+    curl does that; OpenSSL and Python's ssl module do not, so those hosts
+    fail with CERTIFICATE_VERIFY_FAILED (curl exit 60) on the Linux CI
+    runners while working fine on a developer laptop. Shipping the
+    cross-signs in giglist/certs and appending them to certifi's bundle
+    makes verification platform-independent. Each PEM documents what it is
+    and why; see giglist/certs/ for provenance.
+
+    The combined bundle is written to a temp file once per process and
+    removed at exit.
+    """
+    global _extra_ca_bundle
+    if _extra_ca_bundle is not None:
+        return _extra_ca_bundle
+
+    extras = sorted(EXTRA_CA_DIR.glob("*.pem")) if EXTRA_CA_DIR.is_dir() else []
+    if not extras:
+        _extra_ca_bundle = certifi.where()
+        return _extra_ca_bundle
+
+    fd, path = tempfile.mkstemp(prefix="giglist-ca-", suffix=".pem")
+    with os.fdopen(fd, "w", encoding="utf-8") as out:
+        out.write(Path(certifi.where()).read_text(encoding="utf-8"))
+        for pem in extras:
+            out.write("\n")
+            out.write(pem.read_text(encoding="utf-8"))
+
+    atexit.register(lambda: Path(path).unlink(missing_ok=True))
+    _extra_ca_bundle = path
+    return _extra_ca_bundle
+
 
 def get_with_retry(url, *, session=None, headers=None, params=None,
                    timeout=DEFAULT_TIMEOUT, retries=3, backoff=0.5,
-                   expect_json=False):
+                   expect_json=False, verify=None):
     """GET with retries on transient failures: exceptions, 429
     rate-limits, and 5xx responses.
 
@@ -30,7 +75,10 @@ def get_with_retry(url, *, session=None, headers=None, params=None,
     last_response = None
     for attempt in range(retries):
         try:
-            response = getter(url, headers=headers, params=params, timeout=timeout)
+            kwargs = {"headers": headers, "params": params, "timeout": timeout}
+            if verify is not None:
+                kwargs["verify"] = verify
+            response = getter(url, **kwargs)
             if response.status_code == 429 or response.status_code >= 500:
                 last_response = response
                 time.sleep(backoff * (attempt + 1))

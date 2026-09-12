@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from giglist.http import (
     BROWSER_HEADERS, DEFAULT_HEADERS, DEFAULT_TIMEOUT,
-    cffi_get_json, curl_get_text, get_with_retry,
+    ca_bundle_with_extras, cffi_get_json, curl_get_text, get_with_retry,
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
@@ -249,22 +249,31 @@ def scrape_caverns():
     renders the next batch of events. SpaceCraft's CDN rejects bare
     'Mozilla/5.0', so we use a fuller Chrome UA.
 
-    Fetched via curl, not requests: the site serves a chain anchored on
-    Let's Encrypt's new "ISRG Root YR" root, which reaches the trusted
-    "ISRG Root X1" only through a cross-sign published via the
-    intermediate's AIA extension. curl follows that AIA and verifies;
-    Python's ssl module does not chase AIA, so requests fails with
-    CERTIFICATE_VERIFY_FAILED until certifi ships the new root.
+    The site serves leaf <- Let's Encrypt YR2 <- ISRG Root YR and sends no
+    root. ISRG Root YR is not in certifi yet, so the chain verifies only
+    if the client chases YR2's AIA URI to a copy cross-signed by ISRG Root
+    X1. macOS curl does; OpenSSL and Python's ssl do not. This was fetched
+    via curl for that reason, which worked on a laptop but failed on the
+    Linux CI runner with exit 60 -- so The Caverns had been carrying
+    forward on every scheduled run since, decaying to zero shows as the
+    carried dates passed. We ship the cross-sign in giglist/certs and pass
+    the augmented bundle instead, which verifies the same on both.
 
-    SpaceCraft's CDN also bot-blocks datacenter IPs: the GitHub Actions
-    runners get a challenge page with none of the event markup, parsing
-    to zero. When the fetch is blocked we carry the last-good shows
-    forward (see _carry_forward_venue) rather than dropping the venue;
-    it refreshes on any run from a residential IP."""
+    SpaceCraft's CDN is also reported to bot-block datacenter IPs. The CI
+    runs never got far enough to confirm that (TLS failed first), so the
+    carry-forward below stays as a fallback: if a run does get a challenge
+    page, we keep the last-good shows rather than dropping the venue."""
     print("  Fetching The Caverns...")
     today = date.today()
     try:
-        page = curl_get_text("https://www.thecaverns.com/shows")
+        response = get_with_retry(
+            "https://www.thecaverns.com/shows",
+            headers=BROWSER_HEADERS,
+            verify=ca_bundle_with_extras(),
+        )
+        page = response.text if response.status_code == 200 else ""
+        if response.status_code != 200:
+            print(f"  HTTP {response.status_code} from The Caverns")
     except Exception as e:
         print(f"  Error: {e}")
         page = ""
