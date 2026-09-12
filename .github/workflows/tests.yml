@@ -4,10 +4,36 @@ on:
   schedule:
     - cron: '0 13 * * *'  # Daily at 8am Central, 1h after the scrape job
   workflow_dispatch:
+  push:
+  pull_request:
 
 
 jobs:
+  # Pure unit tests: no network, so these are safe to run on every push.
+  # They previously ran nowhere, which is how a config-shadowing bug
+  # between mn/ and tn/ survived unnoticed.
+  unit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run unit tests
+        run: pytest tests/test_render.py tests/test_scrape_utils.py tests/test_region_config.py -v
+
+  # Live venue fetches: scheduled only. Running these per-push would hit
+  # every venue on every commit.
   smoke:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:

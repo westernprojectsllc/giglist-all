@@ -56,9 +56,9 @@ BASE_URL = "https://first-avenue.com/shows"
 # requests at once reliably 429s one of them, and since get_with_retry
 # returns the last 429 response rather than raising, that month parsed to
 # zero shows *silently* — dropping ~100 shows with nothing in the logs.
-# Four concurrent fetches stays under the limit. Kept here rather than in
-# config.py: it is a First Ave detail, and the smoke tests put tn/ ahead of
-# mn/ on sys.path, so a new name in mn/config.py resolves to tn/config.py.
+# Four concurrent fetches stays under the limit. Lives here rather than in
+# config.py because it is a First Ave implementation detail, not a knob for
+# the region.
 FIRST_AVE_WORKERS = 4
 
 
