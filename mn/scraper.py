@@ -192,17 +192,23 @@ FIRST_AVE_VENUES = {
 
 def _enrich_one(session, show):
     """Fetch a single First Ave show page and update the show in place
-    with doors and show time. Retries once on transient failure."""
+    with doors and show time.
+
+    Routed through get_with_retry rather than session.get so these hit the
+    same per-host gate as everything else. This is the heaviest traffic we
+    send anywhere — one request per upcoming show, against the one host
+    already known to rate-limit us — and it previously bypassed the gate
+    entirely at 16 concurrent."""
     url = show.url if show.url.startswith("http") else "https://first-avenue.com" + show.url
 
-    for attempt in range(2):
-        try:
-            resp = session.get(url, headers=DEFAULT_HEADERS, timeout=DEFAULT_TIMEOUT)
-            soup = BeautifulSoup(resp.text, "lxml")
-            break
-        except Exception:
-            if attempt == 1:
-                return
+    try:
+        resp = get_with_retry(url, session=session, headers=DEFAULT_HEADERS,
+                              retries=2)
+    except Exception:
+        return
+    if resp.status_code != 200:
+        return
+    soup = BeautifulSoup(resp.text, "lxml")
 
     for h6 in soup.find_all("h6"):
         label = h6.get_text(strip=True).lower()
@@ -234,7 +240,8 @@ def _load_enrichment_cache(path):
     return cache
 
 
-def enrich_show_details(shows, cache=None, max_workers=16, fetch_within_days=21):
+def enrich_show_details(shows, cache=None, max_workers=FIRST_AVE_WORKERS,
+                        fetch_within_days=21):
     """Scrape individual First Avenue show pages in parallel for doors
     and show time. Shows more than ``fetch_within_days`` out that already
     have cached times from a prior run are skipped — times rarely change
