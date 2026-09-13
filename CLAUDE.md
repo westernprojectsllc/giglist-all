@@ -64,4 +64,33 @@ without it skip TM venues and the dropout guard knows to ignore them.
   `tests/test_scrapers.py`.
 - Prefer a venue's JSON source (Tribe REST, Dice, Shopify products.json,
   embedded JSON blobs) over HTML parsing; music events only — reuse the
-  junk/sports/non-music filters.
+  junk/sports/non-music filters. Verify a paginated source actually
+  paginates: Dakota's Tribe endpoint ignores `page`/`per_page`/`start_date`
+  and serves the same 10 of 129 events to every request, so it published
+  8 shows and looked healthy. `scrape_tribe_events` now checks the haul
+  against the `total` the API reports.
+
+## Don't get locked out
+
+Being blocked costs a venue's entire listing, and the failure is quiet —
+a challenge page or a 429 body parses to zero shows and reads exactly
+like a venue with nothing booked.
+
+- **All fetching goes through `giglist/http.py`.** Never call
+  `requests.get`/`session.get` directly: `get_with_retry` (and the curl /
+  curl_cffi helpers) route through a per-host gate that caps concurrency
+  and spacing, honours `Retry-After`, and backs off exponentially.
+- **Tune `HOST_LIMITS`, not `max_workers`.** The gate is what a site
+  actually sees; a thread pool is only wall-clock. Add a `HOST_LIMITS`
+  entry for any venue that rate-limits or looks fragile, and keep it
+  conservative — a slower scrape costs seconds on a once-a-day job.
+- **Never let an error response pass as data.** `get_with_retry` returns
+  the final 429/5xx response by default, which is fine for callers that
+  just yield zero shows. Anywhere an error body is indistinguishable from
+  an empty one — a paginator that stops on "no results", a per-month or
+  per-page fan-out — pass `raise_on_exhausted=True` and handle it.
+- **A unit that failed to fetch is not a unit with nothing in it.** If a
+  scraper covers several months/pages/venues, a partial result keeps the
+  venue non-empty, so neither `check_venue_dropouts` nor the smoke test
+  notices. First Avenue and Dakota both raise rather than return a
+  partial listing.
