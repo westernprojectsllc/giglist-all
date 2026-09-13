@@ -323,3 +323,53 @@ def test_normalize_titles_repairs_titles_and_supports():
     normalize_titles([s])
     assert s.title == "Dolly Parton’s Threads"
     assert s.supports == ["Ricky Skaggs – special guest"]
+
+
+# ---------- tribe pagination coverage guard ----------
+
+def _tribe_payload(total, n_events, start_id=1):
+    return {
+        "total": total,
+        "total_pages": 1,
+        "events": [
+            {"id": start_id + i, "title": f"Show {start_id + i}",
+             "start_date": "2026-10-01 20:00:00", "url": "https://x.test/e"}
+            for i in range(n_events)
+        ],
+    }
+
+
+def test_tribe_raises_when_source_serves_a_fraction_of_its_own_total(monkeypatch):
+    """Dakota's endpoint ignored page/per_page/start_date and served the
+    same 10 of 129 events to every request. Nothing downstream could see
+    it: the venue was non-zero, and 13 "pages" came back."""
+    import giglist.scrape_utils as U
+
+    monkeypatch.setattr(
+        U, "get_with_retry", lambda *a, **k: _tribe_payload(129, 10),
+    )
+    with pytest.raises(RuntimeError, match="source looks broken"):
+        U.scrape_tribe_events("https://x.test/api", "Broken Venue")
+
+
+def test_tribe_only_warns_on_a_small_shortfall(monkeypatch, capsys):
+    """One transient page failure is not a broken source — keep the data."""
+    import giglist.scrape_utils as U
+
+    monkeypatch.setattr(
+        U, "get_with_retry", lambda *a, **k: _tribe_payload(10, 9),
+    )
+    shows = U.scrape_tribe_events("https://x.test/api", "Thin Venue")
+    assert len(shows) == 9
+    assert "WARN" in capsys.readouterr().out
+
+
+def test_tribe_silent_when_complete(monkeypatch, capsys):
+    import giglist.scrape_utils as U
+
+    monkeypatch.setattr(
+        U, "get_with_retry", lambda *a, **k: _tribe_payload(5, 5),
+    )
+    shows = U.scrape_tribe_events("https://x.test/api", "Healthy Venue")
+    assert len(shows) == 5
+    assert "WARN" not in capsys.readouterr().out

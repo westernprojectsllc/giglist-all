@@ -54,11 +54,14 @@ BASE_URL = "https://first-avenue.com/shows"
 
 # first-avenue.com rate-limits bursts: firing all MONTHS_AHEAD month
 # requests at once reliably 429s one of them, and since get_with_retry
-# returns the last 429 response rather than raising, that month parsed to
+# returned the last 429 response rather than raising, that month parsed to
 # zero shows *silently* — dropping ~100 shows with nothing in the logs.
-# Four concurrent fetches stays under the limit. Lives here rather than in
-# config.py because it is a First Ave implementation detail, not a knob for
-# the region.
+#
+# The binding limit now lives in giglist.http HOST_LIMITS, which gates
+# every request to first-avenue.com at 4 concurrent no matter how wide any
+# pool is. Sizing this pool to match just avoids threads queueing on the
+# gate. Lives here rather than in config.py because it is a First Ave
+# implementation detail, not a knob for the region.
 FIRST_AVE_WORKERS = 4
 
 
@@ -287,11 +290,114 @@ _FA_PRESENTS_RE = re.compile(r"^first ave(nue)? presents ")
 
 # ---------- venue scrapers ----------
 
+_DAKOTA_MONTH_URL = "https://www.dakotacooks.com/events/{}/"
+
+
 def scrape_dakota():
-    return scrape_tribe_events(
-        "https://www.dakotacooks.com/wp-json/tribe/events/v1/events",
-        "Dakota Jazz Club",
-    )
+    """Dakota from the rendered month grid, not the Tribe REST API.
+
+    Its REST endpoint is broken: it ignores page, per_page *and*
+    start_date and returns the same 10 events for every request, while
+    still advertising total=129 / total_pages=13. scrape_tribe_events
+    dutifully fetched 13 "pages", got 13 identical payloads, and the
+    deduper collapsed them to ~8 shows — so the venue published 8 of its
+    ~129 upcoming events and looked perfectly healthy doing it (non-zero,
+    so no dropout; 130 rows scraped, so nothing looked thin).
+
+    The server-rendered month view is unaffected, so walk it a month at a
+    time. Each grid spills a few days of the adjacent months, which is
+    harmless — the deduper drops the repeats."""
+    print("  Fetching Dakota Jazz Club...")
+    today = date.today()
+    start_month = datetime.today().replace(day=1)
+    months = [
+        (start_month + relativedelta(months=i)).strftime("%Y-%m")
+        for i in range(MONTHS_AHEAD)
+    ]
+
+    failed = []
+
+    def fetch(month):
+        url = _DAKOTA_MONTH_URL.format(month)
+        try:
+            response = get_with_retry(
+                url, headers=BROWSER_HEADERS, raise_on_exhausted=True,
+            )
+            # Months past the booking horizon 404. That is "nothing
+            # scheduled yet", not a failure — only a fetch that actually
+            # broke should hold up the venue.
+            if response.status_code == 404:
+                return None
+            if response.status_code != 200:
+                raise RuntimeError(f"HTTP {response.status_code}")
+            return BeautifulSoup(response.text, "lxml")
+        except Exception as e:
+            print(f"  Error scraping Dakota {month}: {e}")
+            failed.append(month)
+            return None
+
+    shows = []
+    seen = set()
+    # The host gate (giglist/http.py HOST_LIMITS) is what actually bounds
+    # what dakotacooks.com sees; this pool just keeps the wall clock sane.
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        for soup in executor.map(fetch, months):
+            if soup is None:
+                continue
+            for cell in soup.select("[data-js='tribe-events-month-grid-cell']"):
+                day_tag = cell.find("time")
+                if not day_tag or not day_tag.get("datetime"):
+                    continue
+                try:
+                    sort_date = datetime.strptime(
+                        day_tag["datetime"], "%Y-%m-%d"
+                    ).date()
+                except ValueError:
+                    continue
+                if sort_date < today:
+                    continue
+
+                for event in cell.select(
+                    ".tribe-events-calendar-month__calendar-event"
+                ):
+                    link = event.select_one(
+                        ".tribe-events-calendar-month__calendar-event-title a"
+                    )
+                    if not link:
+                        continue
+                    url = link.get("href", "")
+                    if url in seen:
+                        continue
+                    seen.add(url)
+
+                    # The event's own <time> is the start time; the day
+                    # cell's <time> above carries the date.
+                    time_tag = event.select_one(
+                        ".tribe-events-calendar-month__calendar-event-datetime time"
+                    )
+                    show_time = (
+                        parse_loose_time(time_tag.get_text(" ", strip=True))
+                        if time_tag else None
+                    )
+
+                    shows.append(Show(
+                        title=link.get_text(" ", strip=True),
+                        sort_date=sort_date,
+                        venue="Dakota Jazz Club",
+                        url=url,
+                        time=show_time,
+                    ))
+
+    # Same reasoning as First Avenue: a month that failed to load is not a
+    # month with no shows, and the surviving months would keep the venue
+    # non-empty, so neither the dropout guard nor the smoke test would
+    # notice the hole.
+    if failed:
+        raise RuntimeError(
+            f"Dakota: {len(failed)} month(s) failed to fetch: {', '.join(failed)}"
+        )
+
+    return shows
 
 
 def scrape_cedar():
@@ -356,23 +462,36 @@ def scrape_cedar():
 
 def scrape_orchestra():
     today = date.today()
+    failed = []
 
     def fetch(mos):
+        """One month of the feed. Every failure mode used to return [],
+        which is indistinguishable from a month with no concerts — a
+        rate-limited month would vanish silently, exactly the way First
+        Avenue's did. Record the failure instead."""
         url = f"https://www.minnesotaorchestra.org/api/event-feed/{mos}"
         try:
-            response = get_with_retry(url)
-        except Exception:
+            response = get_with_retry(url, raise_on_exhausted=True)
+        except Exception as e:
+            print(f"  Error scraping Orchestra month {mos}: {e}")
+            failed.append(mos)
             return []
         if response.status_code != 200:
+            print(f"  Error scraping Orchestra month {mos}: "
+                  f"HTTP {response.status_code}")
+            failed.append(mos)
             return []
         try:
             return response.json()
-        except ValueError:
+        except ValueError as e:
+            print(f"  Error scraping Orchestra month {mos}: bad JSON: {e}")
+            failed.append(mos)
             return []
 
     seen_ids = set()
     shows = []
-    with ThreadPoolExecutor(max_workers=MONTHS_AHEAD) as pool:
+    # Per-host limits live in giglist.http; this pool is just wall-clock.
+    with ThreadPoolExecutor(max_workers=4) as pool:
         for events in pool.map(fetch, range(1, MONTHS_AHEAD + 1)):
             for event in events:
                 event_id = event.get("id")
@@ -405,9 +524,16 @@ def scrape_orchestra():
                     time=show_time,
                 ))
 
+    # A month that failed to load is not a month with no concerts; the
+    # other months would keep the venue non-empty, so nothing downstream
+    # would notice the hole.
+    if failed:
+        raise RuntimeError(
+            f"Orchestra Hall: {len(failed)} month(s) failed to fetch: "
+            f"{', '.join(str(m) for m in failed)}"
+        )
+
     return shows
-
-
 def scrape_ticketmaster(api_key):
     return _scrape_tm(TICKETMASTER_VENUES, api_key)
 

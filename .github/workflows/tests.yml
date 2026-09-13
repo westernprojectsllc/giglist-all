@@ -28,7 +28,7 @@ jobs:
         run: pip install -r requirements.txt pytest
 
       - name: Run unit tests
-        run: pytest tests/test_render.py tests/test_scrape_utils.py tests/test_region_config.py -v
+        run: pytest tests/test_render.py tests/test_scrape_utils.py tests/test_region_config.py tests/test_http.py -v
 
   # Live venue fetches: scheduled only. Running these per-push would hit
   # every venue on every commit.

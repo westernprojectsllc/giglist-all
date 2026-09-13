@@ -107,16 +107,33 @@ def infer_upcoming_date(month_str, day):
 
 # ---------- generic venue fetchers ----------
 
+# Below this fraction of the events the API says exist, treat the result
+# as a broken source rather than a thin listing. Dakota's endpoint ignored
+# page/per_page/start_date and served the same 10 of 129 events to every
+# request, which looked entirely healthy: non-zero, so no dropout, and 13
+# "pages" fetched, so nothing looked short. A single transient page
+# failure lands far above this line and only warns.
+TRIBE_MIN_COVERAGE = 0.6
+
+
 def scrape_tribe_events(base_url, venue_name, headers=None):
     """Generic WordPress "The Events Calendar" REST scraper. Page 1 tells
-    us total_pages, so we fetch the remaining pages in parallel."""
+    us total_pages, so we fetch the remaining pages in parallel.
+
+    Page 1 also reports ``total``, which we check the haul against — see
+    TRIBE_MIN_COVERAGE. Per-host concurrency is bounded in giglist.http,
+    so the pool size here only affects wall-clock, not how hard the site
+    gets hit."""
     today_str = date.today().strftime("%Y-%m-%d")
     req_headers = headers or DEFAULT_HEADERS
 
     def fetch(page):
         url = f"{base_url}?per_page=50&page={page}&start_date={today_str}"
         print(f"  Fetching {venue_name} page {page}...")
-        return get_with_retry(url, headers=req_headers, expect_json=True)
+        # raise_on_exhausted: a 429 body has no "events" key, which is
+        # indistinguishable from a legitimately empty page.
+        return get_with_retry(url, headers=req_headers, expect_json=True,
+                              raise_on_exhausted=True)
 
     try:
         first = fetch(1)
@@ -134,6 +151,20 @@ def scrape_tribe_events(base_url, venue_name, headers=None):
                     pages.append(future.result())
                 except Exception as e:
                     print(f"  Error fetching {venue_name}: {e}")
+
+    reported_total = first.get("total") or 0
+    collected = len({
+        ev.get("id") for data in pages for ev in data.get("events", [])
+        if ev.get("id") is not None
+    })
+    if reported_total and collected < reported_total:
+        coverage = collected / reported_total
+        message = (f"{venue_name}: got {collected} of {reported_total} events "
+                   f"the API reports ({coverage:.0%})")
+        if coverage < TRIBE_MIN_COVERAGE:
+            raise RuntimeError(f"{message} — source looks broken, refusing "
+                               f"to publish a partial listing")
+        print(f"  [WARN] {message}")
 
     shows = []
     for data in pages:
@@ -157,6 +188,9 @@ def _scrape_ticketmaster_venue(session, api_key, venue_name, venue_id, today_str
     print(f"  Fetching {venue_name}...")
     shows = []
     page = 0
+    reported_total = None
+    truncated = False
+    seen_events = 0
     while True:
         url = (
             f"https://app.ticketmaster.com/discovery/v2/events.json"
@@ -164,13 +198,22 @@ def _scrape_ticketmaster_venue(session, api_key, venue_name, venue_id, today_str
             f"&size=50&page={page}&sort=date,asc"
         )
         try:
+            # raise_on_exhausted: without it a 429 body comes back as
+            # ordinary JSON with no "_embedded", the loop reads that as
+            # "no more results", and the venue is silently truncated at
+            # whatever page got rate-limited.
             data = get_with_retry(
                 url, session=session, headers={}, retries=3, expect_json=True,
+                raise_on_exhausted=True,
             )
         except Exception as e:
             # Keep whatever pages succeeded rather than dropping them all.
             print(f"  [TM {venue_name}] page {page} failed, keeping {len(shows)}: {e}")
+            truncated = True
             break
+
+        if reported_total is None:
+            reported_total = data.get("page", {}).get("totalElements")
 
         events = data.get("_embedded", {}).get("events", [])
         if not events:
@@ -216,10 +259,20 @@ def _scrape_ticketmaster_venue(session, api_key, venue_name, venue_id, today_str
                 supports=supports,
             ))
 
+        seen_events += len(events)
         page_info = data.get("page", {})
         if page >= page_info.get("totalPages", 1) - 1:
             break
         page += 1
+
+    # TM's totalElements counts everything matching the query; our own
+    # date parsing legitimately drops a few, so this is a warning rather
+    # than a hard failure. It still makes a rate-limited truncation
+    # visible instead of silent.
+    if truncated or (reported_total and seen_events < reported_total):
+        print(f"  [WARN] TM {venue_name}: collected {seen_events} of "
+              f"{reported_total} events reported"
+              f"{' (truncated by a failed page)' if truncated else ''}")
 
     return shows
 
