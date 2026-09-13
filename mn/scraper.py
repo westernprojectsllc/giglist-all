@@ -26,7 +26,7 @@ from giglist.http import (
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    CENTRAL_TZ, WS_RE, check_venue_dropouts, deduplicate,
+    CENTRAL_TZ, MAJOR_DROPOUT_PREV, WS_RE, check_venue_dropouts, deduplicate,
     filter_junk_and_sports, find_duplicate_suspects, format_local_time,
     normalize_titles, parse_loose_time, scrape_dice,
     scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
@@ -684,13 +684,23 @@ def scrape_331():
     renders one upcoming show server-side."""
     url = "https://331club.com/"
     print("  Fetching 331 Club...")
-    try:
-        response = get_with_retry(url)
-    except Exception as e:
-        print(f"  Error: {e}")
-        return []
+    # Every failure mode here parses to zero shows, which is
+    # indistinguishable from a quiet week: a 5xx from this little Apache
+    # box, a WAF interstitial, or a theme change that renames .event. The
+    # venue published as empty (137 shows -> 0) across three runs before
+    # anyone noticed, so refuse to return a list instead of raising.
+    response = get_with_retry(url, raise_on_exhausted=True)
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"331 Club: HTTP {response.status_code} from {url}"
+        )
 
     soup = BeautifulSoup(response.text, "lxml")
+    event_divs = soup.select("div.event")
+    if not event_divs:
+        raise RuntimeError(
+            f"331 Club: no div.event in {len(response.text)} bytes from {url}"
+        )
     shows = []
     today = date.today()
 
@@ -699,7 +709,7 @@ def scrape_331():
         "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
     }
 
-    for event_div in soup.select("div.event"):
+    for event_div in event_divs:
         date_div = event_div.find("div", class_="event-date")
         if not date_div:
             continue
@@ -771,6 +781,11 @@ def scrape_331():
                 supports=supports,
             ))
 
+    if not shows:
+        raise RuntimeError(
+            f"331 Club: {len(event_divs)} event divs parsed to zero shows "
+            f"— the markup changed"
+        )
     return shows
 
 
@@ -1352,9 +1367,17 @@ if __name__ == "__main__":
     dropped = check_venue_dropouts(shows, SHOWS_JSON, skip_venues=skip)
     for v in dropped:
         print(f"  [WARN] venue dropped to 0 shows: {v}")
-    if len(dropped) > 2:
-        print(f"ERROR: {len(dropped)} venues returned zero shows — "
-              f"refusing to overwrite {SHOWS_JSON}")
+    # One venue going quiet is usually just a quiet week, so the mass-failure
+    # rule alone lets a single big listing collapse straight into shows.json.
+    major = check_venue_dropouts(shows, SHOWS_JSON, min_prev=MAJOR_DROPOUT_PREV,
+                                 skip_venues=skip)
+    if len(dropped) > 2 or major:
+        reason = (
+            f"{len(dropped)} venues returned zero shows" if len(dropped) > 2
+            else f"{', '.join(major)} dropped from {MAJOR_DROPOUT_PREV}+ "
+                 f"shows to zero"
+        )
+        print(f"ERROR: {reason} — refusing to overwrite {SHOWS_JSON}")
         sys.exit(1)
 
     with open(SHOWS_JSON, "w", encoding="utf-8") as f:

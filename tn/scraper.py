@@ -24,7 +24,7 @@ from giglist.http import (
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    check_venue_dropouts, deduplicate, filter_junk_and_sports,
+    MAJOR_DROPOUT_PREV, check_venue_dropouts, deduplicate, filter_junk_and_sports,
     find_duplicate_suspects, find_time, format_local_time,
     infer_upcoming_date, normalize_time, normalize_titles, parse_loose_time,
     scrape_dice, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
@@ -1215,9 +1215,17 @@ if __name__ == "__main__":
     dropped = check_venue_dropouts(shows, SHOWS_JSON, skip_venues=skip)
     for v in dropped:
         print(f"  [WARN] venue dropped to 0 shows: {v}")
-    if len(dropped) > 2:
-        print(f"ERROR: {len(dropped)} venues returned zero shows — "
-              f"refusing to overwrite {SHOWS_JSON}")
+    # One venue going quiet is usually just a quiet week, so the mass-failure
+    # rule alone lets a single big listing collapse straight into shows.json.
+    major = check_venue_dropouts(shows, SHOWS_JSON, min_prev=MAJOR_DROPOUT_PREV,
+                                 skip_venues=skip)
+    if len(dropped) > 2 or major:
+        reason = (
+            f"{len(dropped)} venues returned zero shows" if len(dropped) > 2
+            else f"{', '.join(major)} dropped from {MAJOR_DROPOUT_PREV}+ "
+                 f"shows to zero"
+        )
+        print(f"ERROR: {reason} — refusing to overwrite {SHOWS_JSON}")
         sys.exit(1)
 
     with open(SHOWS_JSON, "w", encoding="utf-8") as f:

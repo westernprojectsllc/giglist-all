@@ -373,3 +373,19 @@ def test_tribe_silent_when_complete(monkeypatch, capsys):
     shows = U.scrape_tribe_events("https://x.test/api", "Healthy Venue")
     assert len(shows) == 5
     assert "WARN" not in capsys.readouterr().out
+
+
+def test_check_venue_dropouts_isolates_major_collapse(tmp_path):
+    """The scrapers call the guard a second time at MAJOR_DROPOUT_PREV to
+    tell a big listing collapsing (fatal) from one quiet venue (a warning).
+    331 Club went 137 -> 0 and published, because only a mass failure
+    stopped the run."""
+    import json as _json
+    from giglist.scrape_utils import MAJOR_DROPOUT_PREV, check_venue_dropouts
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps(
+        [{"venue": "Big Room"}] * MAJOR_DROPOUT_PREV
+        + [{"venue": "Quiet Bar"}] * (MAJOR_DROPOUT_PREV - 1)
+    ))
+    assert check_venue_dropouts([], prev) == ["Big Room", "Quiet Bar"]
+    assert check_venue_dropouts([], prev, min_prev=MAJOR_DROPOUT_PREV) == ["Big Room"]

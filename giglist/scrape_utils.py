@@ -555,6 +555,13 @@ def find_duplicate_suspects(shows):
     return suspects
 
 
+# A venue that had this many upcoming shows last run does not legitimately
+# empty overnight — across the whole forward window, zero means broken, not
+# quiet. 331 Club went 137 -> 0 and published three times before anyone
+# noticed, because the ">2 venues" rule below only fires on a mass failure.
+MAJOR_DROPOUT_PREV = 25
+
+
 def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
     """Guard against a scraper silently breaking: compare per-venue counts
     against the previous shows.json and return venues that had at least
