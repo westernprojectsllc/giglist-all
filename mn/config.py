@@ -56,6 +56,10 @@ TICKETMASTER_VENUES = {
     "Varsity Theater":        "KovZpa3eBe",
     "Target Center":          "KovZpZAE7evA",
     "U.S. Bank Stadium":      "KovZpZAF6ttA",
+    # The Armory's own site is behind a Sucuri JS interstitial, so it
+    # only ever appeared here when First Ave cross-promoted a show.
+    # Everything it books sells through Ticketmaster.
+    "The Armory":             "KovZ917AQC0",
 }
 
 
