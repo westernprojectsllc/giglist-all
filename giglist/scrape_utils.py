@@ -562,6 +562,32 @@ def find_duplicate_suspects(shows):
 MAJOR_DROPOUT_PREV = 25
 
 
+def carry_forward_shows(prev_json_path, venue_prefix, today=None):
+    """Still-upcoming shows for a venue (matched by name prefix) from the
+    previous run's shows.json.
+
+    Some venues (AXS/Cannery, SpaceCraft/Caverns, 331 Club) serve their
+    listings to residential IPs but sometimes hand the GitHub Actions
+    runners a bot block instead. Rather than let a blocked fetch drop the
+    venue to zero — vanishing it from the site and tripping the dropout
+    guard — the scraper carries its last-good shows forward until a run
+    reaches the source again. Call this ONLY on a detected block, never
+    on a clean empty response, so a genuine breakage still surfaces."""
+    today = today or date.today()
+    try:
+        with open(prev_json_path, encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, ValueError):
+        return []
+    out = []
+    for d in raw:
+        if str(d.get("venue", "")).startswith(venue_prefix):
+            s = Show.from_json_dict(d)
+            if s.sort_date >= today:
+                out.append(s)
+    return out
+
+
 def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
     """Guard against a scraper silently breaking: compare per-venue counts
     against the previous shows.json and return venues that had at least

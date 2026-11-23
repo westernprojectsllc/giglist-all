@@ -405,3 +405,50 @@ def test_check_venue_dropouts_isolates_major_collapse(tmp_path):
     ))
     assert check_venue_dropouts([], prev) == ["Big Room", "Quiet Bar"]
     assert check_venue_dropouts([], prev, min_prev=MAJOR_DROPOUT_PREV) == ["Big Room"]
+
+
+# --- carry_forward_shows / 331 Club block handling ----------------------
+
+def test_carry_forward_shows_keeps_only_upcoming_for_prefix(tmp_path):
+    import json as _json
+    from giglist.scrape_utils import carry_forward_shows
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps([
+        {"title": "Old", "sort_date": "2000-01-01", "venue": "331 Club"},
+        {"title": "Soon", "sort_date": _FUTURE, "venue": "331 Club"},
+        {"title": "Other", "sort_date": _FUTURE, "venue": "Berlin"},
+    ]))
+    assert [s.title for s in carry_forward_shows(prev, "331 Club")] == ["Soon"]
+    assert carry_forward_shows(tmp_path / "absent.json", "331 Club") == []
+
+
+def _fake_response(status):
+    class R:
+        status_code = status
+        text = ""
+    return R()
+
+
+def test_scrape_331_carries_forward_on_403(tmp_path, monkeypatch):
+    import json as _json
+    import mn.scraper as mn_scraper
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps(
+        [{"title": "Band", "sort_date": _FUTURE, "venue": "331 Club"}]))
+    monkeypatch.setattr(mn_scraper, "SHOWS_JSON", prev)
+    monkeypatch.setattr(mn_scraper, "get_with_retry", lambda *a, **k: _fake_response(403))
+    assert [s.title for s in mn_scraper.scrape_331()] == ["Band"]
+
+
+@pytest.mark.parametrize("status,saved", [(403, False), (503, True)])
+def test_scrape_331_still_raises_when_not_carryable(tmp_path, monkeypatch, status, saved):
+    """No saved shows to carry, or a non-block error: fail loudly as before."""
+    import json as _json
+    import mn.scraper as mn_scraper
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps(
+        [{"title": "Band", "sort_date": _FUTURE, "venue": "331 Club"}] if saved else []))
+    monkeypatch.setattr(mn_scraper, "SHOWS_JSON", prev)
+    monkeypatch.setattr(mn_scraper, "get_with_retry", lambda *a, **k: _fake_response(status))
+    with pytest.raises(RuntimeError, match=f"HTTP {status}"):
+        mn_scraper.scrape_331()

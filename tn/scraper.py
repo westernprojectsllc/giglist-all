@@ -23,7 +23,7 @@ from giglist.http import (
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    MAJOR_DROPOUT_PREV, check_venue_dropouts, deduplicate, filter_junk_and_sports,
+    MAJOR_DROPOUT_PREV, carry_forward_shows, check_venue_dropouts, deduplicate, filter_junk_and_sports,
     find_duplicate_suspects, find_time, format_local_time,
     infer_upcoming_date, normalize_time, normalize_titles,
     scrape_dice, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
@@ -548,28 +548,8 @@ _TN_SHOWS_JSON = Path(__file__).resolve().parent / "shows.json"
 
 
 def _carry_forward_venue(venue_prefix, today):
-    """Still-upcoming shows for a venue (matched by name prefix) from the
-    previous run's shows.json.
-
-    Several venues (AXS/Cannery, SpaceCraft/Caverns) serve their listings
-    only to residential IPs and hand the GitHub Actions runners a bot
-    block instead. Rather than let a blocked fetch drop the venue to zero
-    — vanishing it from the site and, in bulk, tripping the dropout guard
-    — the scraper carries its last-good shows forward. They refresh on any
-    run that reaches the source (e.g. a local scrape). Used ONLY on a
-    detected block, never on a clean empty response, so a genuine breakage
-    still surfaces."""
-    try:
-        raw = json.loads(_TN_SHOWS_JSON.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        return []
-    out = []
-    for d in raw:
-        if str(d.get("venue", "")).startswith(venue_prefix):
-            s = Show.from_json_dict(d)
-            if s.sort_date >= today:
-                out.append(s)
-    return out
+    """TN wrapper for carry_forward_shows (see its docstring)."""
+    return carry_forward_shows(_TN_SHOWS_JSON, venue_prefix, today)
 
 
 def _parse_cannery_event(e, today, seen_ids):

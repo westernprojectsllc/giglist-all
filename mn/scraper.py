@@ -26,7 +26,7 @@ from giglist.http import (
 )
 from giglist.models import Show
 from giglist.scrape_utils import (
-    CENTRAL_TZ, MAJOR_DROPOUT_PREV, WS_RE, check_venue_dropouts, deduplicate,
+    CENTRAL_TZ, MAJOR_DROPOUT_PREV, WS_RE, carry_forward_shows, check_venue_dropouts, deduplicate,
     filter_junk_and_sports, find_duplicate_suspects, format_local_time,
     normalize_titles, parse_loose_time, scrape_dice,
     scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
@@ -690,6 +690,17 @@ def scrape_331():
     # venue published as empty (137 shows -> 0) across three runs before
     # anyone noticed, so refuse to return a list instead of raising.
     response = get_with_retry(url, raise_on_exhausted=True)
+    if response.status_code == 403:
+        # The host intermittently 403s GitHub's datacenter IPs (~1 run in
+        # 3) while serving residential ones. That's a block, not an empty
+        # calendar: carry the last-good shows forward rather than fail the
+        # whole MN refresh. Anything else (5xx, a WAF page that returns
+        # 200, a markup change) still raises below.
+        carried = carry_forward_shows(SHOWS_JSON, "331 Club")
+        if carried:
+            print(f"  [331 Club] HTTP 403 (blocked) — carried forward "
+                  f"{len(carried)} show(s) from last scrape")
+            return carried
     if response.status_code != 200:
         raise RuntimeError(
             f"331 Club: HTTP {response.status_code} from {url}"
