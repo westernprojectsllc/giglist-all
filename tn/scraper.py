@@ -1148,7 +1148,10 @@ if __name__ == "__main__":
         ("City Winery", scrape_city_winery),
         ("The Blue Room", scrape_blue_room),
         ("Bluebird Cafe", scrape_bluebird),
-        ("The 5 Spot", scrape_five_spot),
+        # The 5 Spot: scraper exists (scrape_five_spot) but is unregistered
+        # — TuneHatch has had no new events since 2026-10-02 and
+        # the5spotnashville.com returns 502 (Nov 2026). Re-enable if it
+        # starts listing again.
         ("Dee's Country Cocktail Lounge", scrape_dees),
         # The Office: scraper exists (scrape_the_office) but is unregistered
         # — since Nov 2026 the site's events lists are empty ("No items

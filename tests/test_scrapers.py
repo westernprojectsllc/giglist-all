@@ -64,7 +64,7 @@ TN_SCRAPERS = [
     ("tn/city_winery", tn_scraper.scrape_city_winery),
     ("tn/blue_room", tn_scraper.scrape_blue_room),
     ("tn/bluebird", tn_scraper.scrape_bluebird),
-    ("tn/five_spot", tn_scraper.scrape_five_spot),
+    # tn/five_spot unregistered — see the note in tn/scraper.py's main.
     ("tn/dees", tn_scraper.scrape_dees),
     # tn/the_office unregistered — see the note in tn/scraper.py's main.
     # tn/analog intentionally absent — see scrape_analog docstring.
