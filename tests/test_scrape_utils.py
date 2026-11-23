@@ -265,12 +265,14 @@ def test_format_local_time_minutes_and_noon_edge_cases():
 
 # --- check_venue_dropouts -----------------------------------------------
 
+_FUTURE = "2099-01-01"
+
 def test_check_venue_dropouts_flags_vanished_venue(tmp_path):
     import json as _json
     prev = tmp_path / "shows.json"
     prev.write_text(_json.dumps(
-        [{"venue": "Big Room"}] * 6 + [{"venue": "Tiny Bar"}] * 2
-        + [{"venue": "Steady Club"}] * 5
+        [{"venue": "Big Room", "sort_date": _FUTURE}] * 6 + [{"venue": "Tiny Bar", "sort_date": _FUTURE}] * 2
+        + [{"venue": "Steady Club", "sort_date": _FUTURE}] * 5
     ))
     survivors = [mk("A", venue="Steady Club")]
     from giglist.scrape_utils import check_venue_dropouts
@@ -282,10 +284,24 @@ def test_check_venue_dropouts_flags_vanished_venue(tmp_path):
 def test_check_venue_dropouts_respects_skip_and_missing_file(tmp_path):
     import json as _json
     prev = tmp_path / "shows.json"
-    prev.write_text(_json.dumps([{"venue": "TM Hall"}] * 9))
+    prev.write_text(_json.dumps([{"venue": "TM Hall", "sort_date": _FUTURE}] * 9))
     from giglist.scrape_utils import check_venue_dropouts
     assert check_venue_dropouts([], prev, skip_venues={"TM Hall"}) == []
     assert check_venue_dropouts([], tmp_path / "absent.json") == []
+
+
+def test_check_venue_dropouts_ignores_already_past_shows(tmp_path):
+    """A stale shows.json (the guard kept tripping, so it stopped being
+    rewritten) holds venues whose saved shows have all happened since.
+    Those aren't dropouts — counting them froze TN for eight weeks."""
+    import json as _json
+    prev = tmp_path / "shows.json"
+    prev.write_text(_json.dumps(
+        [{"venue": "Aged Out", "sort_date": "2000-01-01"}] * 9
+        + [{"venue": "Still Booked", "sort_date": _FUTURE}] * 9
+    ))
+    from giglist.scrape_utils import check_venue_dropouts
+    assert check_venue_dropouts([], prev) == ["Still Booked"]
 
 
 # --- repair_mangled_punctuation -----------------------------------------
@@ -384,8 +400,8 @@ def test_check_venue_dropouts_isolates_major_collapse(tmp_path):
     from giglist.scrape_utils import MAJOR_DROPOUT_PREV, check_venue_dropouts
     prev = tmp_path / "shows.json"
     prev.write_text(_json.dumps(
-        [{"venue": "Big Room"}] * MAJOR_DROPOUT_PREV
-        + [{"venue": "Quiet Bar"}] * (MAJOR_DROPOUT_PREV - 1)
+        [{"venue": "Big Room", "sort_date": _FUTURE}] * MAJOR_DROPOUT_PREV
+        + [{"venue": "Quiet Bar", "sort_date": _FUTURE}] * (MAJOR_DROPOUT_PREV - 1)
     ))
     assert check_venue_dropouts([], prev) == ["Big Room", "Quiet Bar"]
     assert check_venue_dropouts([], prev, min_prev=MAJOR_DROPOUT_PREV) == ["Big Room"]

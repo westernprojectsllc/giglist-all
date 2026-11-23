@@ -569,13 +569,24 @@ def check_venue_dropouts(shows, prev_json_path, min_prev=5, skip_venues=()):
 
     ``skip_venues`` excludes venues whose scraper was deliberately skipped
     this run (e.g. Ticketmaster venues when TM_API_KEY is absent) so a
-    missing key doesn't read as a dropout."""
+    missing key doesn't read as a dropout.
+
+    Only previous shows that are still upcoming (sort_date >= today)
+    count. A venue whose saved shows have all happened since has nothing
+    left to drop; counting them made the guard self-perpetuating — once
+    it tripped, shows.json stopped refreshing, more saved venues aged out
+    to zero, and the region could never write again (TN sat frozen from
+    2026-09-29 to 2026-11-23 this way)."""
     try:
         with open(prev_json_path, encoding="utf-8") as f:
             prev = json.load(f)
     except (OSError, json.JSONDecodeError):
         return []
-    prev_counts = Counter(d.get("venue") for d in prev)
+    today_iso = date.today().isoformat()
+    prev_counts = Counter(
+        d.get("venue") for d in prev
+        if str(d.get("sort_date", "")) >= today_iso
+    )
     current_venues = {s.venue for s in shows}
     return sorted(
         v for v, n in prev_counts.items()

@@ -13,7 +13,6 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
-from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -26,7 +25,7 @@ from giglist.models import Show
 from giglist.scrape_utils import (
     MAJOR_DROPOUT_PREV, check_venue_dropouts, deduplicate, filter_junk_and_sports,
     find_duplicate_suspects, find_time, format_local_time,
-    infer_upcoming_date, normalize_time, normalize_titles, parse_loose_time,
+    infer_upcoming_date, normalize_time, normalize_titles,
     scrape_dice, scrape_ticketmaster as _scrape_tm, scrape_tribe_events,
 )
 
@@ -123,36 +122,42 @@ def scrape_skydeck():
 
 
 def scrape_drkmttr():
-    """DRKMTTR renders /shows as a Webflow collection. Each event is a
-    `.ec-col-item`. Title, start_date, and a webflow slug link are in
-    fixed child divs. The Calendar and Grid tabs both render the same
-    items; the global deduplicate() handles that."""
+    """DRKMTTR's /shows (redesigned Nov 2026, Opendate-backed) server-
+    renders one `article.event` card per event: the date ("NOV 29, 2026")
+    is in `.event__badge`, the lineup in `h3.event__title`, "Doors 7:00 PM
+    · Show 8:00 PM · $12" in `.event__meta`, and the Opendate ticket/info
+    link in `.event__foot a`. Free social-club nights share the list;
+    the global non-music filter drops the bingo/co-work ones."""
     soup = _fetch_soup("DRKMTTR", "https://www.drkmttrcollective.com/shows")
 
     shows = []
     today = date.today()
-    for item in soup.select(".ec-col-item.w-dyn-item"):
-        title_el = item.select_one(".title")
-        date_el = item.select_one(".start-date")
-        link_el = item.select_one("a.webflow-link")
+    for item in soup.select("article.event"):
+        title_el = item.select_one(".event__title")
+        date_el = item.select_one(".event__badge")
         if not (title_el and date_el):
             continue
         title = unescape(title_el.get_text(" ", strip=True))
+        if not title:
+            continue
+        raw_date = " ".join(date_el.get_text(" ", strip=True).split()).title()
         try:
-            dt = datetime.strptime(date_el.get_text(strip=True), "%B %d, %Y").date()
+            dt = datetime.strptime(raw_date, "%b %d, %Y").date()
         except ValueError:
             continue
         if dt < today:
             continue
-        event_url = ""
-        if link_el and link_el.get("href"):
-            event_url = "https://www.drkmttrcollective.com" + link_el["href"]
+        meta_el = item.select_one(".event__meta")
+        meta = meta_el.get_text(" ", strip=True) if meta_el else ""
+        link_el = item.select_one(".event__foot a[href]")
 
         shows.append(Show(
             title=title,
             sort_date=dt,
             venue="DRKMTTR",
-            url=event_url,
+            url=link_el["href"] if link_el else "https://www.drkmttrcollective.com/shows",
+            time=find_time(meta, "Show"),
+            doors=find_time(meta, "Doors"),
         ))
     return shows
 
@@ -354,10 +359,21 @@ def scrape_fogg_street():
         strong = p.find("strong")
         if not strong:
             continue
-        m = re.match(r"^[A-Z]+,\s*([A-Z]+)\s+(\d{1,2})$", strong.get_text(strip=True))
+        # "FRI, OCTOBER 9" — or, since Nov 2026, "FRI, APRIL 16, 2027".
+        m = re.match(r"^[A-Z]+,\s*([A-Z]+)\s+(\d{1,2})(?:,\s*(\d{4}))?$",
+                     strong.get_text(strip=True).upper())
         if not m:
             continue
-        dt = infer_upcoming_date(m.group(1)[:3].title(), int(m.group(2)))
+        if m.group(3):
+            try:
+                dt = datetime.strptime(
+                    f"{m.group(1)[:3]} {m.group(2)} {m.group(3)}", "%b %d %Y").date()
+            except ValueError:
+                continue
+            if dt < date.today():
+                continue
+        else:
+            dt = infer_upcoming_date(m.group(1)[:3].title(), int(m.group(2)))
         if dt:
             dates.append(dt)
 
@@ -827,82 +843,71 @@ def scrape_blue_room():
     return scrape_dice("The Blue Room", dice_venues=["The Blue Room"])
 
 
-# Bluebird's calendar embeds a FullCalendar init whose events array is
-# JS (single quotes), not JSON — pull fields per object with a regex.
-_BLUEBIRD_EVENT_RE = re.compile(
-    # Field order is fixed (id, start, [// end comment], title, imageUrl,
-    # doors, url, sortbyTime, displayTime); non-greedy gaps absorb the
-    # commented-out end date and the imageUrl HTML blob.
-    r"id:\s*'(?P<id>\d+)',\s*"
-    r"start:\s*'(?P<start>\d{4}-\d{2}-\d{2})',"
-    r".*?title:\s*'(?P<title>(?:\\'|[^'])*)'"
-    r".*?doors:\s*'(?P<doors>[^']*)'"
-    r".*?url:\s*'(?P<url>[^']*)'"
-    r".*?displayTime:\s*'(?P<disp>[^']*)'",
-    re.S,
-)
 _BLUEBIRD_NOISE_RE = re.compile(
-    r"gift shop|closed|private event|bluebird on 3rd", re.I,
+    r"gift shop|closed|private event|bluebird on 3rd|performer sign-?ups", re.I,
 )
+_BLUEBIRD_MAX_PAGES = 15  # ~12 rows/page; the listing runs ~7 pages deep
 
 
-def scrape_bluebird(months_ahead=3):
-    """The Bluebird Cafe (WordPress + TicketWeb plugin) server-renders
-    one calendar page per month. Cloudflare 403s /wp-json/ so the Tribe
-    REST route is unusable; the page itself is fine with a browser UA.
-    Supporting acts and the real sold-out state live in per-event popup
-    divs (#tw-event-dialog-{id}); the buy button's TEXT is authoritative
-    ('SOLD OUT!' vs 'Walk Up Seats Available' — the tw_soldout class is
-    applied inconsistently)."""
+def scrape_bluebird():
+    """The Bluebird Cafe (WordPress + TicketWeb "event-discovery" plugin).
+
+    Since Nov 2026 /calendar/ no longer server-renders its events — the
+    FullCalendar widget loads them over admin-ajax with a page nonce — so
+    scrape the plugin's paginated /shows/ list view instead, which is
+    plain server-rendered HTML in date order. Each event is a `div.row`
+    holding `.tw-name a` (TicketWeb link; `.tw-event-date` "November 23"
+    with no year, then the title), `.tw-event-time` ("Show: 9:00 pm") and
+    the buy button, whose TEXT is authoritative for sold-out ('SOLD OUT!'
+    vs 'Walk Up Seats Available' — the tw_soldout class is applied
+    inconsistently). The list view carries no doors time or lineup."""
     print("  Fetching Bluebird Cafe...")
     today = date.today()
     shows = []
-    for i in range(months_ahead):
-        month = today.replace(day=1) + relativedelta(months=i)
-        try:
-            r = get_with_retry(
-                "https://bluebirdcafe.com/calendar/",
-                params={"cal-month": month.month, "cal-year": month.year},
-                headers=BROWSER_HEADERS,
-            )
-        except Exception as e:
-            print(f"  [Bluebird] {month:%B %Y} failed: {e}")
-            continue
+    for page in range(1, _BLUEBIRD_MAX_PAGES + 1):
+        url = ("https://bluebirdcafe.com/shows/" if page == 1
+               else f"https://bluebirdcafe.com/shows/page/{page}/")
+        # Raise on an exhausted 429/5xx: a failed page must not pass as
+        # the end of the listing and publish a truncated calendar.
+        r = get_with_retry(url, headers=BROWSER_HEADERS, raise_on_exhausted=True)
+        if r.status_code == 404:  # walked past the last page
+            break
+        r.raise_for_status()
 
         soup = BeautifulSoup(r.text, "lxml")
-        for m in _BLUEBIRD_EVENT_RE.finditer(r.text):
-            title = unescape(m.group("title").replace("\\'", "'")).strip()
+        names = soup.select(".tw-name")
+        if not names:
+            break
+        for name_el in names:
+            row = name_el.find_parent("div", class_="row")
+            link = name_el.find("a", href=True)
+            date_el = name_el.select_one(".tw-event-date")
+            if not (row and link and date_el):
+                continue
+            date_text = date_el.get_text(" ", strip=True)
+            date_el.extract()
+            title = unescape(link.get_text(" ", strip=True))
             if not title or _BLUEBIRD_NOISE_RE.search(title):
                 continue
-            try:
-                sort_date = date.fromisoformat(m.group("start"))
-            except ValueError:
+            m = re.match(r"([A-Za-z]+)\s+(\d{1,2})", date_text)
+            if not m:
                 continue
-            if sort_date < today:
+            sort_date = infer_upcoming_date(m.group(1)[:3].title(), int(m.group(2)))
+            if not sort_date:
                 continue
 
-            supports = []
-            sold_out = False
-            popup = soup.select_one(f"#tw-event-dialog-{m.group('id')}")
-            if popup:
-                acts_el = popup.select_one(".tw-attractions")
-                if acts_el:
-                    acts = re.sub(r"^\s*with\s+", "", acts_el.get_text(" ", strip=True), flags=re.I)
-                    supports = [a.strip() for a in re.split(r",\s*|\s+&\s+", acts)
-                                if a.strip() and a.strip().lower() not in title.lower()]
-                btn = popup.select_one("a.tw-buy-tix-btn")
-                sold_out = bool(btn and "sold out" in btn.get_text(strip=True).lower())
-
+            time_el = row.select_one(".tw-event-time")
+            btn = row.select_one("a.tw-buy-tix-btn")
             shows.append(Show(
                 title=title,
                 sort_date=sort_date,
                 venue="Bluebird Cafe",
-                url=m.group("url") or "https://bluebirdcafe.com/calendar/",
-                sold_out=sold_out,
-                time=normalize_time(m.group("disp")),
-                doors=parse_loose_time(m.group("doors")) if m.group("doors") else None,
-                supports=supports,
+                url=link["href"],
+                sold_out=bool(btn and "sold out" in btn.get_text(strip=True).lower()),
+                time=normalize_time(time_el.get_text(" ", strip=True)) if time_el else None,
             ))
+        if not soup.select_one("a.next.page-numbers, a.next"):
+            break
     return shows
 
 
@@ -1165,7 +1170,10 @@ if __name__ == "__main__":
         ("Bluebird Cafe", scrape_bluebird),
         ("The 5 Spot", scrape_five_spot),
         ("Dee's Country Cocktail Lounge", scrape_dees),
-        ("The Office", scrape_the_office),
+        # The Office: scraper exists (scrape_the_office) but is unregistered
+        # — since Nov 2026 the site's events lists are empty ("No items
+        # found") and the homepage now advertises rental cabins. Re-enable
+        # if listings come back.
         # Analog at Hutton Hotel: scraper exists (scrape_analog) but is
         # unregistered — WP Engine bot-blocks datacenter IPs; see its
         # docstring before re-enabling.
